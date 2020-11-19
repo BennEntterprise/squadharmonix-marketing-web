@@ -1,0 +1,25 @@
+{
+  "name": "squadharmonix-marketing-web",
+  "version": "1.0.0",
+  "description": "A marketing web page for SquadHarmonix",
+  "main": "server.js",
+  "dependencies": {
+    "express-favicon": "^2.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BennEntterprise/squadharmonix-marketing-web.git"
+  },
+  "author": "Kyle Bennett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BennEntterprise/squadharmonix-marketing-web/issues"
+  },
+  "homepage": "https://github.com/BennEntterprise/squadharmonix-marketing-web#readme"
+}
