@@ -14,18 +14,11 @@ function App() {
   return (
     <>
       <Navbar />
-      <header className='App-header'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col'></div>
-          </div>
-        </div>
-        <ThisIsSquad />
-        <WhatIsSquad />
-        <MeetTheSquad />
-        <MeetTheTeachers />
-        <Contact />
-      </header>
+      <ThisIsSquad />
+      <WhatIsSquad />
+      <MeetTheSquad />
+      <MeetTheTeachers />
+      <Contact />
     </>
   )
 }
