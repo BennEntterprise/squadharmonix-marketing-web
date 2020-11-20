@@ -1,0 +1,8 @@
+@import '../../constants/colors.css';
+@import '../../constants/fonts.css';
+#whatissquad {
+  height: 500px;
+  border: 5px solid var(--magenta);
+  background-color: black;
+  color: white;
+}

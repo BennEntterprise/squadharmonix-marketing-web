@@ -1,26 +1,32 @@
 import React from 'react'
 
+// Components
 import Navbar from './components/Navbar'
 
 //Pagelets
-import Home from './pagelets/Home'
-import SquadAcademy from './pagelets/SquadAcademy'
-import SquadHarmonix from './pagelets/SquadHarmonix'
-import LauraJeanMusicAcademy from './pagelets/LauraJeanMusicAcademy'
-import Contact from './pagelets/Contact'
+import ThisIsSquad from './pagelets/ThisIsSquad'
+import WhatIsSquad from './pagelets/WhatIsSquad'
+import MeetTheSquad from './pagelets/MeetTheSquad'
+import MeetTheTeachers from './pagelets/MeetTheTeachers'
+import Contact from './pagelets/ToAudition'
 
 function App() {
   return (
-    <div className='App'>
+    <>
       <Navbar />
       <header className='App-header'>
-        <Home />
-        <SquadAcademy />
-        <SquadHarmonix />
-        <LauraJeanMusicAcademy />
+        <div className='container'>
+          <div className='row'>
+            <div className='col'></div>
+          </div>
+        </div>
+        <ThisIsSquad />
+        <WhatIsSquad />
+        <MeetTheSquad />
+        <MeetTheTeachers />
         <Contact />
       </header>
-    </div>
+    </>
   )
 }
 

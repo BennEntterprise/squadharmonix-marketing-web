@@ -53,8 +53,3 @@ export default nb
   <NavDropdown.Item href='#action/3.4'>Separated link</NavDropdown.Item>
 </NavDropdown> 
  */
-
-// Abstraction: Wrap the entire thing as collapsable
-//
-//
-//
