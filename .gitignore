@@ -1,2 +1,3 @@
 devnotes.md
-**/node_modules
+**/node_mo**dules
+/.vscode/**
