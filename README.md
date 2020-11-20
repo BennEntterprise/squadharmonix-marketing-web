@@ -15,6 +15,10 @@ The front end is built using React.
 Additionally you should be familiar with the Bootstrap Layout Scheme.
 Other elements are borrowed and expanded from the bootstrap framework.
 
+# Dev and Deployment Cycle
+
+To learn more about the dev and deployment cycle check out: [README_Dev_Deployment.md](README_Dev_Deployment.md)
+
 # Resources
 
 - [Webpage Designs (LucidChart)](https://lucid.app/lucidchart/23b096cb-e8a2-4282-b53a-bfdc18a22827/edit?shared=true&page=0_0#?folder_id=home&browser=icon)
