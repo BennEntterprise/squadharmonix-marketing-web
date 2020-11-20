@@ -9,11 +9,22 @@ The Squad brand is one that works with young talented artists.
 - Laura Jean Academy is a place where the student can get even more attention
   with the director of Harmonix and Academy.
 
-# About the Tools Used
+# About the Project
 
-The front end is built using React.
-Additionally you should be familiar with the Bootstrap Layout Scheme.
-Other elements are borrowed and expanded from the bootstrap framework.
+The front end is built using React, scaffolded from the [Create-React-App](https://create-react-app.dev/docs/getting-started/) utility
+with a typescript template and NOT yet ejected. The backend is written on
+Node/Express.js (without typescript). Currently this is a marketing/presentation
+site and so the express server is very slim with only the routes required to
+serve the static files.
+
+Later on Squad would like to control the hero/announcement section of the app
+so this will require additional work on the back end, but for all intents and
+purposes the backend can be left alone at this time. (They also mentioned the
+ability to pull in a twitter feed which will require a twitter api integration.)
+
+Additionally you should be familiar with the Bootstrap Layout Scheme as it is
+implemented via the [React-Bootstrap](https://react-bootstrap.github.io/)
+abstraction.
 
 # Dev and Deployment Cycle
 

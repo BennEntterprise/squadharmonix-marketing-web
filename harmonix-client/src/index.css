@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-item {
+  height: 200px;
+  width: 200px;
+}
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}

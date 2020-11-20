@@ -4,9 +4,13 @@
   "description": "A marketing web page for SquadHarmonix",
   "main": "server.js",
   "dependencies": {
+    "@types/bootstrap": "^5.0.0",
+    "@types/react-bootstrap": "^0.32.24",
+    "bootstrap": "^4.5.3",
     "concurrently": "^5.3.0",
     "express": "^4.17.1",
-    "express-favicon": "^2.0.1"
+    "express-favicon": "^2.0.1",
+    "react-bootstrap": "^1.4.0"
   },
   "devDependencies": {},
   "scripts": {
