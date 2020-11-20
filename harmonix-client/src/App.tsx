@@ -3,13 +3,14 @@ import './App.css'
 
 import { Container, Row, Col } from 'react-bootstrap'
 
+import Navbar from './components/Navbar'
+
 function App() {
   return (
     <div className='App'>
+      <Navbar />
       <header className='App-header'>
-        <h1>Test Deployment</h1>
-        <h2>Test Merging Pattern</h2>
-        <Container>
+        <Container id='home'>
           <Row>
             <Col
               xs={1}
@@ -19,14 +20,21 @@ function App() {
               xl={4}
               style={{ border: '1px solid red' }}
             >
-              <div className='flexbox'>
-                <div className='flex-item green'></div>
-                <div className='flex-item blue'></div>
+              <div className='academy-buttons-container'>
+                <h6>Squad &trade; Academy</h6>
+                <button className='squad-btn'>WHAT IS SQUAD?</button>
+                <button>MEET THE TEACHERS</button>
+                <button>MEET THE SQUAD</button>
+                <button>AUDITION!</button>
                 <div className='flex-item red'></div>
               </div>
             </Col>
           </Row>
         </Container>
+        <Container id='squadacademy'></Container>
+        <Container id='squadharmonix'></Container>
+        <Container id='ljma'></Container>
+        <Container id='contact'></Container>
       </header>
     </div>
   )
