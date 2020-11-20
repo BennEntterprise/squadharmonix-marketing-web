@@ -12,6 +12,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
+    "dev-client": "npm run start --prefix harmonix-client",
     "build": "cd harmonix-client  && npm install && npm run build"
   },
   "repository": {
