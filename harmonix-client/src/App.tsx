@@ -4,11 +4,11 @@ import React from 'react'
 import Navbar from './components/Navbar'
 
 //Pagelets
-import ThisIsSquad from './pagelets/ThisIsSquad'
-import WhatIsSquad from './pagelets/WhatIsSquad'
-import MeetTheSquad from './pagelets/MeetTheSquad'
-import MeetTheTeachers from './pagelets/MeetTheTeachers'
-import Contact from './pagelets/ToAudition'
+import ThisIsSquad from './pagelets/1ThisIsSquad/ThisIsSquad'
+import WhatIsSquad from './pagelets/2WhatIsSquad/WhatIsSquad'
+import MeetTheSquad from './pagelets/3MeetTheSquad/MeetTheSquad'
+import MeetTheTeachers from './pagelets/4MeetTheTeachers/MeetTheTeachers'
+import ToAudition from './pagelets/5ToAudition/ToAudition'
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <WhatIsSquad />
       <MeetTheSquad />
       <MeetTheTeachers />
-      <Contact />
+      <ToAudition />
     </>
   )
 }

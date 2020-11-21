@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 
-import './css/meettheteachers.css'
+import './meettheteachers.css'
 function MeetTheTeachers() {
   return <Container id='meettheteachers'>Meet The Teachers</Container>
 }

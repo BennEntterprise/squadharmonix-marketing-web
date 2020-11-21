@@ -1,10 +1,10 @@
 import React from 'react'
-interface IHorizontalRow {
+interface IHorizontalColorBand {
   color: string
   height: string
 }
 
-const HorizontalRow = (props: IHorizontalRow) => {
+const HorizontalColorBand = (props: IHorizontalColorBand) => {
   const { color, height } = props
   return (
     <div
@@ -13,4 +13,4 @@ const HorizontalRow = (props: IHorizontalRow) => {
   )
 }
 
-export default HorizontalRow
+export default HorizontalColorBand

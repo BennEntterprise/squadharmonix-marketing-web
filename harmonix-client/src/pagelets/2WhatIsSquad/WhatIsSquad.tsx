@@ -1,5 +1,5 @@
 import React from 'react'
-import './css/whatissquad.css'
+import './whatissquad.css'
 import { Container } from 'react-bootstrap'
 function WhatIsSquad() {
   return (

@@ -1,17 +1,27 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 
-import './css/thisissquad.css'
+import './thisissquad.css'
 
 const ThisIsSquad = () => {
   return (
     <Container fluid id='thisissquad'>
       <Row>
-        <Col className='header' xs={12} sm={12} md={12} lg={12} xl={12}>
-          <h1>THIS IS SQUAD</h1>
-          <p>
-            an inspiring learning community for dedicated vocalists ages 8-17
-          </p>
+        <Col
+          className='squad-headline-container'
+          xs={12}
+          sm={12}
+          md={12}
+          lg={12}
+          xl={12}
+        >
+          <div id='headline-text'>
+            <h1>THIS IS SQUAD</h1>
+            <p>
+              an inspiring learning community for dedicated vocalists ages 8-17
+            </p>
+            <p className='magenta-highlight'>ONLINE SINCE MAY!</p>
+          </div>
         </Col>
       </Row>
       <Row>
