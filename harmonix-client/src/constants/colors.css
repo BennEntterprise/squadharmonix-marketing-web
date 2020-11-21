@@ -15,6 +15,7 @@
 
   --white: #fff;
   --black: #000;
+  --grey: #e5e5e5;
 }
 
 .teal-outline {
@@ -23,4 +24,8 @@
 
 .magenta-outline {
   border: 5px solid var(--magenta);
+}
+
+.bg-grey {
+  background-color: var(--grey);
 }

@@ -48,10 +48,22 @@ const ThisIsSquad = () => {
         >
           <h3>Squad&trade; Academy</h3>
           <div id='squad-nav-btns' className='v-flex-container'>
-            <button className='btnn magenta-outline'>WHAT IS SQUAD</button>
-            <button className='btnn magenta-outline'>MEET THE TEACHERS</button>
-            <button className='btnn magenta-outline'>MEET THE SQUAD</button>
-            <button className='btnn magenta-outline'>AUDITION!</button>
+            <a href='#whatissquad'>
+              <button className='magenta-outline bg-grey'>WHAT IS SQUAD</button>
+            </a>
+            <a href='#meettheteachers'>
+              <button className='magenta-outline bg-grey'>
+                MEET THE TEACHERS
+              </button>
+            </a>
+            <a href='#meetthesquad'>
+              <button className='magenta-outline bg-grey'>
+                MEET THE SQUAD
+              </button>
+            </a>
+            <a href='#toaudition'>
+              <button className='magenta-outline bg-grey'>AUDITION!</button>
+            </a>
           </div>
         </div>
 
@@ -61,11 +73,21 @@ const ThisIsSquad = () => {
         >
           <h3> Squad Harmonix&trade;</h3>
           <div id='harmonix-nav-btns' className='v-flex-container'>
-            <button className='btnn teal-outline'>MUSIC</button>
-            <button className='btnn teal-outline'>ABOUT</button>
-            <button className='btnn teal-outline'>MEMBERS</button>
-            <button className='btnn teal-outline'>NEWS</button>
-            <button className='btnn teal-outline'>MERCH</button>
+            <a href='#music'>
+              <button className='teal-outline bg-grey'>MUSIC</button>
+            </a>
+            <a href='#about'>
+              <button className='teal-outline bg-grey'>ABOUT</button>
+            </a>
+            <a href=''>
+              <button className='teal-outline bg-grey'>MEMBERS</button>
+            </a>
+            <a href=''>
+              <button className='teal-outline bg-grey'>NEWS</button>
+            </a>
+            <a href=''>
+              <button className='teal-outline bg-grey'>MERCH</button>
+            </a>
           </div>
         </div>
       </Row>
@@ -80,7 +102,7 @@ const ThisIsSquad = () => {
             </button>
             <button
               className='magenta-outline'
-              style={{ backgroundColor: magenta }}
+              style={{ backgroundColor: darkMagenta }}
             >
               JOIN OUR MAILING LIST
             </button>
