@@ -19,7 +19,8 @@
     "dev-client": "npm run start --prefix harmonix-client",
     "build": "cd harmonix-client  && npm install && npm run build",
     "rebuild": "cd harmonix-client && npm run build",
-    "push-to-staging": "git push heroku develop:master"
+    "push-to-staging": "git push heroku develop:master",
+    "push-to-production": "git push heroku-prod main"
   },
   "repository": {
     "type": "git",
