@@ -12,4 +12,15 @@
   /* White/Black/Grey */
   --charcoal: #202020;
   --obsidian: #090909;
+
+  --white: #fff;
+  --black: #000;
+}
+
+.teal-outline {
+  border: 5px solid var(--teal);
+}
+
+.magenta-outline {
+  border: 5px solid var(--magenta);
 }

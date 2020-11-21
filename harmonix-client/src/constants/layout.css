@@ -1,0 +1,20 @@
+:root {
+  /* Creates construction lines */
+  --construction: 4.5px dashed Grey;
+  --construction-red: 4.5px dotted red;
+}
+.construction-lines {
+  border: var(--construction);
+}
+.construction-lines-red {
+  border: var(--construction-red);
+}
+
+.h-flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.v-flex-container {
+  display: flex;
+  flex-direction: column;
+}

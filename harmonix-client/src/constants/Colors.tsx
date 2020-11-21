@@ -2,7 +2,7 @@
 export const flower: string = '#fec5e9'
 export const magenta: string = '#fa4faa'
 export const purple: string = '#a800d6'
-
+export const darkMagenta: string = '#FF00B3'
 //Blues
 export const tortise: string = '#99d5ca'
 export const teal: string = '#00c0c3'

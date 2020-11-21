@@ -17,7 +17,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "dev-client": "npm run start --prefix harmonix-client",
-    "build": "cd harmonix-client  && npm install && npm run build"
+    "build": "cd harmonix-client  && npm install && npm run build",
+    "rebuild-client": "cd harmonix-client && npm run build"
   },
   "repository": {
     "type": "git",

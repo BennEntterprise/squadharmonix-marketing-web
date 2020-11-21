@@ -19,5 +19,6 @@ app.get('/*', function (req, res) {
   res.sendFile(path.join(__dirname, 'harmonix-client', 'build', 'index.html'))
 })
 app.listen(port, () => {
+  console.log(`Make sure you build the project!`)
   console.log(`Now Listening on: http://${host}:${port}`)
 })
