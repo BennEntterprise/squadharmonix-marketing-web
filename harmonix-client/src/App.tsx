@@ -1,7 +1,11 @@
 import React from 'react'
 
+// Navigation
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+
 // Components
 import Navbar from './components/Navbar'
+import TechDebt from './components/TechDebt'
 
 //Pagelets
 import ThisIsSquad from './pagelets/1ThisIsSquad/ThisIsSquad'
@@ -12,14 +16,21 @@ import ToAudition from './pagelets/5ToAudition/ToAudition'
 
 function App() {
   return (
-    <>
+    <Router>
       <Navbar />
-      <ThisIsSquad />
-      <WhatIsSquad />
-      <MeetTheSquad />
-      <MeetTheTeachers />
-      <ToAudition />
-    </>
+      <Switch>
+        <Route path='/tech-debt'>
+          <TechDebt />
+        </Route>
+        <Route exact path='/'>
+          <ThisIsSquad />
+          <WhatIsSquad />
+          <MeetTheSquad />
+          <MeetTheTeachers />
+          <ToAudition />
+        </Route>
+      </Switch>
+    </Router>
   )
 }
 

@@ -20,10 +20,11 @@ const nb = () => {
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>
         <Nav className='mr-auto float-right'>
-          <Nav.Link style={{ color: 'white' }} href='#home'>
+          <Nav.Link href='/tech-debt'>Tech Debt</Nav.Link>
+          <Nav.Link style={{ color: 'white' }} href='/#home'>
             HOME
           </Nav.Link>
-          <Nav.Link style={{ color: 'white' }} href='#squadacademy'>
+          <Nav.Link style={{ color: 'white' }} href='/#squadacademy'>
             SQUAD ACADEMY
           </Nav.Link>
           <Nav.Link style={{ color: 'white' }} href='#squadharmonix'>
