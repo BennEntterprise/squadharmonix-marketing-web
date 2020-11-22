@@ -24,9 +24,9 @@ function App() {
         </Route>
         <Route exact path='/'>
           <ThisIsSquad />
-          <WhatIsSquad />
-          <MeetTheSquad />
-          <MeetTheTeachers />
+          {/* <WhatIsSquad /> */}
+          {/* <MeetTheSquad /> */}
+          {/* <MeetTheTeachers /> */}
           <ToAudition />
         </Route>
       </Switch>

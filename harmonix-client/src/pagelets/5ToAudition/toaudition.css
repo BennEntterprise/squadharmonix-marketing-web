@@ -1,7 +1,87 @@
 @import '../../constants/colors.css';
+@import '../../constants/fonts.css';
+@import '../../constants/layout.css';
+:root {
+  --side-photo-width: 20%;
+}
 #toaudition {
-  border: 5px solid var(--seagreen);
-  height: 500px;
-  background-color: black;
-  color: white;
+  /* border: var(--construction); */
+  color: black;
+  height: fit-content;
+  padding: 10px;
+  padding-top: 0;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#left-photo-padding {
+  /* border: var(--construction); */
+  width: var(--side-photo-width);
+  background-image: url('../../images/BlakeContactPage.jpg');
+  background-size: contain;
+  background-position-x: left;
+  background-repeat: no-repeat;
+}
+#right-photo-padding {
+  /* border: var(--construction); */
+  width: var(--side-photo-width);
+  background-image: url('../../images/EliseContactPage.jpg');
+  background-size: contain;
+  background-position-x: left;
+  background-repeat: no-repeat;
+}
+#form-container {
+  /* border: var(--construction-red); */
+  background-color: var(--black);
+  flex-grow: 9;
+  padding-top: 0;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+#form-container input {
+  height: calc(1.5em + 0.75rem + 8px);
+}
+#subscribe-group {
+  /* width: fit-content;
+  margin: auto; */
+}
+#form-container button {
+  color: var(--white);
+  border: 2px solid var(--white);
+  background-color: var(--magenta);
+  margin: auto;
+  position: 'relative';
+  width: 15%;
+  left: calc((100px-15px) / 2px);
+  text-align: 'center';
+  margin-top: '1rem';
+}
+
+#lja-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+#ljma-branding {
+  border: var(--construction);
+  display: flex;
+  flex-direction: row;
+}
+
+#lessons-section {
+  display: flex;
+  flex-direction: row;
+}
+
+#lessons-label {
+  border: var(-construction-red);
 }
