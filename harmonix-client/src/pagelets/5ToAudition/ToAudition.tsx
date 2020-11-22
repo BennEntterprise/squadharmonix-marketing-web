@@ -11,7 +11,6 @@ import LJMABranding from '../../images/LJMABranding.jpg'
 function ToAudition() {
   return (
     <Container fluid id='toaudition'>
-      <Navbar />
       <div id='main-container'>
         <div id='left-photo-padding'>
           {/* <img src={ImgBlake} alt='pre-teen blake crossing his arms smiling' /> */}

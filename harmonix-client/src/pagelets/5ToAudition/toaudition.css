@@ -61,7 +61,7 @@
   margin: auto;
   position: 'relative';
   width: 15%;
-  left: calc((100px-15px) / 2px);
+  left: calc((100px-15px) / 2);
   text-align: 'center';
   margin-top: '1rem';
 }
