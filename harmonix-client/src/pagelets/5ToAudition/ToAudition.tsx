@@ -4,7 +4,7 @@ import { darkMagenta } from '../../constants/Colors'
 import { Container, ListGroupItem } from 'react-bootstrap'
 import { Form, Button } from 'react-bootstrap'
 import Navbar from '../../components/Navbar'
-
+import LessonItem from '../../components/LessonItem'
 import ImgBlake from '../../images/BlakeContactPage.jpg'
 import ImgElise from '../../images/EliseContactPage.jpg'
 import LJMABranding from '../../images/LJMABranding.jpg'
@@ -71,52 +71,23 @@ function ToAudition() {
           <p>discover your inner artist</p>
         </div>
         <div id='lessons-section'>
-          <div className='lessons-label'>Private Lessons</div>
-          <div id='lesson-types-pannel'>
-            <div className='lesson-item'>
-              <img src='#' alt='two eigth notes' />
-              <h6>
-                <strong>Piano</strong>
-              </h6>
-            </div>
-            <div className='lesson-item'>
-              <img src='#' alt='two eigth notes' />
-              <h6>
-                <strong>voice</strong>
-              </h6>
-            </div>
-            <div className='lesson-item'>
-              <img src='#' alt='two eigth notes' />
-              <h6>
-                <strong>music theory</strong>
-              </h6>
-            </div>
-            <div className='lesson-item'>
-              <img src='#' alt='two eigth notes' />
-              <h6>
-                <strong>beatboxing</strong>
-              </h6>
-            </div>
-            <div className='lesson-item'>
-              <img src='#' alt='two eigth notes' />
-              <h6>
-                <strong>songwriting</strong>
-              </h6>
-            </div>
-            <div className='lesson-item'>
-              <img src='#' alt='two eigth notes' />
-              <h6>
-                <strong>recording/mixing</strong>
-              </h6>
-            </div>
-            <div className='lesson-item'>
-              <img src='#' alt='two eigth notes' />
-              <h6>
-                <strong>artist development</strong>
-              </h6>
-            </div>
+          <div id='lessons-label'>
+            <h6>
+              <strong>Private Lessons: </strong>
+            </h6>
           </div>
-          <div id='advert-bubble'>Click here for more info</div>
+          <div id='lesson-types-pannel'>
+            <LessonItem text='piano' />
+            <LessonItem text='voice' />
+            <LessonItem text='music theory' />
+            <LessonItem text='beatboxing' />
+            <LessonItem text='songwriting' />
+            <LessonItem text='recording/mixing' />
+            <LessonItem text='artist development' />
+          </div>
+          <div id='advert-bubble'>
+            <p>Click here for more info</p>
+          </div>
         </div>
       </div>
     </Container>
