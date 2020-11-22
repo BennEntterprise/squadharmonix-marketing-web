@@ -2,6 +2,7 @@ import React from 'react'
 
 // Navigation
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import HorizontalColorBand from './components/HorizontalColorBand'
 
 // Components
 import Navbar from './components/Navbar'
@@ -18,7 +19,10 @@ import MeetTheSquad from './pagelets/3MeetTheSquad/MeetTheSquad'
 import MeetTheTeachers from './pagelets/4MeetTheTeachers/MeetTheTeachers'
 import ToAudition from './pagelets/5ToAudition/ToAudition'
 
+import { magenta, teal, purple } from './constants/Colors'
+
 function App() {
+  const bandThickness = `1rem`
   return (
     <Router>
       <Navbar />
@@ -32,6 +36,9 @@ function App() {
           {/* <WhatIsSquad /> */}
           <Navbar3 />
           {/* <MeetTheSquad /> */}
+          <HorizontalColorBand color={magenta} height={bandThickness} />
+          <HorizontalColorBand color={teal} height={bandThickness} />
+          <HorizontalColorBand color={purple} height={bandThickness} />
           <Navbar4 />
           {/* <MeetTheTeachers /> */}
           <Navbar5 />
