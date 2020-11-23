@@ -2,6 +2,11 @@
   /* Creates construction lines */
   --construction: 4.5px dashed Grey;
   --construction-red: 4.5px dotted red;
+  --construction-padding: 5px;
+}
+
+.construction-padding {
+  padding: var(--construction-padding);
 }
 .construction-lines {
   border: var(--construction);

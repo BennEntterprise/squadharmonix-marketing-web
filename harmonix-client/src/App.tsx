@@ -33,7 +33,7 @@ function App() {
         <Route exact path='/'>
           <ThisIsSquad />
           <Navbar2 />
-          {/* <WhatIsSquad /> */}
+          <WhatIsSquad />
           <Navbar3 />
           {/* <MeetTheSquad /> */}
           <HorizontalColorBand color={magenta} height={bandThickness} />

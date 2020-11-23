@@ -31,3 +31,15 @@
 .bg-grey {
   background-color: var(--grey);
 }
+
+.bg-magenta {
+  background-color: var(--magenta);
+}
+
+.bg-purple {
+  background-color: var(--purple);
+}
+
+.bg-teal {
+  background-color: var(--teal);
+}

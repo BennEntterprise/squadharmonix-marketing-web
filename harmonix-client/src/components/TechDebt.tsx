@@ -49,6 +49,14 @@ const TechDebt = () => {
         <li>Replace 8th note icons in offerings</li>
         <li>Tidy up spacing fo the elements.</li>
       </ol>
+
+      <h4>"What is Squad"</h4>
+      <ol>
+        <li>Add vertical bars between the colored headings.</li>
+        <li>
+          Do some addditional work on font sizes (can be tweaked a little.)
+        </li>
+      </ol>
     </div>
   )
 }
