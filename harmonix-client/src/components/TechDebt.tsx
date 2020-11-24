@@ -3,6 +3,7 @@ import React from 'react'
 const TechDebt = () => {
   return (
     <div>
+      <h1>Academy Site</h1>
       <h4>General</h4>
       <ol>
         <li>
@@ -77,6 +78,14 @@ const TechDebt = () => {
           refined.
         </li>
       </ol>
+      <h4>Meet the Teachers</h4>
+      <ul>
+        <li>Crop Teacher Photos to Size, readjust Margins</li>
+        <li>Format to be mobile friendly</li>
+        <li>Emphasis on the teacher name (larger, bold weight)</li>
+      </ul>
+
+      <h1>Artist Page</h1>
     </div>
   )
 }
