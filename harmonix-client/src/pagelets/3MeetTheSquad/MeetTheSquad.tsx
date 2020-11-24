@@ -89,14 +89,7 @@ const MeetTheSquad = () => {
       <HorizontalColorBand color={teal} height={'50px'} />
       <div className='showcase-container'>
         <div className='react-player'>
-          <ReactPlayer
-            controls
-            url={[
-              ComeAlive_TheGreatestShowman,
-              ComeAlive_TheGreatestShowman,
-              'https://www.youtube.com/watch?v=bmVKaAV_7-A',
-            ]}
-          />
+          <ReactPlayer controls url={ComeAlive_TheGreatestShowman} />
         </div>
         <div className='headshot-gallery-container'>
           <h3>Senior Squad</h3>

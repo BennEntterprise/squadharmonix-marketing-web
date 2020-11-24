@@ -37,7 +37,7 @@ function App() {
           <MeetTheSquad />
 
           <Navbar4 />
-          {/* <MeetTheTeachers /> */}
+          <MeetTheTeachers />
           <Navbar5 />
           <ToAudition />
         </Route>

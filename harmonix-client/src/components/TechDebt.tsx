@@ -71,6 +71,11 @@ const TechDebt = () => {
           Get the player to show a specified next song (rather than letting the
           algo run its own analysis)
         </li>
+        <li>Position Spotlights/shadows on the squad</li>
+        <li>
+          Do a bit more spacing/positioning of Titles after photos have been
+          refined.
+        </li>
       </ol>
     </div>
   )
