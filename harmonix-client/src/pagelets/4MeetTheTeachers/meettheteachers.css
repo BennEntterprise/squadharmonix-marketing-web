@@ -1,8 +1,35 @@
 @import '../../constants/colors.css';
+@import '../../constants/layout.css';
 
 #meettheteachers {
-  border: 5px solid var(--purple);
   height: 500px;
-  background-color: black;
-  color: white;
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+}
+#left-container {
+  width: 50%;
+  word-wrap: normal;
+  height: 100%;
+  font-size: 10pt;
+}
+#right-container {
+  width: 50%;
+}
+
+.teacher-profile {
+  padding: 10px;
+  padding: 50px;
+}
+
+.teacher-photo-l {
+  height: 125px;
+  width: 125px;
+  float: left;
+  margin: 0 50px 50px 0;
+}
+
+.bio-text {
+  font-size: 10px;
+  color: black;
 }

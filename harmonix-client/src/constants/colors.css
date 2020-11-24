@@ -43,3 +43,14 @@
 .bg-teal {
   background-color: var(--teal);
 }
+.bg-flower {
+  background-color: var(--flower);
+}
+
+.bg-tortise {
+  background-color: var(--tortise);
+}
+
+.bg-lightpurple {
+  background-color: var(--lightPurple);
+}
