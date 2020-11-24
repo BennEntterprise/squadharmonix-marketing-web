@@ -2,7 +2,6 @@ import React from 'react'
 
 // Navigation
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
-import HorizontalColorBand from './components/HorizontalColorBand'
 
 // Components
 import Navbar from './components/Navbar'
@@ -35,10 +34,8 @@ function App() {
           <Navbar2 />
           <WhatIsSquad />
           <Navbar3 />
-          {/* <MeetTheSquad /> */}
-          <HorizontalColorBand color={magenta} height={bandThickness} />
-          <HorizontalColorBand color={teal} height={bandThickness} />
-          <HorizontalColorBand color={purple} height={bandThickness} />
+          <MeetTheSquad />
+
           <Navbar4 />
           {/* <MeetTheTeachers /> */}
           <Navbar5 />

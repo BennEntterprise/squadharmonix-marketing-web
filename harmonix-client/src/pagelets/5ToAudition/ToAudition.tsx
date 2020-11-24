@@ -5,8 +5,8 @@ import { Container, ListGroupItem } from 'react-bootstrap'
 import { Form, Button } from 'react-bootstrap'
 import Navbar from '../../components/Navbar'
 import LessonItem from '../../components/LessonItem'
-import ImgBlake from '../../images/BlakeContactPage.jpg'
-import ImgElise from '../../images/EliseContactPage.jpg'
+import ImgBlake from '../../images/contact/BlakeContactPage.jpg'
+import ImgElise from '../../images/contact/EliseContactPage.jpg'
 import LJMABranding from '../../images/LJMABranding.jpg'
 function ToAudition() {
   return (

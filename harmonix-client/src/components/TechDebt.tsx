@@ -57,6 +57,21 @@ const TechDebt = () => {
           Do some addditional work on font sizes (can be tweaked a little.)
         </li>
       </ol>
+      <h4>"Meet the Squad"</h4>
+      <ol>
+        <li>Work on resizing the photos either:</li>
+        <ul>
+          <li>
+            Crop them to the same dimensions/aspect to start with(preferred){' '}
+          </li>
+          <li>OR </li>
+          <li>Apply custom code work to each photo (not preferred) </li>
+        </ul>
+        <li>
+          Get the player to show a specified next song (rather than letting the
+          algo run its own analysis)
+        </li>
+      </ol>
     </div>
   )
 }

@@ -20,7 +20,7 @@
 #left-photo-padding {
   /* border: var(--construction); */
   width: var(--side-photo-width);
-  background-image: url('../../images/BlakeContactPage.jpg');
+  background-image: url('../../images/contact/BlakeContactPage.jpg');
   background-size: contain;
   background-position-x: left;
   background-repeat: no-repeat;
@@ -28,7 +28,7 @@
 #right-photo-padding {
   /* border: var(--construction); */
   width: var(--side-photo-width);
-  background-image: url('../../images/EliseContactPage.jpg');
+  background-image: url('../../images/contact/EliseContactPage.jpg');
   background-size: contain;
   background-position-x: left;
   background-repeat: no-repeat;

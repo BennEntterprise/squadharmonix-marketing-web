@@ -8,7 +8,7 @@ const HorizontalColorBand = (props: IHorizontalColorBand) => {
   const { color, height } = props
   return (
     <div
-      style={{ backgroundColor: color, height: height, width: '100%' }}
+      style={{ backgroundColor: color, height: height, width: '110%' }}
     ></div>
   )
 }

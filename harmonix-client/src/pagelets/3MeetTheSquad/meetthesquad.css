@@ -1,7 +1,55 @@
 @import '../../constants/colors.css';
+@import '../../constants/layout.css';
 #meetthesquad {
-  height: 500px;
-  border: 5px solid var(--charcoal);
-  background-color: black;
+  height: fit-content;
+  /* border: var(--construction-red);
+  padding: var(--construction-padding); */
+  background-color: #000000;
   color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.showcase-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px 30px;
+}
+
+.headshot-gallery-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.react-player {
+  /* border: var(--construction-red); */
+  padding: 30px;
+}
+
+.headshots-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  /* border: var(--construction); */
+}
+.headshot-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.single-headshot-container {
+  /* border: var(--construction-red); */
+  margin: 1%;
+  width: 175px;
+  height: 175px;
+}
+
+.headshot {
+  height: 150px;
+  width: 150px;
 }
