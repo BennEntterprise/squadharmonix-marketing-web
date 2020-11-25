@@ -2,11 +2,11 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 
 import './BannerPage.css'
-import Syd from '../../../images/harmonix-artist-page/SydneBillboard.jpg'
+import Syd from '../../images/harmonix-artist-page/SydneBillboard.jpg'
 
-import FB from '../../../images/social-assets/facebook-artist-good.png'
-import TT from '../../../images/social-assets/tiktok-artist-good.png'
-import IG from '../../../images/social-assets/instagram-artist-good.png'
+import FB from '../../images/social-assets/facebook-artist-good.png'
+import TT from '../../images/social-assets/tiktok-artist-good.png'
+import IG from '../../images/social-assets/instagram-artist-good.png'
 const BannerPage = () => {
   return (
     <Container fluid>

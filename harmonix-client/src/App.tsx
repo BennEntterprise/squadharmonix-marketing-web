@@ -12,14 +12,14 @@ import Navbar5 from './components/Navbar5'
 import TechDebt from './components/TechDebt'
 
 //Pagelets
-import ThisIsSquad from './pagelets/1ThisIsSquad/ThisIsSquad'
-import WhatIsSquad from './pagelets/2WhatIsSquad/WhatIsSquad'
-import MeetTheSquad from './pagelets/3MeetTheSquad/MeetTheSquad'
-import MeetTheTeachers from './pagelets/4MeetTheTeachers/MeetTheTeachers'
-import ToAudition from './pagelets/5ToAudition/ToAudition'
+import ThisIsSquad from './pagelets-academy/1ThisIsSquad/ThisIsSquad'
+import WhatIsSquad from './pagelets-academy/2WhatIsSquad/WhatIsSquad'
+import MeetTheSquad from './pagelets-academy/3MeetTheSquad/MeetTheSquad'
+import MeetTheTeachers from './pagelets-academy/4MeetTheTeachers/MeetTheTeachers'
+import ToAudition from './pagelets-academy/5ToAudition/ToAudition'
 
 import { magenta, teal, purple } from './constants/Colors'
-import BannerPage from './pagelets/harmonix-site/1BannerPage/BannerPage'
+import BannerPage from './pagelets-harmonix/1BannerPage/BannerPage'
 
 function App() {
   const bandThickness = `1rem`
