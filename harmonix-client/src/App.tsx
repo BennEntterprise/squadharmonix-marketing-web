@@ -20,6 +20,7 @@ import ToAudition from './pagelets-academy/5ToAudition/ToAudition'
 
 import { magenta, teal, purple } from './constants/Colors'
 import BannerPage from './pagelets-harmonix/1BannerPage/BannerPage'
+import CheckItOut from './pagelets-harmonix/2CheckItOut/CheckItOut'
 
 function App() {
   const bandThickness = `1rem`
@@ -44,6 +45,7 @@ function App() {
         </Route>
         <Route exact path='/harmonix'>
           <BannerPage />
+          <CheckItOut />
         </Route>
       </Switch>
     </Router>
