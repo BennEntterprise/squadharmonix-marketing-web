@@ -3,6 +3,7 @@ import { Navbar, Nav } from 'react-bootstrap'
 import SquadHarmonixBrandBanner from '../images/HarmonixBranding.jpg'
 
 import { charcoal } from '../constants/Colors'
+import { Link } from 'react-router-dom'
 const nb = () => {
   return (
     <Navbar
@@ -10,7 +11,7 @@ const nb = () => {
       bg={charcoal}
       expand='sm'
     >
-      <Navbar.Brand href='#home'>
+      <Navbar.Brand href='/'>
         <img
           src={SquadHarmonixBrandBanner}
           alt='squad harmonics banner'
@@ -21,20 +22,30 @@ const nb = () => {
       <Navbar.Collapse id='basic-navbar-nav'>
         <Nav className='mr-auto float-right'>
           <Nav.Link href='/tech-debt-todo'>Tech Debt/Todo</Nav.Link>
-          <Nav.Link style={{ color: 'white' }} href='/#home'>
-            HOME
+          <Nav.Link style={{ color: 'white' }}>
+            <Link style={{ color: 'white' }} to='/'>
+              HOME
+            </Link>
           </Nav.Link>
-          <Nav.Link style={{ color: 'white' }} href='/#squadacademy'>
-            SQUAD ACADEMY
+          <Nav.Link style={{ color: 'white' }}>
+            <Link style={{ color: 'white' }} to='/academy'>
+              SQUAD ACADEMY
+            </Link>
           </Nav.Link>
-          <Nav.Link style={{ color: 'white' }} href='#squadharmonix'>
-            SQUAD HARMONIX&trade;
+          <Nav.Link style={{ color: 'white' }}>
+            <Link style={{ color: 'white' }} to='/harmonix'>
+              SQUAD HARMONIX&trade;
+            </Link>
           </Nav.Link>
-          <Nav.Link style={{ color: 'white' }} href='#ljma'>
-            LAURA JEAN MUSIC ACADEMY <em>(coming soon)</em>
+          <Nav.Link style={{ color: 'white' }}>
+            <Link style={{ color: 'white' }} to='/ljma'>
+              LAURA JEAN MUSIC ACADEMY <em>(coming soon)</em>
+            </Link>
           </Nav.Link>
-          <Nav.Link style={{ color: 'white' }} href='#contact'>
-            CONTACT
+          <Nav.Link style={{ color: 'white' }}>
+            <Link style={{ color: 'white' }} to='/contact'>
+              CONTACT
+            </Link>
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

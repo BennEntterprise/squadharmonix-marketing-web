@@ -19,6 +19,7 @@ import MeetTheTeachers from './pagelets/4MeetTheTeachers/MeetTheTeachers'
 import ToAudition from './pagelets/5ToAudition/ToAudition'
 
 import { magenta, teal, purple } from './constants/Colors'
+import BannerPage from './pagelets/harmonix-site/1BannerPage/BannerPage'
 
 function App() {
   const bandThickness = `1rem`
@@ -29,7 +30,7 @@ function App() {
         <Route path='/tech-debt-todo'>
           <TechDebt />
         </Route>
-        <Route exact path='/'>
+        <Route exact path={['/academy', '/home', '/']}>
           <ThisIsSquad />
           <Navbar2 />
           <WhatIsSquad />
@@ -40,6 +41,9 @@ function App() {
           <MeetTheTeachers />
           <Navbar5 />
           <ToAudition />
+        </Route>
+        <Route exact path='/harmonix'>
+          <BannerPage />
         </Route>
       </Switch>
     </Router>
