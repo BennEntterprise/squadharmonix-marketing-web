@@ -7,9 +7,18 @@ import Syd from '../../images/harmonix-artist-page/SydneBillboard.jpg'
 import FB from '../../images/social-assets/facebook-artist-good.png'
 import TT from '../../images/social-assets/tiktok-artist-good.png'
 import IG from '../../images/social-assets/instagram-artist-good.png'
+import YTS from '../../images/social-assets/youtube-academy.png'
+import Spot from '../../images/social-assets/spotify-artist-good.png'
+import iTunes from '../../images/social-assets/itunes-artist-good.png'
 const BannerPage = () => {
+  const YouTubeLink = 'https://www.youtube.com/squadharmonix'
+  const SpotifyLink =
+    'https://open.spotify.com/artist/60mJxBCIi3kLojVY7StenZ?si=Spfe6dPtSNew0qCb79_afA'
+  const FacebookLink = 'https://www.facebook.com/squadharmonix/'
+  const TikTokLink = 'https://www.tiktok.com/@squadharmonix'
+  const InstagramLink = 'https://www.tiktok.com/@squadharmonix'
   return (
-    <Container fluid>
+    <Container fluid id='banner-page-container'>
       <Row>
         <Col
           id='banner-content-container'
@@ -21,15 +30,39 @@ const BannerPage = () => {
           xl={{ order: 'last', span: 6, offset: 0 }}
         >
           <div id='banner-social-sites'>
-            <img src={FB} alt='facebook logo' />
-            <img src={TT} alt='facebook logo' />
-            <img src={IG} alt='facebook logo' />
+            <a href={FacebookLink}>
+              <img src={FB} alt='facebook profile link' />
+            </a>
+            <a href={TikTokLink}>
+              <img src={TT} alt='tictok profile link' />
+            </a>
+            <a href={InstagramLink}>
+              <img src={IG} alt='instagram profile link' />
+            </a>
           </div>
-          <div id='banner-marquee'></div>
+          <div id='banner-marquee'>
+            <h3 className='purple-marquee'>
+              <strong>SQUAD HARMONIX</strong>
+            </h3>
+            <h2>HOLIDAY EP - DEBUT</h2>
+            <h3 className='purple-marquee'>
+              <strong>YOUTUBE PREMIERE 11.29.20</strong>
+            </h3>
+            <div id='subscribe-btn'>
+              <a href={YouTubeLink}>Subscribe on Youtube</a>
+            </div>
+          </div>
           <div id='banner-marquee-sub'>
             <p>ALSO AVAILABLE ON: </p>
           </div>
-          <div id='banner-listening-sources'></div>
+          <div id='banner-listening-sources'>
+            <a href={SpotifyLink}>
+              <img src={Spot} alt='listen on spotify' />
+            </a>
+            <a>
+              <img src={iTunes} alt='listen on itunes' />
+            </a>
+          </div>
           <div id='banner-buttons'>
             <button>ABOUT US</button>
             <button>MEMBERS</button>
