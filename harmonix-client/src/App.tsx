@@ -21,6 +21,11 @@ import ToAudition from './pagelets-academy/5ToAudition/ToAudition'
 import { magenta, teal, purple } from './constants/Colors'
 import BannerPage from './pagelets-harmonix/1BannerPage/BannerPage'
 import CheckItOut from './pagelets-harmonix/2CheckItOut/CheckItOut'
+import AboutUs from './pagelets-harmonix/3AboutUs/AboutUs'
+import Press from './pagelets-harmonix/4Press/Press'
+import Members from './pagelets-harmonix/5Members/Members'
+import Merch from './pagelets-harmonix/6Merch/Merch'
+import Contact from './pagelets-harmonix/7Contact/Contact'
 
 function App() {
   const bandThickness = `1rem`
@@ -46,6 +51,11 @@ function App() {
         <Route exact path='/harmonix'>
           <BannerPage />
           <CheckItOut />
+          <AboutUs />
+          <Press />
+          <Members />
+          <Merch />
+          <Contact />
         </Route>
       </Switch>
     </Router>
