@@ -1,3 +1,17 @@
 #about-us-container {
-  background-color: red;
+  /* border: var(--construction); */
+  margin-top: 10rem;
+}
+
+#banner-l {
+  width: 50%;
+}
+#banner-r {
+  width: 50%;
+}
+
+#about-us-text {
+  margin-top: 3rem;
+  padding: 0 10%;
+  font-size: 1.78rem;
 }

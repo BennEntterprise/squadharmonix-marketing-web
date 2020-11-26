@@ -6,6 +6,7 @@ const TechDebt = () => {
       <h1>Academy Site</h1>
       <h4>General</h4>
       <ol>
+        <li>Optimize for Mobile</li>
         <li>
           Replace Squad brand in nav bar with an actual logo on transparancy,
           not a screen clipping (this will eliminate the box)
@@ -86,6 +87,10 @@ const TechDebt = () => {
       </ul>
 
       <h1>Artist Page</h1>
+      <ul>
+        <li>Spacing on Headlines</li>
+        <li>About Us: Adjust Left/Right banner sizings</li>
+      </ul>
     </div>
   )
 }
