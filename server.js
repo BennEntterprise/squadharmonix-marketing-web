@@ -22,3 +22,8 @@ app.listen(port, () => {
   console.log(`Make sure you build the project!`)
   console.log(`Now Listening on: http://${host}:${port}`)
 })
+
+process.on('SIGINT', function () {
+  console.log('Sigint')
+  process.exit()
+})
