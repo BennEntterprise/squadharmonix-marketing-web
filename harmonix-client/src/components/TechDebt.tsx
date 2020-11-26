@@ -90,6 +90,11 @@ const TechDebt = () => {
       <ul>
         <li>Spacing on Headlines</li>
         <li>About Us: Adjust Left/Right banner sizings</li>
+        <li>Add the "Click here for Squad Academy" Bubble</li>
+        <li>Resize teh membner photos so they are similar size.</li>
+        <li>Get photo for Johanna</li>
+        <li>Add links for </li>
+        <li>Move Members into a line on mobile (bootstrap integration)</li>
       </ul>
     </div>
   )

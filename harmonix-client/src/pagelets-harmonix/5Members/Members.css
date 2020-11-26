@@ -1,4 +1,54 @@
 #members-container {
-  background-color: black;
-  color: white;
+}
+
+.profile-container {
+  /* border: var(--construction); */
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo-container {
+  /* border: var(--construction-red); */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.member-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.artist-photo {
+  width: 100%;
+}
+
+.social-container {
+  overflow: visible;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+  top: -10.5%;
+  right: 7.5%;
+}
+.instagram-link {
+  width: 15%;
+  display: inline;
+}
+
+.soundcloud-link {
+  width: 10%;
+  display: inline;
+}
+
+.photo-title {
+  font-size: 1.25rem;
+  margin: -1.5rem 0 0 0;
+  padding: 0;
 }
