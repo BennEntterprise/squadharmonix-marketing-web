@@ -28,7 +28,6 @@ import Merch from './pagelets-harmonix/6Merch/Merch'
 import Contact from './pagelets-harmonix/7Contact/Contact'
 
 function App() {
-  const bandThickness = `1rem`
   return (
     <Router>
       <Navbar />
@@ -36,7 +35,7 @@ function App() {
         <Route path='/tech-debt-todo'>
           <TechDebt />
         </Route>
-        <Route exact path={['/academy', '/home', '/']}>
+        <Route exact path={['/academy']}>
           <ThisIsSquad />
           <Navbar2 />
           <WhatIsSquad />
@@ -48,7 +47,7 @@ function App() {
           <Navbar5 />
           <ToAudition />
         </Route>
-        <Route exact path='/harmonix'>
+        <Route exact path={['/harmonix', '/home', '/']}>
           <BannerPage />
           <CheckItOut />
           <AboutUs />

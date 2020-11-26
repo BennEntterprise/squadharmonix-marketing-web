@@ -1,3 +1,38 @@
 #merch-container {
-  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.merch-row {
+  padding: 0 10%;
+  margin: 0;
+}
+.merch-item-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+}
+
+.merch-item-container p {
+  margin: 0;
+  padding: 0;
+}
+
+.merch-item-photo {
+  width: 100%;
+}
+
+#btn-more-merch {
+  border: 2px solid var(--teal);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -75%;
+  padding: 1.2rem 1rem 0 1rem;
+  border-radius: 15px;
+  font-size: 1rem;
+  line-height: 1rem;
 }
