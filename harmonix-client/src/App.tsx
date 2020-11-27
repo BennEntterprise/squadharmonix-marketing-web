@@ -56,6 +56,9 @@ function App() {
           <Merch />
           <Contact />
         </Route>
+        <Route exact path='/contact'>
+          <Contact />
+        </Route>
       </Switch>
     </Router>
   )

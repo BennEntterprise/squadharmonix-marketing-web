@@ -37,8 +37,8 @@ const nb = () => {
               SQUAD HARMONIX&trade;
             </Link>
           </Nav.Link>
-          <Nav.Link style={{ color: 'white' }}>
-            <Link style={{ color: 'white' }} to='/ljma'>
+          <Nav.Link disabled style={{ color: 'white' }}>
+            <Link style={{ color: 'white' }} to='#'>
               LAURA JEAN MUSIC ACADEMY <em>(coming soon)</em>
             </Link>
           </Nav.Link>
