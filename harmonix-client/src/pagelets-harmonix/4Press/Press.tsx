@@ -147,11 +147,13 @@ const Press = () => {
             alt='follow on facebook for more'
           />
         </a>
-        <img
-          className='follow-us-icon'
-          src={IconTikTok}
-          alt='follow on tiktok'
-        />
+        <a href='https://www.tiktok.com/@squadharmonix'>
+          <img
+            className='follow-us-icon'
+            src={IconTikTok}
+            alt='follow on tiktok'
+          />
+        </a>
         <a href={SquadHarmonixIGPage}>
           <img
             className='follow-us-icon'
@@ -159,11 +161,13 @@ const Press = () => {
             alt='follow on instagram'
           />
         </a>
-        <img
-          className='follow-us-icon'
-          src={IconMail}
-          alt='join our mailing list'
-        />
+        <a href='MAILTO:info@squadharmonix.com?subject=GetOnTheMailingList&body=Please%20Put%20Me%20On%20Your%20Mailing%20List!'>
+          <img
+            className='follow-us-icon'
+            src={IconMail}
+            alt='join our mailing list'
+          />
+        </a>
       </Row>
     </Container>
   )
