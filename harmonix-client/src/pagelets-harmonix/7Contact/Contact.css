@@ -1,3 +1,27 @@
+@import '../../constants/colors.css';
+@import '../../constants/layout.css';
+
 #contact-container {
-  background-color: fuchsia;
+  border: var(--construction);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#artist-contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  margin: 0.5rem 0;
+  height: 2.5rem;
+}
+
+#artist-contact-form > button {
+  background-color: var(--magenta);
+  border: 1px solid var(--black);
+  margin: auto;
+  padding: 0 10%;
+  width: fit-content;
 }
