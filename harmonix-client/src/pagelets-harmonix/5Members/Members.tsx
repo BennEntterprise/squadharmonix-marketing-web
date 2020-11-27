@@ -1,6 +1,6 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
 import './Members.css'
+import { Container, Row, Col } from 'react-bootstrap'
 
 import IG from '../../images/social-assets/instagram-artist-good.png'
 import SC from '../../images/social-assets/soundcloud-logo.png'
@@ -20,117 +20,282 @@ const Members = () => {
     <Container>
       <Row>
         <Col>
-          <h1>MEMBERS</h1>
+          <h1 style={{ textAlign: 'center' }}>MEMBERS</h1>
         </Col>
       </Row>
       <Row className='member-row'>
-        <div className='profile-container'>
-          <div className='photo-container'>
-            <img className='artist-photo' src={'#'} alt='johanna' />
+        <Col
+          xs='12'
+          sm='12'
+          md='6'
+          lg='4'
+          xl='4'
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <div className='profile-container'>
+            <div className='photo-container'>
+              <img className='artist-photo' src={'#'} alt='johanna' />
+            </div>
+            <div className='social-container'>
+              <img className='instagram-link' src={IG} alt='instagram link' />
+              <img className='soundcloud-link' src={SC} alt='soundcloud link' />
+            </div>
+            <p className='photo-title'>JOHANNA</p>
+            <p>*lieutenant*</p>
           </div>
-          <div className='social-container'>
-            <img className='instagram-link' src={IG} alt='instagram link' />
-            <img className='soundcloud-link' src={SC} alt='soundcloud link' />
+        </Col>
+        <Col
+          xs='12'
+          sm='12'
+          md='6'
+          lg='4'
+          xl='4'
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <div className='profile-container'>
+            <div className='photo-container'>
+              <img className='artist-photo' src={Cameron} alt='cameron' />
+              <div className='social-container'>
+                <img className='instagram-link' src={IG} alt='instagram link' />
+                <img
+                  className='soundcloud-link'
+                  src={SC}
+                  alt='soundcloud link'
+                />
+              </div>
+            </div>
+            <p className='photo-title'>CAMERON</p>
           </div>
-          <p className='photo-title'>JOHANNA</p>
-          <p>*lieutenant*</p>
-        </div>
-
-        <div className='profile-container'>
-          <div className='photo-container'>
-            <img className='artist-photo' src={Cameron} alt='cameron' />
+        </Col>
+        <Col
+          xs='12'
+          sm='12'
+          md='6'
+          lg='4'
+          xl='4'
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <div className='profile-container'>
+            <div className='photo-container'>
+              <img className='artist-photo' src={Sydne} alt='sydne' />
+              <div className='social-container'>
+                <img className='instagram-link' src={IG} alt='instagram link' />
+                <img
+                  className='soundcloud-link'
+                  src={SC}
+                  alt='soundcloud link'
+                />
+              </div>
+            </div>
+            <p className='photo-title'>SYDNE</p>
           </div>
-          <div className='social-container'>
-            <img className='instagram-link' src={IG} alt='instagram link' />
-            <img className='soundcloud-link' src={SC} alt='soundcloud link' />
-          </div>
-          <p className='photo-title'>CAMERON</p>
-        </div>
-
-        <div className='profile-container'>
-          <div className='photo-container'>
-            <img className='artist-photo' src={Sydne} alt='sydne' />
-          </div>
-          <div className='social-container'>
-            <img className='instagram-link' src={IG} alt='instagram link' />
-            <img className='soundcloud-link' src={SC} alt='soundcloud link' />
-          </div>
-          <p className='photo-title'>SYDNE</p>
-        </div>
+        </Col>
       </Row>
       <Row className='member-row'>
-        <div className='profile-container'>
-          <div className='photo-container'>
-            <img className='artist-photo' src={Lauren} alt='lauren' />
+        <Col
+          xs='12'
+          sm='12'
+          md='6'
+          lg='3'
+          xl='3'
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <div className='profile-container'>
+            <div className='photo-container'>
+              <img className='artist-photo' src={Lauren} alt='lauren' />
+              <div className='social-container'>
+                <img className='instagram-link' src={IG} alt='instagram link' />
+                <img
+                  className='soundcloud-link'
+                  src={SC}
+                  alt='soundcloud link'
+                />
+              </div>
+            </div>
+            <p className='photo-title'>LAUREN</p>
+          </div>{' '}
+        </Col>
+        <Col
+          xs='12'
+          sm='12'
+          md='6'
+          lg='3'
+          xl='3'
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <div className='profile-container'>
+            <div className='photo-container'>
+              <img className='artist-photo' src={Lucy} alt='lucy' />
+              <div className='social-container'>
+                <img className='instagram-link' src={IG} alt='instagram link' />
+                <img
+                  className='soundcloud-link'
+                  src={SC}
+                  alt='soundcloud link'
+                />
+              </div>
+            </div>
+            <p className='photo-title'>LUCY</p>
+          </div>{' '}
+        </Col>
+        <Col
+          xs='12'
+          sm='12'
+          md='6'
+          lg='3'
+          xl='3'
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <div className='profile-container'>
+            <div className='photo-container'>
+              <img className='artist-photo' src={Maya} alt='MAYA' />
+              <div className='social-container'>
+                <img className='instagram-link' src={IG} alt='instagram link' />
+                <img
+                  className='soundcloud-link'
+                  src={SC}
+                  alt='soundcloud link'
+                />
+              </div>
+            </div>
+            <p className='photo-title'>MAYA</p>
+          </div>{' '}
+        </Col>
+
+        <Col
+          xs='12'
+          sm='12'
+          md='6'
+          lg='3'
+          xl='3'
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <div className='profile-container'>
+            <div className='photo-container'>
+              <img className='artist-photo' src={Mischa} alt='MISCHA' />
+              <div className='social-container'>
+                <img className='instagram-link' src={IG} alt='instagram link' />
+                <img
+                  className='soundcloud-link'
+                  src={SC}
+                  alt='soundcloud link'
+                />
+              </div>
+            </div>
+            <p className='photo-title'>MISCHA</p>
           </div>
-          <div className='social-container'>
-            <img className='instagram-link' src={IG} alt='instagram link' />
-            <img className='soundcloud-link' src={SC} alt='soundcloud link' />
-          </div>
-          <p className='photo-title'>LAUREN</p>
-        </div>{' '}
-        <div className='profile-container'>
-          <div className='photo-container'>
-            <img className='artist-photo' src={Lucy} alt='lucy' />
-          </div>
-          <div className='social-container'>
-            <img className='instagram-link' src={IG} alt='instagram link' />
-            <img className='soundcloud-link' src={SC} alt='soundcloud link' />
-          </div>
-          <p className='photo-title'>LUCY</p>
-        </div>{' '}
-        <div className='profile-container'>
-          <div className='photo-container'>
-            <img className='artist-photo' src={Maya} alt='MAYA' />
-          </div>
-          <div className='social-container'>
-            <img className='instagram-link' src={IG} alt='instagram link' />
-            <img className='soundcloud-link' src={SC} alt='soundcloud link' />
-          </div>
-          <p className='photo-title'>MAYA</p>
-        </div>{' '}
-        <div className='profile-container'>
-          <div className='photo-container'>
-            <img className='artist-photo' src={Mischa} alt='MISCHA' />
-          </div>
-          <div className='social-container'>
-            <img className='instagram-link' src={IG} alt='instagram link' />
-            <img className='soundcloud-link' src={SC} alt='soundcloud link' />
-          </div>
-          <p className='photo-title'>MISCHA</p>
-        </div>
+        </Col>
       </Row>
       <Row className='member-row'>
-        <div className='profile-container'>
-          <div className='photo-container'>
-            <img className='artist-photo' src={Noah} alt='NOAH' />
+        <Col
+          xs='12'
+          sm='12'
+          md='6'
+          lg='4'
+          xl='4'
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <div className='profile-container'>
+            <div className='photo-container'>
+              <img className='artist-photo' src={Noah} alt='NOAH' />
+              <div className='social-container'>
+                <img className='instagram-link' src={IG} alt='instagram link' />
+                <img
+                  className='soundcloud-link'
+                  src={SC}
+                  alt='soundcloud link'
+                />
+              </div>
+            </div>
+            <p className='photo-title'>NOAH</p>
+          </div>{' '}
+        </Col>
+        <Col
+          xs='12'
+          sm='12'
+          md='6'
+          lg='4'
+          xl='4'
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <div className='profile-container'>
+            <div className='photo-container'>
+              <img className='artist-photo' src={Simone} alt='SIMONE' />
+              <div className='social-container'>
+                <img className='instagram-link' src={IG} alt='instagram link' />
+                <img
+                  className='soundcloud-link'
+                  src={SC}
+                  alt='soundcloud link'
+                />
+              </div>
+            </div>
+            <p className='photo-title'>SIMONE</p>
+          </div>{' '}
+        </Col>
+        <Col
+          xs='12'
+          sm='12'
+          md='6'
+          lg='4'
+          xl='4'
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <div className='profile-container'>
+            <div className='photo-container'>
+              <img className='artist-photo' src={Elise} alt='ELISE' />
+              <div className='social-container'>
+                <img className='instagram-link' src={IG} alt='instagram link' />
+                <img
+                  className='soundcloud-link'
+                  src={SC}
+                  alt='soundcloud link'
+                />
+              </div>
+            </div>
+            <p className='photo-title'>ELISE</p>
           </div>
-          <div className='social-container'>
-            <img className='instagram-link' src={IG} alt='instagram link' />
-            <img className='soundcloud-link' src={SC} alt='soundcloud link' />
-          </div>
-          <p className='photo-title'>NOAH</p>
-        </div>{' '}
-        <div className='profile-container'>
-          <div className='photo-container'>
-            <img className='artist-photo' src={Simone} alt='SIMONE' />
-          </div>
-          <div className='social-container'>
-            <img className='instagram-link' src={IG} alt='instagram link' />
-            <img className='soundcloud-link' src={SC} alt='soundcloud link' />
-          </div>
-          <p className='photo-title'>SIMONE</p>
-        </div>{' '}
-        <div className='profile-container'>
-          <div className='photo-container'>
-            <img className='artist-photo' src={Elise} alt='ELISE' />
-          </div>
-          <div className='social-container'>
-            <img className='instagram-link' src={IG} alt='instagram link' />
-            <img className='soundcloud-link' src={SC} alt='soundcloud link' />
-          </div>
-          <p className='photo-title'>ELISE</p>
-        </div>
+        </Col>
       </Row>
     </Container>
   )
