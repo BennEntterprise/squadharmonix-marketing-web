@@ -16,8 +16,8 @@ const AboutUs = () => {
       </Row>
       <Row>
         <Col>
+          <h2 id='about-us-heading'>ABOUT US</h2>
           <div id='about-us-text'>
-            <h2 style={{ fontSize: '4rem', marginBottom: '2rem' }}>ABOUT US</h2>
             <p>
               Blending together vibrant, positive energy with a refreshing take
               on popular tunes, Squad Harmonix is an all-kids a cappella

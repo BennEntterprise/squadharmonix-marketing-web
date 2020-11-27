@@ -1,8 +1,12 @@
 #about-us-container {
   /* border: var(--construction); */
-  margin-top: 10rem;
+  margin-top: 3rem;
 }
 
+#about-us-heading {
+  font-size: 2rem;
+  margin: 10px auto;
+}
 #banner-l {
   width: 50%;
 }
@@ -11,7 +15,7 @@
 }
 
 #about-us-text {
-  margin-top: 3rem;
+  margin-top: 1rem;
   padding: 0 10%;
-  font-size: 1.78rem;
+  font-size: 1.2rem;
 }
