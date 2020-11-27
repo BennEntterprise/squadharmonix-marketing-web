@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
-import SquadHarmonixBrandBanner from '../images/HarmonixBranding.jpg'
+import SquadHarmonixBrandBanner from '../images/squad-2020-website-logo.png'
 
 import { charcoal } from '../constants/Colors'
 import { Link } from 'react-router-dom'
@@ -15,7 +15,7 @@ const nb = () => {
         <img
           src={SquadHarmonixBrandBanner}
           alt='squad harmonics banner'
-          height='50px'
+          width='100px'
         />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
