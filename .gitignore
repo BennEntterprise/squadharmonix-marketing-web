@@ -1,3 +1,4 @@
 devnotes.md
 **/node_mo**dules
 /.vscode/**
+config.env
