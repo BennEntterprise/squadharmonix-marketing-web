@@ -42,31 +42,37 @@ const CheckItOut = () => {
           <h2 className='checkout-heading'>QUARANTINE SERIES:</h2>
         </Col>
       </Row>
-      <div className='spacer-container'>
-        <Row>
-          <Col xs={12} md={12} lg={6} xl={6}>
+
+      <Row>
+        <Col xs={12} md={12} lg={6} xl={6}>
+          <div className='player-container'>
             <ReactPlayer
               width='100%'
               heigth='100%'
               controls
               url={YTSimplyTheBest}
             />
-          </Col>{' '}
-          <Col xs={12} md={12} lg={6} xl={6}>
+          </div>
+        </Col>{' '}
+        <Col xs={12} md={12} lg={6} xl={6}>
+          <div className='player-container'>
             <ReactPlayer width='100%' heigth='100%' controls url={YTStandUp} />
-          </Col>
-        </Row>
-      </div>
-      <div className='spacer-container'>
-        <Row>
-          <Col xs={12} md={12} lg={6} xl={6}>
+          </div>
+        </Col>
+      </Row>
+
+      <Row>
+        <Col xs={12} md={12} lg={6} xl={6}>
+          <div className='player-container'>
             <ReactPlayer width='100%' heigth='100%' controls url={YTReindeer} />
-          </Col>{' '}
-          <Col xs={12} md={12} lg={6} xl={6}>
+          </div>
+        </Col>{' '}
+        <Col xs={12} md={12} lg={6} xl={6}>
+          <div className='player-container'>
             <ReactPlayer width='100%' heigth='100%' controls url={YTElf} />
-          </Col>
-        </Row>
-      </div>
+          </div>
+        </Col>
+      </Row>
     </Container>
   )
 }
