@@ -48,7 +48,7 @@ const BannerPage = () => {
             <h3 className='purple-marquee'>
               <strong>YOUTUBE PREMIERE 11.29.20</strong>
             </h3>
-            <div id='subscribe-btn'>
+            <div id='subscribe-btn' style={{ marginBottom: '1rem' }}>
               <a href={YouTubeLink}>Subscribe on Youtube</a>
             </div>
           </div>
