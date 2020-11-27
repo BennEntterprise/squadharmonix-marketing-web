@@ -18,6 +18,32 @@ app.get('/ping', function (req, res) {
   return res.send('pong')
 })
 
+app.post('/academy-contact-form-submit', (req, res) => {
+  const {
+    parentName,
+    studentName,
+    email,
+    subject,
+    message,
+    wantsNewsletter,
+  } = req.body
+
+  var mailOptions = {
+    from: `${parentName} Re:${studentName} <${email}>`,
+    to: `sample@gmail.com`,
+    subject: subject,
+    text: message,
+    html: `<h3>${subject}</h3><p>${message}</p> <p>(This lead can be reached at: ${email})</p>`,
+  }
+  transport.sendMail(mailOptions, (err, info) => {
+    if (err) {
+      console.log(err)
+      res.send({ success: false, message: err })
+    }
+    console.log(`Message Sent: %s`, info.messageId)
+  })
+})
+
 app.post('/artist-contact-form-submit', (req, res) => {
   const { name, email, subject, message } = req.body
   var mailOptions = {
@@ -25,7 +51,7 @@ app.post('/artist-contact-form-submit', (req, res) => {
     to: 'sample@gmail.com',
     subject: subject,
     text: message,
-    html: `<h3>${subject}</h3><p>${message}</p>`,
+    html: `<h3>${subject}</h3><p>${message}</p> <p>(This lead can be reached at: ${email})</p>`,
   }
   transport.sendMail(mailOptions, (err, info) => {
     if (err) {

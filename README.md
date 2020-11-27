@@ -15,7 +15,8 @@ The front end is built using React, scaffolded from the [Create-React-App](https
 with a typescript template and NOT yet ejected. The backend is written on
 Node/Express.js (without typescript). Currently this is a marketing/presentation
 site and so the express server is very slim with only the routes required to
-serve the static files.
+serve the static files. Once the MVP is launched (which requires minimal backend code)
+the backend will be converted to typescript and re-released.
 
 Later on Squad would like to control the hero/announcement section of the app
 so this will require additional work on the back end, but for all intents and
