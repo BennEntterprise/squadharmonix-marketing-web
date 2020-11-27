@@ -108,13 +108,8 @@ const Press = () => {
             </a>
           </li>
           <li className='undecorated-list-item'>
-            <a href={DekeSharonFB}>
-              Squad harmonix charms Deke Sharon with a Disney Medley
-            </a>
-          </li>
-          <li className='undecorated-list-item'>
             <a href={SQuadHarmonixHallmark}>
-              Squad harmonix pospt abut beung featured on The Hallmark Channel
+              Squad harmonix pospt abut being featured on The Hallmark Channel
             </a>
           </li>
           <li className='undecorated-list-item'>
@@ -133,12 +128,12 @@ const Press = () => {
           </li>
           <li className='undecorated-list-item'>
             <a href={SquadHarmonixDrums}>
-              <em>Squad Harmonix and </em>
+              <em>Squad Harmonix and The Dru</em>
             </a>
           </li>
         </Col>
       </Row>
-      <h3 style={{ margin: '3% auto' }}>Follow Us</h3>
+      <h3 style={{ margin: '3% auto', fontSize: '2.5rem' }}>Follow Us</h3>
       <Row id='follow-us'>
         <a href={SquadHarmonixFBPage}>
           <img

@@ -1,5 +1,6 @@
 #press-container {
   /* background-color: green; */
+  margin-bottom: 2.5rem;
 }
 
 .undecorated-list-item {
@@ -30,6 +31,13 @@
   flex-direction: row;
   justify-content: center;
 }
+#follow-us > a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .follow-us-icon {
-  width: 100px;
+  width: 102%;
+  max-width: 150px;
+  min-width: 10px;
 }
