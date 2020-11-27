@@ -1,3 +1,35 @@
 #press-container {
-  background-color: green;
+  /* background-color: green; */
+}
+
+.undecorated-list-item {
+  list-style-type: none;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+#purple-bar {
+  width: 10px;
+  position: relative;
+  right: 0%;
+}
+
+.press-release-date {
+  margin-right: 1rem;
+}
+
+#social-media-appearances {
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  align-items: space-around;
+}
+
+#follow-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.follow-us-icon {
+  width: 100px;
 }

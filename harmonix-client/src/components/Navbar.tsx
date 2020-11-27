@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const nb = () => {
   return (
     <Navbar
-      style={{ backgroundColor: charcoal, color: 'white' }}
+      style={{ backgroundColor: charcoal, color: 'white', width: '100%' }}
       bg={charcoal}
       expand='sm'
     >
@@ -21,7 +21,7 @@ const nb = () => {
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>
         <Nav className='mr-auto float-right'>
-          <Nav.Link href='/tech-debt-todo'>Tech Debt/Todo</Nav.Link>
+          {/* <Nav.Link href='/tech-debt-todo'>Tech Debt/Todo</Nav.Link> */}
           <Nav.Link style={{ color: 'white' }}>
             <Link style={{ color: 'white' }} to='/'>
               HOME

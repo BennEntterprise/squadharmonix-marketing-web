@@ -2,10 +2,10 @@
 @import '../../constants/layout.css';
 
 #contact-container {
-  border: var(--construction);
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 5rem;
 }
 
 #artist-contact-form {

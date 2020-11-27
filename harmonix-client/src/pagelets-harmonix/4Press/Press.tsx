@@ -1,15 +1,24 @@
 import React from 'react'
 import './Press.css'
 
+//Social Icons
+import IconFB from '../../images/social-assets/facebook-artist-good.png'
+import IconIG from '../../images/social-assets/instagram-artist-good.png'
+import IconTikTok from '../../images/social-assets/tiktok-artist-good.png'
+import IconMail from '../../images/social-assets/mail-artist-good.png'
+
+import { Container, Row, Col } from 'react-bootstrap'
 const Press = () => {
+  //Social Pages
+  const SquadHarmonixFBPage = 'https://www.facebook.com/squadharmonix'
+  const SquadHarmonixIGPage = 'https://twitter.com/SquadHarmonix'
   // Media Articles
-  const ThePulseText = 'The Pulse'
   const ThePulseLink =
     'https://podcast.acaville.org/blog/2020/10/26/squad-harmonix-and-intonenation/'
   const OnTheSpotLink = 'https://youtu.be/97n_7yUP79M'
   const InspireMoreLink =
     'https://www.inspiremore.com/squad-harmonix-and-intonenation-stand-up/'
-  const BroadwayWorld =
+  const BroadwayWorldLink =
     'https://www.broadwayworld.com/bwwmusic/article/VIDEO-Squad-Harmonix-And-InToneNation-Covers-Cynthia-Erivos-Stand-Up-20200928'
 
   // Social Media Links
@@ -28,7 +37,136 @@ const Press = () => {
     'https://twitter.com/somegoodnews/status/1248587809197359106?s=20'
   const SomeGoodNewsYouTube = 'http://www.youtube.com/watch?v=Eg08rJGKjtA'
   const SquadHarmonixDrums = 'http://www.youtube.com/watch?v=Yg8dZ9ImXPw'
-  return <div id='press-container'>Press-container</div>
+  return (
+    <Container fluid id='press-container'>
+      <Row>
+        <Col>
+          <h1 style={{ margin: 'auto', textAlign: 'center' }}>Press</h1>
+        </Col>
+      </Row>
+      <Row>
+        <Col
+          id='purple-bar'
+          xs='1'
+          sm='1'
+          md='1'
+          lg='1'
+          xl='1'
+          className='bg-magenta margin-0 padding-0'
+          style={{ width: '10%' }}
+        ></Col>
+        <Col className='padding-0 margin-0'>
+          {/* <ul className='undecorated-item'> */}
+          <li className='undecorated-list-item'>
+            <span className='press-release-date'>Oct 25, 2020: </span>
+            <a className='undecorated-item' href={ThePulseLink}>
+              The Pulse: Squad Harmonix and InToneNation [Podcast Interview]
+            </a>
+          </li>
+          <li className='undecorated-list-item'>
+            <span className='press-release-date'>Oct 2, 2020: </span>
+            <a className='undecorated-item' href={OnTheSpotLink}>
+              OnTheSpot: Squad Harmonix Interview - Stand Up, Activisim and
+              Positive Impact [Video]
+            </a>
+          </li>
+          <li className='undecorated-list-item'>
+            <span className='press-release-date'>Oct 6, 2020:</span>
+            <a className='undecorated-item' href={InspireMoreLink}>
+              InspireMore: A Cappella Groups Come Together and "Stand Up" for
+              Change in Moving Performance
+            </a>
+          </li>
+          <li className='undecorated-list-item'>
+            <span className='press-release-date'>Sept 28, 2020:</span>
+            <a className='undecorated-item' href={BroadwayWorldLink}>
+              Broadway World: Squad Harmonix and InToneNation Covers Cynthia
+              Ervivo's 'Stand Up'
+            </a>
+          </li>
+          {/* </ul> */}
+        </Col>
+      </Row>
+      <Row>
+        <Col id='social-media-appearances'>
+          <h4> Social Media Appearances</h4>
+
+          <li className='undecorated-list-item'>
+            <a href={EugeneLevyTwitter}>
+              Schitt's Creek's Eugene Levy Thinks the Future Looks "awefullly
+              bright".
+            </a>
+          </li>
+          <li className='undecorated-list-item'>
+            <a href={ChromeoFB}>
+              Chromeo shouts out Squad Harmonix on Facebook
+            </a>
+          </li>
+          <li className='undecorated-list-item'>
+            <a href={DekeSharonFB}>
+              Squad harmonix charms Deke Sharon with a Disney Medley
+            </a>
+          </li>
+          <li className='undecorated-list-item'>
+            <a href={DekeSharonFB}>
+              Squad harmonix charms Deke Sharon with a Disney Medley
+            </a>
+          </li>
+          <li className='undecorated-list-item'>
+            <a href={SQuadHarmonixHallmark}>
+              Squad harmonix pospt abut beung featured on The Hallmark Channel
+            </a>
+          </li>
+          <li className='undecorated-list-item'>
+            <a href={AcaVilleRadioTwitter}>AcaVille Radio on Twitter</a>
+          </li>
+          <li className='undecorated-list-item'>
+            <a href={SomeGoodNewsTwitter}>
+              We were featured on John Krasinski's (Twitter link){' '}
+              <em>Some Good News</em>{' '}
+            </a>
+          </li>
+          <li className='undecorated-list-item'>
+            <a href={SomeGoodNewsYouTube}>
+              <em>Some Good News [YouTube Video Link]</em>
+            </a>
+          </li>
+          <li className='undecorated-list-item'>
+            <a href={SquadHarmonixDrums}>
+              <em>Squad Harmonix and </em>
+            </a>
+          </li>
+        </Col>
+      </Row>
+      <h3 style={{ margin: '3% auto' }}>Follow Us</h3>
+      <Row id='follow-us'>
+        <a href={SquadHarmonixFBPage}>
+          <img
+            className='follow-us-icon'
+            src={IconFB}
+            alt='follow on facebook for more'
+          />
+        </a>
+        <img
+          className='follow-us-icon'
+          src={IconTikTok}
+          alt='follow on tiktok'
+        />
+        <a href={SquadHarmonixIGPage}>
+          <img
+            className='follow-us-icon'
+            src={IconIG}
+            alt='follow on instagram'
+          />
+        </a>
+        <img
+          className='follow-us-icon'
+          src={IconMail}
+          alt='join our mailing list'
+        />
+      </Row>
+    </Container>
+  )
 }
 
 export default Press

@@ -8,7 +8,6 @@ import ImgContact2 from '../../images/artist-contact/contact2.jpg'
 import ImgContact3 from '../../images/artist-contact/contact3.jpg'
 import ImgContact4 from '../../images/artist-contact/contact4.jpg'
 import ImgContact5 from '../../images/artist-contact/contact5.jpg'
-import { isBreakOrContinueStatement } from 'typescript'
 const Contact = () => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
