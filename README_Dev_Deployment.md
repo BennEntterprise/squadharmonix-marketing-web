@@ -2,6 +2,21 @@
 
 ## Development
 
+Setting up a local environment
+
+At the root of the project create a file called 'config.env' with the following entries,
+The development environment will point towards credentials for [MailTrap](https://mailtrap.io) a service which ensure that during testing no real emails are sent out. You can obtain the credentials
+for this account from kyle.bennett@betweenfiveandnine.com or else set up your own account. (It's free to do ).
+
+```bash
+NODE_MAILER_USER=example@email.com
+NODE_MAILER_PASSWORD=passwordtobeused
+NODE_MAILER_TARGET_EMAIL=info@squadharmonix.com
+NODE_ENV=development
+```
+
+After deploying to heroku production, you will need to enter these environment variables directly via the heroku dashboard. Follow this tutorial to get that done: [Config Env Vars in Heroku](https://devcenter.heroku.com/articles/config-vars)
+
 ### Git Workflow
 
 Squad aims to utilize the [Gitflow](https://datasift.github.io/gitflow/IntroducingGitFlow.html) branching strategy. This utilizes several branches to remain organized.

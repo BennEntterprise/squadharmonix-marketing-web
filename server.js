@@ -1,10 +1,14 @@
 const express = require('express')
 const favicon = require('express-favicon')
+const dotenv = require('dotenv')
 const path = require('path')
+const nodemailer = require('nodemailer')
+dotenv.config({ path: './config.env' })
+
+// Initialize an Expresss Application
 const port = process.env.PORT || 8080
 const host = process.env.HOST || 'localhost'
 const app = express()
-const nodemailer = require('nodemailer')
 
 const transport = require('./email')
 app.use(favicon(__dirname + '/harmonix-client/build/favicon.ico'))
@@ -14,10 +18,12 @@ app.use(express.json())
 app.use(express.static(__dirname))
 app.use(express.static(path.join(__dirname, 'harmonix-client', 'build')))
 
+// Test Route to Verify Server is Running.
 app.get('/ping', function (req, res) {
   return res.send('pong')
 })
 
+// Routes to handle contact from Submission
 app.post('/academy-contact-form-submit', (req, res) => {
   const {
     parentName,
@@ -30,7 +36,7 @@ app.post('/academy-contact-form-submit', (req, res) => {
 
   var mailOptions = {
     from: `${parentName} Re:${studentName} <${email}>`,
-    to: `sample@gmail.com`,
+    to: process.env.NODE_MAILER_TARGET_EMAIL,
     subject: subject,
     text: message,
     html: `<h3>${subject}</h3><p>${message}</p> <p>(This lead can be reached at: ${email})</p>`,
@@ -65,14 +71,8 @@ app.post('/artist-contact-form-submit', (req, res) => {
 app.get('/*', function (req, res) {
   res.sendFile(path.join(__dirname, 'harmonix-client', 'build', 'index.html'))
 })
+
 app.listen(port, () => {
-  transport.verify(function (error, success) {
-    if (error) {
-      console.log(error)
-    } else {
-      console.log('Server is ready to take our messages')
-    }
-  })
   console.log(`Make sure you build the project!`)
   console.log(`Now Listening on: http://${host}:${port}`)
 })
