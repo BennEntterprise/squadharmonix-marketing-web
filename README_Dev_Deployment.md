@@ -4,16 +4,24 @@
 
 Setting up a local environment
 
-At the root of the project create a file called 'config.env' with the following entries,
-The development environment will point towards credentials for [MailTrap](https://mailtrap.io) a service which ensure that during testing no real emails are sent out. You can obtain the credentials
-for this account from kyle.bennett@betweenfiveandnine.com or else set up your own account. (It's free to do ).
+1. Clone the Repository from Github.
+2. run `npm i` to get the server dependencies
+3. run `cd harmonix-client && cd npm i` to get the client side dependencies.
+
+At the root of the project create a file called 'config.env' with the following entries **you should receive the values from a project manager or other person with credentials**
 
 ```bash
-NODE_MAILER_USER=example@email.com
-NODE_MAILER_PASSWORD=passwordtobeused
+NODE_MAILER_USER=
+NODE_MAILER_PASSWORD=
 NODE_MAILER_TARGET_EMAIL=info@squadharmonix.com
 NODE_ENV=development
 ```
+
+The development environment will point towards credentials for [MailTrap](https://mailtrap.io) a service which ensure that during testing no real emails are sent out. You can obtain the credentials
+for this account from kyle.bennett@betweenfiveandnine.com or else set up your own account. (It's free to do so).
+
+You now should be set to run `npm run dev-client` in order to run just the client side code.
+Conversely you can run `npm run rebuild` then `npm run start` to serve the project as a node file.
 
 After deploying to heroku production, you will need to enter these environment variables directly via the heroku dashboard. Follow this tutorial to get that done: [Config Env Vars in Heroku](https://devcenter.heroku.com/articles/config-vars)
 
