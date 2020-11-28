@@ -35,11 +35,9 @@
 #follow-us > a {
   display: flex;
   flex-direction: row;
-  align-content: flex-start;
   justify-content: center;
+  align-content: flex-start;
 }
 .follow-us-icon {
-  width: 102%;
-  max-width: 150px;
-  min-width: 10px;
+  width: 10%;
 }
