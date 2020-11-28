@@ -33,9 +33,9 @@ const Members = () => {
         <Col
           xs='12'
           sm='12'
-          md='6'
-          lg='4'
-          xl='4'
+          md='12'
+          lg='12'
+          xl='12'
           style={{
             display: 'flex',
             justifyContent: 'center',
@@ -50,22 +50,11 @@ const Members = () => {
               <img className='instagram-link' src={IG} alt='instagram link' />
               <img className='soundcloud-link' src={SC} alt='soundcloud link' />
             </div>
-            <p className='photo-title font-h4 liberation-sans-bold'>JOHANNA</p>
-            <p>*lieutenant*</p>
+            <h4 className='photo-title font-h4 liberation-sans-bold'>
+              JOHANNA
+            </h4>
           </div>
-        </Col>
-        <Col
-          xs='12'
-          sm='12'
-          md='6'
-          lg='4'
-          xl='4'
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}
-        >
+
           <div className='profile-container'>
             <div className='photo-container'>
               <img className='artist-photo' src={Cameron} alt='cameron' />
@@ -78,21 +67,11 @@ const Members = () => {
                 />
               </div>
             </div>
-            <p className='photo-title font-h4 liberation-sans-bold'>CAMERON</p>
+            <h4 className='photo-title font-h4 liberation-sans-bold'>
+              CAMERON
+            </h4>
           </div>
-        </Col>
-        <Col
-          xs='12'
-          sm='12'
-          md='6'
-          lg='4'
-          xl='4'
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}
-        >
+
           <div className='profile-container'>
             <div className='photo-container'>
               <img className='artist-photo' src={Sydne} alt='sydne' />
@@ -105,7 +84,7 @@ const Members = () => {
                 />
               </div>
             </div>
-            <p className='photo-title font-h4 liberation-sans-bold'>SYDNE</p>
+            <h4 className='photo-title font-h4 liberation-sans-bold'>SYDNE</h4>
           </div>
         </Col>
       </Row>
@@ -113,9 +92,9 @@ const Members = () => {
         <Col
           xs='12'
           sm='12'
-          md='6'
-          lg='3'
-          xl='3'
+          md='12'
+          lg='12'
+          xl='12'
           style={{
             display: 'flex',
             justifyContent: 'center',
@@ -134,21 +113,8 @@ const Members = () => {
                 />
               </div>
             </div>
-            <p className='photo-title font-h4 liberation-sans-bold'>LAUREN</p>
+            <h4 className='photo-title font-h4 liberation-sans-bold'>LAUREN</h4>
           </div>{' '}
-        </Col>
-        <Col
-          xs='12'
-          sm='12'
-          md='6'
-          lg='3'
-          xl='3'
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}
-        >
           <div className='profile-container'>
             <div className='photo-container'>
               <img className='artist-photo' src={Lucy} alt='lucy' />
@@ -161,21 +127,8 @@ const Members = () => {
                 />
               </div>
             </div>
-            <p className='photo-title font-h4 liberation-sans-bold'>LUCY</p>
+            <h4 className='photo-title font-h4 liberation-sans-bold'>LUCY</h4>
           </div>{' '}
-        </Col>
-        <Col
-          xs='12'
-          sm='12'
-          md='6'
-          lg='3'
-          xl='3'
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}
-        >
           <div className='profile-container'>
             <div className='photo-container'>
               <img className='artist-photo' src={Maya} alt='MAYA' />
@@ -188,22 +141,8 @@ const Members = () => {
                 />
               </div>
             </div>
-            <p className='photo-title font-h4 liberation-sans-bold'>MAYA</p>
+            <h4 className='photo-title font-h4 liberation-sans-bold'>MAYA</h4>
           </div>{' '}
-        </Col>
-
-        <Col
-          xs='12'
-          sm='12'
-          md='6'
-          lg='3'
-          xl='3'
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}
-        >
           <div className='profile-container'>
             <div className='photo-container'>
               <img className='artist-photo' src={Mischa} alt='MISCHA' />
@@ -216,7 +155,7 @@ const Members = () => {
                 />
               </div>
             </div>
-            <p className='photo-title font-h4 liberation-sans-bold'>MISCHA</p>
+            <h4 className='photo-title font-h4 liberation-sans-bold'>MISCHA</h4>
           </div>
         </Col>
       </Row>
@@ -224,9 +163,9 @@ const Members = () => {
         <Col
           xs='12'
           sm='12'
-          md='6'
-          lg='4'
-          xl='4'
+          md='12'
+          lg='12'
+          xl='12'
           style={{
             display: 'flex',
             justifyContent: 'center',
@@ -245,21 +184,8 @@ const Members = () => {
                 />
               </div>
             </div>
-            <p className='photo-title font-h4 liberation-sans-bold'>NOAH</p>
+            <h4 className='photo-title font-h4 liberation-sans-bold'>NOAH</h4>
           </div>{' '}
-        </Col>
-        <Col
-          xs='12'
-          sm='12'
-          md='6'
-          lg='4'
-          xl='4'
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}
-        >
           <div className='profile-container'>
             <div className='photo-container'>
               <img className='artist-photo' src={Simone} alt='SIMONE' />
@@ -272,21 +198,8 @@ const Members = () => {
                 />
               </div>
             </div>
-            <p className='photo-title font-h4 liberation-sans-bold'>SIMONE</p>
+            <h4 className='photo-title font-h4 liberation-sans-bold'>SIMONE</h4>
           </div>{' '}
-        </Col>
-        <Col
-          xs='12'
-          sm='12'
-          md='6'
-          lg='4'
-          xl='4'
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}
-        >
           <div className='profile-container'>
             <div className='photo-container'>
               <img className='artist-photo' src={Elise} alt='ELISE' />
@@ -299,7 +212,7 @@ const Members = () => {
                 />
               </div>
             </div>
-            <p className='photo-title font-h4 liberation-sans-bold'>ELISE</p>
+            <h4 className='photo-title font-h4 liberation-sans-bold'>ELISE</h4>
           </div>
         </Col>
       </Row>
