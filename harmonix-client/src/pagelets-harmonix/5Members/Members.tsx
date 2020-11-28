@@ -6,15 +6,16 @@ import IG from '../../images/social-assets/instagram-artist-good.png'
 import SC from '../../images/social-assets/soundcloud-logo.png'
 // Import Member Photos
 // TODO:Get Joanna Photo
-import Cameron from '../../images/performance-squad/9CameronAltoBeatboxer.jpg'
-import Sydne from '../../images/performance-squad/2SydneTenor.jpg'
-import Lauren from '../../images/performance-squad/3LaurenSoprano.jpg'
-import Lucy from '../../images/performance-squad/6LucyTenor.jpg'
-import Maya from '../../images/performance-squad/7MayaAlto.jpg'
-import Mischa from '../../images/performance-squad/8MischaAlto.jpg'
-import Noah from '../../images/performance-squad/10NoahBass.jpg'
-import Simone from '../../images/performance-squad/4SimoneMezzo.jpg'
-import Elise from '../../images/performance-squad/5EliseSoprano.jpg'
+import Joanna from '../../images/ps/Johanna - Captain In Training(cropped).jpg'
+import Cameron from '../../images/ps/Cameron Alto_Beatboxer.jpg'
+import Sydne from '../../images/ps/Sydne Tenor.jpg'
+import Lauren from '../../images/ps/Lauren Soprano.jpg'
+import Lucy from '../../images/ps/Lucy Tenor.jpg'
+import Maya from '../../images/ps/Maya Alto.jpg'
+import Mischa from '../../images/ps/mischa Alto.jpg'
+import Noah from '../../images/ps/Noah Bass.jpg'
+import Simone from '../../images/ps/Simone Mezzo.jpg'
+import Elise from '../../images/ps/Elise Soprano 2.jpg'
 const Members = () => {
   return (
     <Container>
@@ -43,7 +44,7 @@ const Members = () => {
         >
           <div className='profile-container'>
             <div className='photo-container'>
-              <img className='artist-photo' src={'#'} alt='johanna' />
+              <img className='artist-photo' src={Joanna} alt='johanna' />
             </div>
             <div className='social-container'>
               <img className='instagram-link' src={IG} alt='instagram link' />
