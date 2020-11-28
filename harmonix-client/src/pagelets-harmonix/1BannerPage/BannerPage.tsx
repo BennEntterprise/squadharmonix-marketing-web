@@ -41,19 +41,21 @@ const BannerPage = () => {
             </a>
           </div>
           <div id='banner-marquee'>
-            <h3 className='purple-marquee'>
+            <h4 className='purple-marquee font-h4 '>
               <strong>SQUAD HARMONIX</strong>
-            </h3>
-            <h2>HOLIDAY EP - DEBUT</h2>
-            <h3 className='purple-marquee'>
-              <strong>YOUTUBE PREMIERE 11.29.20</strong>
-            </h3>
-            <div id='subscribe-btn' style={{ marginBottom: '1rem' }}>
-              <a href={YouTubeLink}>Subscribe on Youtube</a>
+            </h4>
+            <h1 className='font-h1 liberation-sans-bold'>HOLIDAY EP - DEBUT</h1>
+            <h4 className='purple-marquee font-h4'>
+              <strong className='font-h4'>YOUTUBE PREMIERE 11.29.20</strong>
+            </h4>
+            <div id='subscribe-btn'>
+              <a className='font-h4 liberation-sans-bold' href={YouTubeLink}>
+                Subscribe on Youtube
+              </a>
             </div>
           </div>
           <div id='banner-marquee-sub'>
-            <p>ALSO AVAILABLE ON: </p>
+            <p className='font-p liberation-sans-bold'>ALSO AVAILABLE ON: </p>
           </div>
           <div id='banner-listening-sources'>
             <a href={SpotifyLink}>
@@ -64,10 +66,10 @@ const BannerPage = () => {
             </a>
           </div>
           <div id='banner-buttons'>
-            <button>ABOUT US</button>
-            <button>MEMBERS</button>
-            <button>NEWS</button>
-            <button>MERCH</button>
+            <button className='font-p'>ABOUT US</button>
+            <button className='font-p'>MEMBERS</button>
+            <button className='font-p'>NEWS</button>
+            <button className='font-p'>MERCH</button>
           </div>
         </Col>
         <Col

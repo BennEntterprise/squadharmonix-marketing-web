@@ -14,7 +14,9 @@ const CheckItOut = () => {
     <Container>
       <Row>
         <Col>
-          <h2 className='checkout-heading'> Check Out:</h2>
+          <h2 className='checkout-heading font-h2 color-teal liberation-sans-bold'>
+            Check Out:
+          </h2>
         </Col>
       </Row>
       <Row>
@@ -39,7 +41,9 @@ const CheckItOut = () => {
       </Row>
       <Row>
         <Col>
-          <h2 className='checkout-heading'>QUARANTINE SERIES:</h2>
+          <h3 className='checkout-heading font-h3 color-purple liberation-sans-bold'>
+            QUARANTINE SERIES:
+          </h3>
         </Col>
       </Row>
 

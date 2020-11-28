@@ -41,7 +41,12 @@ const Press = () => {
     <Container fluid id='press-container'>
       <Row>
         <Col>
-          <h1 style={{ margin: 'auto', textAlign: 'center' }}>Press</h1>
+          <h1
+            className='font-jumbo liberation-sans-bold'
+            style={{ textAlign: 'left', marginLeft: '10%' }}
+          >
+            Press
+          </h1>
         </Col>
       </Row>
       <Row>
@@ -58,30 +63,39 @@ const Press = () => {
         <Col className='padding-0 margin-0'>
           {/* <ul className='undecorated-item'> */}
           <li className='undecorated-list-item'>
-            <span className='press-release-date'>Oct 25, 2020: </span>
+            <span className='press-release-date font-underline'>
+              Oct 25, 2020:
+            </span>
             <a className='undecorated-item' href={ThePulseLink}>
-              The Pulse: Squad Harmonix and InToneNation [Podcast Interview]
+              &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
+              Interview]
             </a>
           </li>
           <li className='undecorated-list-item'>
-            <span className='press-release-date'>Oct 2, 2020: </span>
+            <span className='press-release-date font-underline'>
+              Oct 2, 2020:{' '}
+            </span>
             <a className='undecorated-item' href={OnTheSpotLink}>
-              OnTheSpot: Squad Harmonix Interview - Stand Up, Activisim and
-              Positive Impact [Video]
+              &#8195;OnTheSpot: Squad Harmonix Interview - Stand Up, Activisim
+              and Positive Impact [Video]
             </a>
           </li>
           <li className='undecorated-list-item'>
-            <span className='press-release-date'>Oct 6, 2020:</span>
+            <span className='press-release-date font-underline'>
+              Oct 6, 2020:
+            </span>
             <a className='undecorated-item' href={InspireMoreLink}>
-              InspireMore: A Cappella Groups Come Together and "Stand Up" for
-              Change in Moving Performance
+              &#8195;InspireMore: A Cappella Groups Come Together and "Stand Up"
+              for Change in Moving Performance
             </a>
           </li>
           <li className='undecorated-list-item'>
-            <span className='press-release-date'>Sept 28, 2020:</span>
+            <span className='press-release-date font-underline'>
+              Sept 28, 2020:
+            </span>
             <a className='undecorated-item' href={BroadwayWorldLink}>
-              Broadway World: Squad Harmonix and InToneNation Covers Cynthia
-              Ervivo's 'Stand Up'
+              &#8195;Broadway World: Squad Harmonix and InToneNation Covers
+              Cynthia Ervivo's 'Stand Up'
             </a>
           </li>
           {/* </ul> */}

@@ -40,7 +40,7 @@ const Merch = () => {
                 />
               </a>
             </div>
-            <div className='merch-item-title'>
+            <div className='merch-item-title liberation-sans-bold'>
               <p>T-Shirts</p>
             </div>
             <div className='merch-item-price'>
@@ -59,7 +59,7 @@ const Merch = () => {
                 />
               </a>
             </div>
-            <div className='merch-item-title'>
+            <div className='merch-item-title  liberation-sans-bold'>
               <p>Sweaters</p>
             </div>
             <div className='merch-item-price'>
@@ -78,7 +78,7 @@ const Merch = () => {
                 />
               </a>
             </div>
-            <div className='merch-item-title'>
+            <div className='merch-item-title  liberation-sans-bold'>
               <p>Women's Athletic</p>
             </div>
             <div className='merch-item-price'>
@@ -95,7 +95,7 @@ const Merch = () => {
                 <img className='merch-item-photo' src={ImgMug} alt='mugs' />
               </a>
             </div>
-            <div className='merch-item-title'>
+            <div className='merch-item-title  liberation-sans-bold'>
               <p>Mugs</p>
             </div>
             <div className='merch-item-price'>
@@ -114,7 +114,7 @@ const Merch = () => {
                 />
               </a>
             </div>
-            <div className='merch-item-title'>
+            <div className='merch-item-title  liberation-sans-bold'>
               <p>Blankets</p>
             </div>
             <div className='merch-item-price'>
@@ -133,7 +133,7 @@ const Merch = () => {
                 />
               </a>
             </div>
-            <div className='merch-item-title'>
+            <div className='merch-item-title  liberation-sans-bold'>
               <p>Phone Cases</p>
             </div>
             <div className='merch-item-price'>

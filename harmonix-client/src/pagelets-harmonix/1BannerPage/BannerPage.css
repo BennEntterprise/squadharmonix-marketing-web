@@ -38,11 +38,11 @@
   display: flex;
   flex-direction: column;
   align-content: center;
+  text-align: center;
 }
 
 .purple-marquee {
   color: var(--magenta);
-  font-size: 2.5rem;
 }
 #banner-marquee-sub {
   margin: 0.5rem auto;
@@ -50,13 +50,13 @@
 
 #subscribe-btn {
   align-self: center;
-  margin-top: 1.25rem;
+  margin: 1rem 0;
 }
 #subscribe-btn a {
   background-color: red;
+  padding: 1rem 1rem;
   color: white;
-  padding: 1rem 3rem;
-  border-radius: 10%;
+  border-radius: 10px;
 }
 
 #banner-listening-sources {

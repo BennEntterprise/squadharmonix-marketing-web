@@ -54,3 +54,15 @@
 .bg-lightpurple {
   background-color: var(--lightPurple);
 }
+
+.color-teal {
+  color: var(--teal);
+}
+
+.color-magenta {
+  color: var(--magenta);
+}
+
+.color-purple {
+  color: var(--purple);
+}

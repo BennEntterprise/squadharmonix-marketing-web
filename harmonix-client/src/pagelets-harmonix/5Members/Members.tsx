@@ -20,7 +20,12 @@ const Members = () => {
     <Container>
       <Row>
         <Col>
-          <h1 style={{ textAlign: 'center' }}>MEMBERS</h1>
+          <h1
+            className='font-jumbo liberation-sans-bold'
+            style={{ textAlign: 'center' }}
+          >
+            MEMBERS
+          </h1>
         </Col>
       </Row>
       <Row className='member-row'>
@@ -44,7 +49,7 @@ const Members = () => {
               <img className='instagram-link' src={IG} alt='instagram link' />
               <img className='soundcloud-link' src={SC} alt='soundcloud link' />
             </div>
-            <p className='photo-title'>JOHANNA</p>
+            <p className='photo-title font-h4 liberation-sans-bold'>JOHANNA</p>
             <p>*lieutenant*</p>
           </div>
         </Col>
@@ -72,7 +77,7 @@ const Members = () => {
                 />
               </div>
             </div>
-            <p className='photo-title'>CAMERON</p>
+            <p className='photo-title font-h4 liberation-sans-bold'>CAMERON</p>
           </div>
         </Col>
         <Col
@@ -99,7 +104,7 @@ const Members = () => {
                 />
               </div>
             </div>
-            <p className='photo-title'>SYDNE</p>
+            <p className='photo-title font-h4 liberation-sans-bold'>SYDNE</p>
           </div>
         </Col>
       </Row>
@@ -128,7 +133,7 @@ const Members = () => {
                 />
               </div>
             </div>
-            <p className='photo-title'>LAUREN</p>
+            <p className='photo-title font-h4 liberation-sans-bold'>LAUREN</p>
           </div>{' '}
         </Col>
         <Col
@@ -155,7 +160,7 @@ const Members = () => {
                 />
               </div>
             </div>
-            <p className='photo-title'>LUCY</p>
+            <p className='photo-title font-h4 liberation-sans-bold'>LUCY</p>
           </div>{' '}
         </Col>
         <Col
@@ -182,7 +187,7 @@ const Members = () => {
                 />
               </div>
             </div>
-            <p className='photo-title'>MAYA</p>
+            <p className='photo-title font-h4 liberation-sans-bold'>MAYA</p>
           </div>{' '}
         </Col>
 
@@ -210,7 +215,7 @@ const Members = () => {
                 />
               </div>
             </div>
-            <p className='photo-title'>MISCHA</p>
+            <p className='photo-title font-h4 liberation-sans-bold'>MISCHA</p>
           </div>
         </Col>
       </Row>
@@ -239,7 +244,7 @@ const Members = () => {
                 />
               </div>
             </div>
-            <p className='photo-title'>NOAH</p>
+            <p className='photo-title font-h4 liberation-sans-bold'>NOAH</p>
           </div>{' '}
         </Col>
         <Col
@@ -266,7 +271,7 @@ const Members = () => {
                 />
               </div>
             </div>
-            <p className='photo-title'>SIMONE</p>
+            <p className='photo-title font-h4 liberation-sans-bold'>SIMONE</p>
           </div>{' '}
         </Col>
         <Col
@@ -293,7 +298,7 @@ const Members = () => {
                 />
               </div>
             </div>
-            <p className='photo-title'>ELISE</p>
+            <p className='photo-title font-h4 liberation-sans-bold'>ELISE</p>
           </div>
         </Col>
       </Row>

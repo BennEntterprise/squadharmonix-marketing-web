@@ -72,29 +72,31 @@ const Contact = () => {
         <img src={ImgContact5} alt='artist' />
       </div>
       <form id='artist-contact-form' onChange={(e: any) => handleFormChange(e)}>
-        <h1>CONTACT</h1>
-        <p>Let us know of any inquiries or requests here.</p>
+        <h1 className='font-juumbo  liberation-sans-bold'>CONTACT</h1>
+        <p className=' liberation-sans-bold'>
+          Let us know of any inquiries or requests here.
+        </p>
         <input
-          className='form-input'
-          placeholder='Name'
+          className='form-input  liberation-sans-bold rounded'
+          placeholder='Name:'
           name='name'
           type='text'
         />
         <input
-          className='form-input'
-          placeholder='Email'
+          className='form-input  liberation-sans-bold rounded'
+          placeholder='Email:'
           name='email'
           type='email'
         />
         <input
-          className='form-input'
-          placeholder='Subject'
+          className='form-input  liberation-sans-bold rounded'
+          placeholder='Subject:'
           name='subject'
           type='text'
         />
         <textarea
-          className='form-input'
-          placeholder='Message'
+          className='form-input  liberation-sans-bold rounded'
+          placeholder='Message:'
           name='message'
         ></textarea>
         {sendError && (
@@ -108,6 +110,7 @@ const Contact = () => {
           </p>
         )}
         <button
+          className='rounded liberation-sans-bold m-auto'
           type='submit'
           value='submit'
           onClick={(e) => submitContactForm(e)}

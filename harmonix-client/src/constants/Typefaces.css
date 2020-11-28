@@ -25,3 +25,7 @@
 .font-jumbo {
   font-size: 3rem;
 }
+
+.font-underline {
+  text-decoration: underline;
+}

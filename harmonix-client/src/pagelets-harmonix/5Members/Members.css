@@ -52,8 +52,6 @@
 }
 
 .photo-title {
-  /* border: var(--construction); */
-  font-size: 1.5rem;
   position: relative;
   transform: translateY(-100%);
   padding: 0;

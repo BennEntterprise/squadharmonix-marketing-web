@@ -5,8 +5,8 @@
 
 .undecorated-list-item {
   list-style-type: none;
-  text-align: center;
-  margin: 0.5rem;
+  text-align: left;
+  margin: 1rem 0.5rem;
 }
 
 #purple-bar {
@@ -16,7 +16,7 @@
 }
 
 .press-release-date {
-  margin-right: 1rem;
+  text-align: left;
 }
 
 #social-media-appearances {
