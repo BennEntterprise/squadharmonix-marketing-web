@@ -28,8 +28,8 @@ const nb = () => {
             </Link>
           </Nav.Link>
           <Nav.Link style={{ color: 'white' }}>
-            <Link style={{ color: 'white' }} to='/academy'>
-              SQUAD ACADEMY
+            <Link style={{ color: 'white' }} to='#'>
+              SQUAD ACADEMY<em>(Coming Dec. 1)</em>
             </Link>
           </Nav.Link>
           <Nav.Link style={{ color: 'white' }}>
