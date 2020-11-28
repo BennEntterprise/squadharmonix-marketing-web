@@ -66,10 +66,10 @@ const BannerPage = () => {
             </a>
           </div>
           <div id='banner-buttons'>
-            <button className='font-p'>ABOUT US</button>
-            <button className='font-p'>MEMBERS</button>
-            <button className='font-p'>NEWS</button>
-            <button className='font-p'>MERCH</button>
+            <button className='font-p liberation-sans-bold'>ABOUT US</button>
+            <button className='font-p liberation-sans-bold'>MEMBERS</button>
+            <button className='font-p liberation-sans-bold'>NEWS</button>
+            <button className='font-p liberation-sans-bold'>MERCH</button>
           </div>
         </Col>
         <Col
