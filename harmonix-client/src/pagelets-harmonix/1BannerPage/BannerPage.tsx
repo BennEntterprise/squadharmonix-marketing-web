@@ -61,7 +61,7 @@ const BannerPage = () => {
             <a href={SpotifyLink}>
               <img src={Spot} alt='listen on spotify' />
             </a>
-            <a>
+            <a href='https://music.apple.com/us/artist/squad-harmonix/1492981626'>
               <img src={iTunes} alt='listen on itunes' />
             </a>
           </div>
