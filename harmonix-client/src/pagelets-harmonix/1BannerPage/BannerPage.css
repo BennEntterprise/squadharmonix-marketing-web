@@ -9,14 +9,13 @@
   /* border: var(--construction); */
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  align-content: center;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 #banner-img {
-  height: 80%;
+  width: 80%;
   margin: 0 auto;
-  max-width: 530px;
 }
 
 #banner-content-container {
