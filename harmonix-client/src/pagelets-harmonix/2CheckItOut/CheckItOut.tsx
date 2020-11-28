@@ -14,7 +14,10 @@ const CheckItOut = () => {
     <Container>
       <Row>
         <Col>
-          <h2 className='checkout-heading font-h2 color-teal liberation-sans-bold'>
+          <h2
+            id='checkout-heading'
+            className=' font-h2 color-teal liberation-sans-bold'
+          >
             Check Out:
           </h2>
         </Col>
@@ -23,25 +26,30 @@ const CheckItOut = () => {
         <Col xs={12} md={12} lg={6} xl={6}>
           <div className='player-container'>
             <ReactPlayer
-              width='100%'
-              heigth='100%'
+              width='90%'
+              heigth='90%'
               controls
               url={YTCaliforniaWinter}
             />
           </div>
         </Col>
         <Col xs={12} md={12} lg={6} xl={6}>
-          <ReactPlayer
-            width='100%'
-            heigth='100%'
-            controls
-            url={YTPartyInTheUSA}
-          />
+          <div className='player-container'>
+            <ReactPlayer
+              width='90%'
+              heigth='90%'
+              controls
+              url={YTPartyInTheUSA}
+            />
+          </div>
         </Col>
       </Row>
       <Row>
         <Col>
-          <h3 className='checkout-heading font-h3 color-purple liberation-sans-bold'>
+          <h3
+            id='quarantine-heading'
+            className='font-h3 color-purple liberation-sans-bold'
+          >
             QUARANTINE SERIES:
           </h3>
         </Col>
@@ -51,8 +59,8 @@ const CheckItOut = () => {
         <Col xs={12} md={12} lg={6} xl={6}>
           <div className='player-container'>
             <ReactPlayer
-              width='100%'
-              heigth='100%'
+              width='90%'
+              heigth='90%'
               controls
               url={YTSimplyTheBest}
             />
@@ -60,7 +68,7 @@ const CheckItOut = () => {
         </Col>{' '}
         <Col xs={12} md={12} lg={6} xl={6}>
           <div className='player-container'>
-            <ReactPlayer width='100%' heigth='100%' controls url={YTStandUp} />
+            <ReactPlayer width='90%' heigth='90%' controls url={YTStandUp} />
           </div>
         </Col>
       </Row>
@@ -68,12 +76,12 @@ const CheckItOut = () => {
       <Row>
         <Col xs={12} md={12} lg={6} xl={6}>
           <div className='player-container'>
-            <ReactPlayer width='100%' heigth='100%' controls url={YTReindeer} />
+            <ReactPlayer width='90%' heigth='90%' controls url={YTReindeer} />
           </div>
         </Col>{' '}
         <Col xs={12} md={12} lg={6} xl={6}>
           <div className='player-container'>
-            <ReactPlayer width='100%' heigth='100%' controls url={YTElf} />
+            <ReactPlayer width='90%' heigth='90%' controls url={YTElf} />
           </div>
         </Col>
       </Row>

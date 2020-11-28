@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
-import SquadHarmonixBrandBanner from '../images/squad-2020-website-logo.png'
+import SquadHarmonixBrandBanner from '../images/squad-2020-website-logo(trimmed).png'
 
 import { charcoal } from '../constants/Colors'
 import { Link } from 'react-router-dom'
