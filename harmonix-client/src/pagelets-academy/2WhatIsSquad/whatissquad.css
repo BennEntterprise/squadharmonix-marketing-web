@@ -65,7 +65,7 @@
   padding: 5px;
   padding-bottom: 0.5px;
 }
-
+/* 
 .BarContainer > h1,
 h2,
 h3,
@@ -73,7 +73,7 @@ h4,
 h5,
 h6 {
   text-align: center;
-}
+} */
 
 #OfferingSetContainer {
   display: flex;

@@ -1,0 +1,63 @@
+# ORIGINAL
+6pt "Join our mailing list"
+7pt Brittany Email
+9pt "Also available on"
+10pt Nav Items
+10pt Brittany Name
+10pt btns "About" - "Members"-"News"-"Merch" 
+10pt PressDates/Desc
+10pt Merch Subtitles
+11pt Pink Bubble Click Headers
+13pt "Click here for inquiery"
+15pt Contact form Text
+15pt Video Headings
+17pt "About Us" Main content
+18pt btn-See-More-Merch 'let us know why you are writing'
+18pt btn-Send-Contact-Form
+19pt YouTube Premier Date
+20pt Photo titles
+20pt "Squad Harmonix" banner
+21pt Quarantine Settings
+22pt "Follow us"
+24pt "Checkout" -heading over videos
+25pt Makeup Tutorials
+34pt "Holiday Debut"
+49pt Headers: "About" "Press" "Members" "Merch" 
+52pt "Contact" heading
+
+
+#Adapted
+----------p.sub------------------
+6pt 8px "Join our mailing list"
+7pt 9px Brittany Email
+-----------p-----------------
+9pt 12px "Also available on"
+10pt 13px Nav Items
+10pt 13px Brittany Name
+10pt 13px btns "About" - "Members"-"News"-"Merch" 
+10pt 13px PressDates/Desc
+10pt 13px Merch Subtitles
+-----------h6-----------------
+11pt 15px Pink Bubble Click Headers
+13pt 17px "Click here for inquiery"
+15pt 20px Contact form Text
+------------h5----------------
+15pt 21px Video Headings
+17pt 23px "About Us" Main content
+18pt 24px btn-See-More-Merch 'let us know why you are writing'
+18pt 24px btn-Send-Contact-Form
+------------h4----------------
+19pt 25px YouTube Premier Date
+20pt 26px Photo titles
+20pt 26px "Squad Harmonix" banner
+------------h3---------------
+21pt 27px Quarantine Series
+------------h2----------------
+22pt 29px "Follow us"
+24pt 32px "Checkout" -heading over videos
+-------------h1---------------
+25pt 33.5px Makeup Tutorials
+34pt 45px "Holiday Debut"
+-------------h1.jumbo---------
+49pt 65px Headers: "About" "Press" "Members" "Merch" 
+52pt 69px "Contact" heading

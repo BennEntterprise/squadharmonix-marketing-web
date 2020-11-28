@@ -26,12 +26,18 @@ import Press from './pagelets-harmonix/4Press/Press'
 import Members from './pagelets-harmonix/5Members/Members'
 import Merch from './pagelets-harmonix/6Merch/Merch'
 import Contact from './pagelets-harmonix/7Contact/Contact'
+import Typefaces from './constants/Typefaces'
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Switch>
+        <Route exact path='/typefaces'>
+          <Switch>
+            <Typefaces />
+          </Switch>
+        </Route>
         <Route path='/tech-debt-todo'>
           <TechDebt />
         </Route>
