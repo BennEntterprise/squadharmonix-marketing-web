@@ -13,6 +13,7 @@
 .player-container {
   width: 100%;
   margin: 1rem 1rem;
+  text-align: center;
 }
 .spacer-container {
   margin: 50px 0px;
