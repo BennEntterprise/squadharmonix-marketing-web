@@ -46,21 +46,29 @@ const Members = () => {
           }}
         >
           <div className='profile-container'>
-            <div className='photo-container'>
-              <img className='artist-photo' src={Joanna} alt='johanna' />
-            </div>
-            <div
-              className='social-container'
-              style={{
-                display: 'flex',
-                flexDirection: 'row',
-                justifyContent: 'flex-end',
-                position: 'relative',
-                right: '15%',
-              }}
-            >
-              <img className='instagram-link' src={IG} alt='instagram link' />
-              <img className='soundcloud-link' src={SC} alt='soundcloud link' />
+            <div className='photo-container '>
+              <img
+                className='artist-photo magenta-outline'
+                src={Joanna}
+                alt='johanna'
+              />
+              <div
+                className='social-container'
+                style={{
+                  display: 'flex',
+                  flexDirection: 'row',
+                  justifyContent: 'flex-end',
+                  position: 'relative',
+                  right: '15%',
+                }}
+              >
+                <img className='instagram-link' src={IG} alt='instagram link' />
+                <img
+                  className='soundcloud-link'
+                  src={SC}
+                  alt='soundcloud link'
+                />
+              </div>
             </div>
             <h4 className='photo-title font-h4 liberation-sans-bold'>
               JOHANNA
@@ -69,7 +77,11 @@ const Members = () => {
 
           <div className='profile-container'>
             <div className='photo-container'>
-              <img className='artist-photo' src={Cameron} alt='cameron' />
+              <img
+                className='artist-photo teal-outline'
+                src={Cameron}
+                alt='cameron'
+              />
               <div className='social-container'>
                 <img className='instagram-link' src={IG} alt='instagram link' />
               </div>
@@ -81,7 +93,11 @@ const Members = () => {
 
           <div className='profile-container'>
             <div className='photo-container'>
-              <img className='artist-photo' src={Sydne} alt='sydne' />
+              <img
+                className='artist-photo purple-outline'
+                src={Sydne}
+                alt='sydne'
+              />
               <div className='social-container'>
                 <img className='instagram-link' src={IG} alt='instagram link' />
                 <img
@@ -109,8 +125,12 @@ const Members = () => {
           }}
         >
           <div className='profile-container'>
-            <div className='photo-container'>
-              <img className='artist-photo' src={Lauren} alt='lauren' />
+            <div className='photo-container '>
+              <img
+                className='artist-photo teal-outline'
+                src={Lauren}
+                alt='lauren'
+              />
               <div className='social-container'>
                 <img className='instagram-link' src={IG} alt='instagram link' />
                 <img
@@ -121,10 +141,15 @@ const Members = () => {
               </div>
             </div>
             <h4 className='photo-title font-h4 liberation-sans-bold'>LAUREN</h4>
-          </div>{' '}
+          </div>
+
           <div className='profile-container'>
             <div className='photo-container'>
-              <img className='artist-photo' src={Lucy} alt='lucy' />
+              <img
+                className='artist-photo purple-outline'
+                src={Lucy}
+                alt='lucy'
+              />
               <div className='social-container'>
                 <img className='instagram-link' src={IG} alt='instagram link' />
                 <img
@@ -135,10 +160,15 @@ const Members = () => {
               </div>
             </div>
             <h4 className='photo-title font-h4 liberation-sans-bold'>LUCY</h4>
-          </div>{' '}
+          </div>
+
           <div className='profile-container'>
             <div className='photo-container'>
-              <img className='artist-photo' src={Maya} alt='MAYA' />
+              <img
+                className='artist-photo magenta-outline'
+                src={Maya}
+                alt='MAYA'
+              />
               <div className='social-container'>
                 <img
                   style={{ visibility: 'hidden' }}
@@ -155,10 +185,15 @@ const Members = () => {
               </div>
             </div>
             <h4 className='photo-title font-h4 liberation-sans-bold'>MAYA</h4>
-          </div>{' '}
+          </div>
+
           <div className='profile-container'>
             <div className='photo-container'>
-              <img className='artist-photo' src={Mischa} alt='MISCHA' />
+              <img
+                className='artist-photo teal-outline'
+                src={Mischa}
+                alt='MISCHA'
+              />
               <div className='social-container'>
                 <img className='instagram-link' src={IG} alt='instagram link' />
                 <img
@@ -187,7 +222,11 @@ const Members = () => {
         >
           <div className='profile-container'>
             <div className='photo-container'>
-              <img className='artist-photo' src={Noah} alt='NOAH' />
+              <img
+                className='artist-photo magenta-outline'
+                src={Noah}
+                alt='NOAH'
+              />
               <div className='social-container'>
                 {/* <img className='instagram-link' src={IG} alt='instagram link' /> */}
                 <img
@@ -201,7 +240,11 @@ const Members = () => {
           </div>{' '}
           <div className='profile-container'>
             <div className='photo-container'>
-              <img className='artist-photo' src={Simone} alt='SIMONE' />
+              <img
+                className='artist-photo teal-outline'
+                src={Simone}
+                alt='SIMONE'
+              />
               <div className='social-container'>
                 {/* <img className='instagram-link' src={IG} alt='instagram link' /> */}
                 <img
@@ -215,7 +258,11 @@ const Members = () => {
           </div>{' '}
           <div className='profile-container'>
             <div className='photo-container'>
-              <img className='artist-photo' src={Elise} alt='ELISE' />
+              <img
+                className='artist-photo  purple-outline'
+                src={Elise}
+                alt='ELISE'
+              />
               <div className='social-container'>
                 <img className='instagram-link' src={IG} alt='instagram link' />
                 {/* <img

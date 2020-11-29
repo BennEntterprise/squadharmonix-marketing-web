@@ -21,13 +21,16 @@
 }
 
 .teal-outline {
-  border: 5px solid var(--teal);
+  border: 3px solid var(--teal);
 }
 
 .magenta-outline {
-  border: 5px solid var(--magenta);
+  border: 3px solid var(--magenta);
 }
 
+.purple-outline {
+  border: 3px solid var(--purple);
+}
 .bg-grey {
   background-color: var(--grey);
 }
