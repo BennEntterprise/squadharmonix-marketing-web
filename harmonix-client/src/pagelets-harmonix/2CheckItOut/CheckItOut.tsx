@@ -28,7 +28,7 @@ const CheckItOut = () => {
         <Col xs={12} md={12} lg={6} xl={6}>
           <div className='player-container'>
             <h5 className='font-h5 liberation-sans-bold'>
-              SQUAD HARMONIX HOLDAY PROMO
+              SQUAD HARMONIX HOLIDAY PROMO
             </h5>
             <ReactPlayer
               width='90%'
