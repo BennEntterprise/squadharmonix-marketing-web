@@ -150,7 +150,12 @@ const Press = () => {
           </li>
         </Col>
       </Row>
-      <h3 style={{ margin: '3% auto', fontSize: '2.5rem' }}>Follow Us</h3>
+      <h2
+        className='font-h2 liberation-sans-bold'
+        style={{ margin: '3% auto' }}
+      >
+        Follow Us
+      </h2>
       <Row id='follow-us'>
         <a href={SquadHarmonixFBPage}>
           <img
