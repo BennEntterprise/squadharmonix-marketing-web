@@ -67,7 +67,7 @@ const AboutUs = () => {
             >
               ABOUT US
             </h1>
-            <h5 className='font-h5 '>
+            <h6 className='font-h6 liberation-sans'>
               Blending together vibrant, positive energy with a refreshing take
               on popular tunes, <strong>Squad Harmonix</strong> is an all-kids a
               cappella performance group based in Los Angeles, California. Squad
@@ -98,7 +98,7 @@ const AboutUs = () => {
               beyond. They have released music on Spotify, Apple Music, iTunes,
               and all other streaming platforms, and their videos can be found
               on YouTube.
-            </h5>
+            </h6>
           </div>
         </Col>
       </Row>
