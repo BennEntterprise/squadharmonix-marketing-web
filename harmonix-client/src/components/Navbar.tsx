@@ -9,7 +9,7 @@ const nb = () => {
     <Navbar
       style={{ backgroundColor: charcoal, color: 'white', width: '100%' }}
       bg={charcoal}
-      expand='sm'
+      expand='lg'
     >
       <Navbar.Brand href='/'>
         <img
