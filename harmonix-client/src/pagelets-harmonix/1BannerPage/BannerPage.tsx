@@ -106,7 +106,7 @@ const BannerPage = () => {
         </Col>
         <Col
           id='banner-photo-container'
-          className='col-lg-pull-6 col-xl-pull-6 d-none d-sm-block'
+          className='col-lg-pull-6 col-xl-pull-6 d-none d-lg-flex'
           xs={12}
           sm={12}
           md={12}
