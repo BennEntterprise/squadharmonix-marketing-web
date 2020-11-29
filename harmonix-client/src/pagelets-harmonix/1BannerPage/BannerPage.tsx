@@ -12,6 +12,8 @@ import YTS from '../../images/social-assets/youtube-academy.png'
 import YTRed from '../../images/social-assets/youtube-logo-on-trans(crop-scale).png'
 import Spot from '../../images/social-assets/spotify-artist-good.png'
 import iTunes from '../../images/social-assets/itunes-artist-good.png'
+
+import HolidayEP from '../../immages/HOLIDAY 1 EP ARTWORK.jpg'
 const BannerPage = () => {
   const YouTubeLink = 'https://www.youtube.com/squadharmonix'
   const SpotifyLink =
@@ -52,8 +54,12 @@ const BannerPage = () => {
             </h4>
             <div id='subscribe-btn'>
               <a className='font-h4 liberation-sans-bold' href={YouTubeLink}>
-                <img src={YTRed} alt='subscribe to youtube' /> Subscribe on
-                Youtube
+                <img
+                  className='d-none d-md-inline'
+                  src={YTRed}
+                  alt='subscribe to youtube'
+                />
+                Subscribe on Youtube
               </a>
             </div>
           </div>
