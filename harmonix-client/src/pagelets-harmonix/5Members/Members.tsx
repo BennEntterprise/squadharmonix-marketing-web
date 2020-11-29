@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { NavHashLink as NavLink } from 'react-router-hash-link'
 
 import IG from '../../images/icons/instagram-academy.png'
+
 import SC from '../../images/social-assets/soundcloud-logo.png'
 // Import Member Photos
 // TODO:Get Joanna Photo
@@ -71,11 +72,6 @@ const Members = () => {
               <img className='artist-photo' src={Cameron} alt='cameron' />
               <div className='social-container'>
                 <img className='instagram-link' src={IG} alt='instagram link' />
-                <img
-                  className='soundcloud-link'
-                  src={SC}
-                  alt='soundcloud link'
-                />
               </div>
             </div>
             <h4 className='photo-title font-h4 liberation-sans-bold'>
@@ -144,8 +140,14 @@ const Members = () => {
             <div className='photo-container'>
               <img className='artist-photo' src={Maya} alt='MAYA' />
               <div className='social-container'>
-                <img className='instagram-link' src={IG} alt='instagram link' />
                 <img
+                  style={{ visibility: 'hidden' }}
+                  className='instagram-link'
+                  src={IG}
+                  alt='instagram link'
+                />
+                <img
+                  style={{ visibility: 'hidden' }}
                   className='soundcloud-link'
                   src={SC}
                   alt='soundcloud link'
@@ -187,7 +189,7 @@ const Members = () => {
             <div className='photo-container'>
               <img className='artist-photo' src={Noah} alt='NOAH' />
               <div className='social-container'>
-                <img className='instagram-link' src={IG} alt='instagram link' />
+                {/* <img className='instagram-link' src={IG} alt='instagram link' /> */}
                 <img
                   className='soundcloud-link'
                   src={SC}
@@ -201,7 +203,7 @@ const Members = () => {
             <div className='photo-container'>
               <img className='artist-photo' src={Simone} alt='SIMONE' />
               <div className='social-container'>
-                <img className='instagram-link' src={IG} alt='instagram link' />
+                {/* <img className='instagram-link' src={IG} alt='instagram link' /> */}
                 <img
                   className='soundcloud-link'
                   src={SC}
@@ -216,11 +218,11 @@ const Members = () => {
               <img className='artist-photo' src={Elise} alt='ELISE' />
               <div className='social-container'>
                 <img className='instagram-link' src={IG} alt='instagram link' />
-                <img
+                {/* <img
                   className='soundcloud-link'
                   src={SC}
                   alt='soundcloud link'
-                />
+                /> */}
               </div>
             </div>
             <h4 className='photo-title font-h4 liberation-sans-bold'>ELISE</h4>
