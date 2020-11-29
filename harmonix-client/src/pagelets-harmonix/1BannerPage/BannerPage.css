@@ -48,19 +48,20 @@
 #holiday-ep-album {
   width: 100%;
   align-self: center;
-  max-width: 320px;
+  max-width: 160px;
 }
 
 .purple-marquee {
   color: var(--magenta);
+  margin: 1rem auto;
 }
 #banner-marquee-sub {
-  margin: 0.5 auto;
+  margin: 1.1rem auto 0rem auto;
 }
 
 #subscribe-btn {
   align-self: center;
-  margin: 0.5rem 0;
+  margin: 1rem auto;
 }
 #subscribe-btn a {
   background-color: #d32322;

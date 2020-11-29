@@ -14,17 +14,6 @@ const CheckItOut = () => {
   return (
     <Container>
       <Row>
-        <Col>
-          <h3
-            id='quarantine-heading'
-            className='font-h3 color-teal liberation-sans-bold'
-          >
-            SQUAD HARMONIX HOLIDAY 1
-          </h3>
-        </Col>
-      </Row>
-
-      <Row>
         <Col xs={12} md={12} lg={6} xl={6}>
           <div className='player-container'>
             <h5 className='font-h5 liberation-sans-bold'>
