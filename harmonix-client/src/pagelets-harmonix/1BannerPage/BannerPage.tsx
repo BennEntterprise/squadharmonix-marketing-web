@@ -4,13 +4,14 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { HashLink as Link } from 'react-router-hash-link'
 import './BannerPage.css'
 import Syd from '../../images/harmonix-artist-page/SydneBillboard.jpg'
-
-import FB from '../../images/social-assets/facebook-artist-good.png'
-import TT from '../../images/social-assets/tiktok-artist-good.png'
-import IG from '../../images/social-assets/instagram-artist-good.png'
+// Rainbow Icons
+import FB from '../../images/icons/facebook-academy.png'
+import TT from '../../images/icons/tiktok-academy.png'
+import IG from '../../images/icons/instagram-academy.png'
+import Spot from '../../images/icons/spotify-academy.png'
+// Others
 import YTS from '../../images/social-assets/youtube-academy.png'
 import YTRed from '../../images/social-assets/youtube-logo-on-trans(crop-scale).png'
-import Spot from '../../images/social-assets/spotify-artist-good.png'
 import iTunes from '../../images/social-assets/itunes-artist-good.png'
 
 import HolidayEP from '../../images/HOLIDAY 1 EP ARTWORK.jpg'

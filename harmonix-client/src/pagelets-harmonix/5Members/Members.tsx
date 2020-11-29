@@ -3,7 +3,7 @@ import './Members.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import { NavHashLink as NavLink } from 'react-router-hash-link'
 
-import IG from '../../images/social-assets/instagram-artist-good.png'
+import IG from '../../images/icons/instagram-academy.png'
 import SC from '../../images/social-assets/soundcloud-logo.png'
 // Import Member Photos
 // TODO:Get Joanna Photo
@@ -48,7 +48,16 @@ const Members = () => {
             <div className='photo-container'>
               <img className='artist-photo' src={Joanna} alt='johanna' />
             </div>
-            <div className='social-container'>
+            <div
+              className='social-container'
+              style={{
+                display: 'flex',
+                flexDirection: 'row',
+                justifyContent: 'flex-end',
+                position: 'relative',
+                right: '15%',
+              }}
+            >
               <img className='instagram-link' src={IG} alt='instagram link' />
               <img className='soundcloud-link' src={SC} alt='soundcloud link' />
             </div>

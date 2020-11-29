@@ -3,9 +3,10 @@ import './Press.css'
 import { NavHashLink } from 'react-router-hash-link'
 
 //Social Icons
-import IconFB from '../../images/social-assets/facebook-artist-good.png'
-import IconIG from '../../images/social-assets/instagram-artist-good.png'
-import IconTikTok from '../../images/social-assets/tiktok-artist-good.png'
+import IconFB from '../../images/icons/facebook-academy.png'
+import IconTikTok from '../../images/icons/tiktok-academy.png'
+import IconIG from '../../images/icons/instagram-academy.png'
+
 import IconMail from '../../images/social-assets/mail-artist-good.png'
 
 import { Container, Row, Col } from 'react-bootstrap'
