@@ -25,3 +25,17 @@
   padding: 0 10%;
   width: fit-content;
 }
+
+#contact-header-banner {
+  /* border: var(--construction); */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 0;
+  margin: 1.55rem 1rem;
+}
+.contact-image {
+  width: 20%;
+}
