@@ -13,7 +13,7 @@ import YTRed from '../../images/social-assets/youtube-logo-on-trans(crop-scale).
 import Spot from '../../images/social-assets/spotify-artist-good.png'
 import iTunes from '../../images/social-assets/itunes-artist-good.png'
 
-import HolidayEP from '../../immages/HOLIDAY 1 EP ARTWORK.jpg'
+import HolidayEP from '../../images/HOLIDAY 1 EP ARTWORK.jpg'
 const BannerPage = () => {
   const YouTubeLink = 'https://www.youtube.com/squadharmonix'
   const SpotifyLink =
@@ -49,6 +49,11 @@ const BannerPage = () => {
               <strong>SQUAD HARMONIX</strong>
             </h4>
             <h1 className='font-h1 liberation-sans-bold'>HOLIDAY EP - DEBUT</h1>
+            <img
+              id='holiday-ep-album'
+              src={HolidayEP}
+              alt='squad harmonix ep album'
+            />
             <h4 className='purple-marquee font-h4'>
               <strong className='font-h4'>YOUTUBE PREMIERE 11.29.20</strong>
             </h4>
