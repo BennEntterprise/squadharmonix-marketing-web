@@ -9,6 +9,7 @@ import FB from '../../images/social-assets/facebook-artist-good.png'
 import TT from '../../images/social-assets/tiktok-artist-good.png'
 import IG from '../../images/social-assets/instagram-artist-good.png'
 import YTS from '../../images/social-assets/youtube-academy.png'
+import YTRed from '../../images/social-assets/youtube-logo-on-trans(crop-scale).png'
 import Spot from '../../images/social-assets/spotify-artist-good.png'
 import iTunes from '../../images/social-assets/itunes-artist-good.png'
 const BannerPage = () => {
@@ -51,7 +52,8 @@ const BannerPage = () => {
             </h4>
             <div id='subscribe-btn'>
               <a className='font-h4 liberation-sans-bold' href={YouTubeLink}>
-                Subscribe on Youtube
+                <img src={YTRed} alt='subscribe to youtube' /> Subscribe on
+                Youtube
               </a>
             </div>
           </div>

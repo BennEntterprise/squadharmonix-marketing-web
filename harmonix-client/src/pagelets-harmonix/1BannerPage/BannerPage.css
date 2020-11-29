@@ -56,10 +56,13 @@
   margin: 1rem 0;
 }
 #subscribe-btn a {
-  background-color: red;
+  background-color: #d32322;
   padding: 1rem 1rem;
   color: white;
   border-radius: 10px;
+}
+#subscribe-btn > a > img {
+  height: 45%;
 }
 
 #banner-listening-sources {
