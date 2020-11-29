@@ -18,9 +18,15 @@ const nb = () => {
           width='100px'
         />
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls='basic-navbar-nav' />
+      <Navbar.Toggle className='navbar-dark' aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>
-        <Nav className='mr-auto float-right'>
+        <Nav
+          className='mr-auto float-right'
+          style={{
+            width: '100%',
+            justifyContent: 'flex-end',
+          }}
+        >
           {/* <Nav.Link href='/tech-debt-todo'>Tech Debt/Todo</Nav.Link> */}
           <Nav.Link style={{ color: 'white' }}>
             <Link style={{ color: 'white' }} to='/'>
