@@ -3,16 +3,59 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { NavHashLink } from 'react-router-hash-link'
 import './AboutUs.css'
 // Bring In Banners
+import Maya from '../../images/aboutus/Maya.png' // 1 Maya
+import Mischa from '../../images/aboutus/Mischa.png' // 2 Mischa
+import Noah from '../../images/aboutus/Noah.png' // 3 Noah
+import Elise from '../../images/aboutus/Elise.png' // 4 Elise
+import Simone from '../../images/aboutus/Simone.png' // 5 Simone
+import Cameron from '../../images/aboutus/Cameron.png' // 6 Cameron
+import Sydne from '../../images/aboutus/Sydne.png' // 7 Sydne
+import Lauren from '../../images/aboutus/Lauren.png' // 8 Lauren
+import Lucy from '../../images/aboutus/Lucy.png' // 9 Lucy
+
 import BannerL from '../../images/harmonix-artist-page/Banner L.png'
 import BannerR from '../../images/harmonix-artist-page/Banner R.png'
 const AboutUs = () => {
   return (
     <Container fluid id='about-us-container'>
       <NavHashLink to='#about-us-container'></NavHashLink>
-      <Row>
-        <Col>
-          <img id='banner-l' src={BannerL} />
-          <img id='banner-r' src={BannerR} />
+      <Row id='bout-banner'>
+        <Col xs={12} sm={12} md={12} lg={12} xl={12}>
+          <div id='banner-headshots-container'>
+            <img className='aboutus-headshot' src={Maya} alt='Maya headshot' />
+            <img
+              className='aboutus-headshot'
+              src={Mischa}
+              alt='Mischa headshot'
+            />
+            <img className='aboutus-headshot' src={Noah} alt='Noah headshot' />
+            <img
+              className='aboutus-headshot'
+              src={Elise}
+              alt='Elise headshot'
+            />
+            <img
+              className='aboutus-headshot'
+              src={Simone}
+              alt='Simone headshot'
+            />
+            <img
+              className='aboutus-headshot'
+              src={Cameron}
+              alt='Cameron headshot'
+            />
+            <img
+              className='aboutus-headshot'
+              src={Sydne}
+              alt='Sydne headshot'
+            />
+            <img
+              className='aboutus-headshot'
+              src={Lauren}
+              alt='Lauren headshot'
+            />
+            <img className='aboutus-headshot' src={Lucy} alt='Lucy headshot' />
+          </div>
         </Col>
       </Row>
       <Row>
