@@ -1,13 +1,14 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+import { NavHashLink } from 'react-router-hash-link'
 import './AboutUs.css'
 // Bring In Banners
 import BannerL from '../../images/harmonix-artist-page/Banner L.png'
 import BannerR from '../../images/harmonix-artist-page/Banner R.png'
-
 const AboutUs = () => {
   return (
     <Container fluid id='about-us-container'>
+      <NavHashLink to='#about-us-container'></NavHashLink>
       <Row>
         <Col>
           <img id='banner-l' src={BannerL} />

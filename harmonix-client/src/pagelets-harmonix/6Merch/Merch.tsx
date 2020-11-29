@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavHashLink } from 'react-router-hash-link'
 import { Container, Row, Col } from 'react-bootstrap'
 // Import Images of Merch
 import ImgBlanket from '../../images/merch/Blanket.jpg'
@@ -25,6 +25,7 @@ const Merch = () => {
     'https://teespring.com/stores/squadharmonix/collection/bedding?page=1'
   return (
     <Container fluid id='merch-container'>
+      <NavHashLink to='#merch-container'></NavHashLink>
       <Row id='merch-header'>
         <h1>Merch</h1>
       </Row>

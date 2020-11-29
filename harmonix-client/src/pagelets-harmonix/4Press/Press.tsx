@@ -1,5 +1,6 @@
 import React from 'react'
 import './Press.css'
+import { NavHashLink } from 'react-router-hash-link'
 
 //Social Icons
 import IconFB from '../../images/social-assets/facebook-artist-good.png'
@@ -39,6 +40,7 @@ const Press = () => {
   const SquadHarmonixDrums = 'http://www.youtube.com/watch?v=Yg8dZ9ImXPw'
   return (
     <Container fluid id='press-container'>
+      <NavHashLink to='#press-container'></NavHashLink>
       <Row>
         <Col>
           <h1

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Members.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import { NavHashLink as NavLink } from 'react-router-hash-link'
 
 import IG from '../../images/social-assets/instagram-artist-good.png'
 import SC from '../../images/social-assets/soundcloud-logo.png'
@@ -18,7 +19,8 @@ import Simone from '../../images/ps/Simone Mezzo.jpg'
 import Elise from '../../images/ps/Elise Soprano 2.jpg'
 const Members = () => {
   return (
-    <Container>
+    <Container id='members-container'>
+      <NavLink to='#members-container'></NavLink>
       <Row>
         <Col>
           <h1

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 
+import { HashLink as Link } from 'react-router-hash-link'
 import './BannerPage.css'
 import Syd from '../../images/harmonix-artist-page/SydneBillboard.jpg'
 
@@ -66,10 +67,28 @@ const BannerPage = () => {
             </a>
           </div>
           <div id='banner-buttons'>
-            <button className='font-p liberation-sans-bold'>ABOUT US</button>
-            <button className='font-p liberation-sans-bold'>MEMBERS</button>
-            <button className='font-p liberation-sans-bold'>NEWS</button>
-            <button className='font-p liberation-sans-bold'>MERCH</button>
+            <button className='font-p liberation-sans-bold'>
+              <Link to='#about-us-container' className='neg-hashlink'>
+                ABOUT US
+              </Link>
+            </button>
+
+            <button className='font-p liberation-sans-bold'>
+              <Link to='#members-container' className='neg-hashlink'>
+                MEMBERS
+              </Link>
+            </button>
+
+            <button className='font-p liberation-sans-bold'>
+              <Link to='#press-container' className='neg-hashlink'>
+                NEWS
+              </Link>
+            </button>
+            <button className='font-p liberation-sans-bold'>
+              <Link to='#merch-container' className='neg-hashlink'>
+                MERCH
+              </Link>
+            </button>
           </div>
         </Col>
         <Col
