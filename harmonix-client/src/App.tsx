@@ -27,6 +27,7 @@ import Members from './pagelets-harmonix/5Members/Members'
 import Merch from './pagelets-harmonix/6Merch/Merch'
 import Contact from './pagelets-harmonix/7Contact/Contact'
 import Typefaces from './constants/Typefaces'
+import HorizontalGreyLine from './components/HorizontalGreyLine'
 
 function App() {
   return (
@@ -57,8 +58,11 @@ function App() {
           <BannerPage />
           <CheckItOut />
           <AboutUs />
+          <HorizontalGreyLine />
           <Press />
+          <HorizontalGreyLine />
           <Members />
+          <HorizontalGreyLine />
           <Merch />
           <Contact />
         </Route>
