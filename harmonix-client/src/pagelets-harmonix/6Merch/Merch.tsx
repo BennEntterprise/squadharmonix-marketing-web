@@ -35,7 +35,7 @@ const Merch = () => {
         </h1>
       </Row>
       <Row className='merch-row'>
-        <Col xs='12' sm='12' md='6' lg='4' xl='4'>
+        <Col xs='12' sm='12' md='4' lg='4' xl='4'>
           <div className='merch-item-container'>
             <div>
               <a href={PinkTLink}>
@@ -54,7 +54,7 @@ const Merch = () => {
             </div>
           </div>
         </Col>
-        <Col xs='12' sm='12' md='6' lg='4' xl='4'>
+        <Col xs='12' sm='12' md='4' lg='4' xl='4'>
           <div className='merch-item-container'>
             <div>
               <a href={PurpleHoodieLink}>
@@ -73,7 +73,7 @@ const Merch = () => {
             </div>
           </div>
         </Col>
-        <Col xs='12' sm='12' md='6' lg='4' xl='4'>
+        <Col xs='12' sm='12' md='4' lg='4' xl='4'>
           <div className='merch-item-container'>
             <div>
               <a href={BlueLeggingLink}>
@@ -94,7 +94,7 @@ const Merch = () => {
         </Col>
       </Row>
       <Row className='merch-row'>
-        <Col xs='12' sm='12' md='6' lg='4' xl='4'>
+        <Col xs='12' sm='12' md='4' lg='4' xl='4'>
           <div className='merch-item-container'>
             <div>
               <a href={MugLink}>
@@ -109,7 +109,7 @@ const Merch = () => {
             </div>
           </div>
         </Col>
-        <Col xs='12' sm='12' md='6' lg='4' xl='4'>
+        <Col xs='12' sm='12' md='4' lg='4' xl='4'>
           <div className='merch-item-container'>
             <div>
               <a href={BlanketLink}>
@@ -128,7 +128,7 @@ const Merch = () => {
             </div>
           </div>
         </Col>
-        <Col xs='12' sm='12' md='6' lg='4' xl='4'>
+        <Col xs='12' sm='12' md='4' lg='4' xl='4'>
           <div className='merch-item-container'>
             <div>
               <a href={IphoneCaseLink}>
