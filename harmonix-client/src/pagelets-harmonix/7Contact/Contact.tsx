@@ -2,12 +2,14 @@ import React, { useState } from 'react'
 import { Form, Button } from 'react-bootstrap'
 import './Contact.css'
 import axios from 'axios'
+import { flower } from '../../constants/Colors'
 //Import Images
 import ImgContact1 from '../../images/artist-contact/contact1.jpg'
 import ImgContact2 from '../../images/artist-contact/contact2.jpg'
 import ImgContact3 from '../../images/artist-contact/contact3.jpg'
 import ImgContact4 from '../../images/artist-contact/contact4.jpg'
 import ImgContact5 from '../../images/artist-contact/contact5.jpg'
+import HorizontalColorBand from '../../components/HorizontalColorBand'
 const Contact = () => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
@@ -64,13 +66,18 @@ const Contact = () => {
 
   return (
     <div id='contact-container'>
-      <div id='contact-header-banner'>
+      {/* <div id='contact-header-banner'>
         <img src={ImgContact1} alt='artist' />
         <img src={ImgContact2} alt='artist' />
         <img src={ImgContact3} alt='artist' />
         <img src={ImgContact4} alt='artist' />
         <img src={ImgContact5} alt='artist' />
-      </div>
+      </div> */}
+      <HorizontalColorBand
+        color={flower}
+        height='50px'
+        style={{ marginBottom: '4rem' }}
+      />
       <form id='artist-contact-form' onChange={(e: any) => handleFormChange(e)}>
         <h1 className='font-juumbo  liberation-sans-bold'>CONTACT</h1>
         <p className=' liberation-sans-bold'>
