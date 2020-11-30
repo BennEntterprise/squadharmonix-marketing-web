@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './Typefaces.css'
+import './typefaces.css'
 const Typefaces = () => {
   return (
     <div>

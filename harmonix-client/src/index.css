@@ -1,5 +1,6 @@
 @import 'constants/colors.css';
 @import 'constants/fonts.css';
+@import 'constants/typefaces.css';
 
 .neg-hashlink {
   color: black;
