@@ -25,6 +25,21 @@ Conversely you can run `npm run rebuild` then `npm run start` to serve the proje
 
 After deploying to heroku production, you will need to enter these environment variables directly via the heroku dashboard. Follow this tutorial to get that done: [Config Env Vars in Heroku](https://devcenter.heroku.com/articles/config-vars)
 
+### A note about phone development
+
+If you wish to test your local development on a mobile device (not just scaling the browser down) running `npm run ngrok` will utilize the [ngrok utility](https://ngrok.com/) to open your localhost port for testing on a mobile device.
+_You must download ngrok on your own and ensure the ngrok.exe is within your path_
+The command will provide a publicly available url that you can hit on your phone to test your local development. This removes the need to push to a staging area to see the changes on a mobile device. The URL is a randomized string which is not ideal, if you obtain an ngrok account (~60$/yr) you can feed the command a variable to set a custom domain name.
+
+Ex:
+
+```bash
+npm run ngrok --subdomain=<your-easily-readable-domain-here>
+```
+
+This will mean you can then test your app at http://your-easily-readable-domain.ngrok.io.
+Voila! Book mark that, and always run the same subdomain and you'll have an easy way to test on mobile.
+
 ### Git Workflow
 
 Squad aims to utilize the [Gitflow](https://datasift.github.io/gitflow/IntroducingGitFlow.html) branching strategy. This utilizes several branches to remain organized.

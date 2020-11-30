@@ -25,7 +25,7 @@
     "rebuild": "cd harmonix-client && npm run build",
     "push-to-staging": "git push heroku develop:main",
     "push-to-prod": "git push heroku-prod main",
-    "ngrok": "ngrok http 3000 --subdomain=kyleiconic"
+    "ngrok": "ngrok http 3000 -subdomain=kyleiconic"
   },
   "repository": {
     "type": "git",
