@@ -34,3 +34,29 @@
 .aboutus-headshot {
   width: 11%;
 }
+
+#more-info-bubble {
+  background-color: var(--magenta);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  top: -32%;
+  padding: 1rem;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+#more-info-bubble p {
+  font-size: 0.7rem;
+  transform: rotate(25deg) translate(4%, 6%);
+  color: white;
+}
+
+@media (max-width: 576px) {
+}
