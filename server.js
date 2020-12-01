@@ -54,7 +54,8 @@ app.post('/artist-contact-form-submit', (req, res) => {
   const { name, email, subject, message } = req.body
   var mailOptions = {
     from: `${name} <${email}>`,
-    to: 'sample@gmail.com',
+    to: process.env.NODE_MAILER_TARGET_EMAIL,
+    cc: 'kyle.bennett@betweenfiveandnine.com',
     subject: subject,
     text: message,
     html: `<h3>${subject}</h3><p>${message}</p> <p>(This lead can be reached at: ${email})</p>`,
