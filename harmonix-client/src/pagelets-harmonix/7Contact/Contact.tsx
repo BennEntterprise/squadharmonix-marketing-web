@@ -67,17 +67,32 @@ const Contact = () => {
   }
 
   return (
-    <Container>
+    <Container fluid id='contact-container'>
       <Row>
         <Col>
-          <div id='contact-container'>
-            <div id='contact-header-banner'>
-              <img className='contact-image' src={ImgContact1} alt='artist' />
-              <img className='contact-image' src={ImgContact2} alt='artist' />
-              <img className='contact-image' src={ImgContact3} alt='artist' />
-              <img className='contact-image' src={ImgContact4} alt='artist' />
-              <img className='contact-image' src={ImgContact5} alt='artist' />
-            </div>
+          <div id='contact-header-banner'>
+            <img className='contact-image' src={ImgContact1} alt='artist' />
+            <img className='contact-image' src={ImgContact2} alt='artist' />
+            <img className='contact-image' src={ImgContact3} alt='artist' />
+            <img className='contact-image' src={ImgContact4} alt='artist' />
+            <img className='contact-image' src={ImgContact5} alt='artist' />
+          </div>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs='12' sm='12' md='12' lg='12' xl='12'>
+          <iframe
+            src='https://us18.list-manage.com/contact-form?u=5862c03408605c39fa217f490&form_id=f86c10beda6e78b9f11053178c4220c7'
+            title='Mailchimp signup form'
+            style={{ border: 'none', width: '100%', height: '100vw' }}
+          ></iframe>
+        </Col>
+      </Row>
+      {/*
+       <Row>
+        <Col>
+          <div >
+           
             <form
               id='artist-contact-form'
               onChange={(e: any) => handleFormChange(e)}
@@ -135,6 +150,7 @@ const Contact = () => {
           </div>
         </Col>
       </Row>
+    */}
     </Container>
   )
 }
