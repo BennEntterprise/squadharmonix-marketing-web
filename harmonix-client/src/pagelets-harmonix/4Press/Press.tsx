@@ -196,7 +196,7 @@ const Press = () => {
                 alt='follow on instagram'
               />
             </a>
-            <a href='MAILTO:info@squadharmonix.com?subject=GetOnTheMailingList&body=Please%20Put%20Me%20On%20Your%20Mailing%20List!'>
+            <a href='https://squadharmonix.us18.list-manage.com/subscribe?u=5862c03408605c39fa217f490&id=6eb6e8947f'>
               <img
                 className='follow-us-icon'
                 src={IconMail}
@@ -233,7 +233,7 @@ const Press = () => {
               alt='follow on instagram'
             />
           </a>
-          <a href='MAILTO:info@squadharmonix.com?subject=GetOnTheMailingList&body=Please%20Put%20Me%20On%20Your%20Mailing%20List!'>
+          <a href='https://squadharmonix.us18.list-manage.com/subscribe?u=5862c03408605c39fa217f490&id=6eb6e8947f'>
             <img
               className='follow-us-icon'
               src={IconMail}
