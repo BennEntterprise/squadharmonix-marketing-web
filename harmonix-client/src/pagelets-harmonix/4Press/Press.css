@@ -63,6 +63,7 @@
   text-align: center;
   overflow-wrap: normal;
   width: 100%;
+  height: min-content;
 }
 #grid-imgs-item {
   /* border: var(--construction-red); */
@@ -102,6 +103,7 @@
 #grid-altfol-item .follow-us-icon {
   width: 25%;
 }
+
 #grid-follow-item {
   /* border: var(--construction-red); */
   grid-area: follow;

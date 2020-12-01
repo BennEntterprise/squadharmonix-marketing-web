@@ -12,6 +12,7 @@ import IconMail from '../../images/icons/mailinglist-academy(trimmed).png'
 
 // Press Icons
 import KidsCartoon from '../../images/all kids.png'
+import LogoBowler from '../../images/logos/gramophone meddia(trimmed).webp'
 
 // Social Snippets
 import ImgEugeneLevy from '../../images/press/2.3.1 Eugene Levy.png'
@@ -101,17 +102,28 @@ const Press = () => {
           </div>
         </div>
         <div id='grid-inquiry-item'>
-          <h5 className='font-h5 libration-san-bold'>
-            Click Here for Press Inquiries
-          </h5>
-          <img src={'#'} alt='brittany bowler logo' />
-          <p className='font-mini liberation-sans-bold'>Brittany Bowler</p>
           <a href='MAILTO:brittany@gramophone.media'>
+            <h5
+              className='font-h5 libration-san-bold'
+              style={{ textDecoration: 'none', color: 'black' }}
+            >
+              Click Here for Press Inquiries
+            </h5>
+            <img src={LogoBowler} alt='brittany bowler logo' width='40%' />
             <p
               className='font-mini liberation-sans-bold'
-              style={{ fontSize: '.5rem' }}
+              style={{ textDecoration: 'none', color: 'black' }}
             >
-              brittany@gramophone.media
+              Brittany
+              <br /> Bowler
+            </p>
+            <p
+              className='font-mini liberation-sans-bold'
+              style={{ fontSize: '0.5rem' }}
+            >
+              brittany
+              <br />
+              @gramophone.media
             </p>
           </a>
         </div>
