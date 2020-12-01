@@ -19,6 +19,7 @@
   bottom: 0%;
   width: 2000%;
   margin: 1rem auto 3.1rem auto;
+  z-index: -5;
 }
 
 #banner-content-container {
