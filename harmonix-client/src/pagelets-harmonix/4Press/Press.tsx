@@ -2,6 +2,7 @@ import React from 'react'
 import './Press.css'
 import { NavHashLink } from 'react-router-hash-link'
 import { Container, Row, Col } from 'react-bootstrap'
+import ReactPlayer from 'react-player'
 
 //Social Icons
 import IconFB from '../../images/icons/facebook-academy.png'
@@ -131,6 +132,13 @@ const Press = () => {
                   alt='Deke Sharon Facebook post'
                 />
               </a>
+              <a href={LinkAcaVilleRadioTwitter}>
+                <img
+                  src={ImgAcaVille}
+                  className='social-media-img'
+                  alt='Acaville Video on youtube'
+                />
+              </a>
             </Col>
 
             <Col xs='4' sm='4' md='4' lg='4' xl='4' className='social-column'>
@@ -157,13 +165,21 @@ const Press = () => {
                   alt='Some Good News Squad Harmonix Segment'
                 />
               </a>
-              <a href={LinkAcaVilleRadioTwitter}>
-                <img
-                  src={ImgAcaVille}
-                  className='social-media-img'
-                  alt='Acaville Video on youtube'
-                />
-              </a>
+
+              <ReactPlayer
+                controls
+                url='https://youtube.com/watch?v=Eg08rJGKjtA'
+                height='20%'
+                width='100%'
+                style={{ margin: '0.5rem 0', padding: '0' }}
+              ></ReactPlayer>
+              <ReactPlayer
+                controls
+                url='https://youtube.com/watch?v=Yg8dZ9ImXPw'
+                height='20%'
+                width='100%'
+                style={{ margin: '0.5rem 0', padding: '0' }}
+              ></ReactPlayer>
             </Col>
           </Row>
         </Container>
