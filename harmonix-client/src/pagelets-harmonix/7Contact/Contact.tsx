@@ -82,7 +82,7 @@ const Contact = () => {
       <Row>
         <Col xs='12' sm='12' md='12' lg='12' xl='12'>
           <iframe
-            src='https://us18.list-manage.com/contact-form?u=5862c03408605c39fa217f490&form_id=f86c10beda6e78b9f11053178c4220c7'
+            src='//us18.list-manage.com/contact-form?u=5862c03408605c39fa217f490&form_id=f86c10beda6e78b9f11053178c4220c7'
             title='Mailchimp signup form'
             style={{ border: 'none', width: '100%', height: '100vw' }}
           ></iframe>
