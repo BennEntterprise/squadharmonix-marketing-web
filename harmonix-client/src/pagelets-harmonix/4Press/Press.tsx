@@ -8,7 +8,7 @@ import ReactPlayer from 'react-player'
 import IconFB from '../../images/icons/facebook-academy.png'
 import IconTikTok from '../../images/icons/tiktok-academy.png'
 import IconIG from '../../images/icons/instagram-academy.png'
-import IconMail from '../../images/social-assets/mail-artist-good.png'
+import IconMail from '../../images/icons/mailinglist-academy(trimmed).png'
 
 // Press Icons
 import KidsCartoon from '../../images/all kids.png'
@@ -176,7 +176,7 @@ const Press = () => {
               <ReactPlayer
                 controls
                 url='https://youtube.com/watch?v=Yg8dZ9ImXPw'
-                height='20%'
+                height='auto'
                 width='100%'
                 style={{ margin: '0.5rem 0', padding: '0' }}
               ></ReactPlayer>
