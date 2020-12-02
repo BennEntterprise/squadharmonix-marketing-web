@@ -24,15 +24,10 @@ const Merch = () => {
   const BlanketLink =
     'https://teespring.com/stores/squadharmonix/collection/bedding?page=1'
   return (
-    <Container fluid id='merch-container'>
+    <Container id='merch-container'>
       <NavHashLink to='#merch-container'></NavHashLink>
       <Row id='merch-header'>
-        <h1
-          className='font-h1 liberation-sans-bold'
-          style={{ textAlign: 'left', margin: '2rem auto', width: '100%;' }}
-        >
-          Merch
-        </h1>
+        <h1 className='font-jumbo liberation-sans-bold'>MERCH</h1>
       </Row>
       <Row className='merch-row'>
         <Col xs='12' sm='12' md='4' lg='4' xl='4'>
