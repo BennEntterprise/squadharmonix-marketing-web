@@ -70,9 +70,10 @@ const Members = () => {
                 />
               </div>
             </div>
-            <h4 className='photo-title font-h4 liberation-sans-bold'>
+            <h6 className='photo-title liberation-sans-bold font-h6 '>
               JOHANNA
-            </h4>
+            </h6>
+            <p className='font-p'>TENOR</p>
           </div>
 
           <div className='profile-container'>
@@ -86,9 +87,10 @@ const Members = () => {
                 <img className='instagram-link' src={IG} alt='instagram link' />
               </div>
             </div>
-            <h4 className='photo-title font-h4 liberation-sans-bold'>
+            <h6 className='photo-title font-h6 liberation-sans-bold'>
               CAMERON
-            </h4>
+            </h6>
+            <p className='font-p'>BEATBOX/ALTO</p>
           </div>
 
           <div className='profile-container'>
@@ -107,7 +109,8 @@ const Members = () => {
                 />
               </div>
             </div>
-            <h4 className='photo-title font-h4 liberation-sans-bold'>SYDNE</h4>
+            <h6 className='photo-title font-h6 liberation-sans-bold'>SYDNE</h6>
+            <p className='font-p liberation-sans'>TENOR</p>
           </div>
         </Col>
       </Row>
@@ -140,7 +143,8 @@ const Members = () => {
                 />
               </div>
             </div>
-            <h4 className='photo-title font-h4 liberation-sans-bold'>LAUREN</h4>
+            <h6 className='photo-title font-h6 liberation-sans-bold'>LAUREN</h6>
+            <p className='font-p liberation-sans'>SOPRANO</p>
           </div>
 
           <div className='profile-container'>
@@ -159,7 +163,8 @@ const Members = () => {
                 />
               </div>
             </div>
-            <h4 className='photo-title font-h4 liberation-sans-bold'>LUCY</h4>
+            <h6 className='photo-title font-h6 liberation-sans-bold'>LUCY</h6>
+            <p className='font-p liberation-sans'>TENOR</p>
           </div>
 
           <div className='profile-container'>
@@ -184,7 +189,8 @@ const Members = () => {
                 />
               </div>
             </div>
-            <h4 className='photo-title font-h4 liberation-sans-bold'>MAYA</h4>
+            <h6 className='photo-title font-h6 liberation-sans-bold'>MAYA</h6>
+            <p className='font-p liberation-sans'>ALTO</p>
           </div>
 
           <div className='profile-container'>
@@ -203,7 +209,8 @@ const Members = () => {
                 />
               </div>
             </div>
-            <h4 className='photo-title font-h4 liberation-sans-bold'>MISCHA</h4>
+            <h6 className='photo-title font-h6 liberation-sans-bold'>MISCHA</h6>
+            <p className='font-p liberation-sans'>ALTO</p>
           </div>
         </Col>
       </Row>
@@ -236,7 +243,8 @@ const Members = () => {
                 />
               </div>
             </div>
-            <h4 className='photo-title font-h4 liberation-sans-bold'>NOAH</h4>
+            <h6 className='photo-title font-h6 liberation-sans-bold'>NOAH</h6>
+            <p className='font-p'>BASS/BEATBOXER</p>
           </div>{' '}
           <div className='profile-container'>
             <div className='photo-container'>
@@ -254,7 +262,8 @@ const Members = () => {
                 />
               </div>
             </div>
-            <h4 className='photo-title font-h4 liberation-sans-bold'>SIMONE</h4>
+            <h6 className='photo-title font-h6 liberation-sans-bold'>SIMONE</h6>
+            <p className='font-p'>MEZZO</p>
           </div>{' '}
           <div className='profile-container'>
             <div className='photo-container'>
@@ -272,7 +281,8 @@ const Members = () => {
                 /> */}
               </div>
             </div>
-            <h4 className='photo-title font-h4 liberation-sans-bold'>ELISE</h4>
+            <h6 className='photo-title font-h6 liberation-sans-bold'>ELISE</h6>
+            <p className='font-p'>SOPRANO</p>
           </div>
         </Col>
       </Row>

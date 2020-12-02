@@ -80,7 +80,7 @@ const Merch = () => {
               </a>
             </div>
             <div className='merch-item-title  liberation-sans-bold'>
-              <p>Women's Athletic</p>
+              <p>Athletic</p>
             </div>
             <div className='merch-item-price'>
               <p>$32.50</p>
