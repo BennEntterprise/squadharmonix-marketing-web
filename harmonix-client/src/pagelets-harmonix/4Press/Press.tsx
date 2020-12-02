@@ -55,7 +55,7 @@ const Press = () => {
       <Container fluid id='press-container'>
         <NavHashLink to='#press-container'></NavHashLink>
         <div id='grid-header-item'>
-          <h1 className='font-jumbo liberation-sans-bold'>Press</h1>
+          <h1 className='font-jumbo liberation-sans-bold'>PRESS</h1>
         </div>
         <div id='grid-cartoon-item'>
           <img src={KidsCartoon} alt='cartoon image of squad harmonix' />
@@ -107,7 +107,7 @@ const Press = () => {
               className='font-h5 libration-san-bold'
               style={{ textDecoration: 'none', color: 'black' }}
             >
-              Click Here for Press Inquiries
+              CLICK HERE FOR PRESS INQUIRIES
             </h5>
             <img src={LogoBowler} alt='brittany bowler logo' width='40%' />
             <p
@@ -200,7 +200,7 @@ const Press = () => {
             className='font-h5 liberation-sans-bold'
             style={{ margin: '3% auto' }}
           >
-            Follow Us
+            FOLLOW US
           </h5>
           <div>
             <a href={SquadHarmonixFBPage}>
@@ -238,7 +238,7 @@ const Press = () => {
             className='font-h5 liberation-sans-bold'
             style={{ margin: '3% auto' }}
           >
-            Follow Us
+            FOLLOW US
           </h5>
           <a href={SquadHarmonixFBPage}>
             <img

@@ -20,8 +20,9 @@ const CheckItOut = () => {
               SQUAD HARMONIX HOLIDAY PROMO
             </h5>
             <ReactPlayer
-              width='90%'
-              heigth='90%'
+              style={{ position: 'relative', left: '0%' }}
+              width='100%'
+              heigth='100%'
               controls
               url={HarmonixPromo}
             />
@@ -32,7 +33,13 @@ const CheckItOut = () => {
             <h5 className='font-h5 liberation-sans-bold'>
               ALL I WANT FOR CHRISTMAS IS YOU
             </h5>
-            <ReactPlayer width='90%' heigth='90%' controls url={MKChristmas} />
+            <ReactPlayer
+              style={{ position: 'relative', left: '0%' }}
+              width='100%'
+              heigth='100%'
+              controls
+              url={MKChristmas}
+            />
           </div>
         </Col>
       </Row>
@@ -42,7 +49,7 @@ const CheckItOut = () => {
             id='checkout-heading'
             className=' font-h2 color-purple liberation-sans-bold'
           >
-            Check Out:
+            CHECK IT OUT:
           </h2>
         </Col>
       </Row>
@@ -51,8 +58,9 @@ const CheckItOut = () => {
           <div className='player-container'>
             <h5 className='font-h5 liberation-sans-bold'>CALIFORNIA WINTER</h5>
             <ReactPlayer
-              width='90%'
-              heigth='90%'
+              style={{ position: 'relative', left: '0%' }}
+              width='100%'
+              heigth='100%'
               controls
               url={YTCaliforniaWinter}
             />
@@ -62,8 +70,9 @@ const CheckItOut = () => {
           <div className='player-container'>
             <h5 className='font-h5 liberation-sans-bold'>PARTY IN THE USA</h5>
             <ReactPlayer
-              width='90%'
-              heigth='90%'
+              style={{ position: 'relative', left: '0%' }}
+              width='100%'
+              heigth='100%'
               controls
               url={YTPartyInTheUSA}
             />
@@ -84,12 +93,13 @@ const CheckItOut = () => {
       <Row>
         <Col xs={12} md={12} lg={6} xl={6}>
           <div className='player-container'>
-            <h5 className='font-h5 liberation-sans-bold'>
+            <h5 className='font-h5 liberation-sans-bold no-wrap'>
               SIMPLY THE BEST (FROM "SCHITTS CREEK")
             </h5>
             <ReactPlayer
-              width='90%'
-              heigth='90%'
+              style={{ position: 'relative', left: '0%' }}
+              width='100%'
+              heigth='100%'
               controls
               url={YTSimplyTheBest}
             />
@@ -100,7 +110,13 @@ const CheckItOut = () => {
             <h5 className='font-h5 liberation-sans-bold'>
               STAND UP (FEAT. INTONENATION)
             </h5>
-            <ReactPlayer width='90%' heigth='90%' controls url={YTStandUp} />
+            <ReactPlayer
+              style={{ position: 'relative', left: '0%' }}
+              width='100%'
+              heigth='100%'
+              controls
+              url={YTStandUp}
+            />
           </div>
         </Col>
       </Row>
