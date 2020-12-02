@@ -63,15 +63,14 @@ const Press = () => {
           </div>
 
           <div id='grid-piece-item'>
-            <div id='purple-bar'> </div>
             <div id='press-list'>
               <li className='undecorated-list-item'>
                 <span className='press-release-date font-underline'>
-                  Oct 25, 2020:
+                  Sept 28, 2020:
                 </span>
-                <a className='undecorated-item' href={ThePulseLink}>
-                  &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
-                  Interview]
+                <a className='undecorated-item' href={BroadwayWorldLink}>
+                  &#8195;Broadway World: Squad Harmonix and InToneNation Covers
+                  Cynthia Ervivo's 'Stand Up'
                 </a>
               </li>
               <li className='undecorated-list-item'>
@@ -94,11 +93,11 @@ const Press = () => {
               </li>
               <li className='undecorated-list-item'>
                 <span className='press-release-date font-underline'>
-                  Sept 28, 2020:
+                  Oct 25, 2020:
                 </span>
-                <a className='undecorated-item' href={BroadwayWorldLink}>
-                  &#8195;Broadway World: Squad Harmonix and InToneNation Covers
-                  Cynthia Ervivo's 'Stand Up'
+                <a className='undecorated-item' href={ThePulseLink}>
+                  &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
+                  Interview]
                 </a>
               </li>
             </div>
