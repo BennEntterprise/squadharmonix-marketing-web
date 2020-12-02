@@ -20,7 +20,7 @@
   width: 2000%;
   margin: 1rem auto 3.1rem auto;
   z-index: -5;
-  max-width: 720px;
+  max-width: 750px;
 }
 
 #banner-content-container {
@@ -58,12 +58,12 @@
   margin: 1rem auto;
 }
 #banner-marquee-sub {
-  margin: 1.1rem auto 0rem auto;
+  margin: 1rem auto 0rem auto;
 }
 
 #subscribe-btn {
   align-self: center;
-  margin: 1rem auto -2rem auto;
+  margin: 1rem auto 0rem auto;
 }
 #subscribe-btn a {
   background-color: #d32322;
