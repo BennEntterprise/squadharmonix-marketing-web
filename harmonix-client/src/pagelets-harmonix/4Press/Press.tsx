@@ -100,6 +100,60 @@ const Press = () => {
                   Interview]
                 </a>
               </li>
+              <li className='undecorated-list-item'>
+                <span className='press-release-date font-underline'>
+                  Oct 25, 2020:
+                </span>
+                <a className='undecorated-item' href={ThePulseLink}>
+                  &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
+                  Interview]
+                </a>
+              </li>
+              <li className='undecorated-list-item'>
+                <span className='press-release-date font-underline'>
+                  Oct 25, 2020:
+                </span>
+                <a className='undecorated-item' href={ThePulseLink}>
+                  &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
+                  Interview]
+                </a>
+              </li>
+              <li className='undecorated-list-item'>
+                <span className='press-release-date font-underline'>
+                  Oct 25, 2020:
+                </span>
+                <a className='undecorated-item' href={ThePulseLink}>
+                  &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
+                  Interview]
+                </a>
+              </li>
+              <li className='undecorated-list-item'>
+                <span className='press-release-date font-underline'>
+                  Oct 25, 2020:
+                </span>
+                <a className='undecorated-item' href={ThePulseLink}>
+                  &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
+                  Interview]
+                </a>
+              </li>
+              <li className='undecorated-list-item'>
+                <span className='press-release-date font-underline'>
+                  Oct 25, 2020:
+                </span>
+                <a className='undecorated-item' href={ThePulseLink}>
+                  &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
+                  Interview]
+                </a>
+              </li>
+              <li className='undecorated-list-item'>
+                <span className='press-release-date font-underline'>
+                  Oct 25, 2020:
+                </span>
+                <a className='undecorated-item' href={ThePulseLink}>
+                  &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
+                  Interview]
+                </a>
+              </li>
             </div>
           </div>
           <div id='grid-inquiry-item'>
@@ -110,21 +164,27 @@ const Press = () => {
               >
                 CLICK HERE FOR PRESS INQUIRIES
               </h5>
-              <img src={LogoBowler} alt='brittany bowler logo' width='40%' />
+              <img
+                src={LogoBowler}
+                alt='brittany bowler logo'
+                width='20%'
+                className=' d-none d-md-inline'
+              />
               <p
-                className='font-mini liberation-sans-bold'
-                style={{ textDecoration: 'none', color: 'black' }}
+                className='font-mini liberation-sans-bold d-none d-lg-block'
+                style={{
+                  textDecoration: 'none',
+                  color: 'black',
+                  marginBottom: '0',
+                }}
               >
-                Brittany
-                <br /> Bowler
+                Brittany Bowler
               </p>
               <p
-                className='font-mini liberation-sans-bold'
-                style={{ fontSize: '0.5rem' }}
+                className='font-p liberation-sans-bold d-none d-lg-inline'
+                style={{ fontSize: '1rem', marginTop: '0.50rem' }}
               >
-                brittany
-                <br />
-                @gramophone.media
+                brittany@gramophone.media
               </p>
             </a>
           </div>
