@@ -53,156 +53,195 @@ const Press = () => {
   return (
     <>
       <Container fluid id='press-container'>
-        <NavHashLink to='#press-container'></NavHashLink>
-        <div id='grid-header-item'>
-          <h1 className='font-jumbo liberation-sans-bold'>PRESS</h1>
-        </div>
-        <div id='grid-cartoon-item'>
+        <div id='cartoon-item' style={{ width: '100%' }}>
           <img src={KidsCartoon} alt='cartoon image of squad harmonix' />
         </div>
-        <div id='grid-piece-item'>
-          <div id='purple-bar'> </div>
-          <div id='press-list'>
-            <li className='undecorated-list-item'>
-              <span className='press-release-date font-underline'>
-                Oct 25, 2020:
-              </span>
-              <a className='undecorated-item' href={ThePulseLink}>
-                &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
-                Interview]
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <span className='press-release-date font-underline'>
-                Oct 2, 2020:{' '}
-              </span>
-              <a className='undecorated-item' href={OnTheSpotLink}>
-                &#8195;OnTheSpot: Squad Harmonix Interview - Stand Up, Activisim
-                and Positive Impact [Video]
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <span className='press-release-date font-underline'>
-                Oct 6, 2020:
-              </span>
-              <a className='undecorated-item' href={InspireMoreLink}>
-                &#8195;InspireMore: A Cappella Groups Come Together and "Stand
-                Up" for Change in Moving Performance
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <span className='press-release-date font-underline'>
-                Sept 28, 2020:
-              </span>
-              <a className='undecorated-item' href={BroadwayWorldLink}>
-                &#8195;Broadway World: Squad Harmonix and InToneNation Covers
-                Cynthia Ervivo's 'Stand Up'
-              </a>
-            </li>
+        <Container fluid id='press-container-grid'>
+          <NavHashLink to='#press-container'></NavHashLink>
+          <div id='grid-header-item'>
+            <h1 className='font-jumbo liberation-sans-bold'>PRESS</h1>
           </div>
-        </div>
-        <div id='grid-inquiry-item'>
-          <a href='MAILTO:brittany@gramophone.media'>
+
+          <div id='grid-piece-item'>
+            <div id='purple-bar'> </div>
+            <div id='press-list'>
+              <li className='undecorated-list-item'>
+                <span className='press-release-date font-underline'>
+                  Oct 25, 2020:
+                </span>
+                <a className='undecorated-item' href={ThePulseLink}>
+                  &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
+                  Interview]
+                </a>
+              </li>
+              <li className='undecorated-list-item'>
+                <span className='press-release-date font-underline'>
+                  Oct 2, 2020:{' '}
+                </span>
+                <a className='undecorated-item' href={OnTheSpotLink}>
+                  &#8195;OnTheSpot: Squad Harmonix Interview - Stand Up,
+                  Activisim and Positive Impact [Video]
+                </a>
+              </li>
+              <li className='undecorated-list-item'>
+                <span className='press-release-date font-underline'>
+                  Oct 6, 2020:
+                </span>
+                <a className='undecorated-item' href={InspireMoreLink}>
+                  &#8195;InspireMore: A Cappella Groups Come Together and "Stand
+                  Up" for Change in Moving Performance
+                </a>
+              </li>
+              <li className='undecorated-list-item'>
+                <span className='press-release-date font-underline'>
+                  Sept 28, 2020:
+                </span>
+                <a className='undecorated-item' href={BroadwayWorldLink}>
+                  &#8195;Broadway World: Squad Harmonix and InToneNation Covers
+                  Cynthia Ervivo's 'Stand Up'
+                </a>
+              </li>
+            </div>
+          </div>
+          <div id='grid-inquiry-item'>
+            <a href='MAILTO:brittany@gramophone.media'>
+              <h5
+                className='font-h5 libration-san-bold'
+                style={{ textDecoration: 'none', color: 'black' }}
+              >
+                CLICK HERE FOR PRESS INQUIRIES
+              </h5>
+              <img src={LogoBowler} alt='brittany bowler logo' width='40%' />
+              <p
+                className='font-mini liberation-sans-bold'
+                style={{ textDecoration: 'none', color: 'black' }}
+              >
+                Brittany
+                <br /> Bowler
+              </p>
+              <p
+                className='font-mini liberation-sans-bold'
+                style={{ fontSize: '0.5rem' }}
+              >
+                brittany
+                <br />
+                @gramophone.media
+              </p>
+            </a>
+          </div>
+          <Container fluid id='grid-imgs-item'>
+            <Row>
+              <Col xs='4' sm='4' md='4' lg='4' xl='4' className='social-column'>
+                <a href={LinkEugeneLevyTwitter}>
+                  <img
+                    src={ImgEugeneLevy}
+                    className='social-media-img'
+                    alt='Eugene Levy Tweet'
+                  />
+                </a>
+                <a href={LinkDekeSharonFB}>
+                  <img
+                    src={ImgDekeSharon}
+                    className='social-media-img'
+                    alt='Deke Sharon Facebook post'
+                  />
+                </a>
+                <a href={LinkAcaVilleRadioTwitter}>
+                  <img
+                    src={ImgAcaVille}
+                    className='social-media-img'
+                    alt='Acaville Video on youtube'
+                  />
+                </a>
+              </Col>
+
+              <Col xs='4' sm='4' md='4' lg='4' xl='4' className='social-column'>
+                <a href={LinkChromeoFB}>
+                  <img
+                    src={ImgChromeo}
+                    className='social-media-img'
+                    alt='Chromeo facebook post'
+                  />
+                </a>
+                <a href={LinkSQuadHarmonixHallmark}>
+                  <img
+                    src={ImgHallmark}
+                    className='social-media-img'
+                    alt='Squad harmonix facebook post mentioning hallmark'
+                  />
+                </a>
+              </Col>
+              <Col xs='4' sm='4' md='4' lg='4' xl='4' className='social-column'>
+                <a href={LinkSomeGoodNewsTwitter}>
+                  <img
+                    src={ImgSGN}
+                    className='social-media-img'
+                    alt='Some Good News Squad Harmonix Segment'
+                  />
+                </a>
+
+                <ReactPlayer
+                  controls
+                  url='https://youtube.com/watch?v=Eg08rJGKjtA'
+                  height='20%'
+                  width='100%'
+                  style={{ margin: '0.5rem 0', padding: '0' }}
+                ></ReactPlayer>
+                <ReactPlayer
+                  controls
+                  url='https://youtube.com/watch?v=Yg8dZ9ImXPw'
+                  height='auto'
+                  width='100%'
+                  style={{ margin: '0.5rem 0', padding: '0' }}
+                ></ReactPlayer>
+              </Col>
+            </Row>
+          </Container>
+          <div id='grid-altfol-item' className='d-block d-sm-none'>
             <h5
-              className='font-h5 libration-san-bold'
-              style={{ textDecoration: 'none', color: 'black' }}
+              className='font-h5 liberation-sans-bold'
+              style={{ margin: '3% auto' }}
             >
-              CLICK HERE FOR PRESS INQUIRIES
+              FOLLOW US
             </h5>
-            <img src={LogoBowler} alt='brittany bowler logo' width='40%' />
-            <p
-              className='font-mini liberation-sans-bold'
-              style={{ textDecoration: 'none', color: 'black' }}
+            <div>
+              <a href={SquadHarmonixFBPage}>
+                <img
+                  className='follow-us-icon'
+                  src={IconFB}
+                  alt='follow on facebook for more'
+                />
+              </a>
+              <a href='https://www.tiktok.com/@squadharmonix'>
+                <img
+                  className='follow-us-icon'
+                  src={IconTikTok}
+                  alt='follow on tiktok'
+                />
+              </a>
+              <a href={SquadHarmonixIGPage}>
+                <img
+                  className='follow-us-icon'
+                  src={IconIG}
+                  alt='follow on instagram'
+                />
+              </a>
+              <a href='https://squadharmonix.us18.list-manage.com/subscribe?u=5862c03408605c39fa217f490&id=6eb6e8947f'>
+                <img
+                  className='follow-us-icon'
+                  src={IconMail}
+                  alt='join our mailing list'
+                />
+              </a>
+            </div>
+          </div>
+          <div id='grid-follow-item' className='d-none d-sm-flex'>
+            <h5
+              className='font-h5 liberation-sans-bold'
+              style={{ margin: '3% auto' }}
             >
-              Brittany
-              <br /> Bowler
-            </p>
-            <p
-              className='font-mini liberation-sans-bold'
-              style={{ fontSize: '0.5rem' }}
-            >
-              brittany
-              <br />
-              @gramophone.media
-            </p>
-          </a>
-        </div>
-        <Container fluid id='grid-imgs-item'>
-          <Row>
-            <Col xs='4' sm='4' md='4' lg='4' xl='4' className='social-column'>
-              <a href={LinkEugeneLevyTwitter}>
-                <img
-                  src={ImgEugeneLevy}
-                  className='social-media-img'
-                  alt='Eugene Levy Tweet'
-                />
-              </a>
-              <a href={LinkDekeSharonFB}>
-                <img
-                  src={ImgDekeSharon}
-                  className='social-media-img'
-                  alt='Deke Sharon Facebook post'
-                />
-              </a>
-              <a href={LinkAcaVilleRadioTwitter}>
-                <img
-                  src={ImgAcaVille}
-                  className='social-media-img'
-                  alt='Acaville Video on youtube'
-                />
-              </a>
-            </Col>
-
-            <Col xs='4' sm='4' md='4' lg='4' xl='4' className='social-column'>
-              <a href={LinkChromeoFB}>
-                <img
-                  src={ImgChromeo}
-                  className='social-media-img'
-                  alt='Chromeo facebook post'
-                />
-              </a>
-              <a href={LinkSQuadHarmonixHallmark}>
-                <img
-                  src={ImgHallmark}
-                  className='social-media-img'
-                  alt='Squad harmonix facebook post mentioning hallmark'
-                />
-              </a>
-            </Col>
-            <Col xs='4' sm='4' md='4' lg='4' xl='4' className='social-column'>
-              <a href={LinkSomeGoodNewsTwitter}>
-                <img
-                  src={ImgSGN}
-                  className='social-media-img'
-                  alt='Some Good News Squad Harmonix Segment'
-                />
-              </a>
-
-              <ReactPlayer
-                controls
-                url='https://youtube.com/watch?v=Eg08rJGKjtA'
-                height='20%'
-                width='100%'
-                style={{ margin: '0.5rem 0', padding: '0' }}
-              ></ReactPlayer>
-              <ReactPlayer
-                controls
-                url='https://youtube.com/watch?v=Yg8dZ9ImXPw'
-                height='auto'
-                width='100%'
-                style={{ margin: '0.5rem 0', padding: '0' }}
-              ></ReactPlayer>
-            </Col>
-          </Row>
-        </Container>
-        <div id='grid-altfol-item' className='d-block d-sm-none'>
-          <h5
-            className='font-h5 liberation-sans-bold'
-            style={{ margin: '3% auto' }}
-          >
-            FOLLOW US
-          </h5>
-          <div>
+              FOLLOW US
+            </h5>
             <a href={SquadHarmonixFBPage}>
               <img
                 className='follow-us-icon'
@@ -232,58 +271,22 @@ const Press = () => {
               />
             </a>
           </div>
-        </div>
-        <div id='grid-follow-item' className='d-none d-sm-flex'>
-          <h5
-            className='font-h5 liberation-sans-bold'
-            style={{ margin: '3% auto' }}
-          >
-            FOLLOW US
-          </h5>
-          <a href={SquadHarmonixFBPage}>
-            <img
-              className='follow-us-icon'
-              src={IconFB}
-              alt='follow on facebook for more'
-            />
-          </a>
-          <a href='https://www.tiktok.com/@squadharmonix'>
-            <img
-              className='follow-us-icon'
-              src={IconTikTok}
-              alt='follow on tiktok'
-            />
-          </a>
-          <a href={SquadHarmonixIGPage}>
-            <img
-              className='follow-us-icon'
-              src={IconIG}
-              alt='follow on instagram'
-            />
-          </a>
-          <a href='https://squadharmonix.us18.list-manage.com/subscribe?u=5862c03408605c39fa217f490&id=6eb6e8947f'>
-            <img
-              className='follow-us-icon'
-              src={IconMail}
-              alt='join our mailing list'
-            />
-          </a>
-        </div>
+        </Container>
       </Container>
 
       {/* <Container fluid id='press-container'>
         <Row>
-          <Col>
+        <Col>
             <h1
-              className='font-jumbo liberation-sans-bold'
-              style={{ textAlign: 'left', marginLeft: '10%' }}
+            className='font-jumbo liberation-sans-bold'
+            style={{ textAlign: 'left', marginLeft: '10%' }}
             >
-              Press
+            Press
             </h1>
-          </Col>
-        </Row>
-        <Row>
-          <Col
+            </Col>
+            </Row>
+            <Row>
+            <Col
             id='purple-bar'
             xs='1'
             sm='1'

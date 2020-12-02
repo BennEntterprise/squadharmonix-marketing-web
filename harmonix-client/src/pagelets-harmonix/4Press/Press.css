@@ -1,8 +1,12 @@
 #press-container {
   margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#press-container {
+#press-container-grid {
   /* border: var(--construction); */
   padding: 0;
   width: 100%;
@@ -30,16 +34,18 @@
   position: relative;
   left: 10%;
 }
-#grid-cartoon-item {
+#cartoon-item {
   /* border: var(--construction-red); */
-  grid-area: cartoon;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-height: 250px;
 }
-#grid-cartoon-item > img {
+#cartoon-item > img {
+  /* border: var(--construction); */
+  position: absolute;
+  left: 0%;
+  top: 0%;
   width: 100%;
   position: relative;
   margin-bottom: 1rem;
