@@ -66,12 +66,12 @@ const AboutUs = () => {
               className='font-jumbo liberation-sans-bold'
             >
               ABOUT US
-              <div id='more-info-bubble' style={{ display: 'none' }}>
-                <p className='font-p liberation-sans'>
-                  CLICK HERE FOR SQUAD ACADEMY&trade;
-                </p>
-              </div>
             </h1>
+            <div id='more-info-bubble' style={{ display: 'none' }}>
+              <p className='font-p liberation-sans'>
+                CLICK HERE FOR SQUAD ACADEMY&trade;
+              </p>
+            </div>
             <h6 className='font-h6 liberation-sans'>
               Blending together vibrant, positive energy with a refreshing take
               on popular tunes, <strong>Squad Harmonix</strong> is an all-kids a

@@ -9,6 +9,9 @@
 
 #about-us-heading {
   margin: 10px auto;
+  width: 100%;
+  position: relative;
+  left: -4%;
 }
 #banner-l {
   width: 50%;
