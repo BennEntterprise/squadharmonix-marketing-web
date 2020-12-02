@@ -15,11 +15,12 @@
 
 #banner-img {
   position: relative;
-  right: 20%;
+  right: 0%;
   bottom: 0%;
   width: 2000%;
   margin: 1rem auto 3.1rem auto;
   z-index: -5;
+  max-width: 720px;
 }
 
 #banner-content-container {
@@ -62,7 +63,7 @@
 
 #subscribe-btn {
   align-self: center;
-  margin: 1rem auto;
+  margin: 1rem auto -2rem auto;
 }
 #subscribe-btn a {
   background-color: #d32322;

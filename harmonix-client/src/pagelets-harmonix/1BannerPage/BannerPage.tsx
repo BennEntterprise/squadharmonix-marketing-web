@@ -54,6 +54,7 @@ const BannerPage = () => {
               id='holiday-ep-album'
               src={HolidayEP}
               alt='squad harmonix ep album'
+              className='d-xs-none d-lg-none'
             />
             <h4 className='purple-marquee font-h4'>
               <strong className='font-h4'>YOUTUBE PREMIERE 11.29.20</strong>
