@@ -190,7 +190,14 @@ const Press = () => {
           </div>
           <Container fluid id='grid-imgs-item'>
             <Row>
-              <Col xs='4' sm='4' md='4' lg='4' xl='4' className='social-column'>
+              <Col
+                xs='12'
+                sm='6'
+                md='4'
+                lg='4'
+                xl='4'
+                className='social-column'
+              >
                 <a href={LinkEugeneLevyTwitter}>
                   <img
                     src={ImgEugeneLevy}
@@ -198,13 +205,13 @@ const Press = () => {
                     alt='Eugene Levy Tweet'
                   />
                 </a>
-                <a href={LinkDekeSharonFB}>
-                  <img
-                    src={ImgDekeSharon}
-                    className='social-media-img'
-                    alt='Deke Sharon Facebook post'
-                  />
-                </a>
+                <ReactPlayer
+                  controls
+                  url='https://youtube.com/watch?v=Eg08rJGKjtA'
+                  height='20%'
+                  width='100%'
+                  style={{ margin: '0.5rem 0', padding: '0' }}
+                ></ReactPlayer>
                 <a href={LinkAcaVilleRadioTwitter}>
                   <img
                     src={ImgAcaVille}
@@ -214,7 +221,14 @@ const Press = () => {
                 </a>
               </Col>
 
-              <Col xs='4' sm='4' md='4' lg='4' xl='4' className='social-column'>
+              <Col
+                xs='12'
+                sm='6'
+                md='4'
+                lg='4'
+                xl='4'
+                className='social-column'
+              >
                 <a href={LinkChromeoFB}>
                   <img
                     src={ImgChromeo}
@@ -230,7 +244,14 @@ const Press = () => {
                   />
                 </a>
               </Col>
-              <Col xs='4' sm='4' md='4' lg='4' xl='4' className='social-column'>
+              <Col
+                xs='12'
+                sm='6'
+                md='4'
+                lg='4'
+                xl='4'
+                className='social-column'
+              >
                 <a href={LinkSomeGoodNewsTwitter}>
                   <img
                     src={ImgSGN}
@@ -239,20 +260,21 @@ const Press = () => {
                   />
                 </a>
 
-                <ReactPlayer
-                  controls
-                  url='https://youtube.com/watch?v=Eg08rJGKjtA'
-                  height='20%'
-                  width='100%'
-                  style={{ margin: '0.5rem 0', padding: '0' }}
-                ></ReactPlayer>
-                <ReactPlayer
+                <a href={LinkDekeSharonFB}>
+                  <img
+                    src={ImgDekeSharon}
+                    className='social-media-img'
+                    alt='Deke Sharon Facebook post'
+                  />
+                </a>
+
+                {/* <ReactPlayer
                   controls
                   url='https://youtube.com/watch?v=Yg8dZ9ImXPw'
                   height='auto'
                   width='100%'
                   style={{ margin: '0.5rem 0', padding: '0' }}
-                ></ReactPlayer>
+                ></ReactPlayer> */}
               </Col>
             </Row>
           </Container>
