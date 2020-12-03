@@ -6,16 +6,18 @@ function WhatIsSquad() {
   return (
     <Container fluid id='whatissquad'>
       <Row>
-        <Col>
+        <Col className='justify-content-center'>
           <div id='grid-wis'>
             <div id='grid-h1'>
               <div className='LadderItemGraphic'>
-                <h5 className='font-h5 bg-magenta '>WHO WE ARE</h5>
+                <h5 className='font-h5 liberation-sans-bold bg-magenta '>
+                  WHO WE ARE
+                </h5>
               </div>
             </div>
             <div id='grid-b1'>
               <div className='LadderItemText'>
-                <p>
+                <p className='font-p liberation-sans'>
                   Squad Harmonix is the very first online A Cappella training
                   academy for advanced young vocalists. It is a vocal team, a
                   group and community of talented kids all working and
@@ -27,12 +29,14 @@ function WhatIsSquad() {
 
             <div id='grid-h2'>
               <div className='LadderItemGraphic'>
-                <h5 className='font-h5 bg-purple'>What We Do</h5>
+                <h5 className='font-h5 liberation-sans-bold bg-purple'>
+                  WHAT WE DO
+                </h5>
               </div>
             </div>
             <div id='grid-b2'>
               <div className='LadderItemText'>
-                <p>
+                <p className='font-p liberation-sans'>
                   Students meet every Saturday from 3.30-6.30 online via Zoom
                   and learn harmony, sight reading, music theory, stage
                   presence, and beatboxing (optional). Additionally, students
@@ -43,13 +47,13 @@ function WhatIsSquad() {
                   platforms. (Our debut holiday album is being released Nov 29th
                   2020 and full album being released early next year!)
                 </p>
-                <p>
+                <p className='font-p liberation-sans'>
                   For advanced students, training also includes: Songwriting,
                   ProTools Recording/Mixing, Artist Development, and Music
                   Business and private lessons are offered through our parent
                   company Laura Jean Music Academy.
                 </p>
-                <p>
+                <p className='font-p liberation-sans'>
                   Eventually we hope to return to training in person and perform
                   weekly live shows however our Online Program has become so
                   popular with our members that we will be continuing the
@@ -62,12 +66,14 @@ function WhatIsSquad() {
 
             <div id='grid-h3'>
               <div className='LadderItemGraphic'>
-                <h5 className='font-h5 bg-teal'> Training Levels</h5>
+                <h5 className='font-h5 liberation-sans-bold bg-teal'>
+                  TRAINING LEVELS
+                </h5>
               </div>
             </div>
             <div id='grid-b3'>
               <div className='LadderItemText'>
-                <p>
+                <p className='font-p liberation-sans'>
                   Levels are based on proficiency in sight reading,
                   harmonization, and vocal training, and are{' '}
                   <strong>
