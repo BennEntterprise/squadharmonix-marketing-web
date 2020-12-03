@@ -81,7 +81,7 @@ function WhatIsSquad() {
         </Col>
       </Row>
 
-      <div className='' id='BarChartContainer'>
+      {/* <div className='' id='BarChartContainer'>
         <div className='BarContainer bg-magenta'>
           <h3 className='BarContainer-header'>Junior Squad&trade;</h3>
           <ul className='BarContainerText'>
@@ -144,7 +144,7 @@ function WhatIsSquad() {
         <button id='private-lesson-button'>
           Click Here for More Info on Private Lessons
         </button>
-      </div>
+      </div> */}
     </Container>
   )
 }
