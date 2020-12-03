@@ -6,7 +6,7 @@ import { tortise, darkMagenta, magenta } from '../../constants/Colors'
 import './thisissquad.css'
 
 //Carousel Imgs
-import Carousel1 from './carousel-imgs/Lauren this one takes priority.jpeg'
+import Carousel1 from './carousel-imgs/black6020x4020.png'
 import Carousel2 from './carousel-imgs/mischa cameron.jpeg'
 import Carousel3 from './carousel-imgs/National anthem.jpeg'
 
@@ -26,12 +26,9 @@ const ThisIsSquad = () => {
       <Container fluid>
         <Row style={{ marginBottom: '5rem' }}>
           <Col xs='12' sm='12' md='12' lg='12' xl='12'>
-            <Carousel>
+            <Carousel activeIndex={0}>
               <Carousel.Item>
-                <div style={{ border: '1rem solid red' }}>
-                  <button style={{ marginLeft: '10px' }}>
-                    This is a test button
-                  </button>
+                <div>
                   <img
                     className='d-block w-100'
                     src={Carousel1}
@@ -39,12 +36,8 @@ const ThisIsSquad = () => {
                   />
                 </div>
                 <Carousel.Caption>
-                  <div className='h-flex-container'>
-                    <div
-                      className='v-flex-container magenta-outline'
-                      id='btn-group-academy'
-                      style={{ display: 'inline' }}
-                    >
+                  <div id='btn-groups-artist-academy'>
+                    <div id='btn-group-academy' className='magenta-outline'>
                       <h3>Squad&trade; Academy</h3>
                       <div id='squad-nav-btns' className='v-flex-container'>
                         <a href='#whatissquad'>
@@ -69,11 +62,7 @@ const ThisIsSquad = () => {
                         </a>
                       </div>
                     </div>
-                    <div
-                      className='v-flex-container teal-outline  '
-                      id='btn-group-harmonix'
-                      style={{ display: 'inline' }}
-                    >
+                    <div id='btn-group-harmonix' className='teal-outline'>
                       <h3> Squad Harmonix&trade;</h3>
                       <div id='harmonix-nav-btns' className='v-flex-container'>
                         <a href='#music'>
