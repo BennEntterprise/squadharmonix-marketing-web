@@ -44,7 +44,7 @@ function App() {
         </Route>
         <Route exact path={['/academy']}>
           <ThisIsSquad />
-          <Navbar2 />
+          {/* <Navbar2 />
           <WhatIsSquad />
           <Navbar3 />
           <MeetTheSquad />
@@ -52,7 +52,7 @@ function App() {
           <Navbar4 />
           <MeetTheTeachers />
           <Navbar5 />
-          <ToAudition />
+          <ToAudition /> */}
         </Route>
         <Route exact path={['/harmonix', '/home', '/']}>
           <BannerPage />
