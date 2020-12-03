@@ -1,71 +1,85 @@
 import React from 'react'
 import './whatissquad.css'
-import { Container } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import LessonItem from '../../components/LessonItem'
 function WhatIsSquad() {
   return (
     <Container fluid id='whatissquad'>
-      <div id='LadderItemsContainer'>
-        <div className='LadderItem'>
-          <div className='LadderItemGraphic'>
-            <p className='bg-magenta'>Who We Are</p>
+      <Row>
+        <Col>
+          <div id='grid-wis'>
+            <div id='grid-h1'>
+              <div className='LadderItemGraphic'>
+                <h5 className='font-h5 bg-magenta '>WHO WE ARE</h5>
+              </div>
+            </div>
+            <div id='grid-b1'>
+              <div className='LadderItemText'>
+                <p>
+                  Squad Harmonix is the very first online A Cappella training
+                  academy for advanced young vocalists. It is a vocal team, a
+                  group and community of talented kids all working and
+                  supporting each other to be the best they can be. Think Pro
+                  Soccer, but for Voice.
+                </p>
+              </div>
+            </div>
+
+            <div id='grid-h2'>
+              <div className='LadderItemGraphic'>
+                <h5 className='font-h5 bg-purple'>What We Do</h5>
+              </div>
+            </div>
+            <div id='grid-b2'>
+              <div className='LadderItemText'>
+                <p>
+                  Students meet every Saturday from 3.30-6.30 online via Zoom
+                  and learn harmony, sight reading, music theory, stage
+                  presence, and beatboxing (optional). Additionally, students
+                  will learn industry techniques to film and record their parts,
+                  resulting in professionally produced music videos promoted on
+                  Youtube. (Recorded and filmed remotely at home). Our music is
+                  available on Spotify, iTunes and all other online streaming
+                  platforms. (Our debut holiday album is being released Nov 29th
+                  2020 and full album being released early next year!)
+                </p>
+                <p>
+                  For advanced students, training also includes: Songwriting,
+                  ProTools Recording/Mixing, Artist Development, and Music
+                  Business and private lessons are offered through our parent
+                  company Laura Jean Music Academy.
+                </p>
+                <p>
+                  Eventually we hope to return to training in person and perform
+                  weekly live shows however our Online Program has become so
+                  popular with our members that we will be continuing the
+                  Saturday classes ongoing with the option to train in person
+                  for those living in Los Angeles who have reached Senior and
+                  Performance Level.
+                </p>
+              </div>
+            </div>
+
+            <div id='grid-h3'>
+              <div className='LadderItemGraphic'>
+                <h5 className='font-h5 bg-teal'> Training Levels</h5>
+              </div>
+            </div>
+            <div id='grid-b3'>
+              <div className='LadderItemText'>
+                <p>
+                  Levels are based on proficiency in sight reading,
+                  harmonization, and vocal training, and are{' '}
+                  <strong>
+                    <u>NOT</u>
+                  </strong>{' '}
+                  determined by student's age.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className='LadderItemText'>
-            <p>
-              Squad Harmonix is the very first online A Cappella training
-              academy for advanced young vocalists. It is a vocal team, a group
-              and community of talented kids all working and supporting each
-              other to be the best they can be. Think Pro Soccer, but for Voice.
-            </p>
-          </div>
-        </div>
-        <div className='LadderItem'>
-          <div className='LadderItemGraphic'>
-            <p className='bg-purple'>What We Do</p>
-          </div>
-          <div className='LadderItemText'>
-            <p>
-              Students meet every Saturday from 3.30-6.30 online via Zoom and
-              learn harmony, sight reading, music theory, stage presence, and
-              beatboxing (optional). Additionally, students will learn industry
-              techniques to film and record their parts, resulting in
-              professionally produced music videos promoted on Youtube.
-              (Recorded and filmed remotely at home). Our music is available on
-              Spotify, iTunes and all other online streaming platforms. (Our
-              debut holiday album is being released Nov 29th 2020 and full album
-              being released early next year!)
-            </p>
-            <p>
-              For advanced students, training also includes: Songwriting,
-              ProTools Recording/Mixing, Artist Development, and Music Business
-              and private lessons are offered through our parent company Laura
-              Jean Music Academy.
-            </p>
-            <p>
-              Eventually we hope to return to training in person and perform
-              weekly live shows however our Online Program has become so popular
-              with our members that we will be continuing the Saturday classes
-              ongoing with the option to train in person for those living in Los
-              Angeles who have reached Senior and Performance Level.
-            </p>
-          </div>
-        </div>
-        <div className='LadderItem'>
-          <div className='LadderItemGraphic'>
-            <p className='bg-teal'> Training Levels</p>
-          </div>
-          <div className='LadderItemText'>
-            <p>
-              Levels are based on proficiency in sight reading, harmonization,
-              and vocal training, and are{' '}
-              <strong>
-                <u>NOT</u>
-              </strong>{' '}
-              determined by student's age.
-            </p>
-          </div>
-        </div>
-      </div>
+        </Col>
+      </Row>
 
       <div className='' id='BarChartContainer'>
         <div className='BarContainer bg-magenta'>

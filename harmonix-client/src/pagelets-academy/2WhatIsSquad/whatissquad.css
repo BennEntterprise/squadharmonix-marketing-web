@@ -4,34 +4,80 @@
 #whatissquad {
   height: max-content;
   background-color: var(--black);
-  padding: var(--construction-padding);
+  /* padding: var(--construction-padding); */
   padding-bottom: 75px;
   color: var(--white);
+}
+
+#grid-wis {
+  justify-self: center;
+  align-self: center;
+  display: grid;
+  padding: 10%;
+  width: 100%;
+  position: relative;
+  left: 10%;
+  grid-template-columns: 20% 80%;
+  grid-template-areas:
+    'h1 b1'
+    'h2 b2'
+    'h3 b3';
+}
+
+#grid-h1 {
+  grid-area: h1;
+  /* border: var(--construction); */
+  /* background-color: red; */
+  width: 100%;
+  height: 250px;
+}
+#grid-h2 {
+  grid-area: h2;
+  /* border: var(--construction-red); */
+  /* background-color: blue; */
+  width: 100%;
+  height: 250px;
+}
+#grid-h3 {
+  grid-area: h3;
+  /* border: var(--construction); */
+  /* background-color: green; */
+  width: 100%;
+  height: 250px;
+}
+#grid-b1 {
+  grid-area: b1;
+  /* border: var(--construction); */
+  /* background-color: grey; */
+  width: 100%;
+  height: fit-content;
+}
+#grid-b2 {
+  grid-area: b2;
+  /* border: var(--construction-red); */
+  /* background-color: yellow; */
+  width: 100%;
+  height: fit-content;
+}
+#grid-b3 {
+  grid-area: b3;
+  /* border: var(--construction); */
+  /* background-color: white; */
+  width: 100%;
+  height: fit-content;
 }
 
 #whatissquad p {
   color: white;
 }
 
-#LadderItemsContainer {
-  padding: var(--construction-padding);
-  padding: 50px 100px;
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-}
-
-.LadderItem {
-  display: flex;
-  flex-direction: row;
-}
 .LadderItemGraphic {
   padding: 20px;
   flex-grow: 1;
-  width: 25%;
+  width: 100%;
 }
 
-.LadderItemGraphic > p {
+.LadderItemGraphic > h5 {
   border-radius: 5px;
   text-align: center;
   padding: 2px 10px;
