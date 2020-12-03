@@ -44,11 +44,11 @@ function App() {
         </Route>
         <Route exact path={['/academy']}>
           <ThisIsSquad />
-          {/* <Navbar2 />
+          <Navbar2 />
           <WhatIsSquad />
+          {/*
           <Navbar3 />
           <MeetTheSquad />
-
           <Navbar4 />
           <MeetTheTeachers />
           <Navbar5 />
