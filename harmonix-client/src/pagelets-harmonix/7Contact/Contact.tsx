@@ -84,73 +84,15 @@ const Contact = () => {
           <iframe
             src='//us18.list-manage.com/contact-form?u=5862c03408605c39fa217f490&form_id=f86c10beda6e78b9f11053178c4220c7'
             title='Mailchimp signup form'
-            style={{ border: 'none', width: '100%', height: '100vw' }}
+            style={{
+              border: 'none',
+              width: '100%',
+              height: '185vh',
+              maxHeight: '1131px',
+            }}
           ></iframe>
         </Col>
       </Row>
-      {/*
-       <Row>
-        <Col>
-          <div >
-           
-            <form
-              id='artist-contact-form'
-              onChange={(e: any) => handleFormChange(e)}
-              style={{ width: '50%' }}
-            >
-              <h1 className='font-juumbo  liberation-sans-bold'>CONTACT</h1>
-              <p className=' liberation-sans-bold'>
-                Let us know of any inquiries or requests here.
-              </p>
-              <input
-                className='form-input  liberation-sans-bold rounded'
-                placeholder='Name:'
-                name='name'
-                type='text'
-              />
-              <input
-                className='form-input  liberation-sans-bold rounded'
-                placeholder='Email:'
-                name='email'
-                type='email'
-              />
-              <input
-                className='form-input  liberation-sans-bold rounded'
-                placeholder='Subject:'
-                name='subject'
-                type='text'
-              />
-              <textarea
-                className='form-input  liberation-sans-bold rounded'
-                placeholder='Message:'
-                name='message'
-                rows={4}
-                style={{ height: '8rem' }}
-              ></textarea>
-              {sendError && (
-                <p style={{ color: 'red' }}>
-                  OOPS There was an error sending your message. Please try again
-                  later
-                </p>
-              )}
-              {confirmation && (
-                <p style={{ color: 'green' }}>
-                  You Message was sent successfully! We'll get in touch soon!
-                </p>
-              )}
-              <button
-                className='rounded liberation-sans-bold m-auto'
-                type='submit'
-                value='submit'
-                onClick={(e) => submitContactForm(e)}
-              >
-                SEND
-              </button>
-            </form>
-          </div>
-        </Col>
-      </Row>
-    */}
     </Container>
   )
 }

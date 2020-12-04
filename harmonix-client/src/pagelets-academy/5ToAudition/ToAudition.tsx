@@ -17,7 +17,11 @@ function ToAudition() {
           {/* <img src={ImgBlake} alt='pre-teen blake crossing his arms smiling' /> */}
         </div>
         <div id='form-container'>
-          <iframe src='//us18.list-manage.com/contact-form?u=5862c03408605c39fa217f490&form_id=f86c10beda6e78b9f11053178c4220c7'></iframe>
+          <iframe
+            src='//us18.list-manage.com/contact-form?u=5862c03408605c39fa217f490&form_id=f86c10beda6e78b9f11053178c4220c7'
+            title='Mailchimp signup form'
+            style={{ border: 'none', width: '100%', height: '150vw' }}
+          ></iframe>
         </div>
         <div id='right-photo-padding'>
           {/* <img src={ImgElise} alt='pre-teen Elise smiling at camera' /> */}

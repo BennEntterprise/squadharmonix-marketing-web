@@ -35,7 +35,8 @@
 }
 #form-container {
   /* border: var(--construction-red); */
-  width: auto;
+  width: 1000px;
+
   height: auto;
 }
 #form-container input {
@@ -110,4 +111,13 @@
   line-height: var(--size);
   padding: 38px 1px 1px 1px;
   transform: rotate(25deg) translate(110px, -90px);
+}
+
+@media (max-width: 1200px) {
+  #left-photo-padding {
+    display: none;
+  }
+  #right-photo-padding {
+    display: none;
+  }
 }
