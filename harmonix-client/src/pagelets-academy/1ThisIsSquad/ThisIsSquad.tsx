@@ -10,6 +10,13 @@ import Carousel1 from './carousel-imgs/black6020x4020.png'
 import Carousel2 from './carousel-imgs/mischa cameron.jpeg'
 import Carousel3 from './carousel-imgs/National anthem.jpeg'
 
+import ImgCameron from './banner-imgs/Cameron(trimmed).png' // cameron
+import ImgLucy from './banner-imgs/Lucy(trimmed).png' // lucy
+import ImgLauren from './banner-imgs/Lauren(trimmed).png' // lauren
+import ImgMaya from './banner-imgs/Maya(trimmed).png' // maya
+import ImgSydne from './banner-imgs/Sydne(trimmed).png' // sydne
+import ImgSimone from './banner-imgs/Simone(trimmed).png' // simone
+
 // Logos
 import IgLogo from '../../images/icons/instagram-academy.png'
 import YtLogo from '../../images/icons/youtube-academy.png'
@@ -217,6 +224,49 @@ const ThisIsSquad = () => {
             <img className='social-icon' src={SpLogo} alt='' />
             <img className='social-icon' src={TtLogo} alt='' />
             <img className='social-icon' src={FbLogo} alt='' />
+          </Col>
+        </Row>
+        <Row style={{ width: '100%', margin: '0rem', padding: '0rem' }}>
+          <Col
+            xs='12'
+            sm='12'
+            md='12'
+            lg='12'
+            xl='12'
+            style={{ width: '110%', margin: '0rem', padding: '0rem' }}
+          >
+            <div className='banner-img-container'>
+              <img
+                className='banner-headshot'
+                src={ImgCameron}
+                alt='cameron headshot'
+              />
+              <img
+                className='banner-headshot'
+                src={ImgLucy}
+                alt='lucy headshot'
+              />
+              <img
+                className='banner-headshot'
+                src={ImgLauren}
+                alt='lauren headshot'
+              />
+              <img
+                className='banner-headshot'
+                src={ImgMaya}
+                alt='maya headshot'
+              />
+              <img
+                className='banner-headshot'
+                src={ImgSydne}
+                alt='sydne headshot'
+              />
+              <img
+                className='banner-headshot'
+                src={ImgSimone}
+                alt='simone headshot'
+              />
+            </div>
           </Col>
         </Row>
       </Container>
