@@ -14,11 +14,11 @@ function MeetTheTeachers() {
   return (
     <Container fluid id='meettheteachers'>
       <Row>
-        <Col xs='12' sm='12' md='6' lg='6' xl='6'>
+        <Col xs='12' sm='12' md='12' lg='6' xl='6'>
           <div className='teachers-container'>
             <div className='teacher-profile'>
               <HorizontalColorBand
-                className='mb-3 bg-flower'
+                className='mb-4 bg-flower'
                 height='30px'
                 color='#fec5e9'
                 style={{ width: '100%', marginBottom: '50px;' }}
@@ -115,7 +115,7 @@ function MeetTheTeachers() {
             </div>
             <div className='teacher-profile'>
               <HorizontalColorBand
-                className='mb-3 bg-lightpurple'
+                className='mb-4 bg-lightpurple'
                 height='30px'
                 style={{ width: '100%' }}
               />
@@ -140,11 +140,11 @@ function MeetTheTeachers() {
             </div>
           </div>
         </Col>
-        <Col xs='12' sm='12' md='6' lg='6' xl='6'>
+        <Col xs='12' sm='12' md='12' lg='6' xl='6'>
           <div className='teachers-container'>
             <div className='teacher-profile'>
               <HorizontalColorBand
-                className='mb-3 bg-tortise'
+                className='mb-4 bg-tortise'
                 height='30px'
                 style={{ width: '100%' }}
               />
@@ -192,7 +192,7 @@ function MeetTheTeachers() {
             </div>
             <div className='teacher-profile'>
               <HorizontalColorBand
-                className='mb-3 bg-lightpurple'
+                className='mb-4 bg-lightpurple'
                 height='30px'
                 style={{ width: '100%' }}
               />
@@ -218,7 +218,7 @@ function MeetTheTeachers() {
             </div>
             <div className='teacher-profile'>
               <HorizontalColorBand
-                className='mb-3 bg-flower'
+                className='mb-4 bg-flower'
                 height='30px'
                 style={{ width: '100%' }}
               />

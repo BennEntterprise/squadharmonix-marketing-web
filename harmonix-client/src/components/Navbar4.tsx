@@ -18,6 +18,7 @@ import {
 const Navbar4 = () => {
   return (
     <Navbar
+      className='mb-5'
       bg={lightPurple}
       expand='lg'
       style={{

@@ -1,20 +1,28 @@
 @import '../../constants/colors.css';
 @import '../../constants/layout.css';
+@import '../../constants/fonts.css';
+@import '../../constants/Typefaces.css';
 
 #meettheteachers {
-  padding-top: 3rem;
+  /* padding-top: 3rem; */
 }
 
 .teachers-container {
+  /* border: var(--construction); */
+  margin: 0 auto;
+  padding: 0 5rem;
 }
 .teacher-profile {
+  font-size: var(--p);
 }
 
 .teacher-photo-l {
-  width: 20%;
+  width: 15%;
   height: auto;
   float: left;
+  margin-right: 1.5rem;
 }
 
 .bio-text {
+  font-size: var(--p);
 }
