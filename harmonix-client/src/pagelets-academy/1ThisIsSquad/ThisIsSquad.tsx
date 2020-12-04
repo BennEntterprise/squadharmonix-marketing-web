@@ -26,7 +26,7 @@ const ThisIsSquad = () => {
       <Container fluid>
         <Row style={{ marginBottom: '5rem' }}>
           <Col xs='12' sm='12' md='12' lg='12' xl='12'>
-            <Carousel activeIndex={0}>
+            <Carousel>
               <Carousel.Item>
                 <div>
                   <img
