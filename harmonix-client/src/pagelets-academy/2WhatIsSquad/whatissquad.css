@@ -108,46 +108,49 @@
 }
 
 #grid-item-bar-container-magenta {
-  /* border: 0.4rem dotted var(--magenta); */
+  border: 0.4rem dotted var(--magenta);
   grid-row-start: 1;
   grid-row-end: -1;
   grid-column-start: 1;
   grid-column-end: 5;
-  width: 100%;
-  height: 100%;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+
   align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 #grid-item-bar-container-purple {
-  /* border: 0.4rem dotted var(--purple); */
-  height: auto;
+  border: 0.4rem dotted var(--purple);
   grid-row-start: 1;
   grid-row-end: -1;
   grid-column-start: 5;
   grid-column-end: 9;
-  width: 100%;
-  height: 100%;
 
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+
+  width: 100%;
+  height: 100%;
 }
 
 #grid-item-bar-container-teal {
-  /* border: 0.4rem dotted var(--teal); */
+  border: 0.4rem dotted var(--teal);
   grid-row-start: 1;
   grid-row-end: -1;
   grid-column-start: -1;
   grid-column-end: -5;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  height: auto;
+
   width: 100%;
   height: 100%;
 }
@@ -180,7 +183,6 @@
   display: flex;
   flex-direction: column;
 }
-
 #LessonSetContainer {
   display: flex;
   flex-direction: row;
