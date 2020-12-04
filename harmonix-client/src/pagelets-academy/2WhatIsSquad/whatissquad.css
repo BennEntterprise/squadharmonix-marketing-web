@@ -189,14 +189,15 @@ li {
 #OfferingSetContainer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #LessonSetContainer {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 40%;
-  margin: auto;
+  align-items: center;
+  margin: 1.5rem auto;
 }
 #private-lesson-button {
   width: fit-content;

@@ -1,7 +1,7 @@
 import React from 'react'
 import './whatissquad.css'
 import { Container, Row, Col } from 'react-bootstrap'
-import LessonItem from '../../components/LessonItem'
+import LessonItem from '../../components/LessonItem/LessonItem'
 function WhatIsSquad() {
   return (
     <>
@@ -151,19 +151,19 @@ function WhatIsSquad() {
         <Row style={{ margin: '0rem auto' }}>
           <Col>
             <div id='OfferingSetContainer'>
-              <h6 className='text-center'>
+              <h5 className='font-h5 liberation-sans-bold text-center'>
                 Suplemental classes are offered to help students accelerate
                 their training including:
-              </h6>
+              </h5>
               <div id='LessonSetContainer'>
-                <LessonItem text='music theory' />
-                <LessonItem text='sight singing' />
-                <LessonItem text='harmony' />
-                <LessonItem text='beatboxing' />
-                <LessonItem text='voicelessons' />
-                <LessonItem text='mixing/recording' />
-                <LessonItem text='songwriting' />
-                <LessonItem text='piano lessons' />
+                <LessonItem text='MUSIC THEORY' />
+                <LessonItem text='SIGHT SINGING' />
+                <LessonItem text='HARMONY' />
+                <LessonItem text='BEATBOXING' />
+                <LessonItem text='VOICE LESSONS' />
+                <LessonItem text='MIXING/RECORDING' />
+                <LessonItem text='SONG WRITING' />
+                <LessonItem text='PIANO LESSONS' />
               </div>
               <button id='private-lesson-button'>
                 Click Here for More Info on Private Lessons

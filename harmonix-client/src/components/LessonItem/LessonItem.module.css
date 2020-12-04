@@ -1,0 +1,12 @@
+.lessonItem {
+  width: auto;
+  min-width: 10px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.lessonItem > img {
+  width: 35%;
+  min-width: 60px;
+  height: auto;
+}
