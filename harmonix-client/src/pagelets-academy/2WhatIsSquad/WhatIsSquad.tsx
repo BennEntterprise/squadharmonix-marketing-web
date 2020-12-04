@@ -66,7 +66,7 @@ function WhatIsSquad() {
                 </div>
               </div>
 
-              <div id='grid-h3'>
+              <div id='grid-h5'>
                 <div className='LadderItemGraphic'>
                   <h6 className='font-h6 liberation-sans-bold bg-teal'>
                     TRAINING LEVELS
@@ -93,7 +93,9 @@ function WhatIsSquad() {
             <div id='grid-bar-container'>
               <div id='grid-item-bar-container-magenta'>
                 <div className='bar bg-magenta'>
-                  <h3>Junior Squad&trade;</h3>
+                  <h5 className='font-h5 liberation-sans-bold bar-header'>
+                    JUNIOR SQUAD&trade;
+                  </h5>
                   <ul>
                     <li>3 hrs/week online training</li>
                     <li>beginner music theory</li>
@@ -103,11 +105,10 @@ function WhatIsSquad() {
                 </div>
               </div>
               <div id='grid-item-bar-container-purple'>
-                <div
-                  className='bar  bg-purple'
-                  // style={{ height: '60%' }}
-                >
-                  <h3>Senior Squad&trade;</h3>
+                <div className='bar bg-purple'>
+                  <h5 className='font-h5 liberation-sans-bold bar-header'>
+                    SENIOR SQUAD&trade;
+                  </h5>
                   <ul>
                     <li>3 hrs/week online traingin including:</li>
                     <ul>
@@ -121,7 +122,9 @@ function WhatIsSquad() {
               </div>
               <div id='grid-item-bar-container-teal'>
                 <div className='bar bg-teal'>
-                  <h3 className=' '>Performance Squad&trade;</h3>
+                  <h5 className='font-h5 liberation-sans-bold bar-header'>
+                    PERFORMANCE SQUAD&trade;
+                  </h5>
                   <ul>
                     <li>Promoted on official artist page</li>
                     <li>4 hrs/we online training including:</li>
