@@ -151,7 +151,7 @@ function WhatIsSquad() {
         <Row style={{ margin: '0rem auto' }}>
           <Col>
             <div id='OfferingSetContainer'>
-              <h6>
+              <h6 className='text-center'>
                 Suplemental classes are offered to help students accelerate
                 their training including:
               </h6>
