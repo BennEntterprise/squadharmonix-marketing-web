@@ -48,9 +48,10 @@ function App() {
           <WhatIsSquad />
           <Navbar3 />
           <MeetTheSquad />
-          {/*
+
           <Navbar4 />
           <MeetTheTeachers />
+          {/*
           <Navbar5 />
           <ToAudition /> 
           */}
