@@ -4,7 +4,7 @@ import './meetthesquad.css'
 import ReactPlayer from 'react-player'
 
 import HorizontalColorBand from '../../components/HorizontalColorBand'
-import { Container } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import { magenta, purple, teal } from '../../constants/Colors'
 
 // Bring in Photos of the Performance squad
@@ -39,55 +39,68 @@ const MeetTheSquad = () => {
   const MakeAManOutOfYou_Mulan = 'https://www.youtube.com/watch?v=YgLloZrmhE0'
 
   return (
-    <Container fluid id='meetthesquad'>
+    <Container fluid id='meetthesquad' style={{ padding: '0', margin: '0' }}>
       <HorizontalColorBand color={magenta} height={'50px'} />
-      <div className='showcase-container'>
-        <div className='headshot-gallery-container'>
-          <h3>Performance Squad</h3>
-          <div className='headshots-wrapper'>
-            <div className='headshot-row'>
-              <div className='single-headshot-container'>
-                <img className='headshot' src={_2Sydne} alt='headshot' />
+      <Row>
+        <Col>
+          <h3 className='text-center mt-1'>Performance Squad</h3>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs='12' sm='12' md='12' lg='6' xl='6' className='gallery-side'>
+          <div className='headshot-gallery-container'>
+            <div className='headshots-wrapper'>
+              <div className='headshot-row'>
+                <div className='single-headshot-container'>
+                  <img className='headshot' src={_2Sydne} alt='headshot' />
+                </div>
+                <div className='single-headshot-container'>
+                  <img className='headshot' src={_2Sydne} alt='headshot' />
+                </div>
+                <div className='single-headshot-container'>
+                  <img className='headshot' src={_3Lauren} alt='headshot' />
+                </div>
+                <div className='single-headshot-container'>
+                  <img className='headshot' src={_4Simone} alt='headshot' />
+                </div>
+                <div className='single-headshot-container'>
+                  <img className='headshot' src={_5Elise} alt='headshot' />
+                </div>
               </div>
-              <div className='single-headshot-container'>
-                <img className='headshot' src={_2Sydne} alt='headshot' />
-              </div>
-              <div className='single-headshot-container'>
-                <img className='headshot' src={_3Lauren} alt='headshot' />
-              </div>
-              <div className='single-headshot-container'>
-                <img className='headshot' src={_4Simone} alt='headshot' />
-              </div>
-              <div className='single-headshot-container'>
-                <img className='headshot' src={_5Elise} alt='headshot' />
-              </div>
-            </div>
-            <div className='headshot-row'>
-              <div className='single-headshot-container'>
-                <img className='headshot' src={_6Lucy} alt='headshot' />
-              </div>
-              <div className='single-headshot-container'>
-                <img className='headshot' src={_7Maya} alt='headshot' />
-              </div>
-              <div className='single-headshot-container'>
-                <img className='headshot' src={_8Mischa} alt='headshot' />
-              </div>
-              <div className='single-headshot-container'>
-                <img className='headshot' src={_9Cameron} alt='headshot' />
-              </div>
-              <div className='single-headshot-container'>
-                <img className='headshot' src={_10Noah} alt='headshot' />
+              <div className='headshot-row'>
+                <div className='single-headshot-container'>
+                  <img className='headshot' src={_6Lucy} alt='headshot' />
+                </div>
+                <div className='single-headshot-container'>
+                  <img className='headshot' src={_7Maya} alt='headshot' />
+                </div>
+                <div className='single-headshot-container'>
+                  <img className='headshot' src={_8Mischa} alt='headshot' />
+                </div>
+                <div className='single-headshot-container'>
+                  <img className='headshot' src={_9Cameron} alt='headshot' />
+                </div>
+                <div className='single-headshot-container'>
+                  <img className='headshot' src={_10Noah} alt='headshot' />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className='react-player'>
-          <ReactPlayer controls url={WhenThePartyIsOver_BillieEilish} />
-        </div>
-      </div>
+        </Col>
+        <Col xs='12' sm='12' md='12' lg='6' xl='6' className='player-side'>
+          <div className='academy-react-player'>
+            <ReactPlayer
+              controls
+              url={WhenThePartyIsOver_BillieEilish}
+              width='85%'
+              height='100%'
+            />
+          </div>
+        </Col>
+      </Row>
 
       <HorizontalColorBand color={teal} height={'50px'} />
-      <div className='showcase-container'>
+      {/* <div className='showcase-container'>
         <div className='react-player'>
           <ReactPlayer controls url={ComeAlive_TheGreatestShowman} />
         </div>
@@ -124,10 +137,10 @@ const MeetTheSquad = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <HorizontalColorBand color={purple} height={'50px'} />
-      <div className='showcase-container'>
+      {/* <div className='showcase-container'>
         <div className='headshot-gallery-container'>
           <h3>Junior Squad</h3>
           <div className='headshots-wrapper'>
@@ -153,7 +166,7 @@ const MeetTheSquad = () => {
         <div className='react-player'>
           <ReactPlayer controls url={MakeAManOutOfYou_Mulan} />
         </div>
-      </div>
+      </div> */}
     </Container>
   )
 }
