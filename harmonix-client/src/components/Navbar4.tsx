@@ -26,6 +26,7 @@ const Navbar4 = () => {
       }}
     >
       <Navbar.Brand href='#home'>Meet the Teachers</Navbar.Brand>
+      <Navbar.Toggle className='navbar-dark ' aria-controls='toggle-control' />
       <Navbar.Collapse>
         <Nav
           className='mr-auto float-right'
