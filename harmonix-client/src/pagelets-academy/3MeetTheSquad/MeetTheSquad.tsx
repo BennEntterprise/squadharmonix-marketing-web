@@ -8,6 +8,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { magenta, purple, teal } from '../../constants/Colors'
 
 // Bring in Photos of the Performance squad
+import _1Johanna from '../../images/teachers/Johanna.jpg'
 import _2Sydne from '../../images/performance-squad/2SydneTenor.jpg'
 import _3Lauren from '../../images/performance-squad/3LaurenSoprano.jpg'
 import _4Simone from '../../images/performance-squad/4SimoneMezzo.jpg'
@@ -52,7 +53,7 @@ const MeetTheSquad = () => {
             <div className='headshots-wrapper'>
               <div className='headshot-row'>
                 <div className='single-headshot-container'>
-                  <img className='headshot' src={_2Sydne} alt='headshot' />
+                  <img className='headshot' src={_1Johanna} alt='headshot' />
                 </div>
                 <div className='single-headshot-container'>
                   <img className='headshot' src={_2Sydne} alt='headshot' />
