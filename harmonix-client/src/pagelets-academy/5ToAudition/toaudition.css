@@ -35,17 +35,8 @@
 }
 #form-container {
   /* border: var(--construction-red); */
-  background-color: var(--black);
-  flex-grow: 9;
-  padding-top: 0;
-  padding-right: 60px;
-  padding-bottom: 60px;
-  padding-left: 60px;
-  color: var(--white);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  width: auto;
+  height: auto;
 }
 #form-container input {
   height: calc(1.5em + 0.75rem + 8px);
