@@ -8,7 +8,7 @@ import Navbar from '../../components/Navbar'
 import LessonItem from '../../components/LessonItem/LessonItem'
 import ImgBlake from '../../images/contact/BlakeContactPage.jpg'
 import ImgElise from '../../images/contact/EliseContactPage.jpg'
-import LJMABranding from '../../images/LJMABranding.jpg'
+import LJMABranding from '../../images/logos/LJMA Black.png'
 function ToAudition() {
   return (
     <Container fluid id='toaudition'>
