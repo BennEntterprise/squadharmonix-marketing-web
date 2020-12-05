@@ -58,61 +58,80 @@
   margin-top: '1rem';
 }
 
-#lja-footer {
+/********************/
+/*FOOTER SECTION*/
+/********************/
+#footer {
   /* border: var(--construction-red); */
+  height: 100%;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-height: 150px;
+}
+#footer-left {
+  width: 33%;
+  height: 100%;
+  background-color: var(--lightPurple);
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+}
+#footer-right {
+  width: 66%;
+  height: 100%;
+
   background-color: var(--flower);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  /* overflow: hidden; */
 }
 
 #ljma-branding {
-  /* border: var(--construction); */
-  height: fit-content;
-  display: flex;
-  flex-direction: row;
-}
-
-#lessons-section {
-  /* border: var(--construction); */
   width: 100%;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+#ljma-branding img {
+  width: 60%;
+  padding: 1%;
+}
+#ljma-branding p {
+  height: 100%;
+  width: 40%;
+  font-size: 0.55rem;
+  align-self: flex-end;
+  line-height: 0.55rem;
 }
 
 #lessons-label {
-  /* border: var(--construction-red); */
-  margin: 10px 10px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+#lessons-section {
+  /* border: var(--construction); */
+  width: 75%;
+  line-height: 0rem;
+}
+
 #lesson-types-pannel {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 50%;
-}
-
-.lesson-item {
-  display: flex;
-  flex-direction: row;
-  margin: 10px;
-}
-
-#advert-bubble {
-  --bubble-size: 115px;
-  --size: 15px;
-  background-color: var(--charcoal);
-  border: 0.5rem solid var(--black);
-  width: var(--bubble-size);
-  height: var(--bubble-size);
-  color: white;
-  border-radius: 50%;
-
   text-align: center;
-  font-size: var(--size);
-  line-height: var(--size);
-  padding: 38px 1px 1px 1px;
-  transform: rotate(25deg) translate(110px, -90px);
+  padding: 1rem;
 }
 
+#lessons-section p {
+  width: 100%;
+}
+/* Hide Photos on all but xl screens */
 @media (max-width: 1200px) {
   #left-photo-padding {
     display: none;

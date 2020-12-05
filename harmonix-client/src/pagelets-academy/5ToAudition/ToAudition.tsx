@@ -8,7 +8,8 @@ import Navbar from '../../components/Navbar'
 import LessonItem from '../../components/LessonItem/LessonItem'
 import ImgBlake from '../../images/contact/BlakeContactPage.jpg'
 import ImgElise from '../../images/contact/EliseContactPage.jpg'
-import LJMABranding from '../../images/logos/LJMA Black.png'
+import LJMABranding from '../../images/logos/LJMA Black(trimmed).png'
+import Eighths from '../../images/icons/eighth note circle clip art.png'
 function ToAudition() {
   return (
     <Container fluid id='toaudition'>
@@ -27,33 +28,41 @@ function ToAudition() {
           {/* <img src={ImgElise} alt='pre-teen Elise smiling at camera' /> */}
         </div>
       </div>
-      <div id='lja-footer'>
-        <div id='ljma-branding'>
-          <img
-            src={LJMABranding}
-            alt='Laura Jean Music Academy Branding'
-            height='95px'
-            width='425px'
-          />
-          <p>discover your inner artist</p>
+      <div id='footer'>
+        <div id='footer-left'>
+          <div id='ljma-branding'>
+            <img
+              id='ljma-img'
+              src={LJMABranding}
+              alt='Laura Jean Music Academy Branding'
+            />
+            <p className='liberation-sans font-mini'>
+              discover your inner artist.
+            </p>
+          </div>
         </div>
-        <div id='lessons-section'>
+        <div id='footer-right'>
           <div id='lessons-label'>
-            <h6>
-              <strong>Private Lessons: </strong>
-            </h6>
+            <p className='liberation-sans-bold font-mini'>
+              <strong> Private Lessons: </strong>
+            </p>
           </div>
-          <div id='lesson-types-pannel'>
-            <LessonItem text='piano' />
-            <LessonItem text='voice' />
-            <LessonItem text='music theory' />
-            <LessonItem text='beatboxing' />
-            <LessonItem text='songwriting' />
-            <LessonItem text='recording/mixing' />
-            <LessonItem text='artist development' />
-          </div>
-          <div id='advert-bubble'>
-            <p>Click here for more info</p>
+          <div id='lessons-section'>
+            <div id='lesson-types-pannel'>
+              <p className='liberation-sans font-mini'>
+                piano, voice, music theory,
+              </p>
+              <p className='liberation-sans font-mini'>
+                beat-boxing, songwriting,
+              </p>
+              <p className='liberation-sans font-mini'>recording/mixing</p>
+              <p
+                className='liberation-sans font-mini'
+                style={{ lineHeight: '0rem' }}
+              >
+                artist development
+              </p>
+            </div>
           </div>
         </div>
       </div>
