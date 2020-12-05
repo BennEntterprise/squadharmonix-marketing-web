@@ -6,7 +6,7 @@ import { tortise, darkMagenta, magenta } from '../../constants/Colors'
 import './thisissquad.css'
 
 //Carousel Imgs
-import Carousel1 from './carousel-imgs/black6020x4020.png'
+import Carousel1 from './carousel-imgs/Lauren this one takes priority.jpeg'
 import Carousel2 from './carousel-imgs/mischa cameron.jpeg'
 import Carousel3 from './carousel-imgs/National anthem.jpeg'
 
