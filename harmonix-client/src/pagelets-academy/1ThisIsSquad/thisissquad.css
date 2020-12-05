@@ -2,6 +2,10 @@
 @import '../../constants/fonts.css';
 @import '../../constants/layout.css';
 
+#thisissquadmain {
+  background-color: black;
+}
+
 #thisissquad {
   /* border: var(--construction); */
   min-height: 900px;
