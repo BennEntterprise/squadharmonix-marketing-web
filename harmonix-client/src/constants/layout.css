@@ -4,7 +4,13 @@
   --construction-red: 4.5px dotted red;
   --construction-padding: 5px;
 }
-
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+body {
+  width: 100%;
+}
 .construction-padding {
   padding: var(--construction-padding);
 }
