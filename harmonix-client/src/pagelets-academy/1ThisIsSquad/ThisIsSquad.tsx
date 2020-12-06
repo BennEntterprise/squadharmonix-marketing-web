@@ -31,7 +31,7 @@ const ThisIsSquad = () => {
   return (
     <>
       <Container fluid id='thisissquadmain'>
-        <Row style={{ marginBottom: '5rem' }}>
+        <Row style={{ marginBottom: '0rem' }}>
           <Col xs='12' sm='12' md='12' lg='12' xl='12'>
             <Carousel activeIndex={0}>
               <Carousel.Item>
@@ -43,76 +43,10 @@ const ThisIsSquad = () => {
                   />
                 </div>
                 <Carousel.Caption>
-                  <Row>
-                    <Col xs='6' sm='6' md='6' lg='6' xl='6'>
-                      <div
-                        className='v-flex-container magenta-outline'
-                        id='btn-group-academy'
-                      >
-                        <h3>Squad&trade; Academy</h3>
-                        <div id='squad-nav-btns' className='v-flex-container'>
-                          <a href='#whatissquad'>
-                            <button className='magenta-outline bg-grey'>
-                              WHAT IS SQUAD
-                            </button>
-                          </a>
-                          <a href='#meettheteachers'>
-                            <button className='magenta-outline bg-grey'>
-                              MEET THE TEACHERS
-                            </button>
-                          </a>
-                          <a href='#meetthesquad'>
-                            <button className='magenta-outline bg-grey'>
-                              MEET THE SQUAD
-                            </button>
-                          </a>
-                          <a href='#toaudition'>
-                            <button className='magenta-outline bg-grey'>
-                              AUDITION!
-                            </button>
-                          </a>
-                        </div>
-                      </div>
-                    </Col>
-                    <Col xs='6' sm='6' md='6' lg='6' xl='6'>
-                      <div
-                        className='v-flex-container teal-outline  '
-                        id='btn-group-harmonix'
-                      >
-                        <h3> Squad Harmonix&trade;</h3>
-                        <div
-                          id='harmonix-nav-btns'
-                          className='v-flex-container'
-                        >
-                          <a href='#music'>
-                            <button className='teal-outline bg-grey'>
-                              MUSIC
-                            </button>
-                          </a>
-                          <a href='#about'>
-                            <button className='teal-outline bg-grey'>
-                              ABOUT
-                            </button>
-                          </a>
-                          <a href=''>
-                            <button className='teal-outline bg-grey'>
-                              MEMBERS
-                            </button>
-                          </a>
-                          <a href=''>
-                            <button className='teal-outline bg-grey'>
-                              NEWS
-                            </button>
-                          </a>
-                          <a href=''>
-                            <button className='teal-outline bg-grey'>
-                              MERCH
-                            </button>
-                          </a>
-                        </div>
-                      </div>
-                    </Col>
-                  </Row>
+                  <h3>THIS IS SQUAD.</h3>
+                  <div className='rounded purple-highlight'>
+                    <p className=''>ONLINE SINCE MAY!</p>
+                  </div>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
@@ -142,6 +76,61 @@ const ThisIsSquad = () => {
             </Carousel>
           </Col>
         </Row>
+        <Row>
+          <Col xs='6' sm='6' md='6' lg='6' xl='6'>
+            <div
+              className='v-flex-container magenta-outline'
+              id='btn-group-academy'
+            >
+              <h3>Squad&trade; Academy</h3>
+              <div id='squad-nav-btns' className='v-flex-container'>
+                <a href='#whatissquad'>
+                  <button className='magenta-outline bg-grey'>
+                    WHAT IS SQUAD
+                  </button>
+                </a>
+                <a href='#meettheteachers'>
+                  <button className='magenta-outline bg-grey'>
+                    MEET THE TEACHERS
+                  </button>
+                </a>
+                <a href='#meetthesquad'>
+                  <button className='magenta-outline bg-grey'>
+                    MEET THE SQUAD
+                  </button>
+                </a>
+                <a href='#toaudition'>
+                  <button className='magenta-outline bg-grey'>AUDITION!</button>
+                </a>
+              </div>
+            </div>
+          </Col>
+          <Col xs='6' sm='6' md='6' lg='6' xl='6'>
+            <div
+              className='v-flex-container teal-outline'
+              id='btn-group-harmonix'
+            >
+              <h3> Squad Harmonix&trade;</h3>
+              <div id='harmonix-nav-btns' className='v-flex-container'>
+                <a href='#music'>
+                  <button className='teal-outline bg-grey'>MUSIC</button>
+                </a>
+                <a href='#about'>
+                  <button className='teal-outline bg-grey'>ABOUT</button>
+                </a>
+                <a href=''>
+                  <button className='teal-outline bg-grey'>MEMBERS</button>
+                </a>
+                <a href=''>
+                  <button className='teal-outline bg-grey'>NEWS</button>
+                </a>
+                <a href=''>
+                  <button className='teal-outline bg-grey'>MERCH</button>
+                </a>
+              </div>
+            </div>
+          </Col>
+        </Row>
       </Container>
       <Container fluid id='thisissquad'>
         <Row>
@@ -159,9 +148,6 @@ const ThisIsSquad = () => {
                 an inspiring learning community for dedicated vocalists ages
                 8-17
               </p>
-              <div className='rounded purple-highlight'>
-                <p className=''>ONLINE SINCE MAY!</p>
-              </div>
             </div>
           </Col>
         </Row>

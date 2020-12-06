@@ -105,11 +105,14 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  flex-grow: 1;
+}
+#squad-nav-btns a {
+  background-color: red;
+  width: 100%;
 }
 #squad-nav-btns button {
-  width: 80%;
-  padding: 0.25rem;
+  width: 100%;
+  padding: 0rem;
 }
 
 #harmonix-nav-btns {
