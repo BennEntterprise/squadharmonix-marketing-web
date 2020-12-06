@@ -43,10 +43,13 @@ const ThisIsSquad = () => {
                     alt='First slide'
                   />
                 </div>
-                <Carousel.Caption className='carousel-color-adjust'>
-                  <h3 style={{ padding: '1rem', borderRadius: '1rem' }}>
+                <Carousel.Caption
+                  className='carousel-color-adjust'
+                  style={{ padding: '.5rem' }}
+                >
+                  <h3 style={{ padding: '.1rem', borderRadius: '1rem' }}>
                     THIS IS SQUAD
-                    <span style={{ fontSize: '3rem', lineHeight: '0rem' }}>
+                    <span style={{ fontSize: '2rem', lineHeight: '0rem' }}>
                       .
                     </span>
                   </h3>
