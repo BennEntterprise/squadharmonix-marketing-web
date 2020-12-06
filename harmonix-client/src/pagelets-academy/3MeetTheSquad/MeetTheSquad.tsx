@@ -39,7 +39,8 @@ const MeetTheSquad = () => {
     'https://www.youtube.com/watch?v=ems1qawgYy0'
   const ComeAlive_TheGreatestShowman =
     'https://www.youtube.com/watch?v=YgLloZrmhE0'
-  const MakeAManOutOfYou_Mulan = 'https://www.youtube.com/watch?v=YgLloZrmhE0'
+  const MakeAManOutOfYou_Mulan =
+    'https://www.youtube.com/watch?v=c1OJ4VWSwz8&feature=youtu.be'
 
   return (
     <Container fluid id='meetthesquad' style={{ padding: '0', margin: '0' }}>
