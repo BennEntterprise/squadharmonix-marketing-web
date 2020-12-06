@@ -11,6 +11,7 @@ const CheckItOut = () => {
   const HarmonixPromo =
     'https://www.youtube.com/watch?v=QYOkU_IMhAE&feature=youtu.be'
   const MKChristmas = 'https://www.youtube.com/watch?v=4zbnkYeFnsA'
+  const SilentNight = 'https://www.youtube.com/watch?v=bf2HQaG8e88'
   return (
     <Container>
       <Row>
@@ -39,6 +40,18 @@ const CheckItOut = () => {
               heigth='100%'
               controls
               url={MKChristmas}
+            />
+          </div>
+        </Col>
+        <Col xs={12} md={12} lg={{ span: 6, offset: 3 }} xl={6}>
+          <div className='player-container'>
+            <h5 className='font-h5 liberation-sans-bold'>SILENT NIGHT</h5>
+            <ReactPlayer
+              style={{ position: 'relative', left: '0%' }}
+              width='100%'
+              heigth='100%'
+              controls
+              url={SilentNight}
             />
           </div>
         </Col>
