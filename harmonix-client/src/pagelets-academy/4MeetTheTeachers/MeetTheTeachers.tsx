@@ -3,12 +3,12 @@ import { Container, Row, Col } from 'react-bootstrap'
 import HorizontalColorBand from '../../components/HorizontalColorBand'
 import './meettheteachers.css'
 
-import Annie from '../../images/teachers/Annie.jpg'
-import Christina from '../../images/teachers/Christina.jpg'
-import Johanna from '../../images/teachers/Johanna.jpg'
-import Laura from '../../images/teachers/Laura.jpg'
-import Matt from '../../images/teachers/Matt.jpg'
-import Parker from '../../images/teachers/Parker.jpg'
+import Annie from '../../images/square headshots/teachers/Teachers - Annie.jpg'
+import Christina from '../../images/square headshots/teachers/Teachers - Christina.jpg'
+import Johanna from '../../images/square headshots/teachers/Teachers - Johanna.jpg'
+import Laura from '../../images/square headshots/teachers/Teachers - Laura.jpg'
+import Matt from '../../images/square headshots/teachers/Teachers - Matt.jpg'
+import Parker from '../../images/square headshots/teachers/Teachers - Parker.jpg'
 
 function MeetTheTeachers() {
   return (
