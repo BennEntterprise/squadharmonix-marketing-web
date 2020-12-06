@@ -40,27 +40,27 @@ const ButtonBox = () => {
             SQUAD HARMONIX&trade;
           </h3>
           <div id='harmonix-nav-btns' className='v-flex-container'>
-            <a href='#music'>
+            <a href='3'>
               <button className='teal-outline bg-grey liberation-sans'>
                 MUSIC
               </button>
             </a>
-            <a href='#about'>
+            <a href='#'>
               <button className='teal-outline bg-grey liberation-sans'>
                 ABOUT
               </button>
             </a>
-            <a href=''>
+            <a href='#'>
               <button className='teal-outline bg-grey  liberation-sans'>
                 MEMBERS
               </button>
             </a>
-            <a href=''>
+            <a href='#'>
               <button className='teal-outline bg-grey  liberation-sans'>
                 NEWS
               </button>
             </a>
-            <a href=''>
+            <a href='#'>
               <button className='teal-outline bg-grey  liberation-sans'>
                 MERCH
               </button>
