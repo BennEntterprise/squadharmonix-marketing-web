@@ -25,6 +25,13 @@
   justify-content: space-evenly;
 }
 
+.carousel-color-adjust {
+  background-color: var(--teal);
+  border-radius: 5px;
+}
+
+.carousel-color-adjust h3 {
+}
 #headline-text {
   /* border: 5px dashed blue; */
   width: fit-content;

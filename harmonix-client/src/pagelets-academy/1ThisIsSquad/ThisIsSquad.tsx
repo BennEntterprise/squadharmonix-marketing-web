@@ -1,10 +1,10 @@
 import React from 'react'
+import './thisissquad.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Carousel } from 'react-bootstrap'
 import SocialIcon from '../../components/SocialIcon'
 import { tortise, darkMagenta, magenta } from '../../constants/Colors'
-import './thisissquad.css'
-
+import ButtonBox from '../../components/ButtonBox'
 //Carousel Imgs
 import Carousel1 from './carousel-imgs/Lauren this one takes priority.jpeg'
 import Carousel2 from './carousel-imgs/mischa cameron.jpeg'
@@ -33,7 +33,7 @@ const ThisIsSquad = () => {
       <Container fluid id='thisissquadmain'>
         <Row style={{ marginBottom: '0rem' }}>
           <Col xs='12' sm='12' md='12' lg='12' xl='12'>
-            <Carousel activeIndex={0}>
+            <Carousel>
               <Carousel.Item>
                 <div>
                   <img
@@ -42,11 +42,12 @@ const ThisIsSquad = () => {
                     alt='First slide'
                   />
                 </div>
-                <Carousel.Caption>
+                <Carousel.Caption className='carousel-color-adjust'>
                   <h3>THIS IS SQUAD.</h3>
-                  <div className='rounded purple-highlight'>
-                    <p className=''>ONLINE SINCE MAY!</p>
-                  </div>
+                  <p className='font-p'>
+                    an inspiring learning community for dedicated vocalists ages
+                    8-17
+                  </p>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
@@ -57,8 +58,10 @@ const ThisIsSquad = () => {
                 />
 
                 <Carousel.Caption>
-                  <h3>Second slide label</h3>
-                  <p>Ohhhh more awesomeness!</p>
+                  <h3></h3>
+                  <div className='rounded purple-highlight'>
+                    <p className=''>ONLINE SINCE MAY!</p>
+                  </div>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
@@ -68,91 +71,16 @@ const ThisIsSquad = () => {
                   alt='Third slide'
                 />
 
-                <Carousel.Caption>
+                {/* <Carousel.Caption>
                   <h3>Third slide label</h3>
                   <p>And some third thing you want to "sell"</p>
-                </Carousel.Caption>
+                </Carousel.Caption> */}
               </Carousel.Item>
             </Carousel>
           </Col>
         </Row>
-        <Row>
-          <Col xs='6' sm='6' md='6' lg='6' xl='6'>
-            <div
-              className='v-flex-container magenta-outline'
-              id='btn-group-academy'
-            >
-              <h3>Squad&trade; Academy</h3>
-              <div id='squad-nav-btns' className='v-flex-container'>
-                <a href='#whatissquad'>
-                  <button className='magenta-outline bg-grey'>
-                    WHAT IS SQUAD
-                  </button>
-                </a>
-                <a href='#meettheteachers'>
-                  <button className='magenta-outline bg-grey'>
-                    MEET THE TEACHERS
-                  </button>
-                </a>
-                <a href='#meetthesquad'>
-                  <button className='magenta-outline bg-grey'>
-                    MEET THE SQUAD
-                  </button>
-                </a>
-                <a href='#toaudition'>
-                  <button className='magenta-outline bg-grey'>AUDITION!</button>
-                </a>
-              </div>
-            </div>
-          </Col>
-          <Col xs='6' sm='6' md='6' lg='6' xl='6'>
-            <div
-              className='v-flex-container teal-outline'
-              id='btn-group-harmonix'
-            >
-              <h3> Squad Harmonix&trade;</h3>
-              <div id='harmonix-nav-btns' className='v-flex-container'>
-                <a href='#music'>
-                  <button className='teal-outline bg-grey'>MUSIC</button>
-                </a>
-                <a href='#about'>
-                  <button className='teal-outline bg-grey'>ABOUT</button>
-                </a>
-                <a href=''>
-                  <button className='teal-outline bg-grey'>MEMBERS</button>
-                </a>
-                <a href=''>
-                  <button className='teal-outline bg-grey'>NEWS</button>
-                </a>
-                <a href=''>
-                  <button className='teal-outline bg-grey'>MERCH</button>
-                </a>
-              </div>
-            </div>
-          </Col>
-        </Row>
-      </Container>
-      <Container fluid id='thisissquad'>
-        <Row>
-          <Col
-            className='squad-headline-container'
-            xs={12}
-            sm={12}
-            md={12}
-            lg={12}
-            xl={12}
-          >
-            <div id='headline-text'>
-              <h1 id='headliner'>THIS IS SQUAD</h1>
-              <p id='sub-headliner'>
-                an inspiring learning community for dedicated vocalists ages
-                8-17
-              </p>
-            </div>
-          </Col>
-        </Row>
-        <Row></Row>
-        <Row id='flex-item-3'>
+        <ButtonBox />
+        <Row id='academy-cta-buttons'>
           <Col>
             <div className='v-flex-container ' id='cta-btn-group'>
               <button className='cta-btn teal-outline color-teal'>
@@ -164,7 +92,7 @@ const ThisIsSquad = () => {
             </div>
           </Col>
         </Row>
-        <Row id='flex-item-4'>
+        <Row id='social-icon-container'>
           <Col id='social-icon-set' className='h-flex-container '>
             <img className='social-icon' src={IgLogo} alt='' />
             <img className='social-icon' src={YtLogo} alt='' />
@@ -173,7 +101,10 @@ const ThisIsSquad = () => {
             <img className='social-icon' src={FbLogo} alt='' />
           </Col>
         </Row>
-        <Row style={{ width: '100%', margin: '0rem', padding: '0rem' }}>
+        <Row
+          id='banner-row'
+          style={{ width: '100%', margin: '0rem', padding: '0rem' }}
+        >
           <Col
             xs='12'
             sm='12'
