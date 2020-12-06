@@ -1,6 +1,7 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
-
+import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 const ButtonBox = () => {
   return (
     <Row>
@@ -40,31 +41,33 @@ const ButtonBox = () => {
             SQUAD HARMONIX&trade;
           </h3>
           <div id='harmonix-nav-btns' className='v-flex-container'>
-            <a href='3'>
+            <a href='#'>
               <button className='teal-outline bg-grey liberation-sans'>
                 MUSIC
               </button>
             </a>
-            <a href='#'>
+
+            <HashLink to='/harmonix#about-us-container'>
               <button className='teal-outline bg-grey liberation-sans'>
                 ABOUT
               </button>
-            </a>
-            <a href='#'>
+            </HashLink>
+
+            <HashLink to='/harmonix#members-container'>
               <button className='teal-outline bg-grey  liberation-sans'>
                 MEMBERS
               </button>
-            </a>
-            <a href='#'>
+            </HashLink>
+            <HashLink to='/harmonix#press-container'>
               <button className='teal-outline bg-grey  liberation-sans'>
                 NEWS
               </button>
-            </a>
-            <a href='#'>
+            </HashLink>
+            <HashLink to='/harmonix#merch-container'>
               <button className='teal-outline bg-grey  liberation-sans'>
                 MERCH
               </button>
-            </a>
+            </HashLink>
           </div>
         </div>
       </Col>
