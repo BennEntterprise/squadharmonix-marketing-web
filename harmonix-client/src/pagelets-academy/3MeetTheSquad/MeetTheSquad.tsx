@@ -33,7 +33,8 @@ import _8sJiya from '../../images/square headshots/Senior - Jiya.jpg'
 import _1jSiena from '../../images/square headshots/Junior - Siena.jpeg'
 import _2jJade from '../../images/square headshots/Junior - Jade.jpg'
 import _3jSloane from '../../images/square headshots/Junior - Sloane.jpg'
-import _4jPeace from '../../images/square headshots/Junior - Peace.jpg'
+import _4jOlivia from '../../images/square headshots/Junior - Peace.jpg'
+import _4jJess from '../../images/square headshots/Junior - Peace.jpg'
 const MeetTheSquad = () => {
   const WhenThePartyIsOver_BillieEilish =
     'https://www.youtube.com/watch?v=ems1qawgYy0'
@@ -139,24 +140,44 @@ const MeetTheSquad = () => {
                   />
                 </div>
                 <div className='single-headshot-container'>
-                  <img className='headshot' src={_3sSophia} alt='headshot' />
+                  <img
+                    className='headshot'
+                    src={_3sSophia}
+                    alt='sophie headshot'
+                  />
                 </div>
                 <div className='single-headshot-container'>
-                  <img className='headshot' src={_4sOlivia} alt='headshot' />
+                  <img
+                    className='headshot'
+                    src={_4sOlivia}
+                    alt='Olivia headshot'
+                  />
                 </div>
               </div>
               <div className='headshot-row'>
                 <div className='single-headshot-container'>
-                  <img className='headshot' src={_5sBlake} alt='headshot' />
+                  <img
+                    className='headshot'
+                    src={_5sBlake}
+                    alt='black headshot'
+                  />
                 </div>
                 <div className='single-headshot-container'>
-                  <img className='headshot' src={_6sZander} alt='headshot' />
+                  <img
+                    className='headshot'
+                    src={_6sZander}
+                    alt='Zander headshot'
+                  />
                 </div>
                 <div className='single-headshot-container'>
-                  <img className='headshot' src={_7sConner} alt='headshot' />
+                  <img
+                    className='headshot'
+                    src={_7sConner}
+                    alt='Conner headshot'
+                  />
                 </div>
                 <div className='single-headshot-container'>
-                  <img className='headshot' src={_8sJiya} alt='headshot' />
+                  <img className='headshot' src={_8sJiya} alt='Jiya headshot' />
                 </div>
               </div>
             </div>
@@ -197,12 +218,12 @@ const MeetTheSquad = () => {
                 <div className='single-headshot-container'>
                   <img
                     className='headshot'
-                    src={_4jPeace}
-                    alt='headshot missing'
+                    src={_4jOlivia}
+                    alt='Olivia headshot'
                   />
                 </div>
                 <div className='single-headshot-container'>
-                  <img className='headshot' src={'#'} alt='headshot Olivia B' />
+                  <img className='headshot' src={_4jJess} alt='headshot Jess' />
                 </div>
               </div>
             </div>
