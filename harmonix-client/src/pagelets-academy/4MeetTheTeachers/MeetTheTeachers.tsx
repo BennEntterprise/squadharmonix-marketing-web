@@ -229,39 +229,30 @@ function MeetTheTeachers() {
                 alt='Teach profile photo'
               />
               <p className='bio-text'>
-                Christina Martino was born and raised in Santa Barbara, CA. He
-                has been beatboxing and singing professionally for almost 10
-                years and has graduated Cum Laude with a Bachelor in
-                Professional Studies from Berklee College of Music. Parker is
-                also an Avid Certified Pro Tools Operator. His obsession for
-                singing and beatboxing originated from participating in Jazz
-                Choir at high school and has developed into a full time career.
+                Christina Martino is from Westchester, New York and has been
+                performing, singing and writing songs for most of her life. She
+                received her Bachelor of Music from the Frost School of Music at
+                the University Of Miami where she focused her studies on
+                contemporary voice, songwriting and music business.
                 <br />
                 <br />
-                Since then, Parker has performed for Katy Perry, supported
-                Imogen Heap during her North American tour, was a featured
-                artist on The X Factor, performed at various theme parks
-                including Six Flags Magic Mountain, Disneyland, and Universal
-                Studios Hollywood and is currently a performing member in the
-                famous Harry Potter Frog Choir at Universal Studios.
+                With extensive training in vocal styles such as classical, jazz,
+                musical theater, pop and rock, she has been able to teach many
+                students with varied interests and goals. She is able to teach
+                students voice, music theory, songwriting, arranging and guitar
+                for songwriters. As well as being a singer, Christina is a
+                performer, and songwriter at heart and is a working artist with
+                original music on all streaming platforms (
+                <a href='http://christinamartino.com'>christinamartino.com</a>).
                 <br />
                 <br />
-                Not only a fearless performer, Parker is an avid music arranger
-                for several a cappella performing groups including Squad
-                Harmonix, City Beat and the Wholiday Singers. He formed and
-                manages his own holiday a cappella group, Jingle 5, which he
-                arranges, beatboxes and performs with in and around the Los
-                Angeles area during the holiday season.
-                <br />
-                <br />
-                After only the first few days of working with Squad Harmonix he
-                was hooked. He is an absolute natural with children, a joy to
-                learn from and a kind hearted - hard working role model. With
-                beatboxing being an uncommon skill there is no current industry
-                standard for teaching beatboxing. Parker is therefore currently
-                designing his very own beatboxing curriculum and the results so
-                far are fantastic. If you have a child that loves to beatbox
-                then you have come to the right place.
+                She also loves a cappella music and artistic directed,
+                choreographed and arranged for her college group, Biscaydence,
+                which placed 2nd at ICCA finals in 2019. Overall, Christina has
+                a passion for connecting with others through music and loves to
+                work with people to find their unique sound and abilities, while
+                laying a foundation of technique. If you are an aspiring singer,
+                performer and/or songwriter, you will be in good hands!
               </p>
             </div>
           </div>
