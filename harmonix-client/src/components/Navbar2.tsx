@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink } from 'react-router-hash-link'
 import {
   Navbar,
   Nav,
@@ -38,20 +39,45 @@ const SecondaryNavBar = (props: ISecondaryNavBar) => {
             justifyContent: 'flex-end',
           }}
         >
-          <Nav.Link style={{ color: white }} href='#home'>
-            HOME
+          <Nav.Link>
+            <HashLink
+              to='/academy#thisissquadmain'
+              style={{ textDecoration: 'none', color: white }}
+            >
+              HOME
+            </HashLink>
           </Nav.Link>
-          <Nav.Link style={{ color: white }} href='#'>
-            WHAT IS SQUAD?
+          <Nav.Link>
+            <HashLink
+              to='/academy#whatissquad'
+              style={{ textDecoration: 'none', color: white }}
+            >
+              WHAT IS SQUAD?
+            </HashLink>
           </Nav.Link>
-          <Nav.Link style={{ color: white }} href='#'>
-            MEET THE SQUAD
+          <Nav.Link>
+            <HashLink
+              to='/academy#meetthesquad'
+              style={{ textDecoration: 'none', color: white }}
+            >
+              MEET THE SQUAD
+            </HashLink>
           </Nav.Link>
-          <Nav.Link style={{ color: white }} href='#link'>
-            MEET THE TEACHERS
+          <Nav.Link>
+            <HashLink
+              to='/academy#meettheteachers'
+              style={{ textDecoration: 'none', color: white }}
+            >
+              MEET THE TEACHERS
+            </HashLink>
           </Nav.Link>
-          <Nav.Link style={{ color: white }} href='#'>
-            AUDITION
+          <Nav.Link>
+            <HashLink
+              to='/academy#toaudition'
+              style={{ textDecoration: 'none', color: white }}
+            >
+              AUDITION
+            </HashLink>
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
