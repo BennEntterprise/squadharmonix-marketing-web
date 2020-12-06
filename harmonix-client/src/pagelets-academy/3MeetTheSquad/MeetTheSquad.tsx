@@ -8,30 +8,31 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { magenta, purple, teal } from '../../constants/Colors'
 
 // Bring in Photos of the Performance squad
-import _1Johanna from '../../images/teachers/Johanna.jpg'
-import _2Sydne from '../../images/performance-squad/2SydneTenor.jpg'
-import _3Lauren from '../../images/performance-squad/3LaurenSoprano.jpg'
-import _4Simone from '../../images/performance-squad/4SimoneMezzo.jpg'
-import _5Elise from '../../images/performance-squad/5EliseSoprano.jpg'
-import _6Lucy from '../../images/performance-squad/6LucyTenor.jpg'
-import _7Maya from '../../images/performance-squad/7MayaAlto.jpg'
-import _8Mischa from '../../images/performance-squad/8MischaAlto.jpg'
-import _9Cameron from '../../images/performance-squad/9CameronAltoBeatboxer.jpg'
-import _10Noah from '../../images/performance-squad/10NoahBass.jpg'
+import _1Johanna from '../../images/square headshots/PSquad - Johanna.jpg'
+import _2Sydne from '../../images/square headshots/PSquad - Sydne.jpg'
+import _3Lauren from '../../images/square headshots/PSquad - Lauren.jpg'
+import _4Simone from '../../images/square headshots/PSquad - Simone.jpg'
+import _5Elise from '../../images/square headshots/PSquad - Elise.jpg'
+import _6Lucy from '../../images/square headshots/PSquad - Lucy.jpg'
+import _7Maya from '../../images/square headshots/PSquad - Maya.jpg'
+import _8Mischa from '../../images/square headshots/PSquad - Mischa.jpg'
+import _9Cameron from '../../images/square headshots/PSquad - Cameron.jpg'
+import _10Noah from '../../images/square headshots/PSquad - Noah.jpg'
 
 // Import Photos from Senior Squad
-import _1sThalia from '../../images/senior-squad/_1sThaliaAlto.jpg'
-import _2sSoraMezzon from '../../images/senior-squad/_2sSoraMezzo.jpg'
-import _3sSophia from '../../images/senior-squad/_3sSophiealto.png'
-import _4sOlivia from '../../images/senior-squad/_4sOliviaSoprano.jpg'
-import _5sBlake from '../../images/senior-squad/_5sBlakeTenor.jpg'
-import _6sZander from '../../images/senior-squad/_6sZanderSoprano.jpg'
-import _7sConner from '../../images/senior-squad/_7sConnerAlto.png'
-import _8sJiya from '../../images/senior-squad/_8sJiyaSoprano.jpg'
+import _1sThalia from '../../images/square headshots/Senior - Thalia.jpg'
+import _2sSoraMezzon from '../../images/square headshots/Senior - Sora.jpg'
+import _3sSophia from '../../images/square headshots/Senior - Sophie.png'
+import _4sOlivia from '../../images/square headshots/Senior - Olivia.jpg'
+import _5sBlake from '../../images/square headshots/Senior - Blake.jpg'
+import _6sZander from '../../images/square headshots/Senior - Zander.jpg'
+import _7sConner from '../../images/square headshots/Senior - Conner.png'
+import _8sJiya from '../../images/square headshots/Senior - Jiya.jpg'
 
 // Import Photos from Jr Squad
-import _2jJade from '../../images/junior-squad/_2jJadeTenor.jpg'
-import _3jSloane from '../../images/junior-squad/_3jSloaneSoprano.jpg'
+import _1jSiena from '../../images/square headshots/Junior - Siena.jpeg'
+import _2jJade from '../../images/square headshots/Junior - Jade.jpg'
+import _3jSloane from '../../images/square headshots/Junior - Sloane.jpg'
 const MeetTheSquad = () => {
   const WhenThePartyIsOver_BillieEilish =
     'https://www.youtube.com/watch?v=ems1qawgYy0'
@@ -175,19 +176,27 @@ const MeetTheSquad = () => {
             <div className='headshots-wrapper'>
               <div className='headshot-row'>
                 <div className='single-headshot-container'>
-                  <img className='headshot' src={'#'} alt='sienna' />
+                  <img
+                    className='headshot'
+                    src={_1jSiena}
+                    alt='headshot sienna'
+                  />
                 </div>
                 <div className='single-headshot-container'>
-                  <img className='headshot' src={_2jJade} alt='headshot' />
+                  <img className='headshot' src={_2jJade} alt='headshot jade' />
                 </div>
                 <div className='single-headshot-container'>
-                  <img className='headshot' src={_3jSloane} alt='headshot' />
+                  <img
+                    className='headshot'
+                    src={_3jSloane}
+                    alt='headshot Sloane'
+                  />
                 </div>
                 <div className='single-headshot-container'>
-                  <img className='headshot' src={'#'} alt='missing phoo' />
+                  <img className='headshot' src={'#'} alt='headshot missing' />
                 </div>
                 <div className='single-headshot-container'>
-                  <img className='headshot' src={'#'} alt='Olivia B' />
+                  <img className='headshot' src={'#'} alt='headshot Olivia B' />
                 </div>
               </div>
             </div>
