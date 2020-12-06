@@ -1,5 +1,6 @@
 import React from 'react'
 import './whatissquad.css'
+import { HashLink } from 'react-router-hash-link'
 import { Container, Row, Col } from 'react-bootstrap'
 import LessonItem from '../../components/LessonItem/LessonItem'
 function WhatIsSquad() {
@@ -165,9 +166,11 @@ function WhatIsSquad() {
                 <LessonItem text='SONGWRITING' />
                 <LessonItem text='PIANO LESSONS' />
               </div>
-              <button id='private-lesson-button'>
-                Click Here for More Info on Private Lessons
-              </button>
+              <HashLink to='#toaudition'>
+                <button id='private-lesson-button'>
+                  Click Here for More Info on Private Lessons
+                </button>
+              </HashLink>
             </div>
           </Col>
         </Row>

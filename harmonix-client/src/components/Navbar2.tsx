@@ -9,18 +9,25 @@ import {
 } from 'react-bootstrap'
 import { tortise, white, flower } from '../constants/Colors'
 
-const Navbar2 = () => {
+interface ISecondaryNavBar {
+  title: string
+  color: string
+  style?: any
+}
+const SecondaryNavBar = (props: ISecondaryNavBar) => {
+  const { color } = props
   return (
     <Navbar
-      bg={tortise}
+      bg={color}
       expand='lg'
       style={{
-        backgroundColor: tortise,
+        backgroundColor: color,
         color: white,
+        ...props.style,
       }}
     >
       <Navbar.Brand href='#home' className='liberation-sans-bold'>
-        WHAT IS SQUAD
+        {props.title}
       </Navbar.Brand>
       <Navbar.Toggle className='navbar-dark' aria-controls='basic-navbar-nav' />
       <Navbar.Collapse>
@@ -52,4 +59,4 @@ const Navbar2 = () => {
   )
 }
 
-export default Navbar2
+export default SecondaryNavBar

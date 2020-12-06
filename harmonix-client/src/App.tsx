@@ -18,7 +18,14 @@ import MeetTheSquad from './pagelets-academy/3MeetTheSquad/MeetTheSquad'
 import MeetTheTeachers from './pagelets-academy/4MeetTheTeachers/MeetTheTeachers'
 import ToAudition from './pagelets-academy/5ToAudition/ToAudition'
 
-import { magenta, teal, purple } from './constants/Colors'
+import {
+  magenta,
+  teal,
+  purple,
+  tortise,
+  flower,
+  lightPurple,
+} from './constants/Colors'
 import BannerPage from './pagelets-harmonix/1BannerPage/BannerPage'
 import CheckItOut from './pagelets-harmonix/2CheckItOut/CheckItOut'
 import AboutUs from './pagelets-harmonix/3AboutUs/AboutUs'
@@ -44,13 +51,17 @@ function App() {
         </Route>
         <Route exact path={['/academy']}>
           <ThisIsSquad />
-          <Navbar2 />
+          <Navbar2 title={'WHAT IS SQUAD?'} color={tortise} />
           <WhatIsSquad />
-          <Navbar3 />
+          <Navbar2 title={'MEET THE SQUAD'} color={flower} />
           <MeetTheSquad />
-          <Navbar4 />
+          <Navbar2
+            title={'MEET THE TEACHERS'}
+            color={lightPurple}
+            style={{ marginBottom: '3rem' }}
+          />
           <MeetTheTeachers />
-          <Navbar5 />
+          <Navbar2 title={'TO AUDITION'} color={tortise} />
           <ToAudition />
         </Route>
         <Route exact path={['/harmonix', '/home', '/']}>

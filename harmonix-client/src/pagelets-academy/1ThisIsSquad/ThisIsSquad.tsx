@@ -50,10 +50,6 @@ const ThisIsSquad = () => {
                       .
                     </span>
                   </h3>
-                  <p className='font-p' style={{ lineHeight: '0rem' }}>
-                    an inspiring learning community for dedicated vocalists ages
-                    8-17
-                  </p>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
@@ -64,10 +60,13 @@ const ThisIsSquad = () => {
                 />
 
                 <Carousel.Caption>
-                  <h3></h3>
-                  <div className='rounded purple-highlight'>
-                    <p className=''>ONLINE SINCE MAY!</p>
-                  </div>
+                  <p
+                    className='font-p'
+                    style={{ lineHeight: '1rem', backgroundColor: magenta }}
+                  >
+                    an inspiring learning community for dedicated vocalists ages
+                    8-17
+                  </p>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
@@ -76,10 +75,11 @@ const ThisIsSquad = () => {
                   src={Carousel3}
                   alt='Third slide'
                 />
-                {/* <Carousel.Caption>
-                  <h3>Third slide label</h3>
-                  <p>And some third thing you want to "sell"</p>
-                </Carousel.Caption> */}
+                <Carousel.Caption>
+                  <div className='rounded purple-highlight'>
+                    <p className=''>ONLINE SINCE MAY!</p>
+                  </div>
+                </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
           </Col>
@@ -109,35 +109,35 @@ const ThisIsSquad = () => {
         </Row>
         <Row id='social-icon-container'>
           <Col id='social-icon-set' className='h-flex-container '>
-            <a href='#'>
+            <a href='https://instagram.com/squadharmonix'>
               <img
                 className='social-icon'
                 src={IgLogo}
                 alt='Squad Harmonix instagram'
               />
             </a>
-            <a href='#'>
+            <a href='https://youtube.com/squadharmonix'>
               <img
                 className='social-icon'
                 src={YtLogo}
                 alt='Squad harmonix youtube'
               />
             </a>
-            <a href='#'>
+            <a href='https://open.spotify.com/artist/60mJxBCIi3kLojVY7StenZ?si=3qGIirU4SKCFQQM1JcsPyg'>
               <img
                 className='social-icon'
                 src={SpLogo}
                 alt='Squad harmonix spotify'
               />
             </a>
-            <a href='#'>
+            <a href='https://www.tiktok.com/@squadharmonix'>
               <img
                 className='social-icon'
                 src={TtLogo}
                 alt='Squad harmonix TikTok'
               />
             </a>
-            <a href='#'>
+            <a href='https://www.facebook.com/squadharmonix'>
               <img
                 className='social-icon'
                 src={FbLogo}
