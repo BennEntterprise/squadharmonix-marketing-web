@@ -43,8 +43,13 @@ const ThisIsSquad = () => {
                   />
                 </div>
                 <Carousel.Caption className='carousel-color-adjust'>
-                  <h3>THIS IS SQUAD.</h3>
-                  <p className='font-p'>
+                  <h3>
+                    THIS IS SQUAD
+                    <span style={{ fontSize: '3rem', lineHeight: '0rem' }}>
+                      .
+                    </span>
+                  </h3>
+                  <p className='font-p' style={{ lineHeight: '0rem' }}>
                     an inspiring learning community for dedicated vocalists ages
                     8-17
                   </p>
@@ -70,7 +75,6 @@ const ThisIsSquad = () => {
                   src={Carousel3}
                   alt='Third slide'
                 />
-
                 {/* <Carousel.Caption>
                   <h3>Third slide label</h3>
                   <p>And some third thing you want to "sell"</p>

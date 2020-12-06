@@ -157,12 +157,12 @@ function WhatIsSquad() {
               </h5>
               <div id='LessonSetContainer'>
                 <LessonItem text='MUSIC THEORY' />
-                <LessonItem text='SIGHT SINGING' />
+                <LessonItem text='SIGHT-SINGING' />
                 <LessonItem text='HARMONY' />
                 <LessonItem text='BEATBOXING' />
                 <LessonItem text='VOICE LESSONS' />
                 <LessonItem text='MIXING/RECORDING' />
-                <LessonItem text='SONG WRITING' />
+                <LessonItem text='SONGWRITING' />
                 <LessonItem text='PIANO LESSONS' />
               </div>
               <button id='private-lesson-button'>
