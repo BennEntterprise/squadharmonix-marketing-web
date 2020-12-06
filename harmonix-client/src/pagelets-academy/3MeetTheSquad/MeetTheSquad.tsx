@@ -44,7 +44,9 @@ const MeetTheSquad = () => {
       <HorizontalColorBand color={magenta} height={'50px'} />
       <Row>
         <Col>
-          <h3 className='text-center mt-1'>PERFORMANCE SQUAD</h3>
+          <h3 className='text-center mt-1 font-h3 liberation-sans-bold'>
+            PERFORMANCE SQUAD
+          </h3>
         </Col>
       </Row>
       <Row>
@@ -103,7 +105,9 @@ const MeetTheSquad = () => {
       <HorizontalColorBand color={teal} height={'50px'} />
       <Row>
         <Col>
-          <h3 className='text-center mt-1'>SENIOR SQUAD</h3>
+          <h3 className='text-center mt-1 font-h3 liberation-sans-bold'>
+            SENIOR SQUAD
+          </h3>
         </Col>
       </Row>
       <Row>
@@ -160,7 +164,9 @@ const MeetTheSquad = () => {
       <HorizontalColorBand color={purple} height={'50px'} />
       <Row>
         <Col>
-          <h3 className='text-center mt-1'>JUNIOR SQUAD</h3>
+          <h3 className='text-center mt-1 font-h3 liberation-sans-bold'>
+            JUNIOR SQUAD
+          </h3>
         </Col>
       </Row>
       <Row>

@@ -19,25 +19,27 @@ const Navbar5 = () => {
         color: white,
       }}
     >
-      <Navbar.Brand href='#home'>To Audition</Navbar.Brand>
+      <Navbar.Brand href='#home' className='liberation-sans-bold'>
+        TO AUDITION
+      </Navbar.Brand>
 
       <Navbar.Toggle className='navbar-dark' aria-controls='final navbar' />
       <Navbar.Collapse>
-        <Nav className='mr-auto'>
+        <Nav className='mr-auto liberation-sans'>
           <Nav.Link style={{ color: white }} href='#home'>
-            Home
+            HOME
           </Nav.Link>
           <Nav.Link style={{ color: white }} href='#'>
-            What is Squad?
+            WHAT IS SQUAD?
           </Nav.Link>
           <Nav.Link style={{ color: white }} href='#'>
-            Meet The Squad
+            MEET THE SQUAD
           </Nav.Link>
           <Nav.Link style={{ color: white }} href='#link'>
-            Meet The Teachers
+            MEET THE TEACHERS{' '}
           </Nav.Link>
           <Nav.Link style={{ color: white }} href='#'>
-            Audition
+            AUDITION
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

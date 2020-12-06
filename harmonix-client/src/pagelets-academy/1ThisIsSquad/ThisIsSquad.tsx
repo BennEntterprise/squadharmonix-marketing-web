@@ -83,10 +83,10 @@ const ThisIsSquad = () => {
         <Row id='academy-cta-buttons'>
           <Col>
             <div className='v-flex-container ' id='cta-btn-group'>
-              <button className='cta-btn teal-outline color-teal'>
+              <button className='cta-btn teal-outline color-teal liberation-sans-bold'>
                 CONTACT
               </button>
-              <button className='cta-btn magenta-outline color-magenta'>
+              <button className='cta-btn magenta-outline color-magenta liberation-sans-bold'>
                 JOIN OUR MAILING LIST
               </button>
             </div>
@@ -94,11 +94,31 @@ const ThisIsSquad = () => {
         </Row>
         <Row id='social-icon-container'>
           <Col id='social-icon-set' className='h-flex-container '>
-            <img className='social-icon' src={IgLogo} alt='' />
-            <img className='social-icon' src={YtLogo} alt='' />
-            <img className='social-icon' src={SpLogo} alt='' />
-            <img className='social-icon' src={TtLogo} alt='' />
-            <img className='social-icon' src={FbLogo} alt='' />
+            <img
+              className='social-icon'
+              src={IgLogo}
+              alt='Squad Harmonix instagram'
+            />
+            <img
+              className='social-icon'
+              src={YtLogo}
+              alt='Squad harmonix youtube'
+            />
+            <img
+              className='social-icon'
+              src={SpLogo}
+              alt='Squad harmonix spotify'
+            />
+            <img
+              className='social-icon'
+              src={TtLogo}
+              alt='Squad harmonix TikTok'
+            />
+            <img
+              className='social-icon'
+              src={FbLogo}
+              alt='Squad Harmonix Facebook'
+            />
           </Col>
         </Row>
         <Row

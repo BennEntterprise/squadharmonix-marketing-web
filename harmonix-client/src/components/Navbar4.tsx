@@ -26,27 +26,29 @@ const Navbar4 = () => {
         color: white,
       }}
     >
-      <Navbar.Brand href='#home'>Meet the Teachers</Navbar.Brand>
+      <Navbar.Brand href='#home' className='liberation-sans-bold'>
+        MEET THE TEACHERS
+      </Navbar.Brand>
       <Navbar.Toggle className='navbar-dark ' aria-controls='toggle-control' />
       <Navbar.Collapse>
         <Nav
-          className='mr-auto float-right'
+          className='mr-auto float-right liberation-sans'
           style={{ width: '100%', justifyContent: 'flex-end' }}
         >
           <Nav.Link style={{ color: white }} href='#home'>
-            Home
+            HOME
           </Nav.Link>
           <Nav.Link style={{ color: white }} href='#'>
-            What is Squad?
+            WHAT IS SQUAD?
           </Nav.Link>
           <Nav.Link style={{ color: white }} href='#'>
-            Meet The Squad
+            MEET THE SQUAD
           </Nav.Link>
           <Nav.Link style={{ color: white }} href='#link'>
-            Meet The Teachers
+            MEET THE TEACHERS
           </Nav.Link>
           <Nav.Link style={{ color: white }} href='#'>
-            Audition
+            AUDITION
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

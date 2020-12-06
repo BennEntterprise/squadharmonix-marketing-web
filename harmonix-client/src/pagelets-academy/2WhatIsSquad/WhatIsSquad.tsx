@@ -11,9 +11,9 @@ function WhatIsSquad() {
             <div id='grid-wis'>
               <div id='grid-h1'>
                 <div className='LadderItemGraphic'>
-                  <h6 className='font-h6 liberation-sans-bold bg-magenta '>
+                  <h4 className='font-h4 liberation-sans-bold bg-magenta '>
                     WHO WE ARE
-                  </h6>
+                  </h4>
                 </div>
               </div>
               <div id='grid-b1'>
@@ -30,9 +30,9 @@ function WhatIsSquad() {
 
               <div id='grid-h2'>
                 <div className='LadderItemGraphic'>
-                  <h6 className='font-h6 liberation-sans-bold bg-purple'>
+                  <h4 className='font-h4 liberation-sans-bold bg-purple'>
                     WHAT WE DO
-                  </h6>
+                  </h4>
                 </div>
               </div>
               <div id='grid-b2'>
@@ -68,9 +68,9 @@ function WhatIsSquad() {
 
               <div id='grid-h5'>
                 <div className='LadderItemGraphic'>
-                  <h6 className='font-h6 liberation-sans-bold bg-teal'>
+                  <h4 className='font-h4 liberation-sans-bold bg-teal'>
                     TRAINING LEVELS
-                  </h6>
+                  </h4>
                 </div>
               </div>
               <div id='grid-b3'>
