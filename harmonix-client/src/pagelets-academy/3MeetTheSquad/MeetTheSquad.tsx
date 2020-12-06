@@ -33,6 +33,7 @@ import _8sJiya from '../../images/square headshots/Senior - Jiya.jpg'
 import _1jSiena from '../../images/square headshots/Junior - Siena.jpeg'
 import _2jJade from '../../images/square headshots/Junior - Jade.jpg'
 import _3jSloane from '../../images/square headshots/Junior - Sloane.jpg'
+import _4jPeace from '../../images/square headshots/Junior - Peace.jpg'
 const MeetTheSquad = () => {
   const WhenThePartyIsOver_BillieEilish =
     'https://www.youtube.com/watch?v=ems1qawgYy0'
@@ -193,7 +194,11 @@ const MeetTheSquad = () => {
                   />
                 </div>
                 <div className='single-headshot-container'>
-                  <img className='headshot' src={'#'} alt='headshot missing' />
+                  <img
+                    className='headshot'
+                    src={_4jPeace}
+                    alt='headshot missing'
+                  />
                 </div>
                 <div className='single-headshot-container'>
                   <img className='headshot' src={'#'} alt='headshot Olivia B' />
