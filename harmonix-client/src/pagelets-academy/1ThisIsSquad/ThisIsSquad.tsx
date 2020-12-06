@@ -44,7 +44,7 @@ const ThisIsSquad = () => {
                   />
                 </div>
                 <Carousel.Caption className='carousel-color-adjust'>
-                  <h3>
+                  <h3 style={{ padding: '1rem', borderRadius: '1rem' }}>
                     THIS IS SQUAD
                     <span style={{ fontSize: '3rem', lineHeight: '0rem' }}>
                       .
@@ -62,7 +62,12 @@ const ThisIsSquad = () => {
                 <Carousel.Caption>
                   <p
                     className='font-p'
-                    style={{ lineHeight: '1rem', backgroundColor: magenta }}
+                    style={{
+                      lineHeight: '1rem',
+                      backgroundColor: magenta,
+                      padding: '1rem',
+                      borderRadius: '1rem',
+                    }}
                   >
                     an inspiring learning community for dedicated vocalists ages
                     8-17
@@ -77,7 +82,9 @@ const ThisIsSquad = () => {
                 />
                 <Carousel.Caption>
                   <div className='rounded purple-highlight'>
-                    <p className=''>ONLINE SINCE MAY!</p>
+                    <p style={{ padding: '1rem', borderRadius: '1rem' }}>
+                      ONLINE SINCE MAY!
+                    </p>
                   </div>
                 </Carousel.Caption>
               </Carousel.Item>

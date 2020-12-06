@@ -35,7 +35,7 @@ const nb = () => {
           </Nav.Link>
           <Nav.Link style={{ color: 'white' }}>
             <Link style={{ color: 'white' }} to='/academy'>
-              SQUAD ACADEMY<em>(Coming Dec. 1)</em>
+              SQUAD ACADEMY
             </Link>
           </Nav.Link>
           <Nav.Link style={{ color: 'white' }}>
