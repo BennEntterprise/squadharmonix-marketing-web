@@ -100,60 +100,6 @@ const Press = () => {
                   Interview]
                 </a>
               </li>
-              <li className='undecorated-list-item'>
-                <span className='press-release-date font-underline'>
-                  Oct 25, 2020:
-                </span>
-                <a className='undecorated-item' href={ThePulseLink}>
-                  &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
-                  Interview]
-                </a>
-              </li>
-              <li className='undecorated-list-item'>
-                <span className='press-release-date font-underline'>
-                  Oct 25, 2020:
-                </span>
-                <a className='undecorated-item' href={ThePulseLink}>
-                  &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
-                  Interview]
-                </a>
-              </li>
-              <li className='undecorated-list-item'>
-                <span className='press-release-date font-underline'>
-                  Oct 25, 2020:
-                </span>
-                <a className='undecorated-item' href={ThePulseLink}>
-                  &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
-                  Interview]
-                </a>
-              </li>
-              <li className='undecorated-list-item'>
-                <span className='press-release-date font-underline'>
-                  Oct 25, 2020:
-                </span>
-                <a className='undecorated-item' href={ThePulseLink}>
-                  &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
-                  Interview]
-                </a>
-              </li>
-              <li className='undecorated-list-item'>
-                <span className='press-release-date font-underline'>
-                  Oct 25, 2020:
-                </span>
-                <a className='undecorated-item' href={ThePulseLink}>
-                  &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
-                  Interview]
-                </a>
-              </li>
-              <li className='undecorated-list-item'>
-                <span className='press-release-date font-underline'>
-                  Oct 25, 2020:
-                </span>
-                <a className='undecorated-item' href={ThePulseLink}>
-                  &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
-                  Interview]
-                </a>
-              </li>
             </div>
           </div>
           <div id='grid-inquiry-item'>
