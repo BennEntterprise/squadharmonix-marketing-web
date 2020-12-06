@@ -2,8 +2,9 @@ import React from 'react'
 import './thisissquad.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Carousel } from 'react-bootstrap'
+import { HashLink } from 'react-router-hash-link'
 import SocialIcon from '../../components/SocialIcon'
-import { tortise, darkMagenta, magenta } from '../../constants/Colors'
+import { tortise, darkMagenta, magenta, teal } from '../../constants/Colors'
 import ButtonBox from '../../components/ButtonBox'
 //Carousel Imgs
 import Carousel1 from './carousel-imgs/Lauren this one takes priority.jpeg'
@@ -88,41 +89,61 @@ const ThisIsSquad = () => {
           <Col>
             <div className='v-flex-container ' id='cta-btn-group'>
               <button className='cta-btn teal-outline color-teal liberation-sans-bold'>
-                CONTACT
+                <HashLink
+                  to='#toaudition'
+                  style={{ textDecoration: 'none', color: teal }}
+                >
+                  CONTACT
+                </HashLink>
               </button>
               <button className='cta-btn magenta-outline color-magenta liberation-sans-bold'>
-                JOIN OUR MAILING LIST
+                <a
+                  href='https://squadharmonix.us18.list-manage.com/subscribe?u=5862c03408605c39fa217f490&id=6eb6e8947f'
+                  style={{ textDecoration: 'none', color: magenta }}
+                >
+                  JOIN OUR MAILING LIST
+                </a>
               </button>
             </div>
           </Col>
         </Row>
         <Row id='social-icon-container'>
           <Col id='social-icon-set' className='h-flex-container '>
-            <img
-              className='social-icon'
-              src={IgLogo}
-              alt='Squad Harmonix instagram'
-            />
-            <img
-              className='social-icon'
-              src={YtLogo}
-              alt='Squad harmonix youtube'
-            />
-            <img
-              className='social-icon'
-              src={SpLogo}
-              alt='Squad harmonix spotify'
-            />
-            <img
-              className='social-icon'
-              src={TtLogo}
-              alt='Squad harmonix TikTok'
-            />
-            <img
-              className='social-icon'
-              src={FbLogo}
-              alt='Squad Harmonix Facebook'
-            />
+            <a href='#'>
+              <img
+                className='social-icon'
+                src={IgLogo}
+                alt='Squad Harmonix instagram'
+              />
+            </a>
+            <a href='#'>
+              <img
+                className='social-icon'
+                src={YtLogo}
+                alt='Squad harmonix youtube'
+              />
+            </a>
+            <a href='#'>
+              <img
+                className='social-icon'
+                src={SpLogo}
+                alt='Squad harmonix spotify'
+              />
+            </a>
+            <a href='#'>
+              <img
+                className='social-icon'
+                src={TtLogo}
+                alt='Squad harmonix TikTok'
+              />
+            </a>
+            <a href='#'>
+              <img
+                className='social-icon'
+                src={FbLogo}
+                alt='Squad Harmonix Facebook'
+              />
+            </a>
           </Col>
         </Row>
         <Row

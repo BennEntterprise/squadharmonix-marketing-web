@@ -161,7 +161,7 @@
 
 .social-icon {
   --square: 125px;
-  width: 15%;
+  width: 100%;
   max-height: var(--square);
   max-width: var(--square);
   margin: auto;
