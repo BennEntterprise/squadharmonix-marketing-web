@@ -155,11 +155,20 @@ interface IMemberHeadshot {
   voicePart: string
   imgSrc: any
   instaAnchor?: string
+  soundCloudAnchor?: string
   outline: 'purple' | 'magenta' | 'teal'
 }
 const MemberHeadshot = (props: IMemberHeadshot) => {
-  const { imgSrc, name, instaAnchor, voicePart, outline } = props
-  const igVisibility = instaAnchor ? 'visible' : 'hidden'
+  const {
+    imgSrc,
+    name,
+    instaAnchor,
+    soundCloudAnchor,
+    voicePart,
+    outline,
+  } = props
+  const igVisibility = !!instaAnchor ? 'visible' : 'collapse'
+  const scVisibility = !!soundCloudAnchor ? 'visible' : 'collapse'
   return (
     <div className='profile-container'>
       <div className='photo-container'>
@@ -168,11 +177,21 @@ const MemberHeadshot = (props: IMemberHeadshot) => {
           src={imgSrc}
           alt={`${name} headshot`}
         />
-        <div className='social-container'>
+        <div className='socials-container'>
           {instaAnchor && (
             <a className='social-anchor' href={instaAnchor}>
               <img
                 style={{ visibility: igVisibility }}
+                className='instagram-link'
+                src={IG}
+                alt={`${name} instagram`}
+              />
+            </a>
+          )}
+          {instaAnchor && (
+            <a className='social-anchor' href={instaAnchor}>
+              <img
+                style={{ visibility: scVisibility }}
                 className='instagram-link'
                 src={IG}
                 alt={`${name} instagram`}
