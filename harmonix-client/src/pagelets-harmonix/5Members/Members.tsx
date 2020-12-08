@@ -101,14 +101,13 @@ const Members = () => {
             name='MAYA'
             voicePart='ALTO'
             imgSrc={MayaImg}
-            instaAnchor='#' // Todo:  When removing this her photo sinks
             outline='magenta'
           />
           <MemberHeadshot
             name='MISCHA'
             voicePart='ALTO'
             imgSrc={MischaImg}
-            instaAnchor='#'
+            instaAnchor='https://instagram.com/mischa.h.music?igshid=wfqg5e5x49ug'
             outline='teal'
           />
         </Col>
@@ -130,14 +129,12 @@ const Members = () => {
             name='NOAH'
             voicePart='BASS/BEATBOXER'
             imgSrc={NoahImg}
-            instaAnchor='#'
             outline='magenta'
           />
           <MemberHeadshot
             name='SIMONE'
             voicePart='MEZZO'
             imgSrc={SimoneImg}
-            instaAnchor='#'
             outline='teal'
           />
           <MemberHeadshot
@@ -173,7 +170,7 @@ const MemberHeadshot = (props: IMemberHeadshot) => {
         />
         <div className='social-container'>
           {instaAnchor && (
-            <a className='social-anchor' href='#'>
+            <a className='social-anchor' href={instaAnchor}>
               <img
                 style={{ visibility: igVisibility }}
                 className='instagram-link'
