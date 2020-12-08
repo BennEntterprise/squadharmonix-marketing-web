@@ -38,6 +38,7 @@
 .social-container > .social-anchor {
   /* border: var(--construction); */
   overflow: visible;
+  min-height: 13.3px;
   width: 100%;
   display: flex;
   flex-direction: row;

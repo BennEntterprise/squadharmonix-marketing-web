@@ -11,10 +11,10 @@ import SC from '../../images/social-assets/soundcloud-logo.png'
 import JohannaImg from '../../images/ps/Johanna - Captain In Training(cropped).jpg'
 import CameronImg from '../../images/ps/Cameron Alto_Beatboxer.jpg'
 import SydneImg from '../../images/ps/Sydne Tenor.jpg'
-import Lauren from '../../images/ps/Lauren Soprano.jpg'
-import Lucy from '../../images/ps/Lucy Tenor.jpg'
-import Maya from '../../images/ps/Maya Alto.jpg'
-import Mischa from '../../images/ps/mischa Alto.jpg'
+import LaurenImg from '../../images/ps/Lauren Soprano.jpg'
+import LucyImg from '../../images/ps/Lucy Tenor.jpg'
+import MayaImg from '../../images/ps/Maya Alto.jpg'
+import MischaImg from '../../images/ps/mischa Alto.jpg'
 import Noah from '../../images/ps/Noah Bass.jpg'
 import Simone from '../../images/ps/Simone Mezzo.jpg'
 import Elise from '../../images/ps/Elise Soprano 2.jpg'
@@ -83,91 +83,34 @@ const Members = () => {
             alignItems: 'center',
           }}
         >
-          <div className='profile-container'>
-            <div className='photo-container '>
-              <img
-                className='artist-photo teal-outline'
-                src={Lauren}
-                alt='lauren'
-              />
-              <div className='social-container'>
-                <img className='instagram-link' src={IG} alt='instagram link' />
-                <img
-                  className='soundcloud-link'
-                  src={SC}
-                  alt='soundcloud link'
-                />
-              </div>
-            </div>
-            <h6 className='photo-title font-h6 liberation-sans-bold'>LAUREN</h6>
-            <p className='font-p liberation-sans'>SOPRANO</p>
-          </div>
-
-          <div className='profile-container'>
-            <div className='photo-container'>
-              <img
-                className='artist-photo purple-outline'
-                src={Lucy}
-                alt='lucy'
-              />
-              <div className='social-container'>
-                <img className='instagram-link' src={IG} alt='instagram link' />
-                <img
-                  className='soundcloud-link'
-                  src={SC}
-                  alt='soundcloud link'
-                />
-              </div>
-            </div>
-            <h6 className='photo-title font-h6 liberation-sans-bold'>LUCY</h6>
-            <p className='font-p liberation-sans'>TENOR</p>
-          </div>
-
-          <div className='profile-container'>
-            <div className='photo-container'>
-              <img
-                className='artist-photo magenta-outline'
-                src={Maya}
-                alt='MAYA'
-              />
-              <div className='social-container'>
-                <img
-                  style={{ visibility: 'hidden' }}
-                  className='instagram-link'
-                  src={IG}
-                  alt='instagram link'
-                />
-                <img
-                  style={{ visibility: 'hidden' }}
-                  className='soundcloud-link'
-                  src={SC}
-                  alt='soundcloud link'
-                />
-              </div>
-            </div>
-            <h6 className='photo-title font-h6 liberation-sans-bold'>MAYA</h6>
-            <p className='font-p liberation-sans'>ALTO</p>
-          </div>
-
-          <div className='profile-container'>
-            <div className='photo-container'>
-              <img
-                className='artist-photo teal-outline'
-                src={Mischa}
-                alt='MISCHA'
-              />
-              <div className='social-container'>
-                <img className='instagram-link' src={IG} alt='instagram link' />
-                <img
-                  className='soundcloud-link'
-                  src={SC}
-                  alt='soundcloud link'
-                />
-              </div>
-            </div>
-            <h6 className='photo-title font-h6 liberation-sans-bold'>MISCHA</h6>
-            <p className='font-p liberation-sans'>ALTO</p>
-          </div>
+          <MemberHeadshot
+            name='LAUREN'
+            voicePart='SOPRANO'
+            imgSrc={LaurenImg}
+            instaAnchor='https://instagram.com/lauren_shay_music?igshid=4qx5hdffejgw'
+            outline='teal'
+          />
+          <MemberHeadshot
+            name='LUCY'
+            voicePart='TENOR'
+            imgSrc={LucyImg}
+            instaAnchor='https://instagram.com/stella.lucy.music?igshid=5g22y5bgjy98'
+            outline='purple'
+          />
+          <MemberHeadshot
+            name='MAYA'
+            voicePart='ALTO'
+            imgSrc={MayaImg}
+            instaAnchor='#' // Todo:  When removing this her photo sinks
+            outline='magenta'
+          />
+          <MemberHeadshot
+            name='MISCHA'
+            voicePart='ALTO'
+            imgSrc={MischaImg}
+            instaAnchor='#'
+            outline='teal'
+          />
         </Col>
       </Row>
       <Row className='member-row'>
@@ -230,11 +173,6 @@ const Members = () => {
               />
               <div className='social-container'>
                 <img className='instagram-link' src={IG} alt='instagram link' />
-                {/* <img
-                  className='soundcloud-link'
-                  src={SC}
-                  alt='soundcloud link'
-                /> */}
               </div>
             </div>
             <h6 className='photo-title font-h6 liberation-sans-bold'>ELISE</h6>
@@ -250,12 +188,12 @@ interface IMemberHeadshot {
   name: string
   voicePart: string
   imgSrc: any
-  instaAnchor: string
+  instaAnchor?: string
   outline: 'purple' | 'magenta' | 'teal'
 }
 const MemberHeadshot = (props: IMemberHeadshot) => {
   const { imgSrc, name, instaAnchor, voicePart, outline } = props
-
+  const igVisibility = instaAnchor ? 'visible' : 'hidden'
   return (
     <div className='profile-container'>
       <div className='photo-container'>
@@ -265,13 +203,16 @@ const MemberHeadshot = (props: IMemberHeadshot) => {
           alt={`${name} headshot`}
         />
         <div className='social-container'>
-          <a className='social-anchor' href='#'>
-            <img
-              className='instagram-link'
-              src={IG}
-              alt={`${name} instagram`}
-            />
-          </a>
+          {instaAnchor && (
+            <a className='social-anchor' href='#'>
+              <img
+                style={{ visibility: igVisibility }}
+                className='instagram-link'
+                src={IG}
+                alt={`${name} instagram`}
+              />
+            </a>
+          )}
         </div>
       </div>
       <h6 className='photo-title font-h6 liberation-sans-bold'>{name}</h6>
