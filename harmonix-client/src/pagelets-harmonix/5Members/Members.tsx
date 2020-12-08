@@ -15,9 +15,9 @@ import LaurenImg from '../../images/ps/Lauren Soprano.jpg'
 import LucyImg from '../../images/ps/Lucy Tenor.jpg'
 import MayaImg from '../../images/ps/Maya Alto.jpg'
 import MischaImg from '../../images/ps/mischa Alto.jpg'
-import Noah from '../../images/ps/Noah Bass.jpg'
-import Simone from '../../images/ps/Simone Mezzo.jpg'
-import Elise from '../../images/ps/Elise Soprano 2.jpg'
+import NoahImg from '../../images/ps/Noah Bass.jpg'
+import SimoneImg from '../../images/ps/Simone Mezzo.jpg'
+import EliseImg from '../../images/ps/Elise Soprano 2.jpg'
 const Members = () => {
   return (
     <Container id='members-container'>
@@ -126,58 +126,27 @@ const Members = () => {
             alignItems: 'center',
           }}
         >
-          <div className='profile-container'>
-            <div className='photo-container'>
-              <img
-                className='artist-photo magenta-outline'
-                src={Noah}
-                alt='NOAH'
-              />
-              <div className='social-container'>
-                {/* <img className='instagram-link' src={IG} alt='instagram link' /> */}
-                <img
-                  className='soundcloud-link'
-                  src={SC}
-                  alt='soundcloud link'
-                />
-              </div>
-            </div>
-            <h6 className='photo-title font-h6 liberation-sans-bold'>NOAH</h6>
-            <p className='font-p'>BASS/BEATBOXER</p>
-          </div>{' '}
-          <div className='profile-container'>
-            <div className='photo-container'>
-              <img
-                className='artist-photo teal-outline'
-                src={Simone}
-                alt='SIMONE'
-              />
-              <div className='social-container'>
-                {/* <img className='instagram-link' src={IG} alt='instagram link' /> */}
-                <img
-                  className='soundcloud-link'
-                  src={SC}
-                  alt='soundcloud link'
-                />
-              </div>
-            </div>
-            <h6 className='photo-title font-h6 liberation-sans-bold'>SIMONE</h6>
-            <p className='font-p'>MEZZO</p>
-          </div>{' '}
-          <div className='profile-container'>
-            <div className='photo-container'>
-              <img
-                className='artist-photo  purple-outline'
-                src={Elise}
-                alt='ELISE'
-              />
-              <div className='social-container'>
-                <img className='instagram-link' src={IG} alt='instagram link' />
-              </div>
-            </div>
-            <h6 className='photo-title font-h6 liberation-sans-bold'>ELISE</h6>
-            <p className='font-p'>SOPRANO</p>
-          </div>
+          <MemberHeadshot
+            name='NOAH'
+            voicePart='BASS/BEATBOXER'
+            imgSrc={NoahImg}
+            instaAnchor='#'
+            outline='magenta'
+          />
+          <MemberHeadshot
+            name='SIMONE'
+            voicePart='MEZZO'
+            imgSrc={SimoneImg}
+            instaAnchor='#'
+            outline='teal'
+          />
+          <MemberHeadshot
+            name='ELISE'
+            voicePart='SOPRANO'
+            imgSrc={EliseImg}
+            instaAnchor='https://instagram.com/elise.c.sings?igshid=1iqrn09g3wuee'
+            outline='purple'
+          />
         </Col>
       </Row>
     </Container>
