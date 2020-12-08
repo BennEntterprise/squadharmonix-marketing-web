@@ -8,9 +8,9 @@ import IG from '../../images/icons/instagram-academy.png'
 import SC from '../../images/social-assets/soundcloud-logo.png'
 // Import Member Photos
 // TODO:Get Joanna Photo
-import Joanna from '../../images/ps/Johanna - Captain In Training(cropped).jpg'
-import Cameron from '../../images/ps/Cameron Alto_Beatboxer.jpg'
-import Sydne from '../../images/ps/Sydne Tenor.jpg'
+import JohannaImg from '../../images/ps/Johanna - Captain In Training(cropped).jpg'
+import CameronImg from '../../images/ps/Cameron Alto_Beatboxer.jpg'
+import SydneImg from '../../images/ps/Sydne Tenor.jpg'
 import Lauren from '../../images/ps/Lauren Soprano.jpg'
 import Lucy from '../../images/ps/Lucy Tenor.jpg'
 import Maya from '../../images/ps/Maya Alto.jpg'
@@ -45,73 +45,29 @@ const Members = () => {
             alignItems: 'center',
           }}
         >
-          <div className='profile-container'>
-            <div className='photo-container '>
-              <img
-                className='artist-photo magenta-outline'
-                src={Joanna}
-                alt='johanna'
-              />
-              <div
-                className='social-container'
-                style={{
-                  display: 'flex',
-                  flexDirection: 'row',
-                  justifyContent: 'flex-end',
-                  position: 'relative',
-                  right: '15%',
-                }}
-              >
-                <img className='instagram-link' src={IG} alt='instagram link' />
-                <img
-                  className='soundcloud-link'
-                  src={SC}
-                  alt='soundcloud link'
-                />
-              </div>
-            </div>
-            <h6 className='photo-title liberation-sans-bold font-h6 '>
-              JOHANNA
-            </h6>
-            <p className='font-p'>TENOR</p>
-          </div>
-
-          <div className='profile-container'>
-            <div className='photo-container'>
-              <img
-                className='artist-photo teal-outline'
-                src={Cameron}
-                alt='cameron'
-              />
-              <div className='social-container'>
-                <img className='instagram-link' src={IG} alt='instagram link' />
-              </div>
-            </div>
-            <h6 className='photo-title font-h6 liberation-sans-bold'>
-              CAMERON
-            </h6>
-            <p className='font-p'>BEATBOX/ALTO</p>
-          </div>
-
-          <div className='profile-container'>
-            <div className='photo-container'>
-              <img
-                className='artist-photo purple-outline'
-                src={Sydne}
-                alt='sydne'
-              />
-              <div className='social-container'>
-                <img className='instagram-link' src={IG} alt='instagram link' />
-                <img
-                  className='soundcloud-link'
-                  src={SC}
-                  alt='soundcloud link'
-                />
-              </div>
-            </div>
-            <h6 className='photo-title font-h6 liberation-sans-bold'>SYDNE</h6>
-            <p className='font-p liberation-sans'>TENOR</p>
-          </div>
+          <MemberHeadshot
+            name={'JOHANNA'}
+            voicePart={'TENOR'}
+            imgSrc={JohannaImg}
+            instaAnchor='https://instagram.com/jmzjohanna?igshid=7pnkk9jzbcqd'
+            outline='magenta'
+          />
+          <MemberHeadshot
+            name={'CAMERON'}
+            voicePart={'BEATBOX/ALTO'}
+            imgSrc={CameronImg}
+            instaAnchor={
+              'https://instagram.com/cameronthebeatboxer?igshid=jchlbum6jhmv'
+            }
+            outline={'teal'}
+          />
+          <MemberHeadshot
+            name='SYDNE'
+            voicePart='TENOR'
+            imgSrc={SydneImg}
+            instaAnchor='https://instagram.com/sydnerosemusic?igshid=1uh8sobvhycru'
+            outline='purple'
+          />
         </Col>
       </Row>
       <Row className='member-row'>
@@ -287,6 +243,40 @@ const Members = () => {
         </Col>
       </Row>
     </Container>
+  )
+}
+
+interface IMemberHeadshot {
+  name: string
+  voicePart: string
+  imgSrc: any
+  instaAnchor: string
+  outline: 'purple' | 'magenta' | 'teal'
+}
+const MemberHeadshot = (props: IMemberHeadshot) => {
+  const { imgSrc, name, instaAnchor, voicePart, outline } = props
+
+  return (
+    <div className='profile-container'>
+      <div className='photo-container'>
+        <img
+          className={`artist-photo ${outline}-outline`}
+          src={imgSrc}
+          alt={`${name} headshot`}
+        />
+        <div className='social-container'>
+          <a className='social-anchor' href='#'>
+            <img
+              className='instagram-link'
+              src={IG}
+              alt={`${name} instagram`}
+            />
+          </a>
+        </div>
+      </div>
+      <h6 className='photo-title font-h6 liberation-sans-bold'>{name}</h6>
+      <p className='font-p'>{voicePart}</p>
+    </div>
   )
 }
 
