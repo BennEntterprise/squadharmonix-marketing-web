@@ -176,6 +176,7 @@ const MemberHeadshot = (props: IMemberHeadshot) => {
   } = props
   const igVisibility = !!instaAnchor ? 'visible' : 'collapse'
   const scVisibility = !!soundCloudAnchor ? 'visible' : 'collapse'
+  console.log(`${name} should have ig: ${igVisibility} and sc: ${scVisibility}`)
   return (
     <div className='profile-container'>
       <div className='photo-container'>
@@ -195,8 +196,8 @@ const MemberHeadshot = (props: IMemberHeadshot) => {
               />
             </a>
           )}
-          {instaAnchor && (
-            <a className='social-anchor' href={instaAnchor}>
+          {soundCloudAnchor && (
+            <a className='social-anchor' href={soundCloudAnchor}>
               <img
                 style={{ visibility: scVisibility }}
                 className='soundcloud-link'
