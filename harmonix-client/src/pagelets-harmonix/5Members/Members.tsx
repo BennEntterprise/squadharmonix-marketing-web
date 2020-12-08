@@ -50,6 +50,7 @@ const Members = () => {
             voicePart={'TENOR'}
             imgSrc={JohannaImg}
             instaAnchor='https://instagram.com/jmzjohanna?igshid=7pnkk9jzbcqd'
+            soundCloudAnchor='#'
             outline='magenta'
           />
           <MemberHeadshot
@@ -66,6 +67,7 @@ const Members = () => {
             voicePart='TENOR'
             imgSrc={SydneImg}
             instaAnchor='https://instagram.com/sydnerosemusic?igshid=1uh8sobvhycru'
+            soundCloudAnchor='#'
             outline='purple'
           />
         </Col>
@@ -88,6 +90,7 @@ const Members = () => {
             voicePart='SOPRANO'
             imgSrc={LaurenImg}
             instaAnchor='https://instagram.com/lauren_shay_music?igshid=4qx5hdffejgw'
+            soundCloudAnchor='#'
             outline='teal'
           />
           <MemberHeadshot
@@ -95,6 +98,7 @@ const Members = () => {
             voicePart='TENOR'
             imgSrc={LucyImg}
             instaAnchor='https://instagram.com/stella.lucy.music?igshid=5g22y5bgjy98'
+            soundCloudAnchor='#'
             outline='purple'
           />
           <MemberHeadshot
@@ -108,6 +112,7 @@ const Members = () => {
             voicePart='ALTO'
             imgSrc={MischaImg}
             instaAnchor='https://instagram.com/mischa.h.music?igshid=wfqg5e5x49ug'
+            soundCloudAnchor='#'
             outline='teal'
           />
         </Col>
@@ -129,12 +134,14 @@ const Members = () => {
             name='NOAH'
             voicePart='BASS/BEATBOXER'
             imgSrc={NoahImg}
+            soundCloudAnchor='#'
             outline='magenta'
           />
           <MemberHeadshot
             name='SIMONE'
             voicePart='MEZZO'
             imgSrc={SimoneImg}
+            soundCloudAnchor='#'
             outline='teal'
           />
           <MemberHeadshot
@@ -192,16 +199,16 @@ const MemberHeadshot = (props: IMemberHeadshot) => {
             <a className='social-anchor' href={instaAnchor}>
               <img
                 style={{ visibility: scVisibility }}
-                className='instagram-link'
-                src={IG}
-                alt={`${name} instagram`}
+                className='soundcloud-link'
+                src={SC}
+                alt={`${name} soundcloud`}
               />
             </a>
           )}
         </div>
       </div>
       <h6 className='photo-title font-h6 liberation-sans-bold'>{name}</h6>
-      <p className='font-p'>{voicePart}</p>
+      <p className='font-mini'>{voicePart}</p>
     </div>
   )
 }
