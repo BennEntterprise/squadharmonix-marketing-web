@@ -71,7 +71,9 @@ const Members = () => {
               </div>
             </div>
             <h6 className='photo-title liberation-sans-bold font-h6 '>
-              JOHANNA
+              <a href='https://instagram.com/jmzjohanna?igshid=7pnkk9jzbcqd'>
+                JOHANNA
+              </a>
             </h6>
             <p className='font-p'>TENOR</p>
           </div>
@@ -88,7 +90,9 @@ const Members = () => {
               </div>
             </div>
             <h6 className='photo-title font-h6 liberation-sans-bold'>
-              CAMERON
+              <a href='https://instagram.com/cameronthebeatboxer?igshid=jchlbum6jhmv'>
+                CAMERON
+              </a>
             </h6>
             <p className='font-p'>BEATBOX/ALTO</p>
           </div>
@@ -109,7 +113,11 @@ const Members = () => {
                 />
               </div>
             </div>
-            <h6 className='photo-title font-h6 liberation-sans-bold'>SYDNE</h6>
+            <h6 className='photo-title font-h6 liberation-sans-bold'>
+              <a href='https://instagram.com/sydnerosemusic?igshid=1uh8sobvhycru'>
+                SYDNE
+              </a>
+            </h6>
             <p className='font-p liberation-sans'>TENOR</p>
           </div>
         </Col>
@@ -143,7 +151,12 @@ const Members = () => {
                 />
               </div>
             </div>
-            <h6 className='photo-title font-h6 liberation-sans-bold'>LAUREN</h6>
+            <h6 className='photo-title font-h6 liberation-sans-bold'>
+              {' '}
+              <a href='https://instagram.com/lauren_shay_music?igshid=4qx5hdffejgw'>
+                LAUREN
+              </a>
+            </h6>
             <p className='font-p liberation-sans'>SOPRANO</p>
           </div>
 
@@ -163,7 +176,11 @@ const Members = () => {
                 />
               </div>
             </div>
-            <h6 className='photo-title font-h6 liberation-sans-bold'>LUCY</h6>
+            <h6 className='photo-title font-h6 liberation-sans-bold'>
+              <a href='https://instagram.com/stella.lucy.music?igshid=5g22y5bgjy98'>
+                LUCY
+              </a>
+            </h6>
             <p className='font-p liberation-sans'>TENOR</p>
           </div>
 
@@ -209,7 +226,11 @@ const Members = () => {
                 />
               </div>
             </div>
-            <h6 className='photo-title font-h6 liberation-sans-bold'>MISCHA</h6>
+            <h6 className='photo-title font-h6 liberation-sans-bold'>
+              <a href='https://instagram.com/mischa.h.music?igshid=wfqg5e5x49ug'>
+                MISCHA
+              </a>
+            </h6>
             <p className='font-p liberation-sans'>ALTO</p>
           </div>
         </Col>
@@ -281,7 +302,11 @@ const Members = () => {
                 /> */}
               </div>
             </div>
-            <h6 className='photo-title font-h6 liberation-sans-bold'>ELISE</h6>
+            <h6 className='photo-title font-h6 liberation-sans-bold'>
+              <a href='https://instagram.com/elise.c.sings?igshid=1iqrn09g3wuee'>
+                ELISE
+              </a>
+            </h6>
             <p className='font-p'>SOPRANO</p>
           </div>
         </Col>
