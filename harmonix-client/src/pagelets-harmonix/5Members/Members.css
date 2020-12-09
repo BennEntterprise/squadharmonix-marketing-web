@@ -1,6 +1,7 @@
 @import '../../constants/colors.css';
 @import '../../constants/layout.css';
 #members-container {
+  --square-icon: 5vw;
 }
 .member-row {
   /* border: var(--construction-red); */
@@ -14,37 +15,49 @@
   /* border: var(--construction-red); */
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-start;
-  min-width: 110px;
+  min-width: 100px;
+  width: 15%;
   margin: auto;
 }
 
 .photo-container {
   /* border: var(--construction); */
   position: relative;
-  top: 0%;
-  left: 0%;
+  /*top: 0%;
+  left: 0%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   min-height: 110px;
 }
 
 .artist-photo {
   /* border: var(--construction); */
   width: 100%;
-  min-width: 110px;
-  position: absolute;
+  min-width: 100px;
+  /* position: absolute;
   top: 0%;
-  left: 0%;
+  left: 0%; */
 }
 
 .socials-container {
   /* border: var(--construction-red); */
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-content: flex-end;
-  background-color: grey;
+  align-self: flex-end;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  margin: 0 0.45rem 0.45rem 0;
+  border-radius: 0.51rem;
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 5;
 }
 .social-anchor {
@@ -52,14 +65,16 @@
 }
 .instagram-link {
   /* border: var(--construction); */
-  width: 50px;
-  height: 50px;
+
+  width: var(--square-icon);
+  height: var(--square-icon);
 }
 
 .soundcloud-link {
   /* border: var(--construction); */
-  width: 50px;
-  height: 50px;
+
+  width: var(--square-icon);
+  height: var(--square-icon);
 }
 
 .photo-name {
@@ -76,4 +91,16 @@
   margin: 0.25rem 0;
   font-size: 0.5rem;
   align-self: center;
+}
+
+@media (min-width: 768px) {
+  #members-container {
+    --square-icon: 4vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  #members-container {
+    --square-icon: 3vw;
+  }
 }
