@@ -64,52 +64,88 @@ const Press = () => {
 
           <div id='grid-piece-item'>
             <div id='press-list'>
-              <li className='undecorated-list-item'>
-                <span className='press-release-date font-underline'>
-                  Sept 28, 2020:
-                </span>
-                <a className='undecorated-item' href={BroadwayWorldLink}>
-                  &#8195;Broadway World: Squad Harmonix and InToneNation Covers
-                  Cynthia Ervivo's 'Stand Up'
-                </a>
-              </li>
-              <li className='undecorated-list-item'>
-                <span className='press-release-date font-underline'>
-                  Oct 2, 2020:{' '}
-                </span>
-                <a className='undecorated-item' href={OnTheSpotLink}>
-                  &#8195;OnTheSpot: Squad Harmonix Interview - Stand Up,
-                  Activisim and Positive Impact [Video]
-                </a>
-              </li>
-              <li className='undecorated-list-item'>
-                <span className='press-release-date font-underline'>
-                  Oct 6, 2020:
-                </span>
-                <a className='undecorated-item' href={InspireMoreLink}>
-                  &#8195;InspireMore: A Cappella Groups Come Together and "Stand
-                  Up" for Change in Moving Performance
-                </a>
-              </li>
-              <li className='undecorated-list-item'>
-                <span className='press-release-date font-underline'>
-                  Oct 25, 2020:
-                </span>
-                <a className='undecorated-item' href={ThePulseLink}>
-                  &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
-                  Interview]
-                </a>
-              </li>
+              <PressItem
+                date='Sept 28, 2020'
+                href={BroadwayWorldLink}
+                text="Broadway World: Squad Harmonix and InToneNation Covers
+                  Cynthia Ervivo's 'Stand Up'"
+              />
+
+              <PressItem
+                date='Nov 6, 2020'
+                href={
+                  'https://ventsmagazine.com/2020/11/06/bop-along-to-squad-harmonixs-cover-of-chromeos-clorox-wipe/'
+                }
+                text='Vents Magazine: Squad Harmonix with Clorox Wipe'
+              />
+              <PressItem
+                date='Nov 6, 2020'
+                href={
+                  'https://latelywithmeganrenee.com/2020/11/06/the-all-kids-a-cappella-performance-group/'
+                }
+                text='Lately with Megan Renee: Bop Along To Squad Harmonix’s Cover of Chromeo’s, “Clorox Wipe”'
+              />
+
+              <PressItem
+                date='Oct 25, 2020'
+                href={ThePulseLink}
+                text='The Pulse: Squad Harmonix and InToneNation [Podcast
+                  Interview]'
+              />
+              <PressItem
+                date='Oct 20, 2020'
+                href={
+                  'https://www.youtube.com/watch?v=97n_7yUP79M&app=desktop&ab_channel=OnTheSpotInterviews'
+                }
+                text='On the Spot Interviews: Squad Harmonix Live Interview - Stand Up, Activism, and Positive Impact'
+              />
+
+              <PressItem
+                date='Oct 6, 2020'
+                href={
+                  'http://teenmusicinsider.com/the-members-of-squad-harmonix-chat-with-tmi-about-their-new-cover-song-new-christmas-album-more/#.X3iy15NKhAY'
+                }
+                text='Teen Music Insider: THE MEMBERS OF SQUAD HARMONIX CHAT WITH TMI ABOUT THEIR NEW COVER SONG, NEW CHRISTMAS ALBUM, & MORE'
+              />
+              <PressItem
+                date='Oct 6, 2020'
+                href={
+                  'https://www.inspiremore.com/squad-harmonix-and-intonenation-stand-up/'
+                }
+                text='InspireMore: A Cappella Groups Come Together And “Stand Up” For Change In Moving Performance.'
+              />
+
+              <PressItem
+                date='Oct 6, 2020'
+                href={InspireMoreLink}
+                text='InspireMore: A Cappella Groups Come Together and "Stand
+                Up" for Change in Moving Performance'
+              />
+
+              <PressItem
+                date='Oct 2, 2020'
+                href={OnTheSpotLink}
+                text='OnTheSpot: Squad Harmonix Interview - Stand Up,
+                Activisim and Positive Impact [Video]'
+              />
+
+              <PressItem
+                date='Sept 25, 2020'
+                href={
+                  'https://www.celebsecrets.com/squad-harmonix-release-powerful-stand-up-cover-to-stand-in-solidarity-with-the-black-lives-matter-movement-premiere/'
+                }
+                text='CelebSecrets: Squad Harmonix Release Powerful “Stand Up” Cover to Stand in Solidarity with the Black Lives Matter Movement (Premiere)'
+              />
             </div>
           </div>
           <div id='grid-inquiry-item'>
             <a href='MAILTO:brittany@gramophone.media'>
-              <h5
-                className='font-h5 libration-san-bold'
+              <h6
+                className='font-h6 libration-san-bold'
                 style={{ textDecoration: 'none', color: 'black' }}
               >
                 CLICK HERE FOR PRESS INQUIRIES
-              </h5>
+              </h6>
               <img
                 src={LogoBowler}
                 alt='brittany bowler logo'
@@ -300,153 +336,23 @@ const Press = () => {
           </div>
         </Container>
       </Container>
-
-      {/* <Container fluid id='press-container'>
-        <Row>
-        <Col>
-            <h1
-            className='font-jumbo liberation-sans-bold'
-            style={{ textAlign: 'left', marginLeft: '10%' }}
-            >
-            Press
-            </h1>
-            </Col>
-            </Row>
-            <Row>
-            <Col
-            id='purple-bar'
-            xs='1'
-            sm='1'
-            md='1'
-            lg='1'
-            xl='1'
-            className='bg-magenta margin-0 padding-0'
-            style={{ width: '10%' }}
-          ></Col>
-          <Col className='padding-0 margin-0'>
-         <li className='undecorated-list-item'>
-              <span className='press-release-date font-underline'>
-                Oct 25, 2020:
-              </span>
-              <a className='undecorated-item' href={ThePulseLink}>
-                &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
-                Interview]
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <span className='press-release-date font-underline'>
-                Oct 2, 2020:{' '}
-              </span>
-              <a className='undecorated-item' href={OnTheSpotLink}>
-                &#8195;OnTheSpot: Squad Harmonix Interview - Stand Up, Activisim
-                and Positive Impact [Video]
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <span className='press-release-date font-underline'>
-                Oct 6, 2020:
-              </span>
-              <a className='undecorated-item' href={InspireMoreLink}>
-                &#8195;InspireMore: A Cappella Groups Come Together and "Stand
-                Up" for Change in Moving Performance
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <span className='press-release-date font-underline'>
-                Sept 28, 2020:
-              </span>
-              <a className='undecorated-item' href={BroadwayWorldLink}>
-                &#8195;Broadway World: Squad Harmonix and InToneNation Covers
-                Cynthia Ervivo's 'Stand Up'
-              </a>
-            </li>
-       
-          </Col>
-        </Row>
-        <Row>
-          <Col id='social-media-appearances'>
-            <h4> Social Media Appearances</h4>
-
-            <li className='undecorated-list-item'>
-              <a href={EugeneLevyTwitter}>
-                Schitt's Creek's Eugene Levy Thinks the Future Looks "awefullly
-                bright".
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <a href={ChromeoFB}>
-                Chromeo shouts out Squad Harmonix on Facebook
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <a href={DekeSharonFB}>
-                Squad harmonix charms Deke Sharon with a Disney Medley
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <a href={SQuadHarmonixHallmark}>
-                Squad harmonix pospt abut being featured on The Hallmark Channel
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <a href={AcaVilleRadioTwitter}>AcaVille Radio on Twitter</a>
-            </li>
-            <li className='undecorated-list-item'>
-              <a href={SomeGoodNewsTwitter}>
-                We were featured on John Krasinski's (Twitter link){' '}
-                <em>Some Good News</em>{' '}
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <a href={SomeGoodNewsYouTube}>
-                <em>Some Good News [YouTube Video Link]</em>
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <a href={SquadHarmonixDrums}>
-                <em>Squad Harmonix and The Dru</em>
-              </a>
-            </li> 
-          </Col>
-        </Row>
-        <h2
-          className='font-h2 liberation-sans-bold'
-          style={{ margin: '3% auto' }}
-        >
-          Follow Us
-        </h2>
-         <Row id='follow-us'>
-         <a href={SquadHarmonixFBPage}>
-            <img
-              className='follow-us-icon'
-              src={IconFB}
-              alt='follow on facebook for more'
-            />
-          </a>
-          <a href='https://www.tiktok.com/@squadharmonix'>
-            <img
-              className='follow-us-icon'
-              src={IconTikTok}
-              alt='follow on tiktok'
-            />
-          </a>
-          <a href={SquadHarmonixIGPage}>
-            <img
-              className='follow-us-icon'
-              src={IconIG}
-              alt='follow on instagram'
-            />
-          </a>
-          <a href='MAILTO:info@squadharmonix.com?subject=GetOnTheMailingList&body=Please%20Put%20Me%20On%20Your%20Mailing%20List!'>
-            <img
-              className='follow-us-icon'
-              src={IconMail}
-              alt='join our mailing list'
-            />
-          </a>
-        </Row> 
-      </Container> */}
     </>
+  )
+}
+
+interface IPressItem {
+  date: string
+  href: string
+  text: string
+}
+const PressItem = (props: IPressItem) => {
+  return (
+    <li className='undecorated-list-item'>
+      <span className='press-release-date font-underline'>{props.date}:</span>
+      <a className='undecorated-item' href={props.href}>
+        &#8195;{props.text}
+      </a>
+    </li>
   )
 }
 
