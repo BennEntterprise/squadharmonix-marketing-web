@@ -62,6 +62,8 @@ const Press = () => {
             <h1 className='font-jumbo liberation-sans-bold'>PRESS</h1>
           </div>
 
+          <PressItem date='' href='' text='' />
+
           <div id='grid-piece-item'>
             <div id='press-list'>
               <li className='undecorated-list-item'>
@@ -300,153 +302,23 @@ const Press = () => {
           </div>
         </Container>
       </Container>
-
-      {/* <Container fluid id='press-container'>
-        <Row>
-        <Col>
-            <h1
-            className='font-jumbo liberation-sans-bold'
-            style={{ textAlign: 'left', marginLeft: '10%' }}
-            >
-            Press
-            </h1>
-            </Col>
-            </Row>
-            <Row>
-            <Col
-            id='purple-bar'
-            xs='1'
-            sm='1'
-            md='1'
-            lg='1'
-            xl='1'
-            className='bg-magenta margin-0 padding-0'
-            style={{ width: '10%' }}
-          ></Col>
-          <Col className='padding-0 margin-0'>
-         <li className='undecorated-list-item'>
-              <span className='press-release-date font-underline'>
-                Oct 25, 2020:
-              </span>
-              <a className='undecorated-item' href={ThePulseLink}>
-                &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
-                Interview]
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <span className='press-release-date font-underline'>
-                Oct 2, 2020:{' '}
-              </span>
-              <a className='undecorated-item' href={OnTheSpotLink}>
-                &#8195;OnTheSpot: Squad Harmonix Interview - Stand Up, Activisim
-                and Positive Impact [Video]
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <span className='press-release-date font-underline'>
-                Oct 6, 2020:
-              </span>
-              <a className='undecorated-item' href={InspireMoreLink}>
-                &#8195;InspireMore: A Cappella Groups Come Together and "Stand
-                Up" for Change in Moving Performance
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <span className='press-release-date font-underline'>
-                Sept 28, 2020:
-              </span>
-              <a className='undecorated-item' href={BroadwayWorldLink}>
-                &#8195;Broadway World: Squad Harmonix and InToneNation Covers
-                Cynthia Ervivo's 'Stand Up'
-              </a>
-            </li>
-       
-          </Col>
-        </Row>
-        <Row>
-          <Col id='social-media-appearances'>
-            <h4> Social Media Appearances</h4>
-
-            <li className='undecorated-list-item'>
-              <a href={EugeneLevyTwitter}>
-                Schitt's Creek's Eugene Levy Thinks the Future Looks "awefullly
-                bright".
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <a href={ChromeoFB}>
-                Chromeo shouts out Squad Harmonix on Facebook
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <a href={DekeSharonFB}>
-                Squad harmonix charms Deke Sharon with a Disney Medley
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <a href={SQuadHarmonixHallmark}>
-                Squad harmonix pospt abut being featured on The Hallmark Channel
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <a href={AcaVilleRadioTwitter}>AcaVille Radio on Twitter</a>
-            </li>
-            <li className='undecorated-list-item'>
-              <a href={SomeGoodNewsTwitter}>
-                We were featured on John Krasinski's (Twitter link){' '}
-                <em>Some Good News</em>{' '}
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <a href={SomeGoodNewsYouTube}>
-                <em>Some Good News [YouTube Video Link]</em>
-              </a>
-            </li>
-            <li className='undecorated-list-item'>
-              <a href={SquadHarmonixDrums}>
-                <em>Squad Harmonix and The Dru</em>
-              </a>
-            </li> 
-          </Col>
-        </Row>
-        <h2
-          className='font-h2 liberation-sans-bold'
-          style={{ margin: '3% auto' }}
-        >
-          Follow Us
-        </h2>
-         <Row id='follow-us'>
-         <a href={SquadHarmonixFBPage}>
-            <img
-              className='follow-us-icon'
-              src={IconFB}
-              alt='follow on facebook for more'
-            />
-          </a>
-          <a href='https://www.tiktok.com/@squadharmonix'>
-            <img
-              className='follow-us-icon'
-              src={IconTikTok}
-              alt='follow on tiktok'
-            />
-          </a>
-          <a href={SquadHarmonixIGPage}>
-            <img
-              className='follow-us-icon'
-              src={IconIG}
-              alt='follow on instagram'
-            />
-          </a>
-          <a href='MAILTO:info@squadharmonix.com?subject=GetOnTheMailingList&body=Please%20Put%20Me%20On%20Your%20Mailing%20List!'>
-            <img
-              className='follow-us-icon'
-              src={IconMail}
-              alt='join our mailing list'
-            />
-          </a>
-        </Row> 
-      </Container> */}
     </>
+  )
+}
+
+interface IPressItem {
+  date: string
+  href: string
+  text: string
+}
+const PressItem = (props: IPressItem) => {
+  return (
+    <li className='undecorated-list-item'>
+      <span className='press-release-date font-underline'>{props.date}:</span>
+      <a className='undecorated-item' href={props.href}>
+        &#8195;{props.text}
+      </a>
+    </li>
   )
 }
 
