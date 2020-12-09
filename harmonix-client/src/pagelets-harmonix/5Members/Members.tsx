@@ -208,8 +208,8 @@ const MemberHeadshot = (props: IMemberHeadshot) => {
           )}
         </div>
       </div>
-      <h6 className='photo-title font-h6 liberation-sans-bold'>{name}</h6>
-      <p className='font-mini'>{voicePart}</p>
+      <h6 className='photo-name font-h6 liberation-sans-bold'>{name}</h6>
+      <p className='photo-voice-part '>{voicePart}</p>
     </div>
   )
 }
