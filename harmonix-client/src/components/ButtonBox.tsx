@@ -10,7 +10,7 @@ const ButtonBox = () => {
           className='v-flex-container magenta-outline'
           id='btn-group-academy'
         >
-          <h3 className='font-h3 liberation-sans-bold'>SQUAD&trade; ACADEMY</h3>
+          <h3 className='font-h3 liberation-sans-bold'>SQUAD ACADEMY</h3>
           <div id='squad-nav-btns' className='v-flex-container'>
             <a href='#whatissquad'>
               <button className='magenta-outline bg-grey liberation-sans'>
@@ -41,7 +41,7 @@ const ButtonBox = () => {
             SQUAD HARMONIX&trade;
           </h3>
           <div id='harmonix-nav-btns' className='v-flex-container'>
-            <a href='#'>
+            <a href='https://linktr.ee/squadharmonix'>
               <button className='teal-outline bg-grey liberation-sans'>
                 MUSIC
               </button>
