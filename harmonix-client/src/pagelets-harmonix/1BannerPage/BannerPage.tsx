@@ -49,7 +49,10 @@ const BannerPage = () => {
             <h4 className='purple-marquee font-h4 '>
               <strong>SQUAD HARMONIX</strong>
             </h4>
-            <h1 className='font-jumbo liberation-sans-bold'>
+            <h1
+              id='ep-announcement'
+              className='font-jumbo liberation-sans-bold'
+            >
               HOLIDAY EP - DEBUT
             </h1>
             <img

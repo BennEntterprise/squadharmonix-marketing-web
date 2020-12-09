@@ -112,3 +112,13 @@
   background-color: white;
   border: 2px solid var(--magenta);
 }
+
+@media (min-width: 768px) {
+  #ep-announcement {
+    width: 120%;
+    position: relative;
+    left: -10%;
+    font-size: 4rem;
+    padding: 0;
+  }
+}
