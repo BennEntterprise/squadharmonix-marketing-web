@@ -99,9 +99,9 @@ function WhatIsSquad() {
                   </h5>
                   <ul>
                     <li>3 hrs/week online training</li>
-                    <li>beginner music theory</li>
-                    <li>beginner sight reading</li>
-                    <li>eligigble for 1-2 videos per semester</li>
+                    <li>Beginner music theory</li>
+                    <li>Beginner sight reading</li>
+                    <li>Eligible for 1-2 videos per semester</li>
                   </ul>
                 </div>
               </div>
@@ -111,13 +111,13 @@ function WhatIsSquad() {
                     SENIOR SQUAD&trade;
                   </h5>
                   <ul>
-                    <li>3 hrs/week online traingin including:</li>
+                    <li>3 hrs/week online training including:</li>
                     <ul>
                       <li>ProTools recording/mixing</li>
-                      <li>intermediate music theory</li>
-                      <li>intermediate sight reading</li>
+                      <li>Itermediate music theory</li>
+                      <li>Intermediate sight reading</li>
                     </ul>
-                    <li>eligigble for 2+ videos per semester</li>
+                    <li>Eligible for 2+ videos per semester</li>
                   </ul>
                 </div>
               </div>
@@ -128,10 +128,10 @@ function WhatIsSquad() {
                   </h5>
                   <ul>
                     <li>Promoted on official artist page</li>
-                    <li>4 hrs/we online training including:</li>
+                    <li>4 hrs/week online training including:</li>
                     <ul>
-                      <li>songwriting</li>
-                      <li>music business</li>
+                      <li>Songwriting</li>
+                      <li>Music business</li>
                       <li>ProTools reccording/mixing</li>
                       <li>Advanced music theory</li>
                     </ul>
@@ -139,10 +139,15 @@ function WhatIsSquad() {
                     <li>Featured on professionally produced songs</li>
                   </ul>
                   <p>
-                    <em>*eligible for</em>
+                    <em>*Eligible for</em>
                   </p>
-                  <div id='GraphButton'>
-                    <p>Laura Jean Music Academy Artist Development Program</p>
+                  <div id='ljma-cutout'>
+                    <p
+                      className='font-mini liberation-sans-bold'
+                      style={{ color: 'black', textAlign: 'center' }}
+                    >
+                      Laura Jean Music Academy Artist Development Program
+                    </p>
                   </div>
                 </div>
               </div>
