@@ -25,7 +25,7 @@ const Members = () => {
       <Row>
         <Col>
           <h1
-            className='font-jumbo liberation-sans-bold'
+            className='font-h1 liberation-sans-bold'
             style={{ textAlign: 'left', margin: '1.5rem auto' }}
           >
             MEMBERS
