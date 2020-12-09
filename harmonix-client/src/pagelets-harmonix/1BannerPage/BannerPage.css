@@ -73,6 +73,7 @@
 }
 #subscribe-btn > a > img {
   height: 45%;
+  max-height: 66px;
 }
 
 #banner-listening-sources {
