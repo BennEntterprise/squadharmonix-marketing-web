@@ -83,13 +83,13 @@ const Contact = () => {
         <Col xs='12' sm='12' md='12' lg='12' xl='12'>
           <div id='contact-button-wrapper'>
             <div id='contact-button'>
-              <a href='/academy#toaudition'>
+              <a href='/academy#whatissquad'>
                 <p>
-                  Wanna join squad?
+                  WANNA JOIN SQUAD?
                   <br />
-                  Click here and
+                  CLICK HERE FOR
                   <br />
-                  let us know!
+                  SQUAD ACADEMY
                 </p>
               </a>
             </div>
