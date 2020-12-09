@@ -82,7 +82,7 @@
   flex-grow: 1;
   width: 100%;
 }
-.LadderItemGraphic > h4 {
+.LadderItemGraphic > p {
   border-radius: 5px;
   text-align: center;
   padding: 1% 5%;

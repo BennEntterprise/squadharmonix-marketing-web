@@ -12,14 +12,14 @@ function WhatIsSquad() {
             <div id='grid-wis'>
               <div id='grid-h1'>
                 <div className='LadderItemGraphic'>
-                  <h4 className='font-h4 liberation-sans-bold bg-magenta '>
+                  <p className='font-p liberation-sans-bold bg-magenta '>
                     WHO WE ARE
-                  </h4>
+                  </p>
                 </div>
               </div>
               <div id='grid-b1'>
                 <div className='LadderItemText'>
-                  <p className='font-mini liberation-sans'>
+                  <p className='font-p liberation-sans'>
                     Squad Harmonix is the very first online A Cappella training
                     academy for advanced young vocalists. It is a vocal team, a
                     group and community of talented kids all working and
@@ -31,14 +31,14 @@ function WhatIsSquad() {
 
               <div id='grid-h2'>
                 <div className='LadderItemGraphic'>
-                  <h4 className='font-h4 liberation-sans-bold bg-purple'>
+                  <p className='font-p liberation-sans-bold bg-purple'>
                     WHAT WE DO
-                  </h4>
+                  </p>
                 </div>
               </div>
               <div id='grid-b2'>
                 <div className='LadderItemText'>
-                  <p className='font-mini liberation-sans'>
+                  <p className='font-p liberation-sans'>
                     Students meet every Saturday from 3.30-6.30 online via Zoom
                     and learn harmony, sight reading, music theory, stage
                     presence, and beatboxing (optional). Additionally, students
@@ -50,13 +50,13 @@ function WhatIsSquad() {
                     being released Nov 29th 2020 and full album being released
                     early next year!)
                   </p>
-                  <p className='font-mini liberation-sans'>
+                  <p className='font-p liberation-sans'>
                     For advanced students, training also includes: Songwriting,
                     ProTools Recording/Mixing, Artist Development, and Music
                     Business and private lessons are offered through our parent
                     company Laura Jean Music Academy.
                   </p>
-                  <p className='font-mini liberation-sans'>
+                  <p className='font-p liberation-sans'>
                     Eventually we hope to return to training in person and
                     perform weekly live shows however our Online Program has
                     become so popular with our members that we will be
@@ -69,14 +69,14 @@ function WhatIsSquad() {
 
               <div id='grid-h5'>
                 <div className='LadderItemGraphic'>
-                  <h4 className='font-h4 liberation-sans-bold bg-teal'>
+                  <p className='font-p liberation-sans-bold bg-teal'>
                     TRAINING LEVELS
-                  </h4>
+                  </p>
                 </div>
               </div>
               <div id='grid-b3'>
                 <div className='LadderItemText'>
-                  <p className='font-mini liberation-sans'>
+                  <p className='font-p liberation-sans'>
                     Levels are based on proficiency in sight reading,
                     harmonization, and vocal training, and are{' '}
                     <strong>
@@ -97,7 +97,7 @@ function WhatIsSquad() {
                   <h5 className='font-h5 liberation-sans-bold bar-header'>
                     JUNIOR SQUAD&trade;
                   </h5>
-                  <ul>
+                  <ul className='font-h6 liberation-sans'>
                     <li>3 hrs/week online training</li>
                     <li>Beginner music theory</li>
                     <li>Beginner sight reading</li>
@@ -110,7 +110,7 @@ function WhatIsSquad() {
                   <h5 className='font-h5 liberation-sans-bold bar-header'>
                     SENIOR SQUAD&trade;
                   </h5>
-                  <ul>
+                  <ul className='font-h6 liberation-sans'>
                     <li>3 hrs/week online training including:</li>
                     <ul>
                       <li>ProTools recording/mixing</li>
@@ -126,7 +126,7 @@ function WhatIsSquad() {
                   <h5 className='font-h5 liberation-sans-bold bar-header'>
                     PERFORMANCE SQUAD&trade;
                   </h5>
-                  <ul>
+                  <ul className='font-h6 liberation-sans'>
                     <li>Promoted on official artist page</li>
                     <li>4 hrs/week online training including:</li>
                     <ul>
