@@ -106,6 +106,17 @@ const BannerPage = () => {
                 MERCH
               </Link>
             </button>
+
+            <button className='font-p liberation-sans-bold'>
+              <Link to='#contact-container' className='neg-hashlink'>
+                CONTACT US
+              </Link>
+            </button>
+            <button className='font-p liberation-sans-bold'>
+              <Link to='/academy#whatissquad' className='neg-hashlink'>
+                JOIN SQUAD
+              </Link>
+            </button>
           </div>
         </Col>
         <Col
