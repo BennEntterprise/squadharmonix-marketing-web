@@ -104,12 +104,12 @@ const Press = () => {
           </div>
           <div id='grid-inquiry-item'>
             <a href='MAILTO:brittany@gramophone.media'>
-              <h5
-                className='font-h5 libration-san-bold'
+              <h6
+                className='font-h6 libration-san-bold'
                 style={{ textDecoration: 'none', color: 'black' }}
               >
                 CLICK HERE FOR PRESS INQUIRIES
-              </h5>
+              </h6>
               <img
                 src={LogoBowler}
                 alt='brittany bowler logo'
