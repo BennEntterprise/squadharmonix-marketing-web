@@ -62,46 +62,80 @@ const Press = () => {
             <h1 className='font-jumbo liberation-sans-bold'>PRESS</h1>
           </div>
 
-          <PressItem date='' href='' text='' />
-
           <div id='grid-piece-item'>
             <div id='press-list'>
-              <li className='undecorated-list-item'>
-                <span className='press-release-date font-underline'>
-                  Sept 28, 2020:
-                </span>
-                <a className='undecorated-item' href={BroadwayWorldLink}>
-                  &#8195;Broadway World: Squad Harmonix and InToneNation Covers
-                  Cynthia Ervivo's 'Stand Up'
-                </a>
-              </li>
-              <li className='undecorated-list-item'>
-                <span className='press-release-date font-underline'>
-                  Oct 2, 2020:{' '}
-                </span>
-                <a className='undecorated-item' href={OnTheSpotLink}>
-                  &#8195;OnTheSpot: Squad Harmonix Interview - Stand Up,
-                  Activisim and Positive Impact [Video]
-                </a>
-              </li>
-              <li className='undecorated-list-item'>
-                <span className='press-release-date font-underline'>
-                  Oct 6, 2020:
-                </span>
-                <a className='undecorated-item' href={InspireMoreLink}>
-                  &#8195;InspireMore: A Cappella Groups Come Together and "Stand
-                  Up" for Change in Moving Performance
-                </a>
-              </li>
-              <li className='undecorated-list-item'>
-                <span className='press-release-date font-underline'>
-                  Oct 25, 2020:
-                </span>
-                <a className='undecorated-item' href={ThePulseLink}>
-                  &#8195;The Pulse: Squad Harmonix and InToneNation [Podcast
-                  Interview]
-                </a>
-              </li>
+              <PressItem
+                date='Sept 28, 2020'
+                href={BroadwayWorldLink}
+                text="Broadway World: Squad Harmonix and InToneNation Covers
+                  Cynthia Ervivo's 'Stand Up'"
+              />
+
+              <PressItem
+                date='Nov 6, 2020'
+                href={
+                  'https://ventsmagazine.com/2020/11/06/bop-along-to-squad-harmonixs-cover-of-chromeos-clorox-wipe/'
+                }
+                text='Vents Magazine: Squad Harmonix with Clorox Wipe'
+              />
+              <PressItem
+                date='Nov 6, 2020'
+                href={
+                  'https://latelywithmeganrenee.com/2020/11/06/the-all-kids-a-cappella-performance-group/'
+                }
+                text='Lately with Megan Renee: Bop Along To Squad Harmonix’s Cover of Chromeo’s, “Clorox Wipe”'
+              />
+
+              <PressItem
+                date='Oct 25, 2020'
+                href={ThePulseLink}
+                text='The Pulse: Squad Harmonix and InToneNation [Podcast
+                  Interview]'
+              />
+              <PressItem
+                date='Oct 20, 2020'
+                href={
+                  'https://www.youtube.com/watch?v=97n_7yUP79M&app=desktop&ab_channel=OnTheSpotInterviews'
+                }
+                text='On the Spot Interviews: Squad Harmonix Live Interview - Stand Up, Activism, and Positive Impact'
+              />
+
+              <PressItem
+                date='Oct 6, 2020'
+                href={
+                  'http://teenmusicinsider.com/the-members-of-squad-harmonix-chat-with-tmi-about-their-new-cover-song-new-christmas-album-more/#.X3iy15NKhAY'
+                }
+                text='Teen Music Insider: THE MEMBERS OF SQUAD HARMONIX CHAT WITH TMI ABOUT THEIR NEW COVER SONG, NEW CHRISTMAS ALBUM, & MORE'
+              />
+              <PressItem
+                date='Oct 6, 2020'
+                href={
+                  'https://www.inspiremore.com/squad-harmonix-and-intonenation-stand-up/'
+                }
+                text='InspireMore: A Cappella Groups Come Together And “Stand Up” For Change In Moving Performance.'
+              />
+
+              <PressItem
+                date='Oct 6, 2020'
+                href={InspireMoreLink}
+                text='InspireMore: A Cappella Groups Come Together and "Stand
+                Up" for Change in Moving Performance'
+              />
+
+              <PressItem
+                date='Oct 2, 2020'
+                href={OnTheSpotLink}
+                text='OnTheSpot: Squad Harmonix Interview - Stand Up,
+                Activisim and Positive Impact [Video]'
+              />
+
+              <PressItem
+                date='Sept 25, 2020'
+                href={
+                  'https://www.celebsecrets.com/squad-harmonix-release-powerful-stand-up-cover-to-stand-in-solidarity-with-the-black-lives-matter-movement-premiere/'
+                }
+                text='CelebSecrets: Squad Harmonix Release Powerful “Stand Up” Cover to Stand in Solidarity with the Black Lives Matter Movement (Premiere)'
+              />
             </div>
           </div>
           <div id='grid-inquiry-item'>
