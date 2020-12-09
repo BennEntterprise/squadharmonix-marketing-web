@@ -1,23 +1,5 @@
 import React from 'react'
 
-// Navigation
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
-
-// Components
-import Navbar from './components/Navbar'
-import Navbar2 from './components/Navbar2'
-import Navbar3 from './components/Navbar3'
-import Navbar4 from './components/Navbar4'
-import Navbar5 from './components/Navbar5'
-import TechDebt from './components/TechDebt'
-
-//Pagelets
-import ThisIsSquad from './pagelets-academy/1ThisIsSquad/ThisIsSquad'
-import WhatIsSquad from './pagelets-academy/2WhatIsSquad/WhatIsSquad'
-import MeetTheSquad from './pagelets-academy/3MeetTheSquad/MeetTheSquad'
-import MeetTheTeachers from './pagelets-academy/4MeetTheTeachers/MeetTheTeachers'
-import ToAudition from './pagelets-academy/5ToAudition/ToAudition'
-
 import {
   magenta,
   teal,
@@ -26,6 +8,25 @@ import {
   flower,
   lightPurple,
 } from './constants/Colors'
+// Navigation
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+
+// Components
+import Navbar from './components/Navbar'
+import Navbar2 from './components/SecondaryNavBar'
+import Navbar3 from './components/Navbar3'
+import Navbar4 from './components/Navbar4'
+import Navbar5 from './components/Navbar5'
+import TechDebt from './components/TechDebt'
+
+//SQUAD ACADEMY PAGELETS
+import ThisIsSquad from './pagelets-academy/1ThisIsSquad/ThisIsSquad'
+import WhatIsSquad from './pagelets-academy/2WhatIsSquad/WhatIsSquad'
+import MeetTheSquad from './pagelets-academy/3MeetTheSquad/MeetTheSquad'
+import MeetTheTeachers from './pagelets-academy/4MeetTheTeachers/MeetTheTeachers'
+import ToAudition from './pagelets-academy/5ToAudition/ToAudition'
+
+// SQUAD HARMOINIX PAGELETS
 import BannerPage from './pagelets-harmonix/1BannerPage/BannerPage'
 import CheckItOut from './pagelets-harmonix/2CheckItOut/CheckItOut'
 import AboutUs from './pagelets-harmonix/3AboutUs/AboutUs'
@@ -36,6 +37,8 @@ import Contact from './pagelets-harmonix/7Contact/Contact'
 import Typefaces from './constants/Typefaces'
 import HorizontalGreyLine from './components/HorizontalGreyLine'
 
+// LJMA PAGELETS
+import LjmaBanner from './pagelets-ljma/1Banner/Banner'
 function App() {
   return (
     <Router>
@@ -78,6 +81,9 @@ function App() {
         </Route>
         <Route exact path='/contact'>
           <Contact />
+        </Route>
+        <Route exact path='/ljma'>
+          <LjmaBanner />
         </Route>
       </Switch>
     </Router>

@@ -1,0 +1,14 @@
+@import '../../constants/colors.css';
+@import '../../constants/layout.css';
+
+#ljma-banner {
+}
+
+#announcement {
+  background-color: var(--flower);
+  padding: 10%;
+}
+
+#announcement p {
+  padding: 0 5%;
+}
