@@ -67,15 +67,7 @@
   align-items: center;
 }
 
-#btn-group-academy {
-  background-color: var(--charcoal);
-  padding: 5% 15%;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-}
-
-#btn-group-harmonix {
+.btn-group-sq {
   background-color: var(--charcoal);
   padding: 5% 15%;
   width: 100%;
@@ -105,7 +97,7 @@
 .box-navigation-buttons button {
   width: 95%;
   margin: 0.5rem 0;
-  padding: 0.75rem 0.25rem;
+  padding: 1.75rem 0.25rem;
 }
 
 #cta-btn-group {
@@ -158,4 +150,35 @@
   width: calc(100% / 6);
   max-height: var(--square);
   max-width: var(--square);
+}
+
+/********************/
+/*ADJUSTMENTS FOR OTHER SCREENS*/
+/********************/
+@media (max-width: 992px) {
+  .btn-group-sq {
+    position: relative;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--charcoal);
+    padding: 5px;
+    text-align: center;
+  }
+  .box-navigation-buttons {
+    /* border: 4px dotted red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 0;
+  }
+
+  .box-navigation-buttons button {
+    /* border: 4px dotted red; */
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.1rem;
+  }
 }
