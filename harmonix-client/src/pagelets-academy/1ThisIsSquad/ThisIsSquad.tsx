@@ -36,60 +36,15 @@ const ThisIsSquad = () => {
           <Col xs='12' sm='12' md='12' lg='12' xl='12'>
             <Carousel>
               <Carousel.Item>
-                <div>
-                  <img
-                    className='d-block w-100'
-                    src={Carousel1}
-                    alt='First slide'
-                  />
-                </div>
-                <Carousel.Caption
-                  className='carousel-color-adjust'
-                  style={{ padding: '.5rem' }}
-                >
-                  <h3 style={{ padding: '.1rem', borderRadius: '1rem' }}>
-                    THIS IS SQUAD
-                    <span style={{ fontSize: '2rem', lineHeight: '0rem' }}>
-                      .
-                    </span>
-                  </h3>
-                </Carousel.Caption>
+                <div id='carousel-img-1'></div>
               </Carousel.Item>
               <Carousel.Item>
-                <img
-                  className='d-block w-100'
-                  src={Carousel2}
-                  alt='Third slide'
-                />
-
-                <Carousel.Caption>
-                  <p
-                    className='font-p'
-                    style={{
-                      lineHeight: '1rem',
-                      backgroundColor: magenta,
-                      padding: '1rem',
-                      borderRadius: '1rem',
-                    }}
-                  >
-                    an inspiring learning community for dedicated vocalists ages
-                    8-17
-                  </p>
-                </Carousel.Caption>
+                <div id='carousel-img-2'></div>
+                <Carousel.Caption></Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
-                <img
-                  className='d-block w-100'
-                  src={Carousel3}
-                  alt='Third slide'
-                />
-                <Carousel.Caption>
-                  <div className='rounded purple-highlight'>
-                    <p style={{ padding: '1rem', borderRadius: '1rem' }}>
-                      ONLINE SINCE MAY!
-                    </p>
-                  </div>
-                </Carousel.Caption>
+                <div id='carousel-img-3'></div>
+                <Carousel.Caption></Carousel.Caption>
               </Carousel.Item>
             </Carousel>
           </Col>
