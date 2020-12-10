@@ -36,14 +36,14 @@ const ThisIsSquad = () => {
           <Col xs='12' sm='12' md='12' lg='12' xl='12'>
             <Carousel>
               <Carousel.Item>
-                <div id='carousel-img-1'></div>
+                <div id='carousel-img-1' className='carousel-img'></div>
               </Carousel.Item>
               <Carousel.Item>
-                <div id='carousel-img-2'></div>
+                <div id='carousel-img-2' className='carousel-img'></div>
                 <Carousel.Caption></Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
-                <div id='carousel-img-3'></div>
+                <div id='carousel-img-3' className='carousel-img'></div>
                 <Carousel.Caption></Carousel.Caption>
               </Carousel.Item>
             </Carousel>
