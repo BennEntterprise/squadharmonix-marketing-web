@@ -6,9 +6,29 @@
   background-color: black;
 }
 
+/********************/
+/*CAROUSEL*/
+/********************/
+.carousel-item {
+  /* border: 5px dotted red; */
+  position: relative;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 50%;
+  min-height: 500px;
+}
+.carousel-banner-copy {
+  font-size: 3rem;
+  position: absolute;
+  top: 0%;
+}
 .carousel-img {
+  height: 50vh;
   min-height: 900px;
-  width: 99%;
+  width: 100%;
+  position: relative;
+  left: 0%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -40,57 +60,11 @@
     url('./carousel-imgs/National anthem.jpeg');
 }
 
-.carousel-color-adjust {
-  background-color: var(--teal);
-  border-radius: 5px;
-}
-
-#headline-text {
-  /* border: 5px dashed blue; */
-  width: fit-content;
-  position: relative;
-  left: 14%;
-  text-align: center;
-  color: var(--white);
-}
-
-#headliner {
-  font-size: 43px;
-  margin-top: 25px;
-}
-
-#sub-headliner {
-  text-align: center;
-  width: 50%;
-  margin: 5px auto;
-  font-size: 10px;
-  left: 25%;
-}
-
 #btn-groups-artist-academy {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-
-.purple-highlight {
-  width: fit-content;
-  color: white;
-  margin: 15px auto;
-  background-color: var(--purple);
-}
-
-.rounded {
-  border-radius: 5px;
-  padding-top: 3px;
-  padding-right: 6px;
-  padding-left: 6px;
-}
-
-.btn-group {
-  display: flex;
-  flex-direction: column;
 }
 
 #btn-group-academy {
@@ -121,30 +95,17 @@
   margin: 15px auto;
 }
 
-#squad-nav-btns {
+.box-navigation-buttons {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-}
-#squad-nav-btns a {
-  background-color: red;
-  width: 100%;
-}
-#squad-nav-btns button {
-  width: 100%;
-  padding: 0rem;
-}
-
-#harmonix-nav-btns {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-grow: 1;
 }
 
-#harmonix-nav-btns button {
-  width: 80%;
-  padding: 0.25rem;
+.box-navigation-buttons button {
+  width: 95%;
+  margin: 0.5rem 0;
+  padding: 0.75rem 0.25rem;
 }
 
 #cta-btn-group {
@@ -162,6 +123,9 @@
   padding: 0.5rem 1rem;
 }
 
+/********************/
+/*BOTTOM SOCIAL BANNER SET*/
+/********************/
 #social-icon-set {
   display: flex;
   flex-direction: row;
@@ -180,6 +144,9 @@
   margin: auto;
 }
 
+/********************/
+/*BOTTOM BANNER*/
+/********************/
 .banner-img-container {
   display: flex;
   flex-direction: row;

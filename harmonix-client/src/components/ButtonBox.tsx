@@ -11,7 +11,10 @@ const ButtonBox = () => {
           id='btn-group-academy'
         >
           <h3 className='font-h3 liberation-sans-bold'>SQUAD ACADEMY</h3>
-          <div id='squad-nav-btns' className='v-flex-container'>
+          <div
+            id='squad-nav-btns'
+            className='v-flex-container box-navigation-buttons'
+          >
             <a href='#whatissquad'>
               <button className='magenta-outline bg-grey liberation-sans'>
                 WHAT IS SQUAD
@@ -40,7 +43,10 @@ const ButtonBox = () => {
           <h3 className='font-h3 liberation-sans-bold'>
             SQUAD HARMONIX&trade;
           </h3>
-          <div id='harmonix-nav-btns' className='v-flex-container'>
+          <div
+            id='harmonix-nav-btns'
+            className='v-flex-container box-navigation-buttons'
+          >
             <a href='https://linktr.ee/squadharmonix'>
               <button className='teal-outline bg-grey liberation-sans'>
                 MUSIC

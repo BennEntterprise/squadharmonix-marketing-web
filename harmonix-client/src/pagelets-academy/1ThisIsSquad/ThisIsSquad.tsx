@@ -25,6 +25,10 @@ import SpLogo from '../../images/icons/spotify-academy.png'
 import TtLogo from '../../images/icons/tiktok-academy.png'
 import FbLogo from '../../images/icons/facebook-academy.png'
 
+const CarouselBannerCopy = () => {
+  return <div className='carousel-banner-copy'>THIS IS SQUAD.</div>
+}
+
 const ThisIsSquad = () => {
   const imgHeight: string = '50px'
   const imgWidth: string = '50px'
@@ -35,21 +39,30 @@ const ThisIsSquad = () => {
         <Row style={{ marginBottom: '0rem' }}>
           <Col xs='12' sm='12' md='12' lg='12' xl='12'>
             <Carousel>
-              <Carousel.Item>
+              <Carousel.Item className='carousel-item'>
                 <div id='carousel-img-1' className='carousel-img'></div>
+                <CarouselBannerCopy />
+                <Carousel.Caption>
+                  <ButtonBox />
+                </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item>
+              <Carousel.Item className='carousel-item'>
                 <div id='carousel-img-2' className='carousel-img'></div>
-                <Carousel.Caption></Carousel.Caption>
+                <CarouselBannerCopy />
+                <Carousel.Caption>
+                  <ButtonBox />
+                </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item>
+              <Carousel.Item className='carousel-item'>
                 <div id='carousel-img-3' className='carousel-img'></div>
-                <Carousel.Caption></Carousel.Caption>
+                <CarouselBannerCopy />
+                <Carousel.Caption>
+                  <ButtonBox />
+                </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
           </Col>
         </Row>
-        <ButtonBox />
         <Row id='academy-cta-buttons'>
           <Col>
             <div className='v-flex-container ' id='cta-btn-group'>
@@ -129,11 +142,7 @@ const ThisIsSquad = () => {
                 src={ImgCameron}
                 alt='cameron headshot'
               />
-              <img
-                className='banner-headshot'
-                src={ImgLucy}
-                alt='lucy headshot'
-              />
+              <img className='banner-headshot' src={ImgLucy} alt='lucy shot' />
               <img
                 className='banner-headshot'
                 src={ImgLauren}
