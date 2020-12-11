@@ -1,12 +1,21 @@
 .lessonItem {
-  width: auto;
+  /* border: var(--construction); */
+  width: fit-content;
   min-width: 10px;
   max-width: 300px;
   text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .lessonItem > img {
+  /* border: var(--construction); */
   width: 35%;
   min-width: 60px;
   height: auto;
+}
+
+.lessonItem > h6 {
+  /* border: var(--construction); */
 }

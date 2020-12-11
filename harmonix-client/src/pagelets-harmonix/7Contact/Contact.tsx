@@ -103,7 +103,11 @@ const Contact = () => {
               height: '185vh',
               maxHeight: '1131px',
             }}
-          ></iframe>
+          >
+            Oops your popup blocker is preventing you from seeing our contact
+            form. Please unblock us or send an email directly to
+            info@squadharmonix.com with your questions/concerns.
+          </iframe>
         </Col>
       </Row>
     </Container>
