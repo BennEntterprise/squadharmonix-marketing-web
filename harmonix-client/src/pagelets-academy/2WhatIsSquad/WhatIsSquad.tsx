@@ -67,7 +67,7 @@ function WhatIsSquad() {
                 </div>
               </div>
 
-              <div id='grid-h5'>
+              <div id='grid-h3'>
                 <div className='LadderItemGraphic'>
                   <p className='font-p liberation-sans-bold bg-teal'>
                     TRAINING LEVELS

@@ -88,7 +88,9 @@
   padding: 1% 5%;
 }
 .LadderItemText {
-  width: 75%;
+  position: relative;
+  left: 5%;
+  width: 90%;
   flex-grow: 5;
   padding: 1rem;
 }
@@ -212,9 +214,9 @@ li {
 }
 
 /********************/
-/*Adjustments for XS Screens*/
+/*Adjustments for Ladder Items Grid to be Reordered*/
 /********************/
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   #grid-wis {
     justify-self: center;
     align-self: center;
@@ -231,6 +233,33 @@ li {
   }
   #grid-wis h6 {
     font-size: 0.5rem;
+  }
+
+  #grid-h1 {
+    grid-row: 1 / 2;
+    grid-column: 1 /12;
+  }
+  #grid-b1 {
+    grid-row: 2 / 3;
+    grid-column: 1 /12;
+  }
+
+  #grid-h2 {
+    grid-row: 3 / 4;
+    grid-column: 1 /12;
+  }
+  #grid-b2 {
+    grid-row: 4 / 5;
+    grid-column: 1 /12;
+  }
+
+  #grid-h3 {
+    grid-row: 5 / 6;
+    grid-column: 1 /12;
+  }
+  #grid-b3 {
+    grid-row: 6/ 7;
+    grid-column: 1 /12;
   }
 }
 
