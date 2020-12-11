@@ -192,10 +192,34 @@
   max-width: var(--square);
 }
 
+@media (max-width: 576px) {
+  .btn-group-sq {
+    position: relative;
+    left: -10%;
+    width: 120%;
+    height: 100%;
+  }
+  .box-navigation-buttons {
+    /* border: 4px dotted red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 0;
+  }
+
+  .box-navigation-buttons button {
+    /* border: 4px dotted red; */
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.1rem;
+  }
+}
+
 /********************/
 /*ADJUSTMENTS FOR OTHER SCREENS*/
 /********************/
-@media (max-width: 1200px) {
+@media (min-width: 576px) and (max-width: 1200px) {
   .btn-group-sq {
     position: relative;
     left: 0%;
