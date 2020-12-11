@@ -32,41 +32,30 @@ function ToAudition() {
           {/* <img src={ImgElise} alt='pre-teen Elise smiling at camera' /> */}
         </div>
       </div>
-      <div id='footer'>
-        <div id='footer-left'>
-          <div id='ljma-branding'>
-            <img
-              id='ljma-img'
-              src={LJMABranding}
-              alt='Laura Jean Music Academy Branding'
-            />
-            <p className='liberation-sans font-mini'>
-              discover your inner artist.
-            </p>
-          </div>
+      <div className='footer-2'>
+        <div id='left-footer-section'>
+          <img
+            id='ljma-img'
+            src={LJMABranding}
+            alt='Laura Jean Music Academy Branding'
+          />
+          <p className='d-none d-md-inline liberation-sans font-mini'>
+            discover your inner artist.
+          </p>
         </div>
-        <div id='footer-right'>
-          <div id='lessons-label'>
-            <p className='liberation-sans-bold font-mini'>
-              <strong> Private Lessons: </strong>
+        <div id='right-footer-section'>
+          <h5 className='liberation-sans-bold font-mini'>
+            <strong> Private Lessons: </strong>
+          </h5>
+
+          <div id='lesson-types-pannel'>
+            <p className='liberation-sans font-mini'>
+              piano, voice, music theory, beat-boxing,
             </p>
-          </div>
-          <div id='lessons-section'>
-            <div id='lesson-types-pannel'>
-              <p className='liberation-sans font-mini'>
-                piano, voice, music theory,
-              </p>
-              <p className='liberation-sans font-mini'>
-                beat-boxing, songwriting,
-              </p>
-              <p className='liberation-sans font-mini'>recording/mixing</p>
-              <p
-                className='liberation-sans font-mini'
-                style={{ lineHeight: '0rem' }}
-              >
-                artist development
-              </p>
-            </div>
+            <p className='liberation-sans font-mini'>
+              recording/mixing, songwriting,
+            </p>
+            <p className='liberation-sans font-mini'>artist development</p>
           </div>
         </div>
       </div>
