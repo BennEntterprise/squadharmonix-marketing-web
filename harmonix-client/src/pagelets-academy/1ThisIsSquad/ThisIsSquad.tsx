@@ -26,7 +26,15 @@ import TtLogo from '../../images/icons/tiktok-academy.png'
 import FbLogo from '../../images/icons/facebook-academy.png'
 
 const CarouselBannerCopy = () => {
-  return <div className='carousel-banner-copy'>THIS IS SQUAD.</div>
+  return (
+    <div className='carousel-banner-copy'>
+      <h1>THIS IS SQUAD.</h1>
+      <h6>
+        an inspiring learning community for dedicated vocalists agess 8-17
+      </h6>
+      <p>ONLINE SINCE MAY!</p>
+    </div>
+  )
 }
 
 const ThisIsSquad = () => {
