@@ -32,7 +32,7 @@ const CarouselBannerCopy = () => {
       <h6>
         an inspiring learning community for dedicated vocalists agess 8-17
       </h6>
-      <p>ONLINE SINCE MAY!</p>
+      <p style={{ position: 'relative', zIndex: 1 }}>ONLINE SINCE MAY!</p>
     </div>
   )
 }
@@ -50,21 +50,21 @@ const ThisIsSquad = () => {
               <Carousel.Item className='carousel-item'>
                 <div id='carousel-img-1' className='carousel-img'></div>
                 <CarouselBannerCopy />
-                <Carousel.Caption>
+                <Carousel.Caption className='carousel-caption-a'>
                   <ButtonBox />
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item className='carousel-item'>
                 <div id='carousel-img-2' className='carousel-img'></div>
                 <CarouselBannerCopy />
-                <Carousel.Caption>
+                <Carousel.Caption className='carousel-caption-a'>
                   <ButtonBox />
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item className='carousel-item'>
                 <div id='carousel-img-3' className='carousel-img'></div>
                 <CarouselBannerCopy />
-                <Carousel.Caption>
+                <Carousel.Caption className='carousel-caption-a'>
                   <ButtonBox />
                 </Carousel.Caption>
               </Carousel.Item>
