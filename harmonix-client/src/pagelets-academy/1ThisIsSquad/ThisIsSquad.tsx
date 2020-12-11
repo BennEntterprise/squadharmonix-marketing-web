@@ -132,48 +132,36 @@ const ThisIsSquad = () => {
             </a>
           </Col>
         </Row>
-        <Row
-          id='banner-row'
-          style={{ width: '100%', margin: '0rem', padding: '0rem' }}
-        >
-          <Col
-            xs='12'
-            sm='12'
-            md='12'
-            lg='12'
-            xl='12'
-            style={{ width: '110%', margin: '0rem', padding: '0rem' }}
-          >
-            <div className='banner-img-container'>
-              <img
-                className='banner-headshot'
-                src={ImgCameron}
-                alt='cameron headshot'
-              />
-              <img className='banner-headshot' src={ImgLucy} alt='lucy shot' />
-              <img
-                className='banner-headshot'
-                src={ImgLauren}
-                alt='lauren headshot'
-              />
-              <img
-                className='banner-headshot'
-                src={ImgMaya}
-                alt='maya headshot'
-              />
-              <img
-                className='banner-headshot'
-                src={ImgSydne}
-                alt='sydne headshot'
-              />
-              <img
-                className='banner-headshot'
-                src={ImgSimone}
-                alt='simone headshot'
-              />
-            </div>
-          </Col>
-        </Row>
+        <div id='banner-row'>
+          <div className='banner-img-container'>
+            <img
+              className='banner-headshot'
+              src={ImgCameron}
+              alt='cameron headshot'
+            />
+            <img className='banner-headshot' src={ImgLucy} alt='lucy shot' />
+            <img
+              className='banner-headshot'
+              src={ImgLauren}
+              alt='lauren headshot'
+            />
+            <img
+              className='banner-headshot'
+              src={ImgMaya}
+              alt='maya headshot'
+            />
+            <img
+              className='banner-headshot'
+              src={ImgSydne}
+              alt='sydne headshot'
+            />
+            <img
+              className='banner-headshot'
+              src={ImgSimone}
+              alt='simone headshot'
+            />
+          </div>
+        </div>
       </Container>
     </>
   )
