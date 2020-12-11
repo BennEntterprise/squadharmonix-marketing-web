@@ -12,33 +12,33 @@ function WhatIsSquad() {
             <div id='grid-wis'>
               <div id='grid-h1'>
                 <div className='LadderItemGraphic'>
-                  <p className='font-p liberation-sans-bold bg-magenta '>
+                  <h5 className='font-p liberation-sans-bold bg-magenta '>
                     WHO WE ARE
-                  </p>
+                  </h5>
                 </div>
               </div>
               <div id='grid-b1'>
                 <div className='LadderItemText'>
-                  <p className='font-p liberation-sans'>
+                  <h5 className='font-h5 liberation-sans'>
                     Squad Harmonix is the very first online A Cappella training
                     academy for advanced young vocalists. It is a vocal team, a
                     group and community of talented kids all working and
                     supporting each other to be the best they can be. Think Pro
                     Soccer, but for Voice.
-                  </p>
+                  </h5>
                 </div>
               </div>
 
               <div id='grid-h2'>
                 <div className='LadderItemGraphic'>
-                  <p className='font-p liberation-sans-bold bg-purple'>
+                  <h5 className='font-h5 liberation-sans-bold bg-purple'>
                     WHAT WE DO
-                  </p>
+                  </h5>
                 </div>
               </div>
               <div id='grid-b2'>
                 <div className='LadderItemText'>
-                  <p className='font-p liberation-sans'>
+                  <h5 className='font-h5 liberation-sans'>
                     Students meet every Saturday from 3.30-6.30 online via Zoom
                     and learn harmony, sight reading, music theory, stage
                     presence, and beatboxing (optional). Additionally, students
@@ -49,41 +49,41 @@ function WhatIsSquad() {
                     online streaming platforms. (Our debut holiday album is
                     being released Nov 29th 2020 and full album being released
                     early next year!)
-                  </p>
-                  <p className='font-p liberation-sans'>
+                  </h5>
+                  <h5 className='font-h5 liberation-sans'>
                     For advanced students, training also includes: Songwriting,
                     ProTools Recording/Mixing, Artist Development, and Music
                     Business and private lessons are offered through our parent
                     company Laura Jean Music Academy.
-                  </p>
-                  <p className='font-p liberation-sans'>
+                  </h5>
+                  <h5 className='font-h5 liberation-sans'>
                     Eventually we hope to return to training in person and
                     perform weekly live shows however our Online Program has
                     become so popular with our members that we will be
                     continuing the Saturday classes ongoing with the option to
                     train in person for those living in Los Angeles who have
                     reached Senior and Performance Level.
-                  </p>
+                  </h5>
                 </div>
               </div>
 
               <div id='grid-h3'>
                 <div className='LadderItemGraphic'>
-                  <p className='font-p liberation-sans-bold bg-teal'>
+                  <h5 className='font-h5 liberation-sans-bold bg-teal'>
                     TRAINING LEVELS
-                  </p>
+                  </h5>
                 </div>
               </div>
               <div id='grid-b3'>
                 <div className='LadderItemText'>
-                  <p className='font-p liberation-sans'>
+                  <h5 className='font-h5 liberation-sans'>
                     Levels are based on proficiency in sight reading,
                     harmonization, and vocal training, and are{' '}
                     <strong>
                       <u>NOT</u>
                     </strong>{' '}
                     determined by student's age.
-                  </p>
+                  </h5>
                 </div>
               </div>
             </div>
