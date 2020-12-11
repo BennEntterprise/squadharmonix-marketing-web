@@ -3,8 +3,9 @@
 }
 #bout-banner {
   position: relative;
-  width: auto;
-  margin: 0 -6.66%;
+  left: -2.5%;
+  width: 105%;
+  margin: 0%;
 }
 
 #about-us-heading {

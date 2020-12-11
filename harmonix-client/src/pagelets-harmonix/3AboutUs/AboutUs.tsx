@@ -19,45 +19,35 @@ const AboutUs = () => {
   return (
     <Container fluid id='about-us-container'>
       <NavHashLink to='#about-us-container'></NavHashLink>
-      <Row id='bout-banner'>
-        <Col xs={12} sm={12} md={12} lg={12} xl={12}>
-          <div id='banner-headshots-container'>
-            <img className='aboutus-headshot' src={Maya} alt='Maya headshot' />
-            <img
-              className='aboutus-headshot'
-              src={Mischa}
-              alt='Mischa headshot'
-            />
-            <img className='aboutus-headshot' src={Noah} alt='Noah headshot' />
-            <img
-              className='aboutus-headshot'
-              src={Elise}
-              alt='Elise headshot'
-            />
-            <img
-              className='aboutus-headshot'
-              src={Simone}
-              alt='Simone headshot'
-            />
-            <img
-              className='aboutus-headshot'
-              src={Cameron}
-              alt='Cameron headshot'
-            />
-            <img
-              className='aboutus-headshot'
-              src={Sydne}
-              alt='Sydne headshot'
-            />
-            <img
-              className='aboutus-headshot'
-              src={Lauren}
-              alt='Lauren headshot'
-            />
-            <img className='aboutus-headshot' src={Lucy} alt='Lucy headshot' />
-          </div>
-        </Col>
-      </Row>
+      <div id='bout-banner'>
+        <div id='banner-headshots-container'>
+          <img className='aboutus-headshot' src={Maya} alt='Maya headshot' />
+          <img
+            className='aboutus-headshot'
+            src={Mischa}
+            alt='Mischa headshot'
+          />
+          <img className='aboutus-headshot' src={Noah} alt='Noah headshot' />
+          <img className='aboutus-headshot' src={Elise} alt='Elise headshot' />
+          <img
+            className='aboutus-headshot'
+            src={Simone}
+            alt='Simone headshot'
+          />
+          <img
+            className='aboutus-headshot'
+            src={Cameron}
+            alt='Cameron headshot'
+          />
+          <img className='aboutus-headshot' src={Sydne} alt='Sydne headshot' />
+          <img
+            className='aboutus-headshot'
+            src={Lauren}
+            alt='Lauren headshot'
+          />
+          <img className='aboutus-headshot' src={Lucy} alt='Lucy headshot' />
+        </div>
+      </div>
       <Row>
         <Col>
           <div id='about-us-text'>
