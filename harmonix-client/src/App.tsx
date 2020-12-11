@@ -23,6 +23,7 @@ import TechDebt from './components/TechDebt'
 import ThisIsSquad from './pagelets-academy/1ThisIsSquad/ThisIsSquad'
 import WhatIsSquad from './pagelets-academy/2WhatIsSquad/WhatIsSquad'
 import MeetTheSquad from './pagelets-academy/3MeetTheSquad/MeetTheSquad'
+import QuaranTeenSeries from './pagelets-academy/3.1QuaranteenSeries/QuaranteenSeries'
 import MeetTheTeachers from './pagelets-academy/4MeetTheTeachers/MeetTheTeachers'
 import ToAudition from './pagelets-academy/5ToAudition/ToAudition'
 
@@ -59,9 +60,15 @@ function App() {
           <Navbar2 title={'MEET THE SQUAD'} color={flower} />
           <MeetTheSquad />
           <Navbar2
+            title={'THE QUARAN-TEEN SERIES'}
+            color={teal}
+            style={{ marginBottom: '1rem' }}
+          />
+          <QuaranTeenSeries />
+          <Navbar2
             title={'MEET THE TEACHERS'}
             color={lightPurple}
-            style={{ marginBottom: '3rem' }}
+            style={{ marginBottom: '3rem', marginTop: '3rem' }}
           />
           <MeetTheTeachers />
           <Navbar2 title={'TO AUDITION'} color={tortise} />

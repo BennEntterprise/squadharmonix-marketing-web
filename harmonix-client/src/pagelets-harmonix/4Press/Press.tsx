@@ -48,7 +48,6 @@ const Press = () => {
     'https://twitter.com/AcavilleRadio/status/1328035035841130496?s=20'
   const LinkSomeGoodNewsTwitter =
     'https://twitter.com/somegoodnews/status/1248587809197359106?s=20'
-  const LinkSomeGoodNewsYouTube = 'http://www.youtube.com/watch?v=Eg08rJGKjtA'
   const LinkSquadHarmonixDrums = 'http://www.youtube.com/watch?v=Yg8dZ9ImXPw'
   return (
     <>
