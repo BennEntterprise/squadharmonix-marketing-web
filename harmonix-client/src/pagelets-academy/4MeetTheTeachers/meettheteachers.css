@@ -14,10 +14,17 @@
 }
 .teacher-profile {
   font-size: var(--p);
+  height: 35vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 02.5rem 0;
+  padding: 1rem;
 }
 
 .teacher-photo-l {
-  width: 15%;
+  width: 25%;
   height: auto;
   float: left;
   margin-right: 1.5rem;
@@ -33,7 +40,19 @@
     margin: 0 auto;
     padding: 1rem;
   }
-  .teacher-photo-l {
-    width: 25%;
-  }
 }
+
+/* width */
+/* ::-webkit-scrollbar {
+  width: 10px;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: var(--lightPurple);
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: var(--purple);
+} */
