@@ -34,10 +34,8 @@
   background-repeat: no-repeat;
 }
 #form-container {
-  /* border: var(--construction-red); */
-  width: 1000px;
-
-  height: auto;
+  width: 100%;
+  height: fit-content;
 }
 #form-container input {
   height: calc(1.5em + 0.75rem + 8px);
