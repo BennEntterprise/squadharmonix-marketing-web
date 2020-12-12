@@ -39,7 +39,8 @@
 /*MAIN CAROUSEL*/
 /********************/
 .carousel-img {
-  height: 50vh;
+  /* border: var(--construction); */
+  min-height: 800px;
   width: 100%;
   position: relative;
   left: 0%;
@@ -55,9 +56,6 @@
       rgb(0, 0, 0) 77.5%
     ),
     url('../../images/LaurenThisOneTakesPriority.jpeg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 #carousel-img-2 {
@@ -67,9 +65,6 @@
       rgb(0, 0, 0) 77.5%
     ),
     url('./carousel-imgs/mischa cameron.jpeg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 #carousel-img-3 {
   background-image: linear-gradient(
@@ -78,19 +73,14 @@
       rgb(0, 0, 0) 77.5%
     ),
     url('./carousel-imgs/National anthem.jpeg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 #carousel-img-4 {
   background-image: linear-gradient(
       to bottom,
       rgba(252, 252, 252, 0.241),
-      rgb(0, 0, 0) 77.5%
+      rgb(0, 0, 0) 99%.5%
     ),
     url('./carousel-imgs/Party in USA.png');
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: contain;
 }
 .carousel-caption-a {
@@ -201,7 +191,14 @@
   max-width: var(--square);
 }
 
+/********************/
+/*XS Screens*/
+/********************/
 @media (max-width: 576px) {
+  .carousel-img {
+    /* border: var(--construction); */
+    min-height: 367px;
+  }
   .btn-group-sq {
     position: relative;
     left: -10%;
@@ -222,6 +219,36 @@
     width: 100%;
     margin: 0.5rem 0;
     padding: 0.5rem 0.1rem;
+  }
+}
+
+/********************/
+/*SM SCREENS*/
+/********************/
+@media (min-width: 576px) and (max-width: 768px) {
+  .carousel-img {
+    /* border: var(--construction); */
+    min-height: 495px;
+    height: 500px;
+  }
+}
+/********************/
+/*MD SCREENS*/
+/********************/
+@media (min-width: 768px) and (max-width: 992px) {
+  .carousel-img {
+    /* border: var(--construction); */
+    min-height: 644px;
+  }
+}
+
+/********************/
+/*LG SCREENS*/
+/********************/
+@media (min-width: 992px) and (max-width: 1200px) {
+  .carousel-img {
+    /* border: var(--construction); */
+    min-height: 783px;
   }
 }
 
