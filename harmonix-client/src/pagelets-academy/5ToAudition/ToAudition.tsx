@@ -44,7 +44,10 @@ function ToAudition() {
           </p>
         </div>
         <div id='right-footer-section'>
-          <h5 className='liberation-sans-bold font-mini'>
+          <h5
+            className='liberation-sans-bold font-mini'
+            style={{ paddingLeft: '1rem' }}
+          >
             <strong> Private Lessons: </strong>
           </h5>
 
