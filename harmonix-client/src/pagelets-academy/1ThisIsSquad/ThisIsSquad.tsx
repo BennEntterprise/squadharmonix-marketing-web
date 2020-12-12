@@ -10,6 +10,7 @@ import ButtonBox from '../../components/ButtonBox'
 import Carousel1 from './carousel-imgs/Lauren this one takes priority.jpeg'
 import Carousel2 from './carousel-imgs/mischa cameron.jpeg'
 import Carousel3 from './carousel-imgs/National anthem.jpeg'
+import Carousel4 from './carousel-img/Part in USA.png'
 
 import ImgCameron from './banner-imgs/Cameron(trimmed).png' // cameron
 import ImgLucy from './banner-imgs/Lucy(trimmed).png' // lucy
@@ -73,9 +74,24 @@ const ThisIsSquad = () => {
                 <CarouselBannerCopy />
                 <Carousel.Caption className='carousel-caption-a'></Carousel.Caption>
               </Carousel.Item>
+              <Carousel.Item className='carousel-item'>
+                <div id='carousel-img-4' className='carousel-img'></div>
+                <CarouselBannerCopy />
+                <Carousel.Caption className='carousel-caption-a'></Carousel.Caption>
+              </Carousel.Item>
             </Carousel>
           </Col>
-          <ButtonBox />
+        </Row>
+        <Row>
+          <Col
+            xs={{ span: 10, offset: 1 }}
+            sm={{ span: 10, offset: 1 }}
+            md={{ span: 10, offset: 1 }}
+            lg={{ span: 10, offset: 1 }}
+            xl={{ span: 10, offset: 1 }}
+          >
+            <ButtonBox />
+          </Col>
         </Row>
         <Row id='academy-cta-buttons'>
           <Col>
