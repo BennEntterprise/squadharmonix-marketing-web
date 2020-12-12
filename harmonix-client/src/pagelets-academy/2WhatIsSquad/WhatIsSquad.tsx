@@ -181,6 +181,11 @@ function WhatIsSquad() {
               </div>
               <HashLink to='#toaudition'>
                 <button id='private-lesson-button'>
+                  <img
+                    src={ImgLJMA}
+                    alt='laura jean music academy logo'
+                    style={{ width: 'auto', maxHeight: '100px' }}
+                  />
                   Click Here for More Info on Private Lessons
                 </button>
               </HashLink>
