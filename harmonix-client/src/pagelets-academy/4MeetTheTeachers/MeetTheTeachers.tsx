@@ -29,12 +29,13 @@ function MeetTheTeachers() {
                 alt='Teach profile photo'
               />
               <p className='bio-text font-p liberation-sans'>
-                <strong>Laura Saggers</strong> hails from an intense background
-                of music education with 12 years studying classical piano with
-                the Associated Board of the Royals Schools of Music in England
-                to completing a Diploma in Vocal Performance and finally,
-                finishing her degree in Music Business at the Academy of
-                Contemporary Music. Laura has since moved to the US to pursue
+                <strong>Laura Saggers</strong> (
+                <em>Director/Voice Commander</em>) hails from an intense
+                background of music education with 12 years studying classical
+                piano with the Associated Board of the Royals Schools of Music
+                in England to completing a Diploma in Vocal Performance and
+                finally, finishing her degree in Music Business at the Academy
+                of Contemporary Music. Laura has since moved to the US to pursue
                 her career as a professional pianist and singer gaining an
                 endorsement with Roland keyboards,performing up and down the
                 country at multiple venues such at MGM Grand Hotel, the
@@ -86,15 +87,15 @@ function MeetTheTeachers() {
                 alt='Teach profile photo'
               />
               <p className='bio-text font-p liberation-sans'>
-                <strong>Matt Browne</strong> is an avid music educator, vocal
-                arranger, and songwriter from Boston, Massachusetts. He received
-                his bachelor’s of music in music business from the Frost School
-                of Music at the University of Miami, where he studied music
-                industry, songwriting, and commercial voice, and music directed
-                and arranged for the award-winning a cappella group BisCaydence.
-                He has been teaching voice lessons for years with a strict
-                emphasis on all-around musicianship training with positive
-                reinforcement.
+                <strong>Matt Browne</strong> (<em>Voice Captain</em>) is an avid
+                music educator, vocal arranger, and songwriter from Boston,
+                Massachusetts. He received his bachelor’s of music in music
+                business from the Frost School of Music at the University of
+                Miami, where he studied music industry, songwriting, and
+                commercial voice, and music directed and arranged for the
+                award-winning a cappella group BisCaydence. He has been teaching
+                voice lessons for years with a strict emphasis on all-around
+                musicianship training with positive reinforcement.
                 <br />
                 <br />
                 Through his teaching, he strives to expand many facets of
@@ -127,15 +128,15 @@ function MeetTheTeachers() {
               />
 
               <p className='bio-text font-p liberation-sans'>
-                <strong>Annie Mauro</strong> is a singer, dancer, teacher,
-                choreographer and choral arranger originally from Illinois, and
-                she loves working with kids in performing arts. She was a
-                competitive dancer with Aspire Dance Company in Illinois and
-                also sang with and directed Girls Next Door A Cappella, a
-                collegiate female a cappella group at the University of
-                Illinois, where she also earned her choral music education
-                degree. Upon relocating to Los Angeles in 2016, she began her
-                professional teaching career as a K-4 music teacher.
+                <strong>Annie Mauro</strong> (<em>Dance Captain</em>) is a
+                singer, dancer, teacher, choreographer and choral arranger
+                originally from Illinois, and she loves working with kids in
+                performing arts. She was a competitive dancer with Aspire Dance
+                Company in Illinois and also sang with and directed Girls Next
+                Door A Cappella, a collegiate female a cappella group at the
+                University of Illinois, where she also earned her choral music
+                education degree. Upon relocating to Los Angeles in 2016, she
+                began her professional teaching career as a K-4 music teacher.
               </p>
             </div>
           </div>
@@ -155,13 +156,14 @@ function MeetTheTeachers() {
                 alt='Teach profile photo'
               />
               <p className='bio-text font-p liberation-sans'>
-                <strong>Parker Wright</strong> was born and raised in Santa
-                Barbara, CA. He has been beatboxing and singing professionally
-                for almost 10 years and has graduated Cum Laude with a Bachelor
-                in Professional Studies from Berklee College of Music. Parker is
-                also an Avid Certified Pro Tools Operator. His obsession for
-                singing and beatboxing originated from participating in Jazz
-                Choir at high school and has developed into a full time career.
+                <strong>Parker Wright</strong> (<em>Beatboxing Commander</em>)
+                was born and raised in Santa Barbara, CA. He has been beatboxing
+                and singing professionally for almost 10 years and has graduated
+                Cum Laude with a Bachelor in Professional Studies from Berklee
+                College of Music. Parker is also an Avid Certified Pro Tools
+                Operator. His obsession for singing and beatboxing originated
+                from participating in Jazz Choir at high school and has
+                developed into a full time career.
                 <br />
                 <br />
                 Since then, Parker has performed for Katy Perry, supported
@@ -203,13 +205,14 @@ function MeetTheTeachers() {
                 alt='Teach profile photo'
               />
               <p className='bio-text liberation-sans'>
-                <strong>Johanna</strong> has been passionate about music since
-                she was a toddler. At the age of 4 she started playing piano,
-                and has continued for 12 years training at the Laura Jean Music
-                Academy. She has been singing constantly for as long as she can
-                remember, whether it’s alone at home, or on the stage. Johanna
-                is currently at her school deeply involved in the choir, a
-                cappella groups, and performing at school events.
+                <strong>Johanna</strong> (<em>Voice Lieutenant</em>) has been
+                passionate about music since she was a toddler. At the age of 4
+                she started playing piano, and has continued for 12 years
+                training at the Laura Jean Music Academy. She has been singing
+                constantly for as long as she can remember, whether it’s alone
+                at home, or on the stage. Johanna is currently at her school
+                deeply involved in the choir, a cappella groups, and performing
+                at school events.
                 <br />
                 <br />
                 She is so excited to be a part of Squad Harmonix, and can’t wait
@@ -229,11 +232,12 @@ function MeetTheTeachers() {
                 alt='Teach profile photo'
               />
               <p className='bio-text'>
-                <strong>Christina Martino</strong> is from Westchester, New York
-                and has been performing, singing and writing songs for most of
-                her life. She received her Bachelor of Music from the Frost
-                School of Music at the University Of Miami where she focused her
-                studies on contemporary voice, songwriting and music business.
+                <strong>Christina Martino</strong> (<em>Voice Lieutennant</em>)
+                is from Westchester, New York and has been performing, singing
+                and writing songs for most of her life. She received her
+                Bachelor of Music from the Frost School of Music at the
+                University Of Miami where she focused her studies on
+                contemporary voice, songwriting and music business.
                 <br />
                 <br />
                 With extensive training in vocal styles such as classical, jazz,
