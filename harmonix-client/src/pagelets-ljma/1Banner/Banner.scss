@@ -2,13 +2,19 @@
 @import '../../constants/layout.css';
 
 #ljma-banner {
+  text-align: center;
 }
 
 #announcement {
   background-color: var(--flower);
   padding: 10%;
-}
+  p {
+    padding: 0 0%;
+  }
 
-#announcement p {
-  padding: 0 5%;
+  img {
+    width: auto;
+    max-height: 100px;
+    padding: 1rem;
+  }
 }

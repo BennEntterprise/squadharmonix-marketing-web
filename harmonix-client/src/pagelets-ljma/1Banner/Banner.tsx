@@ -1,11 +1,12 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-
-import './Banner.css'
+import ImgLJMA from '../../images/logos/LJMA Black(trimmed).png'
+import './Banner.scss'
 const Banner = () => {
   return (
     <Container id='ljma-banner'>
       <div id='announcement'>
+        <img src={ImgLJMA} alt='laura jean music academy logo' />
         <h3>Comming Soon: Laura Jean Music Academy</h3>
         <p>
           Laura Jean Music Academy was formed in 2014 as a training academy for
