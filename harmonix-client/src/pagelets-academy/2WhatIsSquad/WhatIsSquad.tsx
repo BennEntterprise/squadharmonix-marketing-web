@@ -3,6 +3,8 @@ import './whatissquad.css'
 import { HashLink } from 'react-router-hash-link'
 import { Container, Row, Col } from 'react-bootstrap'
 import LessonItem from '../../components/LessonItem/LessonItem'
+
+import ImgLJMA from '../../images/logos/LJMA Black(trimmed).png'
 function WhatIsSquad() {
   return (
     <>
@@ -142,12 +144,18 @@ function WhatIsSquad() {
                     <em>*ELIGIBLE FOR</em>
                   </p>
                   <div id='ljma-cutout'>
-                    <p
-                      className='font-mini liberation-sans-bold'
-                      style={{ color: 'black', textAlign: 'center' }}
+                    <HashLink
+                      to='/ljma'
+                      style={{ textDecoration: 'none', color: 'black' }}
                     >
-                      LAURA JEAN MUSIC ACADEMY ARTIST DEVELOPMENT PROGRAM
-                    </p>
+                      <img src={ImgLJMA} alt='ljma logo' />
+                      <p
+                        className='font-mini liberation-sans-bold'
+                        style={{ color: 'black', textAlign: 'center' }}
+                      >
+                        LAURA JEAN MUSIC ACADEMY ARTIST DEVELOPMENT PROGRAM
+                      </p>
+                    </HashLink>
                   </div>
                 </div>
               </div>

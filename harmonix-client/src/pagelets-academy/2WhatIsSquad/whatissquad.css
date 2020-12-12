@@ -156,6 +156,9 @@
   height: 100%;
 }
 
+/********************/
+/*FORMATTING FOR COLORED BARS
+/********************/
 #BarChartContainer {
   display: flex;
   flex-direction: row;
@@ -179,16 +182,21 @@ li {
 }
 
 #ljma-cutout {
+  border: 0.2rem solid var(--white);
   width: 75%;
   background-color: var(--flower);
   text-align: center;
   margin: auto;
-  border: 0.2rem solid var(--white);
   border-radius: 10px;
   padding-top: 10px;
   padding-bottom: 0.5px;
 }
-
+#ljma-cutout img {
+  padding: 1rem;
+  position: relative;
+  width: 80%;
+  height: auto;
+}
 /*  ASSORTED OFFERINGS SECTION */
 #OfferingSetContainer {
   display: flex;
