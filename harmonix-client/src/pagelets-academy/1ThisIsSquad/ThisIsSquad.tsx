@@ -25,14 +25,19 @@ import SpLogo from '../../images/icons/spotify-academy.png'
 import TtLogo from '../../images/icons/tiktok-academy.png'
 import FbLogo from '../../images/icons/facebook-academy.png'
 
-const CarouselBannerCopy = () => {
+interface ICarouselBannerCopy {
+  heading?: string
+  subHeading?: string
+  tidbit?: string
+}
+const CarouselBannerCopy = (props: ICarouselBannerCopy) => {
   return (
     <div className='carousel-banner-copy'>
-      <h1>THIS IS SQUAD.</h1>
-      <h6>
-        an inspiring learning community for dedicated vocalists agess 8-17
-      </h6>
-      <p style={{ position: 'relative', zIndex: 1 }}>ONLINE SINCE MAY!</p>
+      <h1>{props.heading}</h1>
+      <h6>{props.subHeading}</h6>
+      {props.tidbit && (
+        <p style={{ position: 'relative', zIndex: 1 }}>{props.tidbit}</p>
+      )}
     </div>
   )
 }
@@ -49,27 +54,28 @@ const ThisIsSquad = () => {
             <Carousel>
               <Carousel.Item className='carousel-item'>
                 <div id='carousel-img-1' className='carousel-img'></div>
-                <CarouselBannerCopy />
-                <Carousel.Caption className='carousel-caption-a'>
-                  <ButtonBox />
-                </Carousel.Caption>
+                <CarouselBannerCopy
+                  heading={'THIS IS SQUAD.'}
+                  subHeading={
+                    'an inspiring learning community for dedicated vocalists agess 8-17'
+                  }
+                  tidbit={'ONLINE SINCE MAY!'}
+                />
+                <Carousel.Caption className='carousel-caption-a'></Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item className='carousel-item'>
                 <div id='carousel-img-2' className='carousel-img'></div>
                 <CarouselBannerCopy />
-                <Carousel.Caption className='carousel-caption-a'>
-                  <ButtonBox />
-                </Carousel.Caption>
+                <Carousel.Caption className='carousel-caption-a'></Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item className='carousel-item'>
                 <div id='carousel-img-3' className='carousel-img'></div>
                 <CarouselBannerCopy />
-                <Carousel.Caption className='carousel-caption-a'>
-                  <ButtonBox />
-                </Carousel.Caption>
+                <Carousel.Caption className='carousel-caption-a'></Carousel.Caption>
               </Carousel.Item>
             </Carousel>
           </Col>
+          <ButtonBox />
         </Row>
         <Row id='academy-cta-buttons'>
           <Col>
