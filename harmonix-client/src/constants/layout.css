@@ -2,6 +2,7 @@
   /* Creates construction lines */
   --construction: 4.5px dashed Grey;
   --construction-red: 4.5px dotted red;
+  --construction-green: 4.5px dotted green;
   --construction-padding: 5px;
 }
 html {
