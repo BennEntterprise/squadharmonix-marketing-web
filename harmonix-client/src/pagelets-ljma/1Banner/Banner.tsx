@@ -7,7 +7,7 @@ const Banner = () => {
     <Container id='ljma-banner'>
       <div id='announcement'>
         <img src={ImgLJMA} alt='laura jean music academy logo' />
-        <h3>Comming Soon: Laura Jean Music Academy</h3>
+        <h3>Coming Soon: Laura Jean Music Academy</h3>
         <p>
           Laura Jean Music Academy was formed in 2014 as a training academy for
           young musicians in the Los Angeles area. Faced with the challenge of a
@@ -22,7 +22,9 @@ const Banner = () => {
         </p>
         <p>
           Check back later for more details or email :{' '}
-          <a href='mailto:info@squadharmonix.com'>info@squadharmonix.com</a>
+          <a href='mailto:info@squadharmonix.com'>
+            info@laurajeanmusicacademy.com
+          </a>
         </p>
       </div>
     </Container>
