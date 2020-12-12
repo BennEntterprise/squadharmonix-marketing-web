@@ -87,35 +87,35 @@ const BannerPage = () => {
             </a>
           </div>
           <div id='banner-buttons'>
-            <button className='font-p liberation-sans-bold'>
+            <button className='font-mini liberation-sans-bold'>
               <Link to='#about-us-container' className='neg-hashlink'>
                 ABOUT US
               </Link>
             </button>
 
-            <button className='font-p liberation-sans-bold'>
+            <button className='font-mini liberation-sans-bold'>
               <Link to='#members-container' className='neg-hashlink'>
                 MEMBERS
               </Link>
             </button>
 
-            <button className='font-p liberation-sans-bold'>
+            <button className='font-mini liberation-sans-bold'>
               <Link to='#press-container' className='neg-hashlink'>
                 NEWS
               </Link>
             </button>
-            <button className='font-p liberation-sans-bold'>
+            <button className='font-mini liberation-sans-bold'>
               <Link to='#merch-container' className='neg-hashlink'>
                 MERCH
               </Link>
             </button>
 
-            <button className='font-p liberation-sans-bold'>
+            <button className='font-mini liberation-sans-bold'>
               <Link to='#contact-container' className='neg-hashlink'>
                 CONTACT US
               </Link>
             </button>
-            <button className='font-p liberation-sans-bold'>
+            <button className='font-mini liberation-sans-bold'>
               <Link to='/academy#whatissquad' className='neg-hashlink'>
                 JOIN SQUAD
               </Link>
