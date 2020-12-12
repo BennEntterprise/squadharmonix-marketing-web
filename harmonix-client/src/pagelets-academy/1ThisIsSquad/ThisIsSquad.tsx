@@ -53,7 +53,7 @@ const ThisIsSquad = () => {
         <Row style={{ marginBottom: '0rem' }}>
           <Col xs='12' sm='12' md='12' lg='12' xl='12'>
             <Carousel>
-              <Carousel.Item className='carousel-item'>
+              <Carousel.Item className='carousel-item-a'>
                 <div id='carousel-img-1' className='carousel-img'></div>
                 <CarouselBannerCopy
                   heading={'THIS IS SQUAD.'}
@@ -64,17 +64,17 @@ const ThisIsSquad = () => {
                 />
                 <Carousel.Caption className='carousel-caption-a'></Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item className='carousel-item'>
+              <Carousel.Item className='carousel-item-a'>
                 <div id='carousel-img-2' className='carousel-img'></div>
                 <CarouselBannerCopy />
                 <Carousel.Caption className='carousel-caption-a'></Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item className='carousel-item'>
+              <Carousel.Item className='carousel-item-a'>
                 <div id='carousel-img-3' className='carousel-img'></div>
                 <CarouselBannerCopy />
                 <Carousel.Caption className='carousel-caption-a'></Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item className='carousel-item'>
+              <Carousel.Item className='carousel-item-a'>
                 <div id='carousel-img-4' className='carousel-img'></div>
                 <CarouselBannerCopy />
                 <Carousel.Caption className='carousel-caption-a'></Carousel.Caption>
