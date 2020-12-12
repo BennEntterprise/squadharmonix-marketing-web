@@ -71,7 +71,11 @@ function App() {
             style={{ marginBottom: '3rem', marginTop: '3rem' }}
           />
           <MeetTheTeachers />
-          <Navbar2 title={'TO AUDITION'} color={tortise} />
+          <Navbar2
+            title={'TO AUDITION'}
+            color={tortise}
+            style={{ marginTop: '2.5rem' }}
+          />
           <ToAudition />
         </Route>
         <Route exact path={['/harmonix', '/home', '/']}>

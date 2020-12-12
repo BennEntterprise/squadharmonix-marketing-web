@@ -8,21 +8,24 @@
 }
 
 .teachers-container {
-  border: var(--construction);
-  margin: 0 0;
-  padding: 0 0;
+  /* border: var(--construction); */
+  margin: 0rem 0;
+  padding: 0rem 0;
 }
 
 .teacher-profile {
-  border: var(--construction-red);
+  /* border: var(--construction-red); */
   font-size: var(--p);
   height: 35vh;
   overflow: scroll;
   overflow-x: hidden;
   border-radius: 0.5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 0;
-  padding: 0;
+  margin: 2.5rem 0rem;
+  padding: 2rem;
+}
+.teacher-profile:last-of-type {
+  margin-bottom: 0rem;
 }
 
 .teacher-photo-l {
@@ -39,8 +42,8 @@
 @media (max-width: 992px) {
   .teachers-container {
     /* border: var(--construction-green); */
-    margin: 0 0;
-    padding: 0;
+    /* margin: 0 0;
+    padding: 0; */
   }
 }
 
