@@ -116,7 +116,14 @@ const MeetTheSquad = () => {
           </Col>
         </Row>
         <Row>
-          <Col xs='12' sm='12' md='12' lg='6' xl='6' className='player-side'>
+          <Col
+            xs={{ span: 12, order: 'last' }}
+            sm={{ span: 12, order: 'last' }}
+            md={{ span: 12, order: 'last' }}
+            lg='6'
+            xl='6'
+            className='player-side'
+          >
             <div className='academy-react-player'>
               <ReactPlayer
                 controls
