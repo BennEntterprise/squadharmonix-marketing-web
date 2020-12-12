@@ -186,7 +186,7 @@ function WhatIsSquad() {
                     alt='laura jean music academy logo'
                     style={{ width: 'auto', maxHeight: '100px' }}
                   />
-                  Click Here for More Info on Private Lessons
+                  CLICK HERE FOR MORE INFO ON PRIVATE LESSONS
                 </button>
               </HashLink>
             </div>
