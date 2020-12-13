@@ -9,7 +9,7 @@ import ImgMug from '../../images/merch/Mug.jpg'
 import ImgPinkT from '../../images/merch/PinkT.jpg'
 import ImgPurpleHoodie from '../../images/merch/PurpleHoodie.jpg'
 
-import './Merch.css'
+import './Merch.scss'
 const Merch = () => {
   const PinkTLink =
     'https://teespring.com/stores/squadharmonix/collection/unisex-men-s-t-shirts?page=1'
