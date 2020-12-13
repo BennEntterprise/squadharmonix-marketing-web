@@ -114,11 +114,6 @@ const ThisIsSquad = () => {
                 />
                 <Carousel.Caption className='carousel-caption-a'></Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item>
-                <div id='carousel-img-4' className='carousel-img'></div>
-                <CarouselBannerCopy />
-                <Carousel.Caption className='carousel-caption-a'></Carousel.Caption>
-              </Carousel.Item>
             </Carousel>
           </Col>
         </Row>
