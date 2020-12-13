@@ -49,6 +49,18 @@
   flex-wrap: wrap;
   width: auto;
   /* border: var(--construction); */
+  .stage-light-graphic {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .stage-shadow-graphic {
+    img {
+      width: 100%;
+    }
+    width: 100%;
+  }
 }
 .headshot-row {
   display: flex;

@@ -1,5 +1,5 @@
 import React from 'react'
-import './meetthesquad.css'
+import './meetthesquad.scss'
 
 import ReactPlayer from 'react-player'
 
@@ -35,6 +35,10 @@ import _2jJade from '../../images/square headshots/Junior - Jade.jpg'
 import _3jSloane from '../../images/square headshots/Junior - Sloane.jpg'
 import _4jOlivia from '../../images/square headshots/Junior - Peace.jpg'
 import _4jJess from '../../images/square headshots/Junior - Jess.jpg'
+
+import ImgSpotlight from '../../images/graphics/stage light(trimmed).png'
+import ImgWhiteShadow from '../../images/graphics/white shadow(trimmed).png'
+
 const MeetTheSquad = () => {
   const WhenThePartyIsOver_BillieEilish =
     'https://www.youtube.com/watch?v=ems1qawgYy0'
@@ -58,6 +62,9 @@ const MeetTheSquad = () => {
           <Col xs='12' sm='12' md='12' lg='6' xl='6' className='gallery-side'>
             <div className='headshot-gallery-container'>
               <div className='headshots-wrapper'>
+                <div className='stage-light-graphic'>
+                  <img src={ImgSpotlight} alt='spotlight' />
+                </div>
                 <div className='headshot-row'>
                   <div className='single-headshot-container'>
                     <img className='headshot' src={_1Johanna} alt='headshot' />
@@ -91,6 +98,9 @@ const MeetTheSquad = () => {
                   <div className='single-headshot-container'>
                     <img className='headshot' src={_10Noah} alt='headshot' />
                   </div>
+                </div>
+                <div className='stage-shadow-graphic'>
+                  <img src={ImgWhiteShadow} alt='spotlight' />
                 </div>
               </div>
             </div>
