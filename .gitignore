@@ -1,6 +1,6 @@
 devnotes.md
-**/node_mo**dules
+**/node_modules
 /.vscode/**
 config.env
 
-debug.log
+**/**/debug.log
