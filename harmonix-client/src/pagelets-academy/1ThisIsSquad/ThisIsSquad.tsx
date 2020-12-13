@@ -1,5 +1,5 @@
 import React from 'react'
-import './thisissquad.css'
+import './thisissquad.scss'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Carousel } from 'react-bootstrap'
 import { HashLink } from 'react-router-hash-link'
@@ -7,10 +7,10 @@ import SocialIcon from '../../components/SocialIcon'
 import { tortise, darkMagenta, magenta, teal } from '../../constants/Colors'
 import ButtonBox from '../../components/ButtonBox'
 //Carousel Imgs
-import Carousel1 from './carousel-imgs/Lauren this one takes priority.jpeg'
-import Carousel2 from './carousel-imgs/mischa cameron.jpeg'
-import Carousel3 from './carousel-imgs/National anthem.jpeg'
-import Carousel4 from './carousel-img/Part in USA.png'
+import Carousel1 from './carousel-imgs/National anthem.jpeg'
+import Carousel2 from './carousel-imgs/Lauren this one takes priority.jpeg'
+import Carousel3 from './carousel-imgs/mischa cameron.jpeg'
+import Carousel4 from './carousel-img/Party in USA.png'
 
 import ImgCameron from './banner-imgs/Cameron(trimmed).png' // cameron
 import ImgLucy from './banner-imgs/Lucy(trimmed).png' // lucy
@@ -30,14 +30,36 @@ interface ICarouselBannerCopy {
   heading?: string
   subHeading?: string
   tidbit?: string
+  textAlignment?: 'left' | 'right' | 'center'
 }
 const CarouselBannerCopy = (props: ICarouselBannerCopy) => {
+  let floatVal: 'left' | 'right' | 'none'
+  switch (props.textAlignment) {
+    case 'left':
+      floatVal = 'left'
+      break
+    case 'right':
+      floatVal = 'right'
+      break
+    default:
+      floatVal = 'none'
+      break
+  }
+
   return (
     <div className='carousel-banner-copy'>
-      <h1>{props.heading}</h1>
-      <h6>{props.subHeading}</h6>
+      <h1 style={{ textAlign: props.textAlignment }}>{props.heading}</h1>
+      <h6 style={{ textAlign: props.textAlignment }}>{props.subHeading}</h6>
       {props.tidbit && (
-        <p style={{ position: 'relative', zIndex: 1 }}>{props.tidbit}</p>
+        <p
+          style={{
+            textAlign: props.textAlignment,
+            zIndex: 1,
+            float: floatVal,
+          }}
+        >
+          {props.tidbit}
+        </p>
       )}
     </div>
   )
@@ -68,17 +90,28 @@ const ThisIsSquad = () => {
                     'an inspiring learning community for dedicated vocalists agess 8-17'
                   }
                   tidbit={'ONLINE SINCE MAY!'}
+                  textAlignment='left'
                 />
                 <Carousel.Caption className='carousel-caption-a'></Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
                 <div id='carousel-img-2' className='carousel-img'></div>
-                <CarouselBannerCopy />
+                <CarouselBannerCopy
+                  heading={'Find your passion.'}
+                  subHeading='Shape your musical experience with our many raining programs, from voice to music theory to beatboxing.'
+                  tidbit='ONLINE SINCE MAY!'
+                  textAlignment='right'
+                />
                 <Carousel.Caption className='carousel-caption-a'></Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
                 <div id='carousel-img-3' className='carousel-img'></div>
-                <CarouselBannerCopy />
+                <CarouselBannerCopy
+                  heading='Share the screen.'
+                  subHeading='Take part in collaborative projects that bring us back together in an otherwise distant world.'
+                  tidbit='ONLINE SINCE MAY!'
+                  textAlignment='left'
+                />
                 <Carousel.Caption className='carousel-caption-a'></Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>

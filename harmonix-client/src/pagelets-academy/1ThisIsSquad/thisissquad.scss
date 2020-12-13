@@ -10,29 +10,32 @@
 /*CAROUSEL BANNER*/
 /********************/
 .carousel-banner-copy {
+  // border: var(--construction);
   position: absolute;
   top: 0%;
   left: 0%;
+  width: 85%;
   margin-top: 2rem;
   margin-left: 3rem;
+  margin-right: 3rem;
   color: white;
   z-index: 5;
-}
-.carousel-banner-copy h1 {
-  font-size: 5rem;
-}
 
-.carousel-banner-copy h6 {
-  font-size: 1.2rem;
-  padding: 0 20%;
-}
-.carousel-banner-copy p {
-  font-size: 1.1rem;
-  background-color: var(--purple);
-  width: fit-content;
-  margin: auto;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
+  h1 {
+    text-align: right;
+    font-size: 5rem;
+  }
+  h6 {
+    font-size: 1.2rem;
+    padding: 0 0%;
+  }
+  p {
+    font-size: 1.1rem;
+    background-color: var(--purple);
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
 }
 
 /********************/
@@ -55,7 +58,7 @@
       rgba(252, 252, 252, 0.241),
       rgb(0, 0, 0) 77.5%
     ),
-    url('../../images/LaurenThisOneTakesPriority.jpeg');
+    url('./carousel-imgs/National anthem.jpeg');
 }
 
 #carousel-img-2 {
@@ -64,7 +67,7 @@
       rgba(252, 252, 252, 0.241),
       rgb(0, 0, 0) 77.5%
     ),
-    url('./carousel-imgs/mischa cameron.jpeg');
+    url('./carousel-imgs/Lauren this one takes priority.jpeg');
 }
 #carousel-img-3 {
   background-image: linear-gradient(
@@ -72,7 +75,7 @@
       rgba(252, 252, 252, 0.241),
       rgb(0, 0, 0) 77.5%
     ),
-    url('./carousel-imgs/National anthem.jpeg');
+    url('./carousel-imgs/mischa cameron.jpeg');
 }
 #carousel-img-4 {
   background-image: linear-gradient(
