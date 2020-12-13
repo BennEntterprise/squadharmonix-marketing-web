@@ -98,8 +98,9 @@
   justify-content: center;
   flex-wrap: wrap;
   button {
-    padding: 1.75rem auto;
-    margin: 1rem 0.5rem;
+    font-size: var(--h6);
+    padding: 1.75rem 0rem;
+    margin: 0.5rem;
     width: 45%;
     text-align: center;
     background-color: white;
@@ -121,5 +122,73 @@
     left: -10%;
     font-size: 4rem;
     padding: 0;
+  }
+}
+
+/********************/
+/*SM Screens*/
+/********************/
+@media (min-width: 576px) and (max-width: 768px) {
+  #banner-buttons {
+    width: 90%;
+    button {
+      font-size: var(--h6);
+      margin: 0.25rem;
+      padding: 1rem 0rem;
+      &:hover {
+        margin: 0.25rem;
+        padding: 1rem 0rem;
+      }
+    }
+  }
+}
+/********************/
+/*MD Screens*/
+/********************/
+@media (min-width: 768px) and (max-width: 992px) {
+  #banner-buttons {
+    width: 80%;
+    button {
+      font-size: var(--h6);
+      margin: 0.25rem;
+      padding: 1rem 0rem;
+      &:hover {
+        margin: 0.25rem;
+        padding: 1rem 0rem;
+      }
+    }
+  }
+}
+/********************/
+/*LG Screens*/
+/********************/
+@media (min-width: 992px) and (max-width: 1200px) {
+  #banner-buttons {
+    button {
+      font-size: var(--h4);
+      margin: 0.25rem;
+      padding: 1rem 0rem;
+      &:hover {
+        margin: 0.25rem;
+        padding: 1rem 0rem;
+      }
+    }
+  }
+}
+
+/********************/
+/*XL SCREEN ADJUSTMENTS*/
+/********************/
+@media (min-width: 1200px) {
+  #banner-buttons {
+    button {
+      font-size: var(--h4);
+      margin: 0.25rem;
+      padding: 1rem 0rem;
+      &:hover {
+        margin: 0.25rem;
+        padding: 1rem 0rem;
+      }
+    }
   }
 }
