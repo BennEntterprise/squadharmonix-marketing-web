@@ -21,7 +21,7 @@ const BannerPage = () => {
     'https://open.spotify.com/artist/60mJxBCIi3kLojVY7StenZ?si=Spfe6dPtSNew0qCb79_afA'
   const FacebookLink = 'https://www.facebook.com/squadharmonix/'
   const TikTokLink = 'https://www.tiktok.com/@squadharmonix'
-  const InstagramLink = 'https://www.tiktok.com/@squadharmonix'
+  const InstagramLink = 'https://www.instagram.com/squadharmonix'
   return (
     <Container fluid id='banner-page-container'>
       <Row>

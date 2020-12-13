@@ -24,7 +24,7 @@ import ImgSGN from '../../images/press/2.3.6 Some Good News.png'
 const Press = () => {
   //Social Pages
   const SquadHarmonixFBPage = 'https://www.facebook.com/squadharmonix'
-  const SquadHarmonixIGPage = 'https://twitter.com/SquadHarmonix'
+  const SquadHarmonixIGPage = 'https://instagram.com/SquadHarmonix'
   // Media Articles
   const ThePulseLink =
     'https://podcast.acaville.org/blog/2020/10/26/squad-harmonix-and-intonenation/'
