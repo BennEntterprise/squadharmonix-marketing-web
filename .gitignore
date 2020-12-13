@@ -3,4 +3,4 @@ devnotes.md
 /.vscode/**
 config.env
 
-debug.*
+debug.log
