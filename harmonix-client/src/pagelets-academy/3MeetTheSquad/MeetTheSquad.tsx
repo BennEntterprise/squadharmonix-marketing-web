@@ -34,7 +34,7 @@ import _1jSiena from '../../images/square headshots/Junior - Siena.jpeg'
 import _2jJade from '../../images/square headshots/Junior - Jade.jpg'
 import _3jSloane from '../../images/square headshots/Junior - Sloane.jpg'
 import _4jOlivia from '../../images/square headshots/Junior - Peace.jpg'
-import _4jJess from '../../images/square headshots/Junior - Peace.jpg'
+import _4jJess from '../../images/square headshots/Junior - Jess.jpg'
 const MeetTheSquad = () => {
   const WhenThePartyIsOver_BillieEilish =
     'https://www.youtube.com/watch?v=ems1qawgYy0'
