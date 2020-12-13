@@ -98,7 +98,7 @@ const ThisIsSquad = () => {
                 <div id='carousel-img-2' className='carousel-img'></div>
                 <CarouselBannerCopy
                   heading={'Find your passion.'}
-                  subHeading='Shape your musical experience with our many A Cappella training program , from voice to music theory to beatboxing.'
+                  subHeading='Shape your musical experience with our many A Cappella training programs, from voice to music theory to beatboxing.'
                   tidbit='ONLINE SINCE MAY!'
                   textAlignment='right'
                 />
