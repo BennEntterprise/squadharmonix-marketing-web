@@ -113,13 +113,13 @@ function WhatIsSquad() {
                     SENIOR SQUAD&trade;
                   </h5>
                   <ul className='font-h6 liberation-sans'>
-                    <li>3 HRS/WEEK ONLINE TRAINING INCLUDING:</li>
+                    <li>3 hrs/week online training including:</li>
                     <ul>
-                      <li>ProTools RECORDING/MIXING</li>
-                      <li>INTERMEDIATE MUSIC THEORY</li>
-                      <li>INTERMEDIATE SIGHT READING</li>
+                      <li>ProTools recording/mixing</li>
+                      <li>intermediate music theory</li>
+                      <li>intermediate sight reading</li>
                     </ul>
-                    <li>ELIGIBLE FOR 2+ VIDEOS PER SEMESTER</li>
+                    <li>eligible for 2+ videos per semester</li>
                   </ul>
                 </div>
               </div>
@@ -129,16 +129,16 @@ function WhatIsSquad() {
                     PERFORMANCE SQUAD&trade;
                   </h5>
                   <ul className='font-h6 liberation-sans'>
-                    <li>PROMOTED ON OFFICIAL ARTIST PAGE</li>
-                    <li>4 HRS/WEEK ONLINE TRAINING INCLUDING:</li>
+                    <li>Promoted on official artist page</li>
+                    <li>4 hrs/week online training including:</li>
                     <ul>
-                      <li>SONGWRITING</li>
-                      <li>MUSIC BUSINESS</li>
-                      <li>ProTools RECORDING/MIXING</li>
-                      <li>ADVANCED MUSIC THEORY</li>
+                      <li>songwriting</li>
+                      <li>music business</li>
+                      <li>ProTools recording/mixing</li>
+                      <li>advanced music theory</li>
                     </ul>
-                    <li>3+ VIIDEOS PER SEMESTER</li>
-                    <li>FEATURED ON PROFESSIONALLY PRODUCED SONGS</li>
+                    <li>3+ videos per semester</li>
+                    <li>Featured on professionally produced songs</li>
                   </ul>
                   <p>
                     <em>*ELIGIBLE FOR</em>
@@ -153,7 +153,7 @@ function WhatIsSquad() {
                         className='font-mini liberation-sans-bold'
                         style={{ color: 'black', textAlign: 'center' }}
                       >
-                        LAURA JEAN MUSIC ACADEMY ARTIST DEVELOPMENT PROGRAM
+                        ARTIST DEVELOPMENT PROGRAM
                       </p>
                     </HashLink>
                   </div>
@@ -165,10 +165,10 @@ function WhatIsSquad() {
         <Row style={{ margin: '0rem auto' }}>
           <Col>
             <div id='OfferingSetContainer'>
-              <h5 className='font-h5 liberation-sans-bold text-center'>
+              <h6 className='font-h6 liberation-sans-bold text-center'>
                 SUPPLEMENTAL CLASSES ARE OFFERED TO HELP STUDENTS ACCELERATE
                 THEIR TRAINING INCLUDING:
-              </h5>
+              </h6>
               <div id='LessonSetContainer'>
                 <LessonItem text='MUSIC THEORY' />
                 <LessonItem text='SIGHT-SINGING' />

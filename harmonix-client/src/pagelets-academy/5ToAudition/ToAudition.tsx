@@ -32,7 +32,7 @@ function ToAudition() {
           {/* <img src={ImgElise} alt='pre-teen Elise smiling at camera' /> */}
         </div>
       </div>
-      <div className='footer-2'>
+      {/* <div className='footer-2'>
         <div id='left-footer-section'>
           <img
             id='ljma-img'
@@ -61,7 +61,7 @@ function ToAudition() {
             <p className='liberation-sans font-mini'>artist development</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </Container>
   )
 }
