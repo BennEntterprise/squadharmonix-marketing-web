@@ -179,7 +179,7 @@ function WhatIsSquad() {
                 <LessonItem text='SONGWRITING' />
                 <LessonItem text='PIANO LESSONS' />
               </div>
-              <HashLink to='#toaudition'>
+              <HashLink to='/ljma'>
                 <button id='private-lesson-button'>
                   <img
                     src={ImgLJMA}
