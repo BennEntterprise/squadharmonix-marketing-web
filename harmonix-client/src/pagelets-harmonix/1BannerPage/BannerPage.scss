@@ -34,9 +34,9 @@
 #banner-social-sites {
   /* border: var(--construction-red); */
   align-self: flex-end;
-}
-#banner-social-sites > a > img {
-  width: 3em;
+  a > img {
+    width: 3em;
+  }
 }
 
 #banner-marquee {
@@ -64,13 +64,14 @@
 #subscribe-btn {
   align-self: center;
   margin: 1rem auto 0rem auto;
+  a {
+    background-color: #d32322;
+    padding: 1rem 1rem;
+    color: white;
+    border-radius: 10px;
+  }
 }
-#subscribe-btn a {
-  background-color: #d32322;
-  padding: 1rem 1rem;
-  color: white;
-  border-radius: 10px;
-}
+
 #subscribe-btn > a > img {
   height: 45%;
   max-height: 66px;
@@ -96,22 +97,21 @@
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-#banner-buttons > button {
-  padding: 1.75rem auto;
-  margin: 1rem 0.5rem;
-  width: 45%;
-  text-align: center;
-  background-color: white;
-  border: 3px solid #5e5e5e;
-  border-radius: 10px;
-}
-#banner-buttons > button:hover {
-  padding: 1.75rem auto;
-  margin: 1rem 0.5rem;
-  background-color: white;
-  border: 2px solid var(--magenta);
+  button {
+    padding: 1.75rem auto;
+    margin: 1rem 0.5rem;
+    width: 45%;
+    text-align: center;
+    background-color: white;
+    border: 3px solid #5e5e5e;
+    border-radius: 10px;
+  }
+  button:hover {
+    padding: 1.75rem auto;
+    margin: 1rem 0.5rem;
+    background-color: white;
+    border: 2px solid var(--magenta);
+  }
 }
 
 @media (min-width: 768px) {
