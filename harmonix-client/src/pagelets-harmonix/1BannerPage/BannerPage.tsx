@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 
 import { HashLink as Link } from 'react-router-hash-link'
-import './BannerPage.css'
+import './BannerPage.scss'
 import Syd from '../../images/harmonix-artist-page/SydneBillboard.jpg'
 // Rainbow Icons
 import FB from '../../images/icons/facebook-academy.png'
