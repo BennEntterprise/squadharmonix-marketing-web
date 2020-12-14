@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './toaudition.css'
+import './toaudition.scss'
 import { darkMagenta } from '../../constants/Colors'
 import { Container, ListGroupItem } from 'react-bootstrap'
 import { Form, Button } from 'react-bootstrap'
@@ -14,8 +14,12 @@ function ToAudition() {
   return (
     <Container fluid id='toaudition'>
       <div id='main-container'>
-        <div id='left-photo-padding'>
-          {/* <img src={ImgBlake} alt='pre-teen blake crossing his arms smiling' /> */}
+        <div className='contact-img'>
+          <img
+            id='left-photo-padding'
+            src={ImgBlake}
+            alt='pre-teen blake crossing his arms smiling'
+          />
         </div>
         <div id='form-container'>
           <iframe
@@ -28,8 +32,12 @@ function ToAudition() {
             info@squadharmonix.com with your questions/concerns.
           </iframe>
         </div>
-        <div id='right-photo-padding'>
-          {/* <img src={ImgElise} alt='pre-teen Elise smiling at camera' /> */}
+        <div className='contact-img'>
+          <img
+            id='right-photo-padding'
+            src={ImgElise}
+            alt='pre-teen Elise smiling at camera'
+          />
         </div>
       </div>
       {/* <div className='footer-2'>

@@ -19,3 +19,14 @@
 .carousel-control-next {
   z-index: 7;
 }
+
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+  left: -0.000005%;
+  width: 99.9999%;
+  overflow-x: hidden;
+}

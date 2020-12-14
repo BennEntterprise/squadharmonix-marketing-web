@@ -13,48 +13,42 @@
 }
 
 #main-container {
+  width: 100%;
+  position: absolute;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-#left-photo-padding {
-  /* border: var(--construction); */
-  width: var(--side-photo-width);
-  background-image: url('../../images/contact/BlakeContactPage.jpg');
-  background-size: contain;
-  background-position-x: left;
-  background-repeat: no-repeat;
-}
-#right-photo-padding {
-  /* border: var(--construction); */
-  width: var(--side-photo-width);
-  background-image: url('../../images/contact/EliseContactPage.jpg');
-  background-size: contain;
-  background-position-x: left;
-  background-repeat: no-repeat;
-}
-#form-container {
+.contact-img {
   width: 100%;
+  flex-grow: 1;
+  align-self: flex-start;
+  // border: var(--construction);
+  overflow-x: hidden;
+  #left-photo-padding {
+    width: 150%;
+    background-image: url('../../images/contact/BlakeContactPage.jpg');
+    background-size: cover;
+    background-position-x: left;
+    background-repeat: no-repeat;
+  }
+
+  #right-photo-padding {
+    width: 150%;
+    background-image: url('../../images/contact/EliseContactPage.jpg');
+    background-size: contain;
+    background-position-x: right;
+    background-repeat: no-repeat;
+  }
+}
+
+#form-container {
+  width: 150vw;
   height: fit-content;
 }
-#form-container input {
-  height: calc(1.5em + 0.75rem + 8px);
-}
-#subscribe-group {
-  /* width: fit-content;
-  margin: auto; */
-}
-#form-container button {
-  color: var(--white);
-  border: 2px solid var(--white);
-  background-color: var(--magenta);
-  margin: auto;
-  position: 'relative';
-  width: 15%;
-  left: calc((100px-15px) / 2);
-  text-align: 'center';
-  margin-top: '1rem';
-}
+
 /********************/
 /*FOOTER2 Section*/
 /********************/
@@ -103,7 +97,13 @@
 }
 
 /* Hide Photos on all but xl screens */
-@media (max-width: 1200px) {
+@media (max-width: 992px) {
+  #form-container {
+    width: 100%;
+  }
+  .contact-img {
+    width: 0%;
+  }
   #left-photo-padding {
     display: none;
   }
