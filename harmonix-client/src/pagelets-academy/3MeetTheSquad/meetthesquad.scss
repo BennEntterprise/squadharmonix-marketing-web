@@ -32,7 +32,9 @@
   align-items: center;
   padding: 2rem 2rem !important;
   .stage-light-graphic {
-    width: 100%;
+    position: relative;
+    top: -17%;
+    width: 50%;
     img {
       width: 100%;
     }
