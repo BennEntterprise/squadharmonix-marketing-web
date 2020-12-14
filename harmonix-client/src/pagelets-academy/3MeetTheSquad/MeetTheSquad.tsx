@@ -100,7 +100,7 @@ const MeetTheSquad = () => {
             </div>
           </Col>
           <Col xs='12' sm='12' md='12' lg='6' xl='6' className='player-side'>
-            <div className='stage-light-graphic'>
+            <div className='stage-light-graphic d-none d-lg-block'>
               <img src={ImgSpotlight} alt='spotlight' />
             </div>
             <div className='academy-react-player'>
@@ -134,7 +134,7 @@ const MeetTheSquad = () => {
             xl='6'
             className='player-side'
           >
-            <div className='stage-light-graphic'>
+            <div className='stage-light-graphic d-none d-lg-block'>
               <img src={ImgSpotlight} alt='spotlight' />
             </div>
             <div className='academy-react-player'>
@@ -266,7 +266,7 @@ const MeetTheSquad = () => {
             </div>
           </Col>
           <Col xs='12' sm='12' md='12' lg='6' xl='6' className='player-side'>
-            <div className='stage-light-graphic'>
+            <div className='stage-light-graphic d-none d-lg-block'>
               <img src={ImgSpotlight} alt='spotlight' />
             </div>
             <div className='academy-react-player'>
