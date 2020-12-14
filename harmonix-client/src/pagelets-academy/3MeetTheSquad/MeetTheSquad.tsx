@@ -62,9 +62,6 @@ const MeetTheSquad = () => {
           <Col xs='12' sm='12' md='12' lg='6' xl='6' className='gallery-side'>
             <div className='headshot-gallery-container'>
               <div className='headshots-wrapper'>
-                <div className='stage-light-graphic'>
-                  <img src={ImgSpotlight} alt='spotlight' />
-                </div>
                 <div className='headshot-row'>
                   <div className='single-headshot-container'>
                     <img className='headshot' src={_1Johanna} alt='headshot' />
@@ -99,13 +96,13 @@ const MeetTheSquad = () => {
                     <img className='headshot' src={_10Noah} alt='headshot' />
                   </div>
                 </div>
-                <div className='stage-shadow-graphic'>
-                  <img src={ImgWhiteShadow} alt='spotlight' />
-                </div>
               </div>
             </div>
           </Col>
           <Col xs='12' sm='12' md='12' lg='6' xl='6' className='player-side'>
+            <div className='stage-light-graphic'>
+              <img src={ImgSpotlight} alt='spotlight' />
+            </div>
             <div className='academy-react-player'>
               <ReactPlayer
                 controls
@@ -113,6 +110,9 @@ const MeetTheSquad = () => {
                 width='85%'
                 height='100%'
               />
+            </div>
+            <div className='stage-shadow-graphic'>
+              <img src={ImgWhiteShadow} alt='spotlight' />
             </div>
           </Col>
         </Row>
