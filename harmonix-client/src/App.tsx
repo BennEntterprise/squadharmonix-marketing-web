@@ -93,9 +93,6 @@ function App() {
         <Route exact path='/contact'>
           <Contact />
         </Route>
-        <Route exact path='/ljma'>
-          <LjmaBanner />
-        </Route>
       </Switch>
     </Router>
   )
