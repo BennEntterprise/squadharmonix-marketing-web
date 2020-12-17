@@ -21,7 +21,7 @@ function MeetTheTeachers() {
                 className='mb-4 bg-flower'
                 height='30px'
                 color='#fec5e9'
-                style={{ width: '100%', marginBottom: '50px;' }}
+                style={{ width: '100%', marginBottom: '50px' }}
               />
               <img
                 src={Laura}
