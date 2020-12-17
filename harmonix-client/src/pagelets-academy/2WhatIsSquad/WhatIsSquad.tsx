@@ -144,8 +144,8 @@ function WhatIsSquad() {
                     <em>*ELIGIBLE FOR</em>
                   </p>
                   <div id='ljma-cutout'>
-                    <HashLink
-                      to='/ljma'
+                    <a
+                      href='https://laurajeanmusicacademy.com'
                       style={{ textDecoration: 'none', color: 'black' }}
                     >
                       <img src={ImgLJMA} alt='ljma logo' />
@@ -155,7 +155,7 @@ function WhatIsSquad() {
                       >
                         ARTIST DEVELOPMENT PROGRAM
                       </p>
-                    </HashLink>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -179,16 +179,18 @@ function WhatIsSquad() {
                 <LessonItem text='SONGWRITING' />
                 <LessonItem text='PIANO LESSONS' />
               </div>
-              <HashLink to='/ljma'>
+              <a href='https://laurajeanmusicacademy.com'>
                 <button id='private-lesson-button'>
                   <img
                     src={ImgLJMA}
                     alt='laura jean music academy logo'
                     style={{ width: 'auto', maxHeight: '100px' }}
                   />
-                  CLICK HERE FOR MORE INFO ON PRIVATE LESSONS
+                  <p className='font-p liberation-sans-bold'>
+                    CLICK HERE FOR MORE INFO ON PRIVATE LESSONS
+                  </p>
                 </button>
-              </HashLink>
+              </a>
             </div>
           </Col>
         </Row>

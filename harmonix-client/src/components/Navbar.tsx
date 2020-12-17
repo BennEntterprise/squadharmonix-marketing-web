@@ -43,10 +43,11 @@ const nb = () => {
               SQUAD HARMONIX&trade;
             </Link>
           </Nav.Link>
-          <Nav.Link style={{ color: 'white' }}>
-            <Link style={{ color: 'white' }} to='/ljma'>
-              LAURA JEAN MUSIC ACADEMY
-            </Link>
+          <Nav.Link
+            href='https://laurajeanmusicacademy.com'
+            style={{ color: 'white' }}
+          >
+            LAURA JEAN MUSIC ACADEMY
           </Nav.Link>
           <Nav.Link style={{ color: 'white' }}>
             <Link style={{ color: 'white' }} to='/contact'>

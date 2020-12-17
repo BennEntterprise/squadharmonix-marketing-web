@@ -191,6 +191,9 @@ li {
   padding-top: 10px;
   padding-bottom: 0.5px;
 }
+#ljma-cutout a {
+  display: block;
+}
 #ljma-cutout img {
   padding: 1rem;
   position: relative;
@@ -219,6 +222,16 @@ li {
   border-radius: 3px;
   padding: 10px 45px;
   font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#private-lesson-button p {
+  display: block;
+  color: black;
+  padding: 1rem;
+  font-size: 1.4rem;
 }
 
 /********************/
