@@ -21,9 +21,14 @@ const SecondaryNavBar = (props: ISecondaryNavBar) => {
     <Navbar
       bg={color}
       expand='lg'
+      className='sticky'
       style={{
+        width: ' 100%',
         backgroundColor: color,
         color: white,
+        position: 'sticky',
+        top: '0px',
+        zIndex: 10,
         ...props.style,
       }}
     >
