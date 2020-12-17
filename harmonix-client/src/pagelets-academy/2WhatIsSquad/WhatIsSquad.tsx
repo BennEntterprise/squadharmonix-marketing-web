@@ -179,11 +179,15 @@ function WhatIsSquad() {
                 <LessonItem text='SONGWRITING' />
                 <LessonItem text='PIANO LESSONS' />
               </div>
-              <a href='https://laurajeanmusicacademy.com'>
+              <a
+                href='https://laurajeanmusicacademy.com'
+                style={{ width: '90%', padding: '0' }}
+              >
                 <button id='private-lesson-button'>
                   <img
                     src={ImgLJMA}
                     alt='laura jean music academy logo'
+                    className='d-none d-md-block'
                     style={{ width: 'auto', maxHeight: '100px' }}
                   />
                   <p className='font-p liberation-sans-bold'>

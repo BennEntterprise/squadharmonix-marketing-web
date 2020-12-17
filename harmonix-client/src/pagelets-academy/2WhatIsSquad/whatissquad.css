@@ -215,7 +215,7 @@ li {
   margin: 1.5rem auto;
 }
 #private-lesson-button {
-  width: fit-content;
+  width: 100%;
   margin: auto;
   background-color: var(--teal);
   border: 2px solid var(--white);
@@ -227,11 +227,17 @@ li {
   justify-content: center;
   align-items: center;
 }
+#private-lesson-button img {
+  width: 50%;
+  height: auto;
+  padding: 1rem;
+}
 #private-lesson-button p {
+  width: 50%;
   display: block;
   color: black;
-  padding: 1rem;
-  font-size: 1.4rem;
+  padding: 0rem;
+  font-size: 1.1rem;
 }
 
 /********************/
