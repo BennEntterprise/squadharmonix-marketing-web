@@ -45,14 +45,14 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route exact path='/typefaces'>
+        {/* <Route exact path='/typefaces'>
           <Switch>
             <Typefaces />
           </Switch>
-        </Route>
-        <Route path='/tech-debt-todo'>
+        </Route> */}
+        {/* <Route path='/tech-debt-todo'>
           <TechDebt />
-        </Route>
+        </Route> */}
         <Route exact path={['/academy']}>
           <ThisIsSquad />
           <Navbar2 title={'WHAT IS SQUAD?'} color={tortise} />
