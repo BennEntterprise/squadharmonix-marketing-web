@@ -6,7 +6,7 @@ const QuaranteenSeries = () => {
 
   return (
     <>
-      <Container>
+      <Container fluid id='quaranteen-series'>
         <Row>
           <Col xs='12' sm='12' md='12' lg='12' xl='12'>
             <h3 className='text-center font-h2 liberation-sans-bold'>
