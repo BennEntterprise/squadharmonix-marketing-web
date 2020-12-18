@@ -14,7 +14,7 @@ function WhatIsSquad() {
             <div id='grid-wis'>
               <div id='grid-h1'>
                 <div className='LadderItemGraphic'>
-                  <h5 className='font-p liberation-sans-bold bg-magenta '>
+                  <h5 className='font-h5 liberation-sans-bold bg-magenta '>
                     WHO WE ARE
                   </h5>
                 </div>
