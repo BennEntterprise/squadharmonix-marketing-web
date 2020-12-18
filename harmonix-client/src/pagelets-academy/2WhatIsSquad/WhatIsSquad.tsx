@@ -176,6 +176,7 @@ function WhatIsSquad() {
                 <LessonItem text='MIXING/RECORDING' />
                 <LessonItem text='SONGWRITING' />
                 <LessonItem text='PIANO LESSONS' />
+                <LessonItem text='ARTIST DEVELOPMENT' />
               </div>
               <a
                 href='https://laurajeanmusicacademy.com'
