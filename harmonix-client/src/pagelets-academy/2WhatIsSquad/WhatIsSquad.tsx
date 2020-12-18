@@ -140,9 +140,7 @@ function WhatIsSquad() {
                     <li>3+ videos per semester</li>
                     <li>Featured on professionally produced songs</li>
                   </ul>
-                  <p>
-                    <em>*ELIGIBLE FOR</em>
-                  </p>
+
                   <div id='ljma-cutout'>
                     <a
                       href='https://laurajeanmusicacademy.com'
