@@ -1,5 +1,5 @@
 import React from 'react'
-import './whatissquad.css'
+import './whatissquad.scss'
 import { HashLink } from 'react-router-hash-link'
 import { Container, Row, Col } from 'react-bootstrap'
 import LessonItem from '../../components/LessonItem/LessonItem'
@@ -182,15 +182,18 @@ function WhatIsSquad() {
                 style={{ width: '90%', padding: '0' }}
               >
                 <button id='private-lesson-button'>
+                  <p
+                    className='font-mini liberation-sans-bold'
+                    style={{ color: 'white' }}
+                  >
+                    CLICK HERE FOR MORE INFO ON PRIVATE LESSONS
+                  </p>
                   <img
                     src={ImgLJMA}
                     alt='laura jean music academy logo'
                     className='d-none d-md-block'
                     style={{ width: 'auto', maxHeight: '100px' }}
                   />
-                  <p className='font-p liberation-sans-bold'>
-                    CLICK HERE FOR MORE INFO ON PRIVATE LESSONS
-                  </p>
                 </button>
               </a>
             </div>

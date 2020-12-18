@@ -221,23 +221,21 @@ li {
   border: 2px solid var(--white);
   border-radius: 3px;
   padding: 10px 45px;
-  font-size: 1.5rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-#private-lesson-button img {
-  width: 50%;
-  height: auto;
-  padding: 1rem;
-}
-#private-lesson-button p {
-  width: 50%;
-  display: block;
-  color: black;
-  padding: 0rem;
-  font-size: 1.1rem;
+  img {
+    width: 50%;
+    height: auto;
+    padding: 1rem;
+  }
+  p {
+    width: 90%;
+    display: block;
+    color: black;
+    padding: 0.5rem 0 0 0;
+  }
 }
 
 /********************/
@@ -347,5 +345,30 @@ li {
 @media (min-width: 768px) AND (max-width: 992px) {
   #grid-bar-container {
     margin: 1%;
+  }
+}
+@media (min-width: 1200px) {
+  #private-lesson-button {
+    width: 30%;
+    margin: auto;
+    background-color: var(--teal);
+    border: 2px solid var(--white);
+    border-radius: 3px;
+    padding: 10px 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 50%;
+      height: auto;
+      padding: 1rem;
+    }
+    p {
+      width: 90%;
+      display: block;
+      color: black;
+      padding: 0.5rem 0 0 0;
+    }
   }
 }
