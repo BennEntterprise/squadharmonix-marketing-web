@@ -62,3 +62,7 @@ body {
   width: 99.9999%;
   /* overflow-x: hidden; */
 }
+
+.carousel {
+  min-height: var(--carousel-min-height);
+}

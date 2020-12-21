@@ -4,6 +4,7 @@
   --construction-red: 4.5px dotted red;
   --construction-green: 4.5px dotted green;
   --construction-padding: 5px;
+  --carousel-min-height: 33vh;
 }
 .construction-padding {
   padding: var(--construction-padding);

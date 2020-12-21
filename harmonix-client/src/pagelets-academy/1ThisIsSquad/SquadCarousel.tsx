@@ -2,20 +2,20 @@ import React from 'react'
 import { Carousel } from 'react-bootstrap'
 const SquadCarousel = () => {
   return (
-    <Carousel>
+    <Carousel controls={false} indicators={false} activeIndex={0}>
       <Carousel.Item>
         <div id='carousel-img-1' className='carousel-img'></div>
-        <CarouselBannerCopy
+        {/* <CarouselBannerCopy
           heading={'THIS IS SQUAD.'}
           subHeading={
             'an inspiring learning community for dedicated vocalists agess 8-17'
           }
           tidbit={'ONLINE SINCE MAY!'}
           textAlignment='left'
-        />
-        <Carousel.Caption className='carousel-caption-a'></Carousel.Caption>
+        /> */}
+        {/* <Carousel.Caption className='carousel-caption-a'></Carousel.Caption> */}
       </Carousel.Item>
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <div id='carousel-img-2' className='carousel-img'></div>
         <CarouselBannerCopy
           heading={'Find your passion.'}
@@ -34,7 +34,7 @@ const SquadCarousel = () => {
           textAlignment='left'
         />
         <Carousel.Caption className='carousel-caption-a'></Carousel.Caption>
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
   )
 }

@@ -59,6 +59,8 @@
       rgb(0, 0, 0) 77.5%
     ),
     url('./carousel-imgs/National anthem.jpeg');
+  min-height: var(--carousel-min-height);
+  background-size: contain;
 }
 
 #carousel-img-2 {
@@ -220,7 +222,8 @@
   }
   .carousel-img {
     /* border: var(--construction); */
-    min-height: 367px;
+    min-height: var(--carousel-min-height);
+    background-size: contain;
   }
   .btn-group-sq {
     position: relative;
@@ -250,9 +253,8 @@
 /********************/
 @media (min-width: 576px) and (max-width: 768px) {
   .carousel-img {
-    /* border: var(--construction); */
-    min-height: 495px;
-    height: 500px;
+    min-height: var(--carousel-min-height);
+    background-size: contain;
   }
 }
 /********************/
@@ -260,8 +262,8 @@
 /********************/
 @media (min-width: 768px) and (max-width: 992px) {
   .carousel-img {
-    /* border: var(--construction); */
-    min-height: 644px;
+    min-height: var(--carousel-min-height);
+    background-size: contain;
   }
   .box-navigation-buttons {
     button {
@@ -279,8 +281,8 @@
 /********************/
 @media (min-width: 992px) and (max-width: 1200px) {
   .carousel-img {
-    /* border: var(--construction); */
-    min-height: 783px;
+    min-height: var(--carousel-min-height);
+    background-size: contain;
   }
   .box-navigation-buttons {
     button {
