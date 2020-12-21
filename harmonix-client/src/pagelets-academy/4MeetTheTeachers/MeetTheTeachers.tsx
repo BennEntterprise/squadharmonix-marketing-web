@@ -57,73 +57,56 @@ function MeetTheTeachers() {
 
   let takeFirstLG = [0, 1, 2]
   let takeSecondLG = [3, 4, 5]
-  let takeFirstSM = [1, 2, 3]
-  let takeSecondSM = [3, 4, 5]
+  let takeFirstSM = [0, 3, 2]
+  let takeSecondSM = [1, 5, 4]
 
   return (
     <Container fluid id='meettheteachers'>
       <Row>
         <Col xs='12' sm='12' md='12' lg='6' xl='6'>
-          <span>{`(max-width:992px) matches: ${screenIsSmallerThan992}`}</span>
           <div className='teachers-container'>
             {screenIsSmallerThan992
-              ? teacherData.map((teacher: ITeacherProfile, i: number) => {
-                  if (takeFirstSM.includes(i)) {
-                    return (
-                      <TeacherCard
-                        name={teacher.name}
-                        title={teacher.title}
-                        bio={teacher.bio}
-                        photo={teacher.photo}
-                        bannerColor={colorOrder[i]}
-                      />
-                    )
-                  }
-                })
-              : teacherData.map((teacher: ITeacherProfile, i: number) => {
-                  if (takeFirstSM.includes(i)) {
-                    return (
-                      <TeacherCard
-                        name={teacher.name}
-                        title={teacher.title}
-                        bio={teacher.bio}
-                        photo={teacher.photo}
-                        bannerColor={colorOrder[i]}
-                      />
-                    )
-                  }
-                })}
+              ? takeFirstSM.map((id: number, i: number) => (
+                  <TeacherCard
+                    name={teacherData[id].name}
+                    title={teacherData[id].title}
+                    bio={teacherData[id].bio}
+                    photo={teacherData[id].photo}
+                    bannerColor={colorOrder[id]}
+                  />
+                ))
+              : takeFirstLG.map((id: number, i: number) => (
+                  <TeacherCard
+                    name={teacherData[id].name}
+                    title={teacherData[id].title}
+                    bio={teacherData[id].bio}
+                    photo={teacherData[id].photo}
+                    bannerColor={colorOrder[id]}
+                  />
+                ))}
           </div>
         </Col>
         <Col xs='12' sm='12' md='12' lg='6' xl='6'>
           <div className='teachers-container'>
             {screenIsSmallerThan992
-              ? teacherData.map((teacher: ITeacherProfile, i: number) => {
-                  if (takeFirstSM.includes(i)) {
-                    return (
-                      <TeacherCard
-                        name={teacher.name}
-                        title={teacher.title}
-                        bio={teacher.bio}
-                        photo={teacher.photo}
-                        bannerColor={colorOrder[i]}
-                      />
-                    )
-                  }
-                })
-              : teacherData.map((teacher: ITeacherProfile, i: number) => {
-                  if (takeFirstSM.includes(i)) {
-                    return (
-                      <TeacherCard
-                        name={teacher.name}
-                        title={teacher.title}
-                        bio={teacher.bio}
-                        photo={teacher.photo}
-                        bannerColor={colorOrder[i]}
-                      />
-                    )
-                  }
-                })}
+              ? takeSecondSM.map((id: number, i: number) => (
+                  <TeacherCard
+                    name={teacherData[id].name}
+                    title={teacherData[id].title}
+                    bio={teacherData[id].bio}
+                    photo={teacherData[id].photo}
+                    bannerColor={colorOrder[id]}
+                  />
+                ))
+              : takeSecondLG.map((id: number, i: number) => (
+                  <TeacherCard
+                    name={teacherData[id].name}
+                    title={teacherData[id].title}
+                    bio={teacherData[id].bio}
+                    photo={teacherData[id].photo}
+                    bannerColor={colorOrder[id]}
+                  />
+                ))}
           </div>
         </Col>
       </Row>
