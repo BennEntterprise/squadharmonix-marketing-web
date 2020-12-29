@@ -35,19 +35,23 @@ const ThisIsSquad = () => {
   return (
     <>
       <Container fluid id='thisissquadmain'>
-        <Row className='d-xs-block d-md-none' style={{ marginBottom: '0rem' }}>
+        <Row className='d-xs-block ' style={{ marginBottom: '0rem' }}>
           <Col
             xs='12'
             sm='12'
             md='12'
             lg='12'
             xl='12'
-            style={{ paddingLeft: '0%', paddingRight: '0px' }}
+            style={{
+              paddingLeft: '0%',
+              paddingRight: '0px',
+              marginBottom: '-5%',
+            }}
           >
             <SquadCarousel />
           </Col>
         </Row>
-        <Row>
+        <Row id='nav-btns'>
           <Col
             xs={{ span: 10, offset: 1 }}
             sm={{ span: 10, offset: 1 }}

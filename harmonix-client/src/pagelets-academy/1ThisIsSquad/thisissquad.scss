@@ -6,6 +6,10 @@
   background-color: black;
 }
 
+#nav-btns {
+  position: relative;
+  margin-top: -15%;
+}
 /********************/
 /*CAROUSEL BANNER*/
 /********************/
@@ -43,7 +47,9 @@
 /********************/
 .carousel-img {
   /* border: var(--construction); */
-  min-height: 800px;
+  min-height: 250px;
+  max-height: 80vh;
+  height: 100vw;
   width: 100%;
   position: relative;
   left: 0%;
@@ -56,10 +62,9 @@
   background-image: linear-gradient(
       to bottom,
       rgba(252, 252, 252, 0.241),
-      rgb(0, 0, 0) 77.5%
+      rgb(0, 0, 0) 83.5%
     ),
     url('./carousel-imgs/National anthem.jpeg');
-  min-height: var(--carousel-min-height);
   background-size: contain;
 }
 
@@ -220,11 +225,7 @@
       border-radius: 0.5rem;
     }
   }
-  .carousel-img {
-    /* border: var(--construction); */
-    min-height: var(--carousel-min-height);
-    background-size: contain;
-  }
+
   .btn-group-sq {
     position: relative;
     left: 0%;
@@ -252,19 +253,15 @@
 /*SM SCREENS*/
 /********************/
 @media (min-width: 576px) and (max-width: 768px) {
-  .carousel-img {
-    min-height: var(--carousel-min-height);
-    background-size: contain;
+  #nav-btns {
+    position: relative;
+    margin-top: -15%;
   }
 }
 /********************/
 /*MD SCREENS*/
 /********************/
 @media (min-width: 768px) and (max-width: 992px) {
-  .carousel-img {
-    min-height: var(--carousel-min-height);
-    background-size: contain;
-  }
   .box-navigation-buttons {
     button {
       color: rgb(48, 48, 48);
@@ -280,10 +277,6 @@
 /*LG SCREENS*/
 /********************/
 @media (min-width: 992px) and (max-width: 1200px) {
-  .carousel-img {
-    min-height: var(--carousel-min-height);
-    background-size: contain;
-  }
   .box-navigation-buttons {
     button {
       color: rgb(48, 48, 48);
@@ -296,6 +289,10 @@
 }
 
 @media (min-width: 1200px) {
+  .carousel-img {
+    background-size: cover;
+  }
+
   .box-navigation-buttons {
     button {
       color: rgb(48, 48, 48);
