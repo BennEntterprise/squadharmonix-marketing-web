@@ -23,9 +23,7 @@ function ToAudition() {
         </div>
         <div id='form-container'>
           <iframe
-            src={
-              '//us18.list-manage.com/contact-form?u=5862c03408605c39fa217f490&form_id=7318785fa2d11d5fb9761a83008761ef'
-            }
+            src='//us18.list-manage.com/contact-form?u=5862c03408605c39fa217f490&form_id=7318785fa2d11d5fb9761a83008761ef'
             title='Mailchimp signup form'
             style={{ border: 'none', width: '100%', height: '1135px' }}
           >
