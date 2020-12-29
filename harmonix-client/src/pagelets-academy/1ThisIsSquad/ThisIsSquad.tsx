@@ -35,7 +35,7 @@ const ThisIsSquad = () => {
   return (
     <>
       <Container fluid id='thisissquadmain'>
-        <Row style={{ marginBottom: '0rem' }}>
+        <Row className='d-xs-block d-md-none' style={{ marginBottom: '0rem' }}>
           <Col
             xs='12'
             sm='12'
