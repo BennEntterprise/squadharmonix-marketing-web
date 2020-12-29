@@ -31,7 +31,7 @@ function ToAudition() {
           >
             Oops your popup blocker is preventing you from seeing our contact
             form. Please unblock us or send an email directly to
-            info@squadharmonix.com with your questions/concerns.
+            admin@squadharmonix.com with your questions/concerns.
           </iframe>
         </div>
         <div className='contact-img'>
