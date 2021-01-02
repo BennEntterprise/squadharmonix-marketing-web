@@ -54,9 +54,9 @@ function WhatIsSquad() {
                   </h5>
                   <h5 className='font-h5 liberation-sans'>
                     For advanced students, training also includes: Songwriting,
-                    ProTools Recording/Mixing, Artist Development, and Music
-                    Business and private lessons are offered through our parent
-                    company Laura Jean Music Academy.
+                    Recording/Mixing, Artist Development, and Music Business and
+                    private lessons are offered through our parent company Laura
+                    Jean Music Academy.
                   </h5>
                   <h5 className='font-h5 liberation-sans'>
                     Eventually we hope to return to training in person and
@@ -115,7 +115,7 @@ function WhatIsSquad() {
                   <ul className='font-h6 liberation-sans'>
                     <li>3 hrs/week online training including:</li>
                     <ul>
-                      <li>ProTools recording/mixing</li>
+                      <li>recording/mixing</li>
                       <li>intermediate music theory</li>
                       <li>intermediate sight reading</li>
                     </ul>
@@ -134,7 +134,7 @@ function WhatIsSquad() {
                     <ul>
                       <li>songwriting</li>
                       <li>music business</li>
-                      <li>ProTools recording/mixing</li>
+                      <li>recording/mixing</li>
                       <li>advanced music theory</li>
                     </ul>
                     <li>3+ videos per semester</li>
