@@ -46,7 +46,15 @@ function MeetTheTeachers() {
   // When Needed, use helper function to reorder teacher data.
   let arrangedTeachers
 
-  const colorOrder = [
+  const colorOrderLG = [
+    'flower',
+    'tortise',
+    'lightpurple',
+    'tortise',
+    'lightpurple',
+    'flower',
+  ]
+  const colorOrderSM = [
     'flower',
     'tortise',
     'lightpurple',
@@ -55,10 +63,12 @@ function MeetTheTeachers() {
     'flower',
   ]
 
+  // Describes the Order of the Data
+  let staticOrder = ['Laura', 'Matt', 'Annie', 'Parker', 'Johanna', 'Christina']
   let takeFirstLG = [0, 1, 2]
   let takeSecondLG = [3, 4, 5]
-  let takeFirstSM = [0, 3, 2]
-  let takeSecondSM = [1, 5, 4]
+  let takeFirstSM = [0, 3, 1]
+  let takeSecondSM = [4, 2, 5]
 
   return (
     <Container fluid id='meettheteachers'>
@@ -72,7 +82,7 @@ function MeetTheTeachers() {
                     title={teacherData[id].title}
                     bio={teacherData[id].bio}
                     photo={teacherData[id].photo}
-                    bannerColor={colorOrder[id]}
+                    bannerColor={colorOrderSM[i]}
                   />
                 ))
               : takeFirstLG.map((id: number, i: number) => (
@@ -81,7 +91,7 @@ function MeetTheTeachers() {
                     title={teacherData[id].title}
                     bio={teacherData[id].bio}
                     photo={teacherData[id].photo}
-                    bannerColor={colorOrder[id]}
+                    bannerColor={colorOrderLG[i]}
                   />
                 ))}
           </div>
@@ -95,7 +105,7 @@ function MeetTheTeachers() {
                     title={teacherData[id].title}
                     bio={teacherData[id].bio}
                     photo={teacherData[id].photo}
-                    bannerColor={colorOrder[id]}
+                    bannerColor={colorOrderSM[i + 3]}
                   />
                 ))
               : takeSecondLG.map((id: number, i: number) => (
@@ -104,7 +114,7 @@ function MeetTheTeachers() {
                     title={teacherData[id].title}
                     bio={teacherData[id].bio}
                     photo={teacherData[id].photo}
-                    bannerColor={colorOrder[id]}
+                    bannerColor={colorOrderLG[i + 3]}
                   />
                 ))}
           </div>
