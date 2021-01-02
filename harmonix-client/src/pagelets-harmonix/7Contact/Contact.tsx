@@ -95,7 +95,7 @@ const Contact = () => {
             </div>
           </div>
           <iframe
-            src='//us18.list-manage.com/contact-form?u=5862c03408605c39fa217f490&form_id=f86c10beda6e78b9f11053178c4220c7'
+            src='//us7.list-manage.com/contact-form?u=f1da10b097e1f03334381a25c&form_id=f192510366b1430a6893915e0036f4df'
             title='Mailchimp signup form'
             style={{
               border: 'none',
