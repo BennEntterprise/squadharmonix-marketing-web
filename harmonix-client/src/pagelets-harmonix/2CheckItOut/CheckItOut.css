@@ -20,3 +20,19 @@
 .spacer-container {
   margin: 50px 0px;
 }
+
+#btn-more {
+  border: 2px solid var(--teal);
+  width: 33%;
+  position: relative;
+  left: 33%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 1.2rem 1rem 0 1rem;
+  border-radius: 15px;
+  font-size: 1rem;
+  line-height: 1rem;
+}
