@@ -133,6 +133,15 @@ const CheckItOut = () => {
           </div>
         </Col>
       </Row>
+      <Row>
+        <Col xs='12' sm='12' md='12' lg='12' xl='12'>
+          <a href='https://www.youtube.com/c/SquadHarmonix/featured'>
+            <div id='btn-more'>
+              <p> SEE MORE {'>'} </p>
+            </div>
+          </a>
+        </Col>
+      </Row>
     </Container>
   )
 }
