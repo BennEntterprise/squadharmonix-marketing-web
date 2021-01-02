@@ -12,7 +12,7 @@ import Spot from '../../images/icons/spotify-academy.png'
 // Others
 import YTS from '../../images/social-assets/youtube-academy.png'
 import YTRed from '../../images/social-assets/youtube-logo-on-trans(crop-scale).png'
-import iTunes from '../../images/social-assets/itunes-artist-good.png'
+import iTunes from './itunes-artist.png'
 
 import HolidayEP from '../../images/HOLIDAY 1 EP ARTWORK.jpg'
 const BannerPage = () => {
