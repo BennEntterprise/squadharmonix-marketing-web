@@ -197,6 +197,13 @@ function WhatIsSquad() {
                   />
                 </button>
               </a>
+              <p
+                className='font-p liberation-sans-bold text-center'
+                style={{ margin: '1rem' }}
+              >
+                *pricing information available on request via email (see contact
+                form)
+              </p>
             </div>
           </Col>
         </Row>
